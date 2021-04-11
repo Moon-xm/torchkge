@@ -3,7 +3,7 @@ import pandas as pd
 
 
 def main():
-    benchmarks = 'GADM9'
+    benchmarks = 'GeoDBpedia21'
     load_data = getattr(import_module('torchkge.utils.datasets'), 'load_'+benchmarks)
     print('Data process...')
     kg_train, kg_val, kg_test = load_data()

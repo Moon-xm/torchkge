@@ -21,11 +21,8 @@ from torchkge.data_structures import KnowledgeGraph
 from torchkge.utils import get_data_home
 
 
-
 def load_GADM9(data_home=None):
-    """Load FB15k dataset. See `here
-    <https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data>`__
-    for paper by Bordes et al. originally presenting the dataset.
+    """
 
     Parameters
     ----------
@@ -44,31 +41,27 @@ def load_GADM9(data_home=None):
     if data_home is None:
         data_home = get_data_home()
     data_path = data_home + '/GADM9'
-    # if not exists(data_path):
-    #     makedirs(data_path, exist_ok=True)
-    #     urlretrieve("https://graphs.telecom-paristech.fr/data/torchkge/kgs/FB15k.zip",
-    #                 data_home + '/FB15k.zip')
-    #     with zipfile.ZipFile(data_home + '/FB15k.zip', 'r') as zip_ref:
-    #         zip_ref.extractall(data_home)
-    #     remove(data_home + '/FB15k.zip')
-
-    # df1 = read_csv(data_path + '/train.txt',
-    #                sep='\t', header=None, names=['from', 'rel', 'to'])
-    # df2 = read_csv(data_path + '/valid.txt',
-    #                sep='\t', header=None, names=['from', 'rel', 'to'])
-    # df3 = read_csv(data_path + '/test.txt',
-    #                sep='\t', header=None, names=['from', 'rel', 'to'])
-    # df = concat([df1, df2, df3])
-    df = read_csv(data_path + '/triples_all.txt',
-                   sep='\t', header=None, names=['from', 'rel', 'to'],encoding='utf-8')
-    kg = KnowledgeGraph(df)
-
-    return kg.split_kg(share=0.8, validation=True)
+    if exists(data_path + '/train2id.txt') and exists(data_path + '/test2id.txt') and exists(data_path + '/valid2id.txt'):
+        df1 = read_csv(data_path + '/train2id.txt',
+                       sep='\t', header=None, names=['from', 'rel', 'to'])
+        df2 = read_csv(data_path + '/valid2id.txt',
+                       sep='\t', header=None, names=['from', 'rel', 'to'])
+        df3 = read_csv(data_path + '/test2id.txt',
+                       sep='\t', header=None, names=['from', 'rel', 'to'])
+        df = concat([df1, df2, df3])
+        kg = KnowledgeGraph(df)
+        return kg.split_kg(sizes=(len(df1), len(df2), len(df3)))
+    else:
+        df = read_csv(data_path + '/triples_all.txt',
+                       sep='\t', header=None, names=['from', 'rel', 'to'],encoding='utf-8')
+        kg = KnowledgeGraph(df)
+        kg_train, kg_val, kg_test = kg.split_kg(share=0.8, validation=True)
+        data_save('/GADM9',kg_train, kg_val, kg_test)
+        return kg_train, kg_val, kg_test
 
 def load_GeoDBpedia21(data_home=None):
-    """Load FB15k dataset. See `here
-    <https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data>`__
-    for paper by Bordes et al. originally presenting the dataset.
+    """
+
 
     Parameters
     ----------
@@ -87,26 +80,64 @@ def load_GeoDBpedia21(data_home=None):
     if data_home is None:
         data_home = get_data_home()
     data_path = data_home + '/GeoDBpedia21'
-    # if not exists(data_path):
-    #     makedirs(data_path, exist_ok=True)
-    #     urlretrieve("https://graphs.telecom-paristech.fr/data/torchkge/kgs/FB15k.zip",
-    #                 data_home + '/FB15k.zip')
-    #     with zipfile.ZipFile(data_home + '/FB15k.zip', 'r') as zip_ref:
-    #         zip_ref.extractall(data_home)
-    #     remove(data_home + '/FB15k.zip')
 
-    # df1 = read_csv(data_path + '/train.txt',
-    #                sep='\t', header=None, names=['from', 'rel', 'to'])
-    # df2 = read_csv(data_path + '/valid.txt',
-    #                sep='\t', header=None, names=['from', 'rel', 'to'])
-    # df3 = read_csv(data_path + '/test.txt',
-    #                sep='\t', header=None, names=['from', 'rel', 'to'])
-    # df = concat([df1, df2, df3])
-    df = read_csv(data_path + '/my_experiment.txt',
-                   sep='\t', header=None, names=['from', 'rel', 'to'],encoding='utf-8')
-    kg = KnowledgeGraph(df)
+    if exists(data_path + '/train2id.txt') and exists(data_path + '/test2id.txt') and exists(data_path + '/valid2id.txt'):
+        df1 = read_csv(data_path + '/train2id.txt',
+                       sep='\t', header=None, names=['from', 'rel', 'to'])
+        df2 = read_csv(data_path + '/valid2id.txt',
+                       sep='\t', header=None, names=['from', 'rel', 'to'])
+        df3 = read_csv(data_path + '/test2id.txt',
+                       sep='\t', header=None, names=['from', 'rel', 'to'])
+        df = concat([df1, df2, df3])
+        kg = KnowledgeGraph(df)
+        kg_train, kg_val, kg_test = kg.split_kg(sizes=(len(df1), len(df2), len(df3)))
+        return kg_train, kg_val, kg_test
+    else:
+        df = read_csv(data_path + '/my_experiment.txt',
+                       sep='\t', header=None, names=['from', 'rel', 'to'],encoding='utf-8')
+        kg = KnowledgeGraph(df)
+        kg_train, kg_val, kg_test = kg.split_kg(share=0.8, validation=True)
+        data_save('/GeoDBpedia21',kg_train, kg_val, kg_test)
+        return kg_train, kg_val, kg_test
 
-    return kg.split_kg(share=0.8, validation=True)
+
+def load_GADM9_Geo(data_home=None):
+    """
+
+    Parameters
+    ----------
+    data_home: str, optional
+        Path to the `torchkge_data` directory (containing data folders). If
+        files are not present on disk in this directory, they are downloaded
+        and then placed in the right place.
+
+    Returns
+    -------
+    kg_train: torchkge.data_structures.KnowledgeGraph
+    kg_val: torchkge.data_structures.KnowledgeGraph
+    kg_test: torchkge.data_structures.KnowledgeGraph
+
+    """
+    if data_home is None:
+        data_home = get_data_home()
+    data_path = data_home + '/GADM9_Geo'
+    if exists(data_path + '/train2id.txt') and exists(data_path + '/test2id.txt') and exists(data_path + '/valid2id.txt'):
+        df1 = read_csv(data_path + '/train2id.txt',
+                       sep='\t', header=None, names=['from', 'rel', 'to'])
+        df2 = read_csv(data_path + '/valid2id.txt',
+                       sep='\t', header=None, names=['from', 'rel', 'to'])
+        df3 = read_csv(data_path + '/test2id.txt',
+                       sep='\t', header=None, names=['from', 'rel', 'to'])
+        df = concat([df1, df2, df3])
+        kg = KnowledgeGraph(df)
+        return kg.split_kg(sizes=(len(df1), len(df2), len(df3)))
+    else:
+        df = read_csv(data_path + '/triples_all.txt',
+                       sep='\t', header=None, names=['from', 'rel', 'to'],encoding='utf-8')
+        kg = KnowledgeGraph(df)
+        kg_train, kg_val, kg_test = kg.split_kg(share=0.8, validation=True)
+        data_save('/GADM9',kg_train, kg_val, kg_test)
+        return kg_train, kg_val, kg_test
 
 
 def load_fb13(data_home=None):
@@ -508,3 +539,18 @@ def enrich(df, entities, relations):
 
     df.columns = ['from', 'to', 'rel']
     return df
+
+def data_save(benchmarks,kg_train, kg_val, kg_test):
+    print('Split the data...')
+    # print(f'Train set: {kg_train.n_ent} entities, {kg_train.n_rel} relations, {kg_train.n_facts} triplets.')
+    # print(f'Valid set: {kg_val.n_facts} triplets, Test set: {kg_test.n_facts} triplets.')
+    train2id = pd.DataFrame({'head':kg_train.head_idx, 'rel':kg_train.relations, 'tail':kg_train.tail_idx})
+    test2id = pd.DataFrame({'head':kg_test.head_idx, 'rel':kg_test.relations, 'tail':kg_test.tail_idx})
+    valid2id = pd.DataFrame({'head':kg_val.head_idx, 'rel':kg_val.relations, 'tail':kg_val.tail_idx})
+    ent2id = pd.DataFrame({'ent':kg_train.ent2ix.keys(), 'idx':kg_train.ent2ix.values()})
+    rel2id = pd.DataFrame({'rel':kg_train.rel2ix.keys(), 'idx':kg_train.rel2ix.values()})
+    train2id.to_csv(path_or_buf='benchmarks/'+benchmarks+'/train2id.txt', sep='\t', header=False, index=False)
+    test2id.to_csv(path_or_buf='benchmarks/'+benchmarks+'/test2id.txt', sep='\t', header=False, index=False)
+    valid2id.to_csv(path_or_buf='benchmarks/'+benchmarks+'/valid2id.txt', sep='\t', header=False, index=False)
+    ent2id.to_csv(path_or_buf='benchmarks/'+benchmarks+'/ent2id.txt', sep='\t', header=False, index=False)
+    rel2id.to_csv(path_or_buf='benchmarks/'+benchmarks+'/rel2id.txt', sep='\t', header=False, index=False)
