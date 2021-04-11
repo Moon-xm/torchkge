@@ -23,8 +23,10 @@ def get_data_home(data_home=None):
         The path to the data set.
     """
     if data_home is None:
+        # data_home = environ.get('TORCHKGE_DATA',
+        #                         join('benchmarks', 'torchkge_data'))
         data_home = environ.get('TORCHKGE_DATA',
-                                join('~', 'torchkge_data'))
+                                join('benchmarks'))
     data_home = expanduser(data_home)
     if not exists(data_home):
         makedirs(data_home)

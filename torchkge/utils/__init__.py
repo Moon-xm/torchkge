@@ -15,3 +15,5 @@ from .losses import MarginLoss, LogisticLoss, BinaryCrossEntropyLoss
 from .modeling import init_embedding, get_true_targets, load_embeddings
 from .operations import get_rank, get_mask, get_bernoulli_probs
 from .training import Trainer, TrainDataLoader
+
+from .my_utils import create_dir_not_exists, load_ckpt, save_ckpt

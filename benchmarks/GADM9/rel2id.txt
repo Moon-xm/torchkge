@@ -1,0 +1,9 @@
+adjoinwith1	0
+adjoinwith2	1
+adjoinwith3	2
+adjoinwith4	3
+adjoinwith5	4
+ispartof1	5
+ispartof2	6
+ispartof3	7
+ispartof4	8

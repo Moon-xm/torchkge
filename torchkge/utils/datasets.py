@@ -21,6 +21,94 @@ from torchkge.data_structures import KnowledgeGraph
 from torchkge.utils import get_data_home
 
 
+
+def load_GADM9(data_home=None):
+    """Load FB15k dataset. See `here
+    <https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data>`__
+    for paper by Bordes et al. originally presenting the dataset.
+
+    Parameters
+    ----------
+    data_home: str, optional
+        Path to the `torchkge_data` directory (containing data folders). If
+        files are not present on disk in this directory, they are downloaded
+        and then placed in the right place.
+
+    Returns
+    -------
+    kg_train: torchkge.data_structures.KnowledgeGraph
+    kg_val: torchkge.data_structures.KnowledgeGraph
+    kg_test: torchkge.data_structures.KnowledgeGraph
+
+    """
+    if data_home is None:
+        data_home = get_data_home()
+    data_path = data_home + '/GADM9'
+    # if not exists(data_path):
+    #     makedirs(data_path, exist_ok=True)
+    #     urlretrieve("https://graphs.telecom-paristech.fr/data/torchkge/kgs/FB15k.zip",
+    #                 data_home + '/FB15k.zip')
+    #     with zipfile.ZipFile(data_home + '/FB15k.zip', 'r') as zip_ref:
+    #         zip_ref.extractall(data_home)
+    #     remove(data_home + '/FB15k.zip')
+
+    # df1 = read_csv(data_path + '/train.txt',
+    #                sep='\t', header=None, names=['from', 'rel', 'to'])
+    # df2 = read_csv(data_path + '/valid.txt',
+    #                sep='\t', header=None, names=['from', 'rel', 'to'])
+    # df3 = read_csv(data_path + '/test.txt',
+    #                sep='\t', header=None, names=['from', 'rel', 'to'])
+    # df = concat([df1, df2, df3])
+    df = read_csv(data_path + '/triples_all.txt',
+                   sep='\t', header=None, names=['from', 'rel', 'to'],encoding='utf-8')
+    kg = KnowledgeGraph(df)
+
+    return kg.split_kg(share=0.8, validation=True)
+
+def load_GeoDBpedia21(data_home=None):
+    """Load FB15k dataset. See `here
+    <https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data>`__
+    for paper by Bordes et al. originally presenting the dataset.
+
+    Parameters
+    ----------
+    data_home: str, optional
+        Path to the `torchkge_data` directory (containing data folders). If
+        files are not present on disk in this directory, they are downloaded
+        and then placed in the right place.
+
+    Returns
+    -------
+    kg_train: torchkge.data_structures.KnowledgeGraph
+    kg_val: torchkge.data_structures.KnowledgeGraph
+    kg_test: torchkge.data_structures.KnowledgeGraph
+
+    """
+    if data_home is None:
+        data_home = get_data_home()
+    data_path = data_home + '/GeoDBpedia21'
+    # if not exists(data_path):
+    #     makedirs(data_path, exist_ok=True)
+    #     urlretrieve("https://graphs.telecom-paristech.fr/data/torchkge/kgs/FB15k.zip",
+    #                 data_home + '/FB15k.zip')
+    #     with zipfile.ZipFile(data_home + '/FB15k.zip', 'r') as zip_ref:
+    #         zip_ref.extractall(data_home)
+    #     remove(data_home + '/FB15k.zip')
+
+    # df1 = read_csv(data_path + '/train.txt',
+    #                sep='\t', header=None, names=['from', 'rel', 'to'])
+    # df2 = read_csv(data_path + '/valid.txt',
+    #                sep='\t', header=None, names=['from', 'rel', 'to'])
+    # df3 = read_csv(data_path + '/test.txt',
+    #                sep='\t', header=None, names=['from', 'rel', 'to'])
+    # df = concat([df1, df2, df3])
+    df = read_csv(data_path + '/my_experiment.txt',
+                   sep='\t', header=None, names=['from', 'rel', 'to'],encoding='utf-8')
+    kg = KnowledgeGraph(df)
+
+    return kg.split_kg(share=0.8, validation=True)
+
+
 def load_fb13(data_home=None):
     """Load FB13 dataset.
 

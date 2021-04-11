@@ -339,7 +339,7 @@ class TransRModel(TranslationModel):
         self.evaluated_projections = False
         self.projected_entities = Parameter(empty(size=(self.n_rel, self.n_ent,
                                                         self.rel_emb_dim)),
-                                            requires_grad=False)
+                                            requires_grad=False)  # 映射矩阵
 
     def scoring_function(self, h_idx, t_idx, r_idx):
         """Compute the scoring function for the triplets given as argument:

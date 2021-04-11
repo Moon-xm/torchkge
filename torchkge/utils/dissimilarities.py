@@ -22,7 +22,7 @@ def l2_dissimilarity(a, b):
 
     """
     assert len(a.shape) == len(b.shape)
-    return (a-b).norm(p=2, dim=-1)**2
+    return (a-b).norm(p=2, dim=-1)**2  # 先开方后取平方 相当于 a^2 + b^2 + ...
 
 
 def l1_torus_dissimilarity(a, b):
