@@ -119,7 +119,7 @@ def main():
         model.normalize_parameters()
         if epoch - last_improve > require_improvement:
             # 验证集loss超过1000batch没下降，结束训练
-            print("No optimization for a long time, auto-stopping...")
+            print("\nNo optimization for a long time, auto-stopping...")
             break
 
     print('Training done, start evaluate on test data...')

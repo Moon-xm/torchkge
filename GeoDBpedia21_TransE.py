@@ -67,7 +67,6 @@ def main():
     print('lr: {}, margin: {}, dim {}, total epoch: {}, device: {}, batch size: {},optim: {}'\
     .format(lr, margin, emb_dim, n_epochs, device, train_b_size, optimizer))
 
-    # iterator = tqdm(range(start_epoch, n_epochs+1), unit='epoch')
     print('Training ...')
     start = time.time()
     for epoch in range(start_epoch, n_epochs+1):

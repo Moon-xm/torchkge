@@ -18,6 +18,7 @@ def main():
     # Define some hyper-parameters for training
     model_name = 'TransE_GDR'
     benchmarks = 'GeoDBpedia21'
+    GDR = True  # 是否引入坐标信息
 
     emb_dim = 100
     lr = 0.001
@@ -35,7 +36,7 @@ def main():
     load_data = getattr(import_module('torchkge.utils.datasets'), 'load_'+benchmarks)
 
     print('Loading data...')
-    kg_train, kg_val, kg_test = load_data(GDR=True)
+    kg_train, kg_val, kg_test = load_data(GDR=GDR)
     print(f'Train set: {kg_train.n_ent} entities, {kg_train.n_rel} relations, {kg_train.n_facts} triplets.')
     print(f'Valid set: {kg_val.n_facts} triplets, Test set: {kg_test.n_facts} triplets.')
 
@@ -68,7 +69,6 @@ def main():
     print('lr: {}, margin: {}, dim {}, total epoch: {}, device: {}, batch size: {},optim: {}'\
     .format(lr, margin, emb_dim, n_epochs, device, train_b_size, optimizer))
 
-    # iterator = tqdm(range(start_epoch, n_epochs+1), unit='epoch')
     print('Training ...')
     start = time.time()
     for epoch in range(start_epoch, n_epochs+1):
@@ -81,8 +81,8 @@ def main():
             optimizer.zero_grad()
 
             # forward + backward + optimize
-            pos, neg = model(h, t, n_h, n_t, r, point, n_point)
-            loss = criterion(pos, neg)
+            pos, neg = model(h, t, n_h, n_t, r)
+            loss = criterion(pos, neg, GDR=GDR)
             loss.backward()
             optimizer.step()
 

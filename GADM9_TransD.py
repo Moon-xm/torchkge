@@ -1,5 +1,6 @@
 from torch import cuda
 from torch.optim import Adam
+import torch
 
 # from torchkge.models import TransEModel
 from torchkge.sampling import BernoulliNegativeSampler
@@ -26,11 +27,12 @@ def main():
     lr = 0.0001
     margin = 0.5
 
-    n_epochs = 2000
+    n_epochs = 20000
     train_b_size = 5120  # 训练时batch size
     eval_b_size = 512  # 测评valid test 时batch size
-    validation_freq = 100  # 多少轮进行在验证集进行一次测试 同时保存最佳模型
-    model_save_path = './checkpoint/' + benchmarks +'_'+ model_name + '.ckpt'  # 保存最佳hits k (ent)模型
+    validation_freq = 500 # 多少轮进行在验证集进行一次测试 同时保存最佳模型
+    require_improvement = 2000  # 验证集top_k超过多少epoch没下降，结束训练
+    model_save_path = './checkpoint/' + benchmarks +'_'+ model_name + '_Adam.ckpt'  # 保存最佳hits k (ent)模型
     device = 'cuda:0' if cuda.is_available() else 'cpu'
 
     # Load dataset
@@ -59,22 +61,29 @@ def main():
 
     # Define the torch optimizer to be used
     optimizer = Adam(model.parameters(), lr=lr, weight_decay=1e-5)
+    # 学习率指数衰减，每次epoch：学习率 = gamma * 学习率
+    # scheduler = torch.optim.lr_scheduler.ExponentialLR(optimizer, gamma=0.9)
 
     sampler = BernoulliNegativeSampler(kg_train)
 
     start_epoch = 1
-    best_score = 0.0
+    best_score = float('-inf')
+
     if os.path.exists(model_save_path):  # 存在则加载模型 并继续训练
         start_epoch, best_score = load_ckpt(model_save_path, model, optimizer)
-        print('loading ckpt sucessful...')
+        print(f'loading ckpt sucessful, start on epoch {start_epoch}...')
     print(model)
-    print('lr: {}, margin: {}, dim {}, total epoch: {}, device: {}, batch size: {},optim: {}'\
+    print('lr: {}, margin: {}, dim {}, total epoch: {}, device: {}, batch size: {}, optim: {}'\
     .format(lr, margin, emb_dim, n_epochs, device, train_b_size, optimizer))
 
     # iterator = tqdm(range(start_epoch, n_epochs+1), unit='epoch')
     print('Training ...')
+
+    last_improve = start_epoch  # 记录上次验证集loss下降的epoch数
+
     start = time.time()
     for epoch in range(start_epoch, n_epochs+1):
+        # scheduler.step()  # lr衰减
         running_loss = 0.0
         model.train()
         for i, batch in enumerate(dataloader):
@@ -101,14 +110,19 @@ def main():
             evaluator.evaluate(b_size=eval_b_size, verbose=False)
             _, hit_at_k = evaluator.hit_at_k(10)  # val filter hit_k
             if hit_at_k > best_score:
+                save_ckpt(model, optimizer, epoch, best_score, model_save_path)
                 best_score = hit_at_k
                 improve = '*'  # 在有提升的结果后面加上*标注
-                save_ckpt(model, optimizer, epoch, best_score, model_save_path)
+                last_improve = epoch  # 验证集hit_k增大即认为有提升
             else:
                 improve = ''
             msg = '\nTrain loss: {:>8.3f}, Val Hit@10: {:>5.2%}, Time {} {}'
             print(msg.format(running_loss / len(dataloader), hit_at_k, time_since(start), improve))
-    model.normalize_parameters()
+        model.normalize_parameters()
+        if epoch - last_improve > require_improvement:
+            # 验证集loss超过1000batch没下降，结束训练
+            print("\nNo optimization for a long time, auto-stopping...")
+            break
 
     print('Training done, start evaluate on test data...')
     # Testing the best checkpoint on test dataset

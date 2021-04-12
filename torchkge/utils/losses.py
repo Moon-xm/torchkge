@@ -20,7 +20,7 @@ class MarginLoss(Module):
         super().__init__()
         self.loss = MarginRankingLoss(margin=margin, reduction='sum')
 
-    def forward(self, positive_triplets, negative_triplets):
+    def forward(self, positive_triplets, negative_triplets, GDR=False):
         """
         Parameters
         ----------
@@ -40,6 +40,9 @@ class MarginLoss(Module):
             :math:`f(h,r,t)` is the score of a true fact and
             :math:`f(h',r',t')` is the score of the associated negative fact.
         """
+        if GDR == True:
+            w_geo = self.calc_w()
+
         return self.loss(positive_triplets, negative_triplets,
                          target=ones_like(positive_triplets))
 
