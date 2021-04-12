@@ -65,7 +65,7 @@ class MarginLoss(Module):
         :param points: [batch_size, 2, 2]
         :return: [batch_size]
         """
-        head, tail = torch.tensor(points[:,0,:]), torch.tensor(points[:,1,:])  # [batch_size, 2]
+        head, tail = points[:,0,:], points[:,1,:]  # [batch_size, 2]
         distance = torch.norm(head-tail, p=2, dim=1)  # 2 范数
         return distance
 

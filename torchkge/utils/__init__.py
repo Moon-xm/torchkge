@@ -17,3 +17,4 @@ from .operations import get_rank, get_mask, get_bernoulli_probs
 from .training import Trainer, TrainDataLoader
 
 from .my_utils import create_dir_not_exists, load_ckpt, save_ckpt, time_since, safe_strip
+from .optim import optimizer

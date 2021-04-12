@@ -231,5 +231,5 @@ class LinkPredictionEvaluator(object):
 
         print('Mean Rank : {} \t Filt. Mean Rank : {}'.format(
             int(self.mean_rank()[0]), int(self.mean_rank()[1])))
-        print('MRR : {} \t\t Filt. MRR : {}'.format(
-            round(self.mrr()[0], n_digits), round(self.mrr()[1], n_digits)))
+        # print('MRR : {} \t\t Filt. MRR : {}'.format(
+        #     round(self.mrr()[0], n_digits), round(self.mrr()[1], n_digits)))

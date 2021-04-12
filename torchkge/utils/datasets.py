@@ -21,9 +21,10 @@ from torchkge.data_structures import KnowledgeGraph
 from torchkge.utils import get_data_home
 import pandas as pd
 import numpy as np
+import torch
 
 
-def load_GADM9(data_home=None):
+def load_GADM9(data_home=None, GDR=False):
     """
 
     Parameters
@@ -43,6 +44,11 @@ def load_GADM9(data_home=None):
     if data_home is None:
         data_home = get_data_home()
     data_path = data_home + '/GADM9'
+    if GDR == True:
+        geo = data_path + '/ent2point.txt'
+    else:
+        geo = None
+
     if exists(data_path + '/train.txt') and exists(data_path + '/test.txt') and exists(data_path + '/valid.txt'):
         df1 = read_csv(data_path + '/train.txt',
                        sep='\t', header=None, names=['from', 'rel', 'to'])
@@ -51,14 +57,15 @@ def load_GADM9(data_home=None):
         df3 = read_csv(data_path + '/test.txt',
                        sep='\t', header=None, names=['from', 'rel', 'to'])
         df = concat([df1, df2, df3])
-        kg = KnowledgeGraph(df)
-        return kg.split_kg(sizes=(len(df1), len(df2), len(df3)))
+        kg = KnowledgeGraph(df=df,geo=geo)
+        kg_train, kg_val, kg_test = kg.split_kg(sizes=(len(df1), len(df2), len(df3)),geo=geo)
+        return kg_train, kg_val, kg_test
     else:
         df = read_csv(data_path + '/triples_all.txt',
                        sep='\t', header=None, names=['from', 'rel', 'to'],encoding='utf-8')
-        kg = KnowledgeGraph(df)
-        kg_train, kg_val, kg_test = kg.split_kg(share=0.8, validation=True)
-        data_save('/GADM9',kg_train, kg_val, kg_test)
+        kg = KnowledgeGraph(df=df,geo=geo)
+        kg_train, kg_val, kg_test = kg.split_kg(share=0.8, validation=True,geo=geo)
+        data_save('/GADM9',kg_train, kg_val, kg_test,geo=geo)
         return kg_train, kg_val, kg_test
 
 def load_GeoDBpedia21(data_home=None, GDR=False):
@@ -103,7 +110,7 @@ def load_GeoDBpedia21(data_home=None, GDR=False):
                        sep='\t', header=None, names=['from', 'rel', 'to'],encoding='utf-8')
         kg = KnowledgeGraph(df=df,geo=geo)
         kg_train, kg_val, kg_test = kg.split_kg(share=0.8, validation=True,geo=geo)
-        data_save('/GeoDBpedia21',kg_train, kg_val, kg_test)
+        data_save('/GeoDBpedia21',kg_train, kg_val, kg_test,geo=geo)
         return kg_train, kg_val, kg_test
 
 def load_fb13(data_home=None):
@@ -512,11 +519,11 @@ def id2point(h, t, idx2point):
     # for (h_i, t_i) in zip(h, t):
     #     pass
     point = np.array([[idx2point[h_i.item()], idx2point[t_i.item()]] for (h_i, t_i) in zip(h, t)])
-    return point
+    return torch.tensor(point).to(h.device)
 
 
 
-def data_save(benchmarks,kg_train, kg_val, kg_test):
+def data_save(benchmarks,kg_train, kg_val, kg_test, geo=None):
     print('Split the data...')
     # print(f'Train set: {kg_train.n_ent} entities, {kg_train.n_rel} relations, {kg_train.n_facts} triplets.')
     # print(f'Valid set: {kg_val.n_facts} triplets, Test set: {kg_test.n_facts} triplets.')
@@ -527,8 +534,10 @@ def data_save(benchmarks,kg_train, kg_val, kg_test):
     rel2id = pd.DataFrame({'rel':kg_train.rel2ix.keys(), 'idx':kg_train.rel2ix.values()})
     id2ent = dict(zip(ent2id['idx'], ent2id['ent']))
     id2rel = dict(zip(rel2id['idx'], rel2id['rel']))
-    id2point = pd.DataFrame({'id':kg_train.id2point.keys(), 'point':kg_train.id2point.values()})
-    id2point = id2point.sort_values(by='id', ascending=True)
+    if geo is not None:
+        id2point = pd.DataFrame({'id':kg_train.id2point.keys(), 'point':kg_train.id2point.values()})
+        id2point = id2point.sort_values(by='id', ascending=True)
+        id2point.to_csv(path_or_buf='benchmarks/'+benchmarks+'/id2point.txt', sep='\t', header=False, index=False)
     train = pd.DataFrame({'head':train2id['head'].map(lambda x: id2ent[x]), 'rel':train2id['rel'].map(lambda x: id2rel[x]), 'tail': train2id['tail'].map(lambda x: id2ent[x])})
     valid = pd.DataFrame({'head':valid2id['head'].map(lambda x: id2ent[x]), 'rel':valid2id['rel'].map(lambda x: id2rel[x]), 'tail': valid2id['tail'].map(lambda x: id2ent[x])})
     test = pd.DataFrame({'head':test2id['head'].map(lambda x: id2ent[x]), 'rel':test2id['rel'].map(lambda x: id2rel[x]), 'tail': test2id['tail'].map(lambda x: id2ent[x])})
@@ -540,4 +549,3 @@ def data_save(benchmarks,kg_train, kg_val, kg_test):
     valid2id.to_csv(path_or_buf='benchmarks/'+benchmarks+'/valid2id.txt', sep='\t', header=False, index=False)
     ent2id.to_csv(path_or_buf='benchmarks/'+benchmarks+'/ent2id.txt', sep='\t', header=False, index=False)
     rel2id.to_csv(path_or_buf='benchmarks/'+benchmarks+'/rel2id.txt', sep='\t', header=False, index=False)
-    id2point.to_csv(path_or_buf='benchmarks/'+benchmarks+'/id2point.txt', sep='\t', header=False, index=False)

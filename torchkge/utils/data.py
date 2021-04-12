@@ -8,7 +8,7 @@ import shutil
 
 from os import environ, makedirs
 from os.path import exists, expanduser, join
-
+import torch
 
 def get_data_home(data_home=None):
     """Returns the path to the data directory. The path is created if
@@ -90,7 +90,7 @@ class DataLoader:
         self.r = kg.relations
         self.geo = kg.geo
         if self.geo is not None:
-            self.point = kg.point
+            self.point = torch.Tensor(kg.point)
 
         self.use_cuda = use_cuda
         self.batch_size = batch_size
