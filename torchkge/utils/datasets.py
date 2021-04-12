@@ -19,6 +19,7 @@ from urllib.request import urlretrieve
 from torchkge.data_structures import KnowledgeGraph
 
 from torchkge.utils import get_data_home
+import pandas as pd
 
 
 def load_GADM9(data_home=None):
@@ -41,12 +42,12 @@ def load_GADM9(data_home=None):
     if data_home is None:
         data_home = get_data_home()
     data_path = data_home + '/GADM9'
-    if exists(data_path + '/train2id.txt') and exists(data_path + '/test2id.txt') and exists(data_path + '/valid2id.txt'):
-        df1 = read_csv(data_path + '/train2id.txt',
+    if exists(data_path + '/train.txt') and exists(data_path + '/test.txt') and exists(data_path + '/valid.txt'):
+        df1 = read_csv(data_path + '/train.txt',
                        sep='\t', header=None, names=['from', 'rel', 'to'])
-        df2 = read_csv(data_path + '/valid2id.txt',
+        df2 = read_csv(data_path + '/valid.txt',
                        sep='\t', header=None, names=['from', 'rel', 'to'])
-        df3 = read_csv(data_path + '/test2id.txt',
+        df3 = read_csv(data_path + '/test.txt',
                        sep='\t', header=None, names=['from', 'rel', 'to'])
         df = concat([df1, df2, df3])
         kg = KnowledgeGraph(df)
@@ -81,12 +82,12 @@ def load_GeoDBpedia21(data_home=None):
         data_home = get_data_home()
     data_path = data_home + '/GeoDBpedia21'
 
-    if exists(data_path + '/train2id.txt') and exists(data_path + '/test2id.txt') and exists(data_path + '/valid2id.txt'):
-        df1 = read_csv(data_path + '/train2id.txt',
+    if exists(data_path + '/train.txt') and exists(data_path + '/test.txt') and exists(data_path + '/valid.txt'):
+        df1 = read_csv(data_path + '/train.txt',
                        sep='\t', header=None, names=['from', 'rel', 'to'])
-        df2 = read_csv(data_path + '/valid2id.txt',
+        df2 = read_csv(data_path + '/valid.txt',
                        sep='\t', header=None, names=['from', 'rel', 'to'])
-        df3 = read_csv(data_path + '/test2id.txt',
+        df3 = read_csv(data_path + '/test.txt',
                        sep='\t', header=None, names=['from', 'rel', 'to'])
         df = concat([df1, df2, df3])
         kg = KnowledgeGraph(df)
@@ -549,6 +550,14 @@ def data_save(benchmarks,kg_train, kg_val, kg_test):
     valid2id = pd.DataFrame({'head':kg_val.head_idx, 'rel':kg_val.relations, 'tail':kg_val.tail_idx})
     ent2id = pd.DataFrame({'ent':kg_train.ent2ix.keys(), 'idx':kg_train.ent2ix.values()})
     rel2id = pd.DataFrame({'rel':kg_train.rel2ix.keys(), 'idx':kg_train.rel2ix.values()})
+    id2ent = dict(zip(ent2id['idx'], ent2id['ent']))
+    id2rel = dict(zip(rel2id['idx'], rel2id['rel']))
+    train = pd.DataFrame({'head':train2id['head'].map(lambda x: id2ent[x]), 'rel':train2id['rel'].map(lambda x: id2rel[x]), 'tail': train2id['tail'].map(lambda x: id2ent[x])})
+    valid = pd.DataFrame({'head':valid2id['head'].map(lambda x: id2ent[x]), 'rel':valid2id['rel'].map(lambda x: id2rel[x]), 'tail': valid2id['tail'].map(lambda x: id2ent[x])})
+    test = pd.DataFrame({'head':test2id['head'].map(lambda x: id2ent[x]), 'rel':test2id['rel'].map(lambda x: id2rel[x]), 'tail': test2id['tail'].map(lambda x: id2ent[x])})
+    train.to_csv(path_or_buf='benchmarks/'+benchmarks+'/train.txt', sep='\t', header=False, index=False)
+    valid.to_csv(path_or_buf='benchmarks/'+benchmarks+'/valid.txt', sep='\t', header=False, index=False)
+    test.to_csv(path_or_buf='benchmarks/'+benchmarks+'/test.txt', sep='\t', header=False, index=False)
     train2id.to_csv(path_or_buf='benchmarks/'+benchmarks+'/train2id.txt', sep='\t', header=False, index=False)
     test2id.to_csv(path_or_buf='benchmarks/'+benchmarks+'/test2id.txt', sep='\t', header=False, index=False)
     valid2id.to_csv(path_or_buf='benchmarks/'+benchmarks+'/valid2id.txt', sep='\t', header=False, index=False)

@@ -65,11 +65,11 @@ def main():
     sampler = BernoulliNegativeSampler(kg_train)
 
     start_epoch = 1
-    best_score = float('inf')
+    best_score = float('-inf')
 
     if os.path.exists(model_save_path):  # 存在则加载模型 并继续训练
         start_epoch, best_score = load_ckpt(model_save_path, model, optimizer)
-        print('loading ckpt sucessful...')
+        print(f'loading ckpt sucessful, start on epoch {start_epoch}...')
     print(model)
     print('lr: {}, margin: {}, dim {}, total epoch: {}, device: {}, batch size: {},optim: {}'\
     .format(lr, margin, emb_dim, n_epochs, device, train_b_size, optimizer))
