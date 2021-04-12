@@ -10,7 +10,9 @@ from torch.utils.data import Dataset
 
 from torchkge.exceptions import SizeMismatchError, WrongArgumentsError, SanityError
 from torchkge.utils.operations import get_dictionaries
-
+from torchkge.utils.my_utils import safe_strip
+import pandas as pd
+import numpy as np
 
 class KnowledgeGraph(Dataset):
     """Knowledge graph representation. At least one of `df` and `kg`
@@ -62,7 +64,7 @@ class KnowledgeGraph(Dataset):
     """
 
     def __init__(self, df=None, kg=None, ent2ix=None, rel2ix=None,
-                 dict_of_heads=None, dict_of_tails=None):
+                 dict_of_heads=None, dict_of_tails=None, id2point=None, geo=None):
 
         if df is None:
             if kg is None:
@@ -98,8 +100,12 @@ class KnowledgeGraph(Dataset):
         else:
             self.rel2ix = rel2ix
 
+        if id2point is not None:
+            self.id2point =id2point
+
         self.n_ent = max(self.ent2ix.values()) + 1
         self.n_rel = max(self.rel2ix.values()) + 1
+        self.geo = geo
 
         if df is not None:
             # build kg from a pandas dataframe
@@ -113,6 +119,12 @@ class KnowledgeGraph(Dataset):
             self.head_idx = kg['heads']
             self.tail_idx = kg['tails']
             self.relations = kg['relations']
+            self.point = kg['point']
+
+        if (geo is not None) and (df is not None):  # Geo
+            self.entity2point, self.id2point = self.load_point(geo)
+            self.point = np.array([[self.entity2point[triplet[0]], self.entity2point[triplet[2]]] for triplet in df.values])
+
 
         if dict_of_heads is None or dict_of_tails is None:
             self.dict_of_heads = defaultdict(set)
@@ -131,9 +143,34 @@ class KnowledgeGraph(Dataset):
         return self.n_facts
 
     def __getitem__(self, item):
-        return (self.head_idx[item].item(),
-                self.tail_idx[item].item(),
-                self.relations[item].item())
+        if self.geo is not None:
+            return (self.head_idx[item].item(),
+                    self.tail_idx[item].item(),
+                    self.relations[item].item(),
+                    self.point[item])
+        else:
+            return (self.head_idx[item].item(),
+                    self.tail_idx[item].item(),
+                    self.relations[item].item())
+
+    def load_point(self, geo):
+        """
+        generate point data
+        :return: dict of point data  eg:{'Beijing': [116.51288500000001, 39.847469], 'Chongqing': [116.41338400000001, 39.910925],...}
+        """
+        point_data = pd.read_csv(geo, sep='\t', index_col=False, encoding='utf-8')
+        point_data = point_data.applymap(lambda x: safe_strip(x))
+        point_data['id'] = point_data['name'].map(lambda x: self.ent2ix[x])
+        id_ls = list(point_data['id'])
+        entity_ls = list(point_data['name'])
+        long_ls = list(point_data['long'])
+        lat_ls = list(point_data['lat'])
+        long_lat_ls = [[x, y] for x, y in zip(long_ls, lat_ls)]
+        ent2point_dic = zip(entity_ls, long_lat_ls)
+        ent2point_dic = dict(ent2point_dic)
+        id2point_dic = zip(id_ls, long_lat_ls)
+        id2point_dic = dict(id2point_dic)
+        return ent2point_dic, id2point_dic
 
     def sanity_check(self):
         assert (type(self.dict_of_heads) == defaultdict) & \
@@ -148,7 +185,7 @@ class KnowledgeGraph(Dataset):
                (self.tail_idx.dtype == int64) & (self.relations.dtype == int64)
         assert (len(self.head_idx) == len(self.tail_idx) == len(self.relations))
 
-    def split_kg(self, share=0.8, sizes=None, validation=False):
+    def split_kg(self, share=0.8, sizes=None, validation=False, geo=None):
         """Split the knowledge graph into train and test. If `sizes` is
         provided then it is used to split the samples as explained below. If
         only `share` is provided, the split is done at random but it assures
@@ -222,24 +259,30 @@ class KnowledgeGraph(Dataset):
             return (KnowledgeGraph(
                         kg={'heads': self.head_idx[mask_tr],
                             'tails': self.tail_idx[mask_tr],
-                            'relations': self.relations[mask_tr]},
+                            'relations': self.relations[mask_tr],
+                            'point':self.point[mask_tr]},
                         ent2ix=self.ent2ix, rel2ix=self.rel2ix,
                         dict_of_heads=self.dict_of_heads,
-                        dict_of_tails=self.dict_of_tails),
+                        dict_of_tails=self.dict_of_tails,
+                        id2point=self.id2point, geo=geo),
                     KnowledgeGraph(
                         kg={'heads': self.head_idx[mask_val],
                             'tails': self.tail_idx[mask_val],
-                            'relations': self.relations[mask_val]},
+                            'relations': self.relations[mask_val],
+                            'point':self.point[mask_val]},
                         ent2ix=self.ent2ix, rel2ix=self.rel2ix,
                         dict_of_heads=self.dict_of_heads,
-                        dict_of_tails=self.dict_of_tails),
+                        dict_of_tails=self.dict_of_tails,
+                        id2point=self.id2point, geo=geo),
                     KnowledgeGraph(
                         kg={'heads': self.head_idx[mask_te],
                             'tails': self.tail_idx[mask_te],
-                            'relations': self.relations[mask_te]},
+                            'relations': self.relations[mask_te],
+                            'point':self.point[mask_te]},
                         ent2ix=self.ent2ix, rel2ix=self.rel2ix,
                         dict_of_heads=self.dict_of_heads,
-                        dict_of_tails=self.dict_of_tails))
+                        dict_of_tails=self.dict_of_tails,
+                        id2point=self.id2point, geo=geo))
         else:
             # return training and testing graphs
 

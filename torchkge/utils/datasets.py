@@ -20,6 +20,7 @@ from torchkge.data_structures import KnowledgeGraph
 
 from torchkge.utils import get_data_home
 import pandas as pd
+import numpy as np
 
 
 def load_GADM9(data_home=None):
@@ -60,7 +61,7 @@ def load_GADM9(data_home=None):
         data_save('/GADM9',kg_train, kg_val, kg_test)
         return kg_train, kg_val, kg_test
 
-def load_GeoDBpedia21(data_home=None):
+def load_GeoDBpedia21(data_home=None, GDR=False):
     """
 
 
@@ -81,6 +82,10 @@ def load_GeoDBpedia21(data_home=None):
     if data_home is None:
         data_home = get_data_home()
     data_path = data_home + '/GeoDBpedia21'
+    if GDR == True:
+        geo = data_path + '/ent2point.txt'
+    else:
+        geo = None
 
     if exists(data_path + '/train.txt') and exists(data_path + '/test.txt') and exists(data_path + '/valid.txt'):
         df1 = read_csv(data_path + '/train.txt',
@@ -90,56 +95,16 @@ def load_GeoDBpedia21(data_home=None):
         df3 = read_csv(data_path + '/test.txt',
                        sep='\t', header=None, names=['from', 'rel', 'to'])
         df = concat([df1, df2, df3])
-        kg = KnowledgeGraph(df)
-        kg_train, kg_val, kg_test = kg.split_kg(sizes=(len(df1), len(df2), len(df3)))
+        kg = KnowledgeGraph(df=df,geo=geo)
+        kg_train, kg_val, kg_test = kg.split_kg(sizes=(len(df1), len(df2), len(df3)),geo=geo)
         return kg_train, kg_val, kg_test
     else:
         df = read_csv(data_path + '/my_experiment.txt',
                        sep='\t', header=None, names=['from', 'rel', 'to'],encoding='utf-8')
-        kg = KnowledgeGraph(df)
-        kg_train, kg_val, kg_test = kg.split_kg(share=0.8, validation=True)
+        kg = KnowledgeGraph(df=df,geo=geo)
+        kg_train, kg_val, kg_test = kg.split_kg(share=0.8, validation=True,geo=geo)
         data_save('/GeoDBpedia21',kg_train, kg_val, kg_test)
         return kg_train, kg_val, kg_test
-
-
-def load_GADM9_Geo(data_home=None):
-    """
-
-    Parameters
-    ----------
-    data_home: str, optional
-        Path to the `torchkge_data` directory (containing data folders). If
-        files are not present on disk in this directory, they are downloaded
-        and then placed in the right place.
-
-    Returns
-    -------
-    kg_train: torchkge.data_structures.KnowledgeGraph
-    kg_val: torchkge.data_structures.KnowledgeGraph
-    kg_test: torchkge.data_structures.KnowledgeGraph
-
-    """
-    if data_home is None:
-        data_home = get_data_home()
-    data_path = data_home + '/GADM9_Geo'
-    if exists(data_path + '/train2id.txt') and exists(data_path + '/test2id.txt') and exists(data_path + '/valid2id.txt'):
-        df1 = read_csv(data_path + '/train2id.txt',
-                       sep='\t', header=None, names=['from', 'rel', 'to'])
-        df2 = read_csv(data_path + '/valid2id.txt',
-                       sep='\t', header=None, names=['from', 'rel', 'to'])
-        df3 = read_csv(data_path + '/test2id.txt',
-                       sep='\t', header=None, names=['from', 'rel', 'to'])
-        df = concat([df1, df2, df3])
-        kg = KnowledgeGraph(df)
-        return kg.split_kg(sizes=(len(df1), len(df2), len(df3)))
-    else:
-        df = read_csv(data_path + '/triples_all.txt',
-                       sep='\t', header=None, names=['from', 'rel', 'to'],encoding='utf-8')
-        kg = KnowledgeGraph(df)
-        kg_train, kg_val, kg_test = kg.split_kg(share=0.8, validation=True)
-        data_save('/GADM9',kg_train, kg_val, kg_test)
-        return kg_train, kg_val, kg_test
-
 
 def load_fb13(data_home=None):
     """Load FB13 dataset.
@@ -541,6 +506,16 @@ def enrich(df, entities, relations):
     df.columns = ['from', 'to', 'rel']
     return df
 
+def id2point(h, t, idx2point):
+    # h_point = h.map(lambda x: idx2point[h])
+    # t_point = t.map(lambda x: idx2point[t])
+    # for (h_i, t_i) in zip(h, t):
+    #     pass
+    point = np.array([[idx2point[h_i.item()], idx2point[t_i.item()]] for (h_i, t_i) in zip(h, t)])
+    return point
+
+
+
 def data_save(benchmarks,kg_train, kg_val, kg_test):
     print('Split the data...')
     # print(f'Train set: {kg_train.n_ent} entities, {kg_train.n_rel} relations, {kg_train.n_facts} triplets.')
@@ -552,6 +527,8 @@ def data_save(benchmarks,kg_train, kg_val, kg_test):
     rel2id = pd.DataFrame({'rel':kg_train.rel2ix.keys(), 'idx':kg_train.rel2ix.values()})
     id2ent = dict(zip(ent2id['idx'], ent2id['ent']))
     id2rel = dict(zip(rel2id['idx'], rel2id['rel']))
+    id2point = pd.DataFrame({'id':kg_train.id2point.keys(), 'point':kg_train.id2point.values()})
+    id2point = id2point.sort_values(by='id', ascending=True)
     train = pd.DataFrame({'head':train2id['head'].map(lambda x: id2ent[x]), 'rel':train2id['rel'].map(lambda x: id2rel[x]), 'tail': train2id['tail'].map(lambda x: id2ent[x])})
     valid = pd.DataFrame({'head':valid2id['head'].map(lambda x: id2ent[x]), 'rel':valid2id['rel'].map(lambda x: id2rel[x]), 'tail': valid2id['tail'].map(lambda x: id2ent[x])})
     test = pd.DataFrame({'head':test2id['head'].map(lambda x: id2ent[x]), 'rel':test2id['rel'].map(lambda x: id2rel[x]), 'tail': test2id['tail'].map(lambda x: id2ent[x])})
@@ -563,3 +540,4 @@ def data_save(benchmarks,kg_train, kg_val, kg_test):
     valid2id.to_csv(path_or_buf='benchmarks/'+benchmarks+'/valid2id.txt', sep='\t', header=False, index=False)
     ent2id.to_csv(path_or_buf='benchmarks/'+benchmarks+'/ent2id.txt', sep='\t', header=False, index=False)
     rel2id.to_csv(path_or_buf='benchmarks/'+benchmarks+'/rel2id.txt', sep='\t', header=False, index=False)
+    id2point.to_csv(path_or_buf='benchmarks/'+benchmarks+'/id2point.txt', sep='\t', header=False, index=False)

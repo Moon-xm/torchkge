@@ -88,6 +88,9 @@ class DataLoader:
         self.h = kg.head_idx
         self.t = kg.tail_idx
         self.r = kg.relations
+        self.geo = kg.geo
+        if self.geo is not None:
+            self.point = kg.point
 
         self.use_cuda = use_cuda
         self.batch_size = batch_size
@@ -96,6 +99,8 @@ class DataLoader:
             self.h = self.h.cuda()
             self.t = self.t.cuda()
             self.r = self.r.cuda()
+            if self.geo is not None:
+                self.point = self.point.cuda()
 
     def __len__(self):
         return get_n_batches(len(self.h), self.batch_size)
@@ -109,6 +114,9 @@ class _DataLoaderIter:
         self.h = loader.h
         self.t = loader.t
         self.r = loader.r
+        self.geo = loader.geo
+        if self.geo is not None:
+            self.point = loader.point
 
         self.use_cuda = loader.use_cuda
         self.batch_size = loader.batch_size
@@ -126,11 +134,19 @@ class _DataLoaderIter:
             tmp_h = self.h[i * self.batch_size: (i + 1) * self.batch_size]
             tmp_t = self.t[i * self.batch_size: (i + 1) * self.batch_size]
             tmp_r = self.r[i * self.batch_size: (i + 1) * self.batch_size]
+            if self.geo is not None:
+                tmp_point = self.point[i * self.batch_size: (i + 1) * self.batch_size]
 
             if self.use_cuda is not None and self.use_cuda == 'batch':
-                return tmp_h.cuda(), tmp_t.cuda(), tmp_r.cuda()
+                if self.geo is None:
+                    return tmp_h.cuda(), tmp_t.cuda(), tmp_r.cuda()
+                else:
+                    return tmp_h.cuda(), tmp_t.cuda(), tmp_r.cuda(), tmp_point.cuda()
             else:
-                return tmp_h, tmp_t, tmp_r
+                if self.geo is None:
+                    return tmp_h, tmp_t, tmp_r
+                else:
+                    return tmp_h, tmp_t, tmp_r, tmp_point
 
     def __iter__(self):
         return self

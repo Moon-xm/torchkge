@@ -12,7 +12,6 @@ def main():
     train2id = pd.DataFrame({'head':kg_train.head_idx, 'rel':kg_train.relations, 'tail':kg_train.tail_idx})
     test2id = pd.DataFrame({'head':kg_test.head_idx, 'rel':kg_test.relations, 'tail':kg_test.tail_idx})
     valid2id = pd.DataFrame({'head':kg_val.head_idx, 'rel':kg_val.relations, 'tail':kg_val.tail_idx})
-
     ent2id = pd.DataFrame({'ent':kg_train.ent2ix.keys(), 'idx':kg_train.ent2ix.values()})
     rel2id = pd.DataFrame({'rel':kg_train.rel2ix.keys(), 'idx':kg_train.rel2ix.values()})
     id2ent = dict(zip(ent2id['idx'], ent2id['ent']))
