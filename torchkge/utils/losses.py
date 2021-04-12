@@ -7,6 +7,7 @@ Copyright TorchKGE developers
 from torch import ones_like, zeros_like
 from torch.nn import Module, Sigmoid
 from torch.nn import MarginRankingLoss, SoftMarginLoss, BCELoss
+import torch
 
 
 class MarginLoss(Module):
@@ -20,7 +21,7 @@ class MarginLoss(Module):
         super().__init__()
         self.loss = MarginRankingLoss(margin=margin, reduction='sum')
 
-    def forward(self, positive_triplets, negative_triplets, GDR=False):
+    def forward(self, positive_triplets, negative_triplets, point=None, n_point=None):
         """
         Parameters
         ----------
@@ -40,12 +41,33 @@ class MarginLoss(Module):
             :math:`f(h,r,t)` is the score of a true fact and
             :math:`f(h',r',t')` is the score of the associated negative fact.
         """
-        if GDR == True:
-            w_geo = self.calc_w()
+        if (point is not None) and (n_point is not None):
+            w_geo = self.calc_w(point, n_point)  # [batch_size]
+            negative_triplets = w_geo*negative_triplets
 
         return self.loss(positive_triplets, negative_triplets,
                          target=ones_like(positive_triplets))
 
+    def calc_w(self, pos_points, neg_points):
+        """
+        :param pos_points: [batch_size, 2, 2]
+        :param neg_points: [batch_size, 2, 2]
+        :return: [batch_size]
+        """
+        dis_pos = self._calc_distance(pos_points)
+        dis_neg = self._calc_distance(neg_points)  # [batch_size]
+        log = torch.log10((dis_pos+1)/(dis_neg+1))
+        w_geo = 1/(torch.abs(log)+1)
+        return w_geo
+
+    def _calc_distance(self, points):
+        """
+        :param points: [batch_size, 2, 2]
+        :return: [batch_size]
+        """
+        head, tail = torch.tensor(points[:,0,:]), torch.tensor(points[:,1,:])  # [batch_size, 2]
+        distance = torch.norm(head-tail, p=2, dim=1)  # 2 范数
+        return distance
 
 class LogisticLoss(Module):
     """Logistic loss as it was defined in `TransE paper

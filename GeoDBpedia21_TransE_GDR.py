@@ -82,7 +82,7 @@ def main():
 
             # forward + backward + optimize
             pos, neg = model(h, t, n_h, n_t, r)
-            loss = criterion(pos, neg, GDR=GDR)
+            loss = criterion(pos, neg, point, n_point)
             loss.backward()
             optimizer.step()
 
