@@ -28,10 +28,10 @@ def main():
     lr = 0.0001
     margin = 1.5
 
-    n_epochs = 20000
+    n_epochs = 1
     train_b_size = 5120  # 训练时batch size
     eval_b_size = 256  # 测评valid test 时batch size
-    validation_freq = 500  # 多少轮进行在验证集进行一次测试 同时保存最佳模型
+    validation_freq = 1  # 多少轮进行在验证集进行一次测试 同时保存最佳模型
     require_improvement = validation_freq*5  # 验证集top_k超过多少epoch没下降，结束训练
     model_save_path = './checkpoint/' + benchmarks + '_' + model_name + '_' + opt_method + '.ckpt'  # 保存最佳hits k (ent)模型
     device = 'cuda:0' if cuda.is_available() else 'cpu'
@@ -118,7 +118,7 @@ def main():
             print("\nNo optimization for a long time, auto-stopping...")
             break
 
-    print('Training done, start evaluate on test data...')
+    print('\nTraining done, start evaluate on test data...')
     # Testing the best checkpoint on test dataset
     load_ckpt(model_save_path, model, optimizer)
     model.eval()

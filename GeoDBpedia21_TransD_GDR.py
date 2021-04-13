@@ -118,7 +118,7 @@ def main():
             print("\nNo optimization for a long time, auto-stopping...")
             break
 
-    print('Training done, start evaluate on test data...')
+    print('\nTraining done, start evaluate on test data...')
     # Testing the best checkpoint on test dataset
     load_ckpt(model_save_path, model, optimizer)
     model.eval()
