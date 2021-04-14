@@ -113,6 +113,52 @@ def load_GeoDBpedia21(data_home=None, GDR=False):
         data_save('/GeoDBpedia21',kg_train, kg_val, kg_test,geo=geo)
         return kg_train, kg_val, kg_test
 
+
+def load_Sweden(data_home=None, GDR=False):
+    """
+
+
+    Parameters
+    ----------
+    data_home: str, optional
+        Path to the `torchkge_data` directory (containing data folders). If
+        files are not present on disk in this directory, they are downloaded
+        and then placed in the right place.
+
+    Returns
+    -------
+    kg_train: torchkge.data_structures.KnowledgeGraph
+    kg_val: torchkge.data_structures.KnowledgeGraph
+    kg_test: torchkge.data_structures.KnowledgeGraph
+
+    """
+    if data_home is None:
+        data_home = get_data_home()
+    data_path = data_home + '/Sweden'
+    if GDR == True:
+        geo = data_path + '/ent2point.txt'
+    else:
+        geo = None
+
+    if exists(data_path + '/train.txt') and exists(data_path + '/test.txt') and exists(data_path + '/valid.txt'):
+        df1 = read_csv(data_path + '/train.txt',
+                       sep='\t', header=None, names=['from', 'rel', 'to'])
+        df2 = read_csv(data_path + '/valid.txt',
+                       sep='\t', header=None, names=['from', 'rel', 'to'])
+        df3 = read_csv(data_path + '/test.txt',
+                       sep='\t', header=None, names=['from', 'rel', 'to'])
+        df = concat([df1, df2, df3])
+        kg = KnowledgeGraph(df=df,geo=geo)
+        kg_train, kg_val, kg_test = kg.split_kg(sizes=(len(df1), len(df2), len(df3)),geo=geo)
+        return kg_train, kg_val, kg_test
+    else:
+        df = read_csv(data_path + '/triplets.txt',
+                       sep='\t', header=None, names=['from', 'rel', 'to'],encoding='utf-8')
+        kg = KnowledgeGraph(df=df,geo=geo)
+        kg_train, kg_val, kg_test = kg.split_kg(share=0.8, validation=True,geo=geo)
+        data_save('/Sweden',kg_train, kg_val, kg_test,geo=geo)
+        return kg_train, kg_val, kg_test
+
 def load_fb13(data_home=None):
     """Load FB13 dataset.
 

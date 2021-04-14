@@ -1,0 +1,4326 @@
+Abild	0
+Abild socken	1
+Acklinga	2
+Acklinga socken	3
+Adelsö socken	4
+Adelsö-Munsö	5
+Adelöv	6
+Adelöv socken	7
+Adolf Fredrik	8
+Adolfsberg	9
+Agnetorp socken	10
+Agunnaryd	11
+Agunnaryd socken	12
+Akebäck	13
+Akebäck socken	14
+Ala socken	15
+Alanäs	16
+Alanäs socken	17
+Alboga	18
+Alboga socken	19
+Alböke socken	20
+Ale Kommun	21
+Ale-Skövde	22
+Ale-Skövde socken	23
+Alfshög socken	24
+Alfta	25
+Alfta socken	26
+Algutsboda	27
+Algutsboda socken	28
+Algutsrum	29
+Algutsrum socken	30
+Algutstorp	31
+Algutstorp socken	32
+Alingsås	33
+Alingsås Kommun	34
+Alingsås socken	35
+Allerum	36
+Allerum socken	37
+Allhelgona socken	38
+Almby	39
+Almesåkra	40
+Almesåkra socken	41
+Almundsryd	42
+Almundsryd socken	43
+Almunge	44
+Almunge socken	45
+Alnö	46
+Alnö socken	47
+Alseda	48
+Alseda socken	49
+Alsen	50
+Alsen socken	51
+Alsike	52
+Alsike socken	53
+Alskog socken	54
+Alstad	55
+Alster socken	56
+Alster-Nyedsbygden	57
+Altuna socken	58
+Alunda	59
+Alunda socken	60
+Alva socken	61
+Alva-Hemse och Rone	62
+Alvesta	63
+Alvesta Municipality	64
+Ambjörnarp	65
+Ambjörnarp socken	66
+Amnehärad	67
+Amnehärad socken	68
+Anderslöv	69
+Anderslöv socken	70
+Anderstorp	71
+Anderstorp socken	72
+Andrarum socken	73
+Aneboda	74
+Aneboda socken	75
+Aneby	76
+Aneby Municipality	77
+Anga socken	78
+Angarn socken	79
+Angelstad	80
+Angelstad socken	81
+Angerdshestra socken	82
+Angered	83
+Angered socken	84
+Annelöv socken	85
+Annerstad	86
+Annerstad socken	87
+Anundsjö	88
+Anundsjö socken	89
+Appuna socken	90
+Araslöv	91
+Arboga Kommun	92
+Arboga socken	93
+Arboga stad socken	94
+Arbogabygden	95
+Arbrå socken	96
+Arbrå-Undersvik	97
+Arby	98
+Arby socken	99
+Ardala	100
+Ardre socken	101
+Aringsås socken	102
+Arjeplog	103
+Arjeplog socken	104
+Arjeplogs Kommun	105
+Arnäs	106
+Arnäs socken	107
+Arrie socken	108
+Arvidsjaur	109
+Arvidsjaur socken	110
+Arvidsjaurs Kommun	111
+Arvika Municipality	112
+Arvika socken	113
+Arvika västra	114
+Arvika östra	115
+Asa	116
+Asa socken	117
+Asarum	118
+Asarum socken	119
+Asby socken	120
+Asige	121
+Asige socken	122
+Ask socken	123
+Aska-del	124
+Askeby socken	125
+Asker	126
+Asker socken	127
+Askersund	128
+Askersund Municipality	129
+Askersund socken	130
+Askeryd	131
+Askeryd socken	132
+Askim	133
+Askim socken	134
+Asklanda	135
+Asklanda socken	136
+Askome socken	137
+Askum	138
+Askum socken	139
+Asmundtorp socken	140
+Asmundtorp-Tofta	141
+Aspeboda	142
+Aspeboda socken	143
+Aspås	144
+Aspås socken	145
+Aspö	146
+Aspö socken	147
+Atlingbo socken	148
+Attmar	149
+Attmar socken	150
+Augerum socken	151
+Ausås socken	152
+Avesta	153
+Avesta Municipality	154
+Avesta socken	155
+Axberg	156
+Axberg socken	157
+Backa	158
+Backaryd socken	159
+Baldringe socken	160
+Balingsta	161
+Balingsta socken	162
+Balkåkra socken	163
+Baltak	164
+Baltak socken	165
+Bankekind socken	166
+Bankeryd	167
+Bankeryd socken	168
+Bara socken	169
+Barkarby	170
+Barkeryd	171
+Barkeryd socken	172
+Barkåkra	173
+Barkåkra socken	174
+Barlingbo	175
+Barlingbo socken	176
+Barnarp	177
+Barnarp socken	178
+Barne-Åsaka socken	179
+Barsebäck socken	180
+Barva socken	181
+Beateberg socken	182
+Bellö socken	183
+Benestad socken	184
+Bengtsfors Kommun	185
+Berg	186
+Berg socken	187
+Berga	188
+Berga socken	189
+Berghem	190
+Berghem socken	191
+Bergs Kommun	192
+Bergshammar socken	193
+Bergsjö	194
+Bergsjö socken	195
+Bergsjön	196
+Bergstena socken	197
+Bergum	198
+Bergum socken	199
+Bergunda	200
+Bergunda socken	201
+Bettna	202
+Bettna socken	203
+Billeberga socken	204
+Billeberga-Sireköpinge	205
+Billinge socken	206
+Binneberg socken	207
+Biskopsgården	208
+Biskopskulla	209
+Biskopskulla socken	210
+Bjurbäck socken	211
+Bjurholm	212
+Bjurholms Kommun	213
+Bjurholms socken	214
+Bjursås	215
+Bjursås socken	216
+Bjurtjärn	217
+Bjurtjärn socken	218
+Bjurum socken	219
+Bjuråker socken	220
+Bjuråker-Norrbo	221
+Bjuv	222
+Bjuv socken	223
+Bjuvs Kommun	224
+Bjälbo	225
+Bjälbo socken	226
+Bjällerup socken	227
+Bjärby socken	228
+Bjäresjö socken	229
+Bjärka socken	230
+Bjärke-del	231
+Bjärred	232
+Bjärshög socken	233
+Bjärtrå	234
+Bjärtrå socken	235
+Björka socken	236
+Björke	237
+Björke socken	238
+Björkeberg socken	239
+Björkekärr	240
+Björketorp	241
+Björketorp socken	242
+Björklinge	243
+Björklinge socken	244
+Björksta socken	245
+Björkvik	246
+Björkvik socken	247
+Björkö	248
+Björkö socken	249
+Björkö-Arholma	250
+Björkö-Arholma socken	251
+Björlanda	252
+Björlanda socken	253
+Björna	254
+Björna socken	255
+Björnekulla socken	256
+Björnekulla-Västra Broby	257
+Björnlunda socken	258
+Björskog socken	259
+Björsäter socken	260
+Björsäter-Yxnerum	261
+Blacksta	262
+Blacksta socken	263
+Blackstad	264
+Blackstad socken	265
+Bladåker	266
+Bladåker socken	267
+Blekinge	268
+Blentarp	269
+Blentarp socken	270
+Blidsberg socken	271
+Blidö	272
+Blidö socken	273
+Blomskog	274
+Blomskog socken	275
+Blädinge	276
+Blädinge socken	277
+Blåvik	278
+Blåvik socken	279
+Bo socken	280
+Bo-Svennevad	281
+Boda	282
+Boda socken	283
+Bodarp socken	284
+Bodens Kommun	285
+Bodsjö	286
+Bodsjö socken	287
+Bodum	288
+Bodum socken	289
+Boge socken	290
+Bogen	291
+Bogen socken	292
+Boglösa	293
+Boglösa socken	294
+Bogsta socken	295
+Bokenäs	296
+Bokenäs socken	297
+Bollebygd	298
+Bollebygd socken	299
+Bollebygds Kommun	300
+Bollerup socken	301
+Bollnäs	302
+Bollnäs Kommun	303
+Bollnäs socken	304
+Bolmsö	305
+Bolmsö socken	306
+Bolshög socken	307
+Bolstad	308
+Bolstad socken	309
+Bolum socken	310
+Bomhus	311
+Bonderup socken	312
+Bondstorp	313
+Bondstorp socken	314
+Boo	315
+Boo socken	316
+Borensberg	317
+Borgeby socken	318
+Borgholm	319
+Borgholm Municipality	320
+Borgholm socken	321
+Borgsjö	322
+Borgsjö socken	323
+Borgstena	324
+Borgstena socken	325
+Borgunda	326
+Borgunda socken	327
+Borgvattnet	328
+Borgvattnet socken	329
+Borgvik	330
+Borgvik socken	331
+Borlunda socken	332
+Borlänge Kommun	333
+Borlänge socken	334
+Borrby socken	335
+Borrby-Östra Hoby	336
+Borrie socken	337
+Borås	338
+Borås Caroli	339
+Borås Gustav Adolf	340
+Borås socken	341
+Bosarp socken	342
+Bosebo	343
+Bosebo socken	344
+Bosjökloster socken	345
+Boteå	346
+Boteå socken	347
+Botilsäter	348
+Botilsäter socken	349
+Botkyrka	350
+Botkyrka Kommun	351
+Botkyrka socken	352
+Bottna	353
+Bottna socken	354
+Bottnaryd socken	355
+Boxholm Municipality	356
+Brandstad socken	357
+Brandstorp	358
+Brandstorp socken	359
+Brastad	360
+Brastad socken	361
+Brattfors	362
+Brattfors socken	363
+Breared	364
+Breared socken	365
+Bred socken	366
+Bredared	367
+Bredared socken	368
+Bredaryd	369
+Bredaryd socken	370
+Bredestad socken	371
+Bredsäter socken	372
+Bredsätra socken	373
+Brevik	374
+Brevik socken	375
+Bringetofta	376
+Bringetofta socken	377
+Brismene socken	378
+Bro	379
+Bro socken	380
+Broby socken	381
+Broddarp	382
+Broddarp socken	383
+Broddetorp socken	384
+Bromma	385
+Bromma socken	386
+Bromölla Municipality	387
+Brunflo	388
+Brunflo socken	389
+Brunnby	390
+Brunnby socken	391
+Brunneby socken	392
+Brunnhem socken	393
+Brunnsbo	394
+Brunskog	395
+Brunskog socken	396
+Bräcke Kommun	397
+Bräcke socken	398
+Bräcke-Nyhem	399
+Bräkne-Hoby	400
+Bräkne-Hoby socken	401
+Brämaregården	402
+Brämhult	403
+Brämhult socken	404
+Brännkyrka	405
+Brågarp socken	406
+Brålanda	407
+Brålanda socken	408
+Bråttensby	409
+Bråttensby socken	410
+Brönnestad	411
+Brönnestad socken	412
+Brösarp socken	413
+Brösarp-Tranås	414
+Bunge	415
+Bunge socken	416
+Bunkeflo	417
+Bunkeflo socken	418
+Bureå	419
+Bureå socken	420
+Burlöv	421
+Burlöv socken	422
+Burlövs Kommun	423
+Burs socken	424
+Burseryd	425
+Burseryd socken	426
+Burträsk	427
+Burträsks socken	428
+Buttle socken	429
+By	430
+By socken	431
+Byarum	432
+Byarum socken	433
+Bygdeå	434
+Bygdeå socken	435
+Byske socken	436
+Byske-Fällfors	437
+Bäck	438
+Bäck socken	439
+Bäckaby	440
+Bäckaby socken	441
+Bäckaskog	442
+Bäcke	443
+Bäcke socken	444
+Bäckebo	445
+Bäckebo socken	446
+Bäckebol	447
+Bäckseda	448
+Bäckseda socken	449
+Bäl socken	450
+Bälaryd socken	451
+Bälinge	452
+Bälinge socken	453
+Bällefors socken	454
+Bärbo socken	455
+Bäreberg socken	456
+Bärfendal	457
+Bärfendal socken	458
+Bäve	459
+Båraryd socken	460
+Bårslöv	461
+Bårslöv socken	462
+Båstad	463
+Båstad socken	464
+Båstads Kommun	465
+Böda	466
+Böda socken	467
+Böja socken	468
+Böne socken	469
+Börje	470
+Börje socken	471
+Börringe socken	472
+Börrum socken	473
+Börstig	474
+Börstig socken	475
+Börstil socken	476
+Bösarp socken	477
+Daga	478
+Dagsberg socken	479
+Dagstorp	480
+Dagstorp socken	481
+Dagsås socken	482
+Dal	483
+Dal socken	484
+Dala	485
+Dala socken	486
+Dalarna	487
+Dalarö socken	488
+Dalarö-Ornö-Utö	489
+Dalby	490
+Dalby socken	491
+Dalhem	492
+Dalhem socken	493
+Dalköpinge	494
+Dalköpinge socken	495
+Dals-Ed	496
+Dals-Ed Kommun	497
+Dals-Ed socken	498
+Dalskog	499
+Dalskog socken	500
+Dalstorp	501
+Dalstorp socken	502
+Dalum socken	503
+Danderyd	504
+Danderyd socken	505
+Danderyds Kommun	506
+Danmark	507
+Danmark socken	508
+Dannemora	509
+Dannemora socken	510
+Dannike	511
+Dannike socken	512
+Dannäs	513
+Dannäs socken	514
+Daretorp	515
+Daretorp socken	516
+Degeberga	517
+Degeberga socken	518
+Degerfors Kommun	519
+Degerfors socken	520
+Degerfors-Nysund	521
+Delsbo	522
+Delsbo socken	523
+Dimbo socken	524
+Dimbo-Ottravad	525
+Dingtuna socken	526
+Dingtuna-Lillhärad	527
+Djura	528
+Djurröd socken	529
+Djursdala socken	530
+Djurö socken	531
+Djurö-Möja och Nämdö	532
+Domkyrkoförs. i Göteborg	533
+Dorotea Kommun	534
+Dorotea socken	535
+Dorotea-Risbäck	536
+Dragsmark	537
+Dragsmark socken	538
+Drev socken	539
+Drev-Hornaryd	540
+Drothem socken	541
+Drängsered	542
+Drängsered socken	543
+Dunker socken	544
+Dunker-Lilla Malma	545
+Dädesjö	546
+Dädesjö socken	547
+Dänningelanda socken	548
+Döderhult	549
+Döderhult socken	550
+Dörarp	551
+Dörarp socken	552
+Dörby	553
+Dörby socken	554
+Ed	555
+Ed socken	556
+Eda	557
+Eda Municipality	558
+Eda socken	559
+Edebo	560
+Edebo socken	561
+Edefors	562
+Edefors socken	563
+Edestad socken	564
+Edsberg	565
+Edsberg socken	566
+Edsbro	567
+Edsbro socken	568
+Edsele socken	569
+Edshult	570
+Edshult socken	571
+Edsleskog socken	572
+Edsvära socken	573
+Edåsa socken	574
+Eftra	575
+Eftra socken	576
+Egby socken	577
+Eggby socken	578
+Eggby-Öglunda	579
+Eggvena	580
+Eggvena socken	581
+Ek socken	582
+Ekby socken	583
+Eke	584
+Eke socken	585
+Ekeberga	586
+Ekeberga socken	587
+Ekeby	588
+Ekeby socken	589
+Ekebyborna socken	590
+Ekerö	591
+Ekerö Kommun	592
+Ekerö socken	593
+Ekeskog socken	594
+Ekshärad	595
+Ekshärad socken	596
+Eksjö	597
+Eksjö Kommun	598
+Eksjö socken	599
+Eksta	600
+Eksta socken	601
+Eldsberga socken	602
+Eldsbergabygden	603
+Eling socken	604
+Eljaröd socken	605
+Elleholm socken	606
+Emmaboda	607
+Emmaboda Municipality	608
+Emmislöv	609
+Emmislöv socken	610
+Endre	611
+Endre socken	612
+Engelbrekt	613
+Enhörna	614
+Enköping	615
+Enköping Municipality	616
+Enköping socken	617
+Enköpings-Näs socken	618
+Enskede-Årsta	619
+Enslöv	620
+Enslöv socken	621
+Enviken	622
+Enviken socken	623
+Enåker	624
+Enåker socken	625
+Enånger socken	626
+Enånger-Njutånger	627
+Enåsa socken	628
+Eriksberg	629
+Eriksberg socken	630
+Eriksfält	631
+Erikstad	632
+Erikstad socken	633
+Eringsboda socken	634
+Erska socken	635
+Ervalla socken	636
+Esarp socken	637
+Eskelhem socken	638
+Eskelhem-Tofta	639
+Eskilstorp socken	640
+Eskilstuna Fors	641
+Eskilstuna Kloster	642
+Eskilstuna Kommun	643
+Eskilstuna socken	644
+Eskilsäter	645
+Eskilsäter socken	646
+Eslöv	647
+Eslöv socken	648
+Eslövs Kommun	649
+Essinge	650
+Essunga	651
+Essunga Kommun	652
+Essunga socken	653
+Estuna och Söderby-Karl	654
+Estuna socken	655
+Etelhem socken	656
+Everlöv socken	657
+Everöd socken	658
+Everödsbygden	659
+Fagered	660
+Fagered socken	661
+Fagerhult	662
+Fagerhult socken	663
+Fagersta Municipality	664
+Fagersta socken	665
+Falkenberg	666
+Falkenberg socken	667
+Falkenbergs Kommun	668
+Falköping	669
+Falköping socken	670
+Falköpings Kommun	671
+Falu Kristine	672
+Falun Municipality	673
+Fardhem	674
+Fardhem socken	675
+Farhult socken	676
+Farhult-Jonstorp	677
+Faringe	678
+Faringe socken	679
+Farsta	680
+Farstorp	681
+Farstorp socken	682
+Fasterna	683
+Fasterna socken	684
+Felestad socken	685
+Fellingsbro	686
+Fellingsbro socken	687
+Femsjö	688
+Femsjö socken	689
+Fide socken	690
+Filborna	691
+Filipstad	692
+Filipstad Municipality	693
+Filipstad socken	694
+Film	695
+Film socken	696
+Finja	697
+Finja socken	698
+Finnekumla socken	699
+Finnerödja socken	700
+Finnerödja-Tived	701
+Finspångs Kommun	702
+Fittja	703
+Fittja socken	704
+Fivelstad socken	705
+Fivlered socken	706
+Fjelie socken	707
+Fjälkestad socken	708
+Fjälkinge socken	709
+Fjälkinge-Nymö	710
+Fjällbacka	711
+Fjällsjö	712
+Fjällsjö socken	713
+Fjärdhundra	714
+Fjärestad	715
+Fjärestad socken	716
+Fjärås	717
+Fjärås socken	718
+Flackarp socken	719
+Flakeberg socken	720
+Flemingsberg	721
+Flen	722
+Flen socken	723
+Fleninge	724
+Fleninge socken	725
+Flens Kommun	726
+Fleringe	727
+Fleringe socken	728
+Flisby socken	729
+Fliseryd	730
+Fliseryd socken	731
+Flistad socken	732
+Flo	733
+Flo socken	734
+Floby	735
+Floby socken	736
+Floda	737
+Floda socken	738
+Fläckebo socken	739
+Flädie socken	740
+Fogdö socken	741
+Fole socken	742
+Folkärna	743
+Folkärna socken	744
+Follingbo	745
+Follingbo socken	746
+Fornåsa	747
+Fornåsa socken	748
+Fors	749
+Fors socken	750
+Fors-Rommele	751
+Forsa socken	752
+Forsa-Hög	753
+Forsby socken	754
+Forserum	755
+Forserum socken	756
+Forshaga	757
+Forshaga Municipality	758
+Forshaga socken	759
+Forsheda	760
+Forsheda socken	761
+Forshem socken	762
+Forshälla	763
+Forshälla socken	764
+Forsmark socken	765
+Forssa	766
+Forssa socken	767
+Fosie	768
+Foss	769
+Foss socken	770
+Fotskäl	771
+Fotskäl socken	772
+Fredrika	773
+Fredrika socken	774
+Fredsberg	775
+Fredsberg socken	776
+Fresta	777
+Fresta socken	778
+Fridene	779
+Fridene socken	780
+Fridhem-del	781
+Fridlevstad	782
+Fridlevstad socken	783
+Friel socken	784
+Friggeråker	785
+Friggeråker socken	786
+Frillestad socken	787
+Frillesås	788
+Frillesås socken	789
+Frinnaryd	790
+Frinnaryd socken	791
+Fristad socken	792
+Fristad-Gingri	793
+Fritsla	794
+Fritsla socken	795
+Frostviken	796
+Frostviken socken	797
+Fru alstad socken	798
+Frustuna	799
+Frustuna socken	800
+Fryele	801
+Fryele socken	802
+Frykerud	803
+Frykerud socken	804
+Fryksände	805
+Fryksände socken	806
+Främmestad socken	807
+Främmestad-Bäreberg	808
+Frändefors	809
+Frändefors socken	810
+Fränninge socken	811
+Fränninge-Vollsjö	812
+Fröderyd	813
+Fröderyd socken	814
+Frödinge	815
+Frödinge socken	816
+Fröjel	817
+Fröjel socken	818
+Fröjered	819
+Fröjered socken	820
+Fröskog socken	821
+Fröskog-Edsleskog	822
+Fröslunda	823
+Fröslunda socken	824
+Frösthult socken	825
+Frösunda socken	826
+Frösve	827
+Frösve socken	828
+Frösåker	829
+Frösö	830
+Frösö socken	831
+Frötuna	832
+Frötuna socken	833
+Fuglie socken	834
+Fullestad socken	835
+Fulltofta socken	836
+Fullösa socken	837
+Funbo	838
+Funbo socken	839
+Furingstad socken	840
+Furuby	841
+Furuby socken	842
+Fuxerna socken	843
+Fuxerna-Åsbräcka	844
+Fyrunga socken	845
+Fägre	846
+Fägre socken	847
+Fänneslunda socken	848
+Färed socken	849
+Färentuna socken	850
+Färgaryd	851
+Färgaryd socken	852
+Färgelanda	853
+Färgelanda Kommun	854
+Färgelanda socken	855
+Färila	856
+Färila socken	857
+Färingsö	858
+Färingtofta	859
+Färingtofta socken	860
+Färlöv socken	861
+Färnebo socken	862
+Fässberg	863
+Fågelfors	864
+Fågelfors socken	865
+Fågeltofta socken	866
+Fågelås	867
+Fåglum socken	868
+Fårö	869
+Fårö socken	870
+Fölene	871
+Fölene socken	872
+Föllinge socken	873
+Föllinge-Hotagen och Laxsjö	874
+Föra socken	875
+Föra-Alböke-Löt	876
+Förkärla socken	877
+Förlanda	878
+Förlanda socken	879
+Förlösa socken	880
+Förlösa-Kläckeberga	881
+Förslöv socken	882
+Förslöv-Grevie	883
+Gagnef	884
+Gagnef Municipality	885
+Gagnef socken	886
+Gamla Uppsala	887
+Gamleby	888
+Gamleby socken	889
+Gammalkil	890
+Gammalkil socken	891
+Gammalstorp socken	892
+Gammalstorp-Ysane	893
+Gammelgarn socken	894
+Ganthem socken	895
+Garde	896
+Garde socken	897
+Garpenberg	898
+Garpenberg socken	899
+Genarp	900
+Genarp socken	901
+Gerum	902
+Gerum socken	903
+Gestad	904
+Gestad socken	905
+Gesäter	906
+Gesäter socken	907
+Getinge socken	908
+Getinge-Rävinge	909
+Gideå	910
+Gideå socken	911
+Gillberga	912
+Gillberga socken	913
+Gillstad socken	914
+Gingri socken	915
+Giresta	916
+Giresta socken	917
+Gislaved	918
+Gislaved Municipality	919
+Gislöv socken	920
+Gistad socken	921
+Gladhammar socken	922
+Gladhammar-Västrum	923
+Gladsax socken	924
+Glanshammar	925
+Glanshammar socken	926
+Glava	927
+Glava socken	928
+Glemminge socken	929
+Glimåkra	930
+Glimåkra socken	931
+Glostorp socken	932
+Glumslöv	933
+Glumslöv socken	934
+Glömminge	935
+Glömminge socken	936
+Gnarp	937
+Gnarp socken	938
+Gnesta Municipality	939
+Gnosjö	940
+Gnosjö Kommun	941
+Gnosjö socken	942
+Godegård	943
+Godegård socken	944
+Gothem	945
+Gothem socken	946
+Gothenburg	947
+Gothenburg Municipality	948
+Gotland	949
+Gotland Municipality	950
+Gottfridsberg	951
+Gottröra	952
+Gottröra socken	953
+Gottsunda	954
+Grangärde	955
+Grangärde socken	956
+Granhult socken	957
+Graninge	958
+Graninge socken	959
+Grava	960
+Grava socken	961
+Grebo socken	962
+Grebo-Värna	963
+Grevbäck socken	964
+Grevie socken	965
+Grimeton socken	966
+Grimmared socken	967
+Grinneröd	968
+Grinneröd socken	969
+Grinstad	970
+Grinstad socken	971
+Grolanda socken	972
+Grolanda-Jäla	973
+Grovare socken	974
+Grude	975
+Grude socken	976
+Grums	977
+Grums Municipality	978
+Grums socken	979
+Grundsunda	980
+Grundsunda socken	981
+Grycksbo	982
+Gryt	983
+Gryt socken	984
+Gryta	985
+Gryta socken	986
+Gryteryd	987
+Gryteryd socken	988
+Grythyttan	989
+Grythyttan socken	990
+Grytnäs	991
+Grytnäs socken	992
+Grängesberg	993
+Gränna	994
+Gränna socken	995
+Gräsgård socken	996
+Gräsmark	997
+Gräsmark socken	998
+Grästorp socken	999
+Grästorps Kommun	1000
+Gräsö socken	1001
+Gräve socken	1002
+Grödinge	1003
+Grödinge socken	1004
+Grönahög socken	1005
+Grönby socken	1006
+Grötlingbo	1007
+Grötlingbo socken	1008
+Gualöv	1009
+Gualöv socken	1010
+Gudhem	1011
+Gudhem socken	1012
+Gudmundrå	1013
+Gudmundtorp socken	1014
+Guldrupe socken	1015
+Guldsmedshyttan	1016
+Gullabo	1017
+Gullabo socken	1018
+Gullered socken	1019
+Gullholmen socken	1020
+Gullspångs Kommun	1021
+Gumlösa socken	1022
+Gunnared	1023
+Gunnarp	1024
+Gunnarp socken	1025
+Gunnarsbyn	1026
+Gunnarsjö socken	1027
+Gunnarskog	1028
+Gunnarskog socken	1029
+Gunnarsnäs	1030
+Gunnarsnäs socken	1031
+Gunnilbo socken	1032
+Gustafs	1033
+Gustafs socken	1034
+Gustav Adolf	1035
+Gustav Adolf socken	1036
+Gustav Adolf-Rinkaby	1037
+Gustav Vasa	1038
+Gustavsberg	1039
+Gustavsberg socken	1040
+Gylle socken	1041
+Gällared	1042
+Gällared socken	1043
+Gällaryd	1044
+Gällaryd socken	1045
+Gällersta socken	1046
+Gällersta-Norrbyås	1047
+Gällinge	1048
+Gällinge socken	1049
+Gällivare	1050
+Gällivare kommun	1051
+Gällivare socken	1052
+Gällstad socken	1053
+Gärdhem	1054
+Gärdhem socken	1055
+Gärdserum	1056
+Gärdserum socken	1057
+Gärdslösa socken	1058
+Gärdslösa-Långlöt och Runsten	1059
+Gärdslöv socken	1060
+Gässie socken	1061
+Gävle Heliga Trefaldighet	1062
+Gävle Maria	1063
+Gävle Municipality	1064
+Gävle Staffan	1065
+Gävle Tomas	1066
+Gävle socken	1067
+Gävleborg	1068
+Gårdby socken	1069
+Gårdeby	1070
+Gårdeby socken	1071
+Gårdsby	1072
+Gårdsby socken	1073
+Gårdstånga socken	1074
+Gårdveda socken	1075
+Gåsborn	1076
+Gåsborn socken	1077
+Gåsinge-Dillnäs socken	1078
+Gåxsjö	1079
+Gåxsjö socken	1080
+Gödelöv socken	1081
+Gödestad socken	1082
+Gökhem	1083
+Gökhem socken	1084
+Görslöv socken	1085
+Gösslunda socken	1086
+Götalunden	1087
+Göteborgs Annedal	1088
+Göteborgs Carl Johan	1089
+Göteborgs Haga	1090
+Göteborgs Johanneberg	1091
+Göteborgs Masthugg	1092
+Göteborgs Oscar Fredrik	1093
+Göteborgs S:t Pauli	1094
+Göteborgs Vasa	1095
+Götene	1096
+Götene Kommun	1097
+Götene socken	1098
+Göteryd	1099
+Göteryd socken	1100
+Göteve socken	1101
+Götlunda	1102
+Götlunda socken	1103
+Hablingbo	1104
+Hablingbo socken	1105
+Habo	1106
+Habo Municipality	1107
+Habo socken	1108
+Hacksta socken	1109
+Hackvad socken	1110
+Hackås	1111
+Hackås socken	1112
+Haga socken	1113
+Hagby	1114
+Hagby socken	1115
+Hagebyhöga socken	1116
+Hagelberg socken	1117
+Hagfors Municipality	1118
+Hagfors socken	1119
+Hagfors-Gustav Adolf	1120
+Hagshult	1121
+Hagshult socken	1122
+Hajom	1123
+Hajom socken	1124
+Hakarp	1125
+Hakarp socken	1126
+Hakkas	1127
+Hall socken	1128
+Halla socken	1129
+Halland	1130
+Hallaryd	1131
+Hallaryd socken	1132
+Hallaröd socken	1133
+Hallen socken	1134
+Hallingeberg	1135
+Hallingeberg socken	1136
+Hallsberg	1137
+Hallsberg Municipality	1138
+Hallsberg socken	1139
+Hallstahammar Municipality	1140
+Hallstahammar-Berg	1141
+Halltorp	1142
+Halltorp socken	1143
+Halmstad Municipality	1144
+Halmstad socken	1145
+Halna socken	1146
+Hammar	1147
+Hammar socken	1148
+Hammarby	1149
+Hammarby socken	1150
+Hammarlunda socken	1151
+Hammarlöv	1152
+Hammarlöv socken	1153
+Hammarö	1154
+Hammarö Municipality	1155
+Hammarö socken	1156
+Hammenhög	1157
+Hammenhög socken	1158
+Hammerdal	1159
+Hammerdal socken	1160
+Hamneda socken	1161
+Hamra socken	1162
+Hamrånge	1163
+Hamrånge socken	1164
+Hanebo socken	1165
+Hanebo-Segersta	1166
+Hangvar socken	1167
+Hangvar-Hall	1168
+Hanhals	1169
+Hanhals socken	1170
+Haninge Municipality	1171
+Hannas socken	1172
+Hannäs	1173
+Hannäs socken	1174
+Haparanda Municipality	1175
+Haraker socken	1176
+Harbo	1177
+Harbo socken	1178
+Hardeberga socken	1179
+Hardemo	1180
+Hardemo socken	1181
+Harestad	1182
+Harestad socken	1183
+Harg socken	1184
+Harlösa socken	1185
+Harmånger socken	1186
+Harmånger-Jättendal	1187
+Harplinge	1188
+Harplinge socken	1189
+Hassela	1190
+Hassela socken	1191
+Hassle socken	1192
+Hassle-Bösarp socken	1193
+Hasslö	1194
+Hasslö socken	1195
+Hasslösa socken	1196
+Hasslöv socken	1197
+Hasslöv-Våxtorp	1198
+Haurida socken	1199
+Haurida-Vireda	1200
+Havdhem	1201
+Havdhem socken	1202
+Haverö	1203
+Haverö socken	1204
+Heby Municipality	1205
+Hed socken	1206
+Heda socken	1207
+Hede	1208
+Hede socken	1209
+Hedemora	1210
+Hedemora Municipality	1211
+Hedemora socken	1212
+Hedeskoga socken	1213
+Hedesunda	1214
+Hedesunda socken	1215
+Hedvig Eleonora	1216
+Hejde	1217
+Hejde socken	1218
+Hejdeby	1219
+Hejdeby socken	1220
+Hejnum socken	1221
+Helga Trefaldighet	1222
+Helgarö socken	1223
+Helgeand	1224
+Helgesta socken	1225
+Helgesta-Hyltinge	1226
+Helgona socken	1227
+Helgum	1228
+Helgum socken	1229
+Heliga Korset	1230
+Hellvi	1231
+Hellvi socken	1232
+Helsingborg	1233
+Helsingborg Municipality	1234
+Helsingborgs Gustav Adolf	1235
+Helsingborgs Maria	1236
+Hemmesdynge socken	1237
+Hemmesjö med Tegnaby	1238
+Hemmesjö socken	1239
+Hemse socken	1240
+Hemsjö	1241
+Hemsjö socken	1242
+Hemsö	1243
+Hemsö socken	1244
+Herrberga	1245
+Herrberga socken	1246
+Herrestad	1247
+Herrestad socken	1248
+Herrljunga	1249
+Herrljunga Kommun	1250
+Herrljunga socken	1251
+Herråkra	1252
+Herråkra socken	1253
+Hidinge socken	1254
+Hietaniemi socken	1255
+Hillared socken	1256
+Hille	1257
+Hille socken	1258
+Hilleshög socken	1259
+Himledalen	1260
+Himmeta socken	1261
+Himmeta-Bro	1262
+Hinneryd	1263
+Hinneryd socken	1264
+Hishult	1265
+Hishult socken	1266
+Hjo	1267
+Hjo Municipality	1268
+Hjo socken	1269
+Hjorted	1270
+Hjorted socken	1271
+Hjortsberga med Kvenneberga	1272
+Hjortsberga socken	1273
+Hjulsjö socken	1274
+Hjälmseryd	1275
+Hjälmseryd socken	1276
+Hjälsta	1277
+Hjälsta socken	1278
+Hjälstad socken	1279
+Hjärnarp socken	1280
+Hjärnarp-Tåstarp	1281
+Hjärsås	1282
+Hjärsås socken	1283
+Hjärtlanda	1284
+Hjärtum	1285
+Hjärtum socken	1286
+Hoburg	1287
+Hofors	1288
+Hofors Municipality	1289
+Hofterup	1290
+Hofterup socken	1291
+Hogdal socken	1292
+Hogrän socken	1293
+Hogstad socken	1294
+Hol	1295
+Hol socken	1296
+Holm	1297
+Holm socken	1298
+Holmby socken	1299
+Holmedal socken	1300
+Holmedal-Karlanda	1301
+Holmestad socken	1302
+Holmsund	1303
+Holmön socken	1304
+Holsljunga	1305
+Holsljunga socken	1306
+Horla socken	1307
+Horn	1308
+Horn socken	1309
+Hornaryd socken	1310
+Hornborga	1311
+Hornborga socken	1312
+Horred	1313
+Horred socken	1314
+Hortlax	1315
+Hortlax socken	1316
+Hosjö	1317
+Hossmo	1318
+Hossmo socken	1319
+Hotagen socken	1320
+Hov	1321
+Hov socken	1322
+Hova socken	1323
+Hova-Älgarås-del	1324
+Hovby socken	1325
+Hovmantorp	1326
+Hovmantorp socken	1327
+Hovsta socken	1328
+Huaröd	1329
+Huaröd socken	1330
+Hubbo socken	1331
+Huddinge	1332
+Huddinge Municipality	1333
+Huddinge socken	1334
+Huddunge	1335
+Huddunge socken	1336
+Hudene	1337
+Hudene socken	1338
+Hudiksvall socken	1339
+Hudiksvall-Idenor	1340
+Hudiksvalls Kommun	1341
+Huggenäs socken	1342
+Hulared	1343
+Hulared socken	1344
+Hult	1345
+Hult socken	1346
+Hulterstad socken	1347
+Hulterstad-Stenåsa	1348
+Hultsfred	1349
+Hultsfred Municipality	1350
+Hultsjö	1351
+Hultsjö socken	1352
+Humla socken	1353
+Hunnebostrand	1354
+Hunnestad socken	1355
+Hurva socken	1356
+Husaby	1357
+Husaby socken	1358
+Husby	1359
+Husby socken	1360
+Husby-Långhundra	1361
+Husby-Långhundra socken	1362
+Husby-Oppunda socken	1363
+Husby-Rekarne	1364
+Husby-Rekarne socken	1365
+Husby-Sjuhundra socken	1366
+Husby-Sjutolft	1367
+Husby-Sjutolft socken	1368
+Husby-Skederid och Rö	1369
+Husby-Ärlinghundra	1370
+Husby-Ärlinghundra socken	1371
+Husie och Södra Sallerup	1372
+Huskvarna	1373
+Huskvarna socken	1374
+Hyby socken	1375
+Hycklinge	1376
+Hycklinge socken	1377
+Hylletofta socken	1378
+Hyllie	1379
+Hylte Kommun	1380
+Hyltinge socken	1381
+Hyringa socken	1382
+Hyssna	1383
+Hyssna socken	1384
+Hägerstad	1385
+Hägerstad socken	1386
+Hägersten	1387
+Häggdånger	1388
+Häggdånger socken	1389
+Häggeby	1390
+Häggeby socken	1391
+Häggenås	1392
+Häggenås socken	1393
+Häggesled socken	1394
+Häggum	1395
+Häggum socken	1396
+Häglinge	1397
+Häglinge socken	1398
+Hällaryd	1399
+Hällaryd socken	1400
+Hällby förs. med Tumbo och Råby-Rekarne	1401
+Hälleberga	1402
+Hälleberga socken	1403
+Hällefors	1404
+Hällefors socken	1405
+Hällefors-Hjulsjö	1406
+Hällesjö socken	1407
+Hällesjö-Håsjö	1408
+Hällestad	1409
+Hällestad socken	1410
+Hällstad	1411
+Hällstad socken	1412
+Hällum socken	1413
+Hälsingtuna	1414
+Hälsingtuna socken	1415
+Händene socken	1416
+Härad socken	1417
+Häradshammar	1418
+Häradshammar socken	1419
+Härja	1420
+Härja socken	1421
+Härjedalens kommun	1422
+Härjevad socken	1423
+Härkeberga	1424
+Härkeberga socken	1425
+Härlanda	1426
+Härlunda	1427
+Härlunda socken	1428
+Härlöv	1429
+Härlöv socken	1430
+Härna socken	1431
+Härnevi socken	1432
+Härnösand socken	1433
+Härnösands Kommun	1434
+Härnösands domkyrkoförs.	1435
+Härryda	1436
+Härryda Kommun	1437
+Härryda socken	1438
+Härslöv socken	1439
+Hässelby	1440
+Hässjö	1441
+Hässjö socken	1442
+Hässleby	1443
+Hässleby socken	1444
+Hässleholm	1445
+Hässleholm socken	1446
+Hässleholms Kommun	1447
+Hässlunda socken	1448
+Hästveda	1449
+Hästveda socken	1450
+Häverö socken	1451
+Häverö-Singö	1452
+Håbo Municipality	1453
+Håbo-Tibble socken	1454
+Håbol	1455
+Håbol socken	1456
+Håby socken	1457
+Håcksvik socken	1458
+Håkantorp socken	1459
+Hålanda	1460
+Hålanda socken	1461
+Håle socken	1462
+Hållnäs socken	1463
+Hållnäs-Österlövsta	1464
+Hålta	1465
+Hålta socken	1466
+Hånger	1467
+Hånger socken	1468
+Hångsdala socken	1469
+Håsjö socken	1470
+Håslöv socken	1471
+Håstad socken	1472
+Håtuna	1473
+Håtuna socken	1474
+Hög socken	1475
+Högalid	1476
+Höganäs	1477
+Höganäs Kommun	1478
+Höganäs socken	1479
+Högby socken	1480
+Högby-Källa-Persnäs	1481
+Högerud socken	1482
+Högestad socken	1483
+Högsbo	1484
+Högsby	1485
+Högsby Kommun	1486
+Högsby socken	1487
+Högseröd socken	1488
+Högsjö	1489
+Högsjö socken	1490
+Högsrum socken	1491
+Högstena	1492
+Högstena socken	1493
+Högsäter	1494
+Högsäter socken	1495
+Högås	1496
+Högås socken	1497
+Höja	1498
+Höja socken	1499
+Hökhuvud	1500
+Hökhuvud socken	1501
+Hököpinge socken	1502
+Höllviken	1503
+Hölö	1504
+Hölö socken	1505
+Hömb socken	1506
+Hörby	1507
+Hörby Kommun	1508
+Hörby socken	1509
+Höreda	1510
+Höreda socken	1511
+Hörja	1512
+Hörja socken	1513
+Hörnefors	1514
+Hörnefors socken	1515
+Hörröd	1516
+Hörröd socken	1517
+Hörsne socken	1518
+Hörup socken	1519
+Hössna	1520
+Hössna socken	1521
+Höör	1522
+Höör socken	1523
+Höörs Kommun	1524
+Idala	1525
+Idala socken	1526
+Idefjorden	1527
+Idenor socken	1528
+Idre	1529
+Idre socken	1530
+Igelösa socken	1531
+Ignaberga socken	1532
+Ilsbo	1533
+Ilsbo socken	1534
+Ilstorp socken	1535
+Indal	1536
+Indal socken	1537
+Ingarö	1538
+Ingarö socken	1539
+Ingatorp socken	1540
+Ingatorp-Bellö	1541
+Ingelstorp socken	1542
+Irsta socken	1543
+Istorp	1544
+Istorp socken	1545
+Istrum socken	1546
+Ivetofta	1547
+Ivetofta socken	1548
+Ivö socken	1549
+Jakobsberg	1550
+Jokkmokk	1551
+Jokkmokk socken	1552
+Jokkmokks Kommun	1553
+Jonsberg	1554
+Jonsberg socken	1555
+Jonstorp socken	1556
+Jukkasjärvi	1557
+Jukkasjärvi socken	1558
+Julita	1559
+Julita socken	1560
+Jumkil	1561
+Jumkil socken	1562
+Jung socken	1563
+Junosuando socken	1564
+Junsele	1565
+Junsele socken	1566
+Jäder socken	1567
+Jäla socken	1568
+Jällby	1569
+Jällby socken	1570
+Jälluntofta	1571
+Jälluntofta socken	1572
+Jämjö	1573
+Jämjö socken	1574
+Jämshög	1575
+Jämshög socken	1576
+Jämtland	1577
+Järbo	1578
+Järbo socken	1579
+Järeda	1580
+Järeda socken	1581
+Järfälla Municipality	1582
+Järfälla socken	1583
+Järlåsa socken	1584
+Järn	1585
+Järn socken	1586
+Järna	1587
+Järna socken	1588
+Järnboås	1589
+Järnboås socken	1590
+Järnskog	1591
+Järnskog socken	1592
+Järpås	1593
+Järpås socken	1594
+Järrestad socken	1595
+Järsnäs socken	1596
+Järstad	1597
+Järstad socken	1598
+Järstorp	1599
+Järstorp socken	1600
+Järvsö	1601
+Järvsö socken	1602
+Jät	1603
+Jät socken	1604
+Jättendal socken	1605
+Jönköping	1606
+Jönköping socken	1607
+Jönköpings Kommun	1608
+Jönköpings Kristina-Ljungarum	1609
+Jönköpings Sofia	1610
+Jörlanda	1611
+Jörlanda socken	1612
+Jörn socken	1613
+Jörn-Boliden	1614
+Kafjärden	1615
+Kaga	1616
+Kaga socken	1617
+Kalix Kommun	1618
+Kall	1619
+Kall socken	1620
+Kallhäll	1621
+Kalmar	1622
+Kalmar Municipality	1623
+Kalmar S:t Johannes	1624
+Kalmar domkyrkoförs.	1625
+Kalmar socken	1626
+Kalv socken	1627
+Kalvsvik	1628
+Kalvsvik socken	1629
+Karaby socken	1630
+Karbenning	1631
+Karbenning socken	1632
+Kareby	1633
+Kareby socken	1634
+Karesuando	1635
+Karesuando socken	1636
+Karl Gustav	1637
+Karl Gustav socken	1638
+Karlanda socken	1639
+Karleby	1640
+Karleby socken	1641
+Karlsborg	1642
+Karlsborg Municipality	1643
+Karlsborg socken	1644
+Karlshamn	1645
+Karlshamn Municipality	1646
+Karlshamn socken	1647
+Karlskoga	1648
+Karlskoga Kommun	1649
+Karlskoga socken	1650
+Karlskrona Municipality	1651
+Karlskrona socken	1652
+Karlskrona stadsförs.	1653
+Karlslunda	1654
+Karlslunda socken	1655
+Karlstad	1656
+Karlstad Municipality	1657
+Karlstads domkyrkoförs.	1658
+Karlstorp	1659
+Karlstorp socken	1660
+Kastlösa socken	1661
+Katarina	1662
+Katrineholm socken	1663
+Katrineholm-Stora Malm	1664
+Katrineholms Kommun	1665
+Katslösa socken	1666
+Kattarp socken	1667
+Kattnäs socken	1668
+Kestad socken	1669
+Kiaby socken	1670
+Kil socken	1671
+Kila	1672
+Kila socken	1673
+Kiladalen	1674
+Kilanda socken	1675
+Kils Kommun	1676
+Kimstad	1677
+Kimstad socken	1678
+Kinda Municipality	1679
+Kindaholm	1680
+Kinna	1681
+Kinna socken	1682
+Kinnared	1683
+Kinnared socken	1684
+Kinnarumma	1685
+Kinnarumma socken	1686
+Kinne-Kleva socken	1687
+Kinne-Vedum socken	1688
+Kinnekulle	1689
+Kinneved	1690
+Kinneved socken	1691
+Kirseberg	1692
+Kiruna Kommun	1693
+Kisa	1694
+Kisa socken	1695
+Kista	1696
+Kivik	1697
+Kjula socken	1698
+Kleva-Sil	1699
+Klinte	1700
+Klinte socken	1701
+Klippan	1702
+Klippan Municipality	1703
+Klippan socken	1704
+Klockrike	1705
+Klockrike socken	1706
+Kläckeberga socken	1707
+Klädesholmen	1708
+Klädesholmen socken	1709
+Klövedal	1710
+Klövedal socken	1711
+Klövsjö	1712
+Klövsjö socken	1713
+Knislinge socken	1714
+Knislinge-Gryt	1715
+Knista	1716
+Knista socken	1717
+Knivsta	1718
+Knivsta Kommun	1719
+Knivsta socken	1720
+Knutby	1721
+Knutby socken	1722
+Knäred	1723
+Knäred socken	1724
+Knästorp socken	1725
+Knätte socken	1726
+Kolbäck socken	1727
+Kolbäck-Säby	1728
+Kolsva	1729
+Kolsva socken	1730
+Konga socken	1731
+Konungsund socken	1732
+Korpilombolo	1733
+Korpilombolo socken	1734
+Korsberga	1735
+Korsberga socken	1736
+Kortedala	1737
+Kramfors Kommun	1738
+Kramfors socken	1739
+Kristberg socken	1740
+Kristdala	1741
+Kristdala socken	1742
+Kristianopel	1743
+Kristianopel socken	1744
+Kristianstad Municipality	1745
+Kristianstad socken	1746
+Kristianstads Heliga Trefaldighet	1747
+Kristinehamn	1748
+Kristinehamn socken	1749
+Kristinehamns Kommun	1750
+Kristvalla	1751
+Kristvalla socken	1752
+Krogsered	1753
+Krogsered socken	1754
+Krokek	1755
+Krokek socken	1756
+Krokoms Kommun	1757
+Krokstad socken	1758
+Kronoberg	1759
+Kropp	1760
+Kropp socken	1761
+Kroppa	1762
+Kroppa socken	1763
+Kräcklinge socken	1764
+Kräklingbo socken	1765
+Kråkshult	1766
+Kråkshult socken	1767
+Kråksmåla	1768
+Kråksmåla socken	1769
+Kuddby socken	1770
+Kulla	1771
+Kulla socken	1772
+Kulladal	1773
+Kullerstad	1774
+Kullerstad socken	1775
+Kullings-Skövde socken	1776
+Kulltorp-del	1777
+Kumla	1778
+Kumla Municipality	1779
+Kumla socken	1780
+Kung Karl socken	1781
+Kungs-Barkarö socken	1782
+Kungs-Husby socken	1783
+Kungsbacka	1784
+Kungsbacka Kommun	1785
+Kungsbacka socken	1786
+Kungshamn	1787
+Kungsholm	1788
+Kungslena socken	1789
+Kungslena-Hömb	1790
+Kungsängen socken	1791
+Kungsängen-Västra Ryd	1792
+Kungsäter	1793
+Kungsäter socken	1794
+Kungsåra	1795
+Kungsåra socken	1796
+Kungsör	1797
+Kungsör Municipality	1798
+Kungälv	1799
+Kungälv socken	1800
+Kungälvs Kommun	1801
+Kvarsebo	1802
+Kvarsebo socken	1803
+Kvenneberga socken	1804
+Kverrestad socken	1805
+Kvibille socken	1806
+Kvidinge	1807
+Kvidinge socken	1808
+Kviinge	1809
+Kviinge socken	1810
+Kville	1811
+Kville socken	1812
+Kvillinge	1813
+Kvillinge socken	1814
+Kvinnestad socken	1815
+Kvistbro socken	1816
+Kvistofta	1817
+Kvistofta socken	1818
+Kvänum	1819
+Kvänum socken	1820
+Kymbo socken	1821
+Kyrkheddinge socken	1822
+Kyrkhult	1823
+Kyrkhult socken	1824
+Kyrkoköpinge socken	1825
+Kyrkås	1826
+Kyrkås socken	1827
+Källa socken	1828
+Källby	1829
+Källby socken	1830
+Källeryd	1831
+Källeryd socken	1832
+Källna socken	1833
+Källs-Nöbbelöv socken	1834
+Källsjö	1835
+Källsjö socken	1836
+Källstad socken	1837
+Källstorp	1838
+Källstorp socken	1839
+Källunga	1840
+Källunga socken	1841
+Källunge	1842
+Källunge socken	1843
+Kälvene socken	1844
+Kärda	1845
+Kärda socken	1846
+Käringön socken	1847
+Kärna	1848
+Kärna socken	1849
+Kärnbo socken	1850
+Kärrbo socken	1851
+Kärråkra socken	1852
+Kättilstad	1853
+Kättilstad socken	1854
+Kävlinge	1855
+Kävlinge Kommun	1856
+Kävlinge socken	1857
+Kävsjö	1858
+Kävsjö socken	1859
+Kågedalen	1860
+Kågeröd socken	1861
+Kågeröd-Röstånga	1862
+Kållands-Råda	1863
+Kållands-Åsaka socken	1864
+Kållered	1865
+Kållered socken	1866
+Kållerstad	1867
+Kållerstad socken	1868
+Kånna socken	1869
+Kårböle	1870
+Kårsta socken	1871
+Köinge socken	1872
+Köla	1873
+Köla socken	1874
+Kölaby socken	1875
+Kölingared socken	1876
+Köping	1877
+Köping Municipality	1878
+Köping socken	1879
+Köpinge	1880
+Köpinge socken	1881
+Köpingsvik	1882
+Lackalänga socken	1883
+Lackalänga-Stävie	1884
+Lagga	1885
+Lagga socken	1886
+Lagmansered socken	1887
+Laholm	1888
+Laholm Municipality	1889
+Laholm socken	1890
+Laholms stad socken	1891
+Landa	1892
+Landa socken	1893
+Landeryd	1894
+Landeryd socken	1895
+Landskrona Municipality	1896
+Landskrona socken	1897
+Landskrona-del	1898
+Landvetter	1899
+Landvetter socken	1900
+Lane-Ryr	1901
+Lane-Ryr socken	1902
+Lannaskede	1903
+Lannaskede socken	1904
+Larv	1905
+Larv socken	1906
+Laske-Vedum socken	1907
+Lau socken	1908
+Lavad socken	1909
+Laxarby	1910
+Laxarby socken	1911
+Laxsjö socken	1912
+Laxå Kommun	1913
+Laxå socken	1914
+Ledberg	1915
+Ledberg socken	1916
+Ledsjö	1917
+Ledsjö socken	1918
+Lekaryd	1919
+Lekaryd socken	1920
+Lekebergs Kommun	1921
+Lekeryd	1922
+Lekeryd socken	1923
+Leksand	1924
+Leksand Municipality	1925
+Leksand socken	1926
+Leksberg socken	1927
+Lekvattnet	1928
+Lekvattnet socken	1929
+Lekåsa socken	1930
+Lekåsa-Barne Åsaka	1931
+Lemnhult socken	1932
+Lena	1933
+Lena socken	1934
+Lenhovda	1935
+Lenhovda socken	1936
+Lerbo	1937
+Lerbo socken	1938
+Lerbäck	1939
+Lerbäck socken	1940
+Lerdal	1941
+Lerdal socken	1942
+Lerdala socken	1943
+Lerum	1944
+Lerum socken	1945
+Lessebo	1946
+Lessebo Municipality	1947
+Levene	1948
+Levene socken	1949
+Levide	1950
+Levide socken	1951
+Lextorp	1952
+Liared socken	1953
+Lid socken	1954
+Liden	1955
+Liden socken	1956
+Lidhult	1957
+Lidhult socken	1958
+Lidingö	1959
+Lidingö Municipality	1960
+Lidingö socken	1961
+Lidköping	1962
+Lidköping socken	1963
+Lidköpings Kommun	1964
+Lilla Beddinge socken	1965
+Lilla Edets Kommun	1966
+Lilla Harrie socken	1967
+Lilla Isie socken	1968
+Lilla Malma socken	1969
+Lilla Slågarp socken	1970
+Lillhärad socken	1971
+Lillhärdal socken	1972
+Lillkyrka socken	1973
+Lima socken	1974
+Lima-Transtrand	1975
+Limhamn	1976
+Lindberg	1977
+Lindberg socken	1978
+Linde	1979
+Linde socken	1980
+Linderås	1981
+Linderås socken	1982
+Linderöd	1983
+Linderöd socken	1984
+Lindesberg	1985
+Lindesberg Municipality	1986
+Lindesberg socken	1987
+Lindome	1988
+Lindome socken	1989
+Lindärva socken	1990
+Linköping socken	1991
+Linköpings Berga	1992
+Linköpings Johannelund	1993
+Linköpings Kommun	1994
+Linköpings Ryd	1995
+Linköpings S:t Lars	1996
+Linköpings Skäggetorp	1997
+Linköpings domkyrkoförs.	1998
+Linneryd	1999
+Linneryd socken	2000
+Linsell socken	2001
+Lista socken	2002
+Listerby	2003
+Listerby socken	2004
+Lit	2005
+Lit socken	2006
+Litslena	2007
+Litslena socken	2008
+Ljuder	2009
+Ljuder socken	2010
+Ljung	2011
+Ljung socken	2012
+Ljungby	2013
+Ljungby Maria	2014
+Ljungby Municipality	2015
+Ljungby socken	2016
+Ljunghem socken	2017
+Ljungsarp	2018
+Ljungsarp socken	2019
+Ljunits	2020
+Ljur socken	2021
+Ljusdal socken	2022
+Ljusdal-Ramsjö	2023
+Ljusdals Kommun	2024
+Ljushult socken	2025
+Ljusnarsberg	2026
+Ljusnarsberg Municipality	2027
+Ljusnarsberg socken	2028
+Ljusne	2029
+Ljusterö socken	2030
+Ljusterö-Kulla	2031
+Ljustorp	2032
+Ljustorp socken	2033
+Lockarp socken	2034
+Locketorp socken	2035
+Lockne	2036
+Lockne socken	2037
+Locknevi	2038
+Locknevi socken	2039
+Lofta	2040
+Lofta socken	2041
+Loftahammar	2042
+Loftahammar socken	2043
+Lohärad	2044
+Lohärad socken	2045
+Lojsta	2046
+Lojsta socken	2047
+Lokrume socken	2048
+Lomma	2049
+Lomma Municipality	2050
+Lomma socken	2051
+Lommaryd	2052
+Lommaryd socken	2053
+Lommeland socken	2054
+Long socken	2055
+Los socken	2056
+Los-Hamra	2057
+Loshult	2058
+Loshult socken	2059
+Lovö	2060
+Lovö socken	2061
+Ludgo socken	2062
+Ludvika	2063
+Ludvika Kommun	2064
+Ludvika socken	2065
+Lugnås	2066
+Lugnås socken	2067
+Luleå	2068
+Luleå domkyrkoförs.	2069
+Luleå kommun	2070
+Lummelunda socken	2071
+Lund Municipality	2072
+Lund socken	2073
+Lunda socken	2074
+Lundby	2075
+Lunds Allhelgonaförs.	2076
+Lunds domkyrkoförs.	2077
+Lungsund	2078
+Lungsund socken	2079
+Lur	2080
+Lur socken	2081
+Luttra socken	2082
+Lyby socken	2083
+Lycke	2084
+Lycke socken	2085
+Lycksele	2086
+Lycksele kommun	2087
+Lycksele socken	2088
+Lyckå	2089
+Lye socken	2090
+Lyngby socken	2091
+Lyngsjö socken	2092
+Lyrestad	2093
+Lyrestad socken	2094
+Lyse	2095
+Lyse socken	2096
+Lysekil	2097
+Lysekil Municipality	2098
+Lysekil socken	2099
+Lysvik	2100
+Lysvik socken	2101
+Läby socken	2102
+Längbro	2103
+Länghem	2104
+Länghem socken	2105
+Längjum socken	2106
+Längnum socken	2107
+Länna	2108
+Länna socken	2109
+Lännäs	2110
+Lännäs socken	2111
+Lärbro	2112
+Lärbro socken	2113
+Lästringe socken	2114
+Långared socken	2115
+Långaryd	2116
+Långaryd socken	2117
+Långaröd socken	2118
+Långasjö	2119
+Långasjö socken	2120
+Långelanda	2121
+Långelanda socken	2122
+Långemåla	2123
+Långemåla socken	2124
+Långlöt socken	2125
+Långsele	2126
+Långsele socken	2127
+Långserud	2128
+Långserud socken	2129
+Långtora	2130
+Långtora socken	2131
+Låssa socken	2132
+Låstad socken	2133
+Löberöd	2134
+Löddebygden	2135
+Löddeköpinge socken	2136
+Löderup	2137
+Löderup socken	2138
+Lönneberga	2139
+Lönneberga socken	2140
+Lönsås socken	2141
+Lösen socken	2142
+Löt socken	2143
+Lövestad	2144
+Lövestad socken	2145
+Lövånger	2146
+Lövånger socken	2147
+Madesjö	2148
+Madesjö socken	2149
+Maglarp socken	2150
+Maglehem	2151
+Maglehem socken	2152
+Magra socken	2153
+Malexander	2154
+Malexander socken	2155
+Malingsbo socken	2156
+Malma socken	2157
+Malmberget	2158
+Malmbäck	2159
+Malmbäck socken	2160
+Malmö	2161
+Malmö Municipality	2162
+Malmö S:t Johannes	2163
+Malmö S:t Pauli	2164
+Malmö S:t Petri	2165
+Malmön	2166
+Malsta socken	2167
+Malung	2168
+Malung socken	2169
+Malung-Sälen Municipality	2170
+Malå	2171
+Malå Kommun	2172
+Malå socken	2173
+Mangskog	2174
+Mangskog socken	2175
+Marby socken	2176
+Marbäck socken	2177
+Maria Magdalena	2178
+Marieby	2179
+Marieby socken	2180
+Mariefred	2181
+Mariefred socken	2182
+Mariestad	2183
+Mariestad socken	2184
+Mariestads Kommun	2185
+Marka	2186
+Marka socken	2187
+Markaryd	2188
+Markaryd Municipality	2189
+Markaryd socken	2190
+Markim socken	2191
+Marks Kommun	2192
+Marstrand	2193
+Marstrand socken	2194
+Martebo socken	2195
+Martin Luther	2196
+Marum socken	2197
+Matteröd	2198
+Matteröd socken	2199
+Mattmar socken	2200
+Medelplana socken	2201
+Medåker socken	2202
+Mellan-Grevie socken	2203
+Mellby	2204
+Mellby socken	2205
+Mellerud Municipality	2206
+Mellösa	2207
+Mellösa socken	2208
+Mikael	2209
+Millesvik	2210
+Millesvik socken	2211
+Mistelås	2212
+Mistelås socken	2213
+Misterhult	2214
+Misterhult socken	2215
+Mjäldrunga	2216
+Mjäldrunga socken	2217
+Mjällby	2218
+Mjällby socken	2219
+Mjöbäck	2220
+Mjöbäck socken	2221
+Mjölby	2222
+Mjölby Kommun	2223
+Mjölby socken	2224
+Mo	2225
+Mo socken	2226
+Mo-Bergvik	2227
+Mockfjärd	2228
+Mofalla	2229
+Mofalla socken	2230
+Mogata socken	2231
+Moheda	2232
+Moheda socken	2233
+Molla	2234
+Molla socken	2235
+Mollösund socken	2236
+Mora	2237
+Mora Kommun	2238
+Mora socken	2239
+Morkarla	2240
+Morkarla socken	2241
+Morlanda	2242
+Morlanda socken	2243
+Mortorp	2244
+Mortorp socken	2245
+Morup	2246
+Morup socken	2247
+Mosjö	2248
+Mosjö socken	2249
+Mossebo	2250
+Mossebo socken	2251
+Motala	2252
+Motala Municipality	2253
+Motala socken	2254
+Mularp	2255
+Mularp socken	2256
+Mullsjö	2257
+Mullsjö Municipality	2258
+Mulseryd socken	2259
+Multrå och Sånga	2260
+Multrå socken	2261
+Munka Ljungby	2262
+Munka-Ljungby socken	2263
+Munkarp socken	2264
+Munkedal Municipality	2265
+Munkfors	2266
+Munkfors Municipality	2267
+Munktorp	2268
+Munktorp socken	2269
+Munsö socken	2270
+Murum socken	2271
+Muskö socken	2272
+Myckleby	2273
+Myckleby socken	2274
+Myresjö	2275
+Myresjö socken	2276
+Myssjö	2277
+Myssjö socken	2278
+Mästerby	2279
+Mästerby socken	2280
+Målilla med Gårdveda	2281
+Målilla socken	2282
+Månsarp	2283
+Månsarp socken	2284
+Månstad	2285
+Månstad socken	2286
+Mårdaklev socken	2287
+Möja socken	2288
+Möklinta	2289
+Möklinta socken	2290
+Mölleberga socken	2291
+Möllevången-Sofielund	2292
+Mölltorp	2293
+Mölltorp socken	2294
+Mölndal Municipality	2295
+Mölndal socken	2296
+Möne socken	2297
+Mönsterås	2298
+Mönsterås Kommun	2299
+Mönsterås socken	2300
+Mörarp socken	2301
+Mörarp-Hässlunda	2302
+Mörbylånga Kommun	2303
+Mörbylånga socken	2304
+Mörbylånga-Kastlösa	2305
+Mörkö	2306
+Mörkö socken	2307
+Mörlunda socken	2308
+Mörlunda-Tveta	2309
+Mörrum socken	2310
+Mörrum-Elleholm	2311
+Mörsil socken	2312
+Nacka	2313
+Nacka Municipality	2314
+Nacka socken	2315
+Naum socken	2316
+Naverstad socken	2317
+Naverstad-Mo	2318
+Nederkalix	2319
+Nederkalix socken	2320
+Nederluleå	2321
+Nederluleå socken	2322
+Nedertorneå socken	2323
+Nedertorneå-Haparanda	2324
+Nedre Ullerud socken	2325
+Nevishög socken	2326
+Nianfors socken	2327
+Nilivaara	2328
+Nittorp	2329
+Nittorp socken	2330
+Njurunda	2331
+Njurunda socken	2332
+Njutånger socken	2333
+Nor socken	2334
+Nor-Segerstad	2335
+Nora	2336
+Nora Municipality	2337
+Nora bergsförs.	2338
+Nora socken	2339
+Nora-Skog	2340
+Norberg	2341
+Norberg socken	2342
+Norbergs Kommun	2343
+Nordanstig Municipality	2344
+Norderö	2345
+Norderö socken	2346
+Nordingrå	2347
+Nordingrå socken	2348
+Nordmaling	2349
+Nordmaling socken	2350
+Nordmalings Kommun	2351
+Nordmark	2352
+Nordmark socken	2353
+Normlösa	2354
+Normlösa socken	2355
+Norra Björke socken	2356
+Norra Finnskoga	2357
+Norra Finnskoga socken	2358
+Norra Fågelås socken	2359
+Norra Hagunda	2360
+Norra Hestra	2361
+Norra Hestra socken	2362
+Norra Härene socken	2363
+Norra Kedum socken	2364
+Norra Kyrketorp	2365
+Norra Kyrketorp socken	2366
+Norra Lundby socken	2367
+Norra Mellby	2368
+Norra Mellby socken	2369
+Norra Mo	2370
+Norra Möckleby socken	2371
+Norra Möckleby-Sandby och Gårdby	2372
+Norra Ny socken	2373
+Norra Ny-Nyskoga	2374
+Norra Nöbbelöv	2375
+Norra Nöbbelöv socken	2376
+Norra Råda	2377
+Norra Råda socken	2378
+Norra Rörum socken	2379
+Norra Sandby socken	2380
+Norra Sandsjö	2381
+Norra Sandsjö socken	2382
+Norra Skrävlinge socken	2383
+Norra Solberga socken	2384
+Norra Solberga-Flisby	2385
+Norra Strö socken	2386
+Norra Säm socken	2387
+Norra Unnaryd socken	2388
+Norra Vi socken	2389
+Norra Ving	2390
+Norra Ving socken	2391
+Norra Vram socken	2392
+Norra Vånga socken	2393
+Norra Ydre	2394
+Norra Åkarp	2395
+Norra Åkarp socken	2396
+Norra Åsarp socken	2397
+Norra Åsum	2398
+Norrahammar	2399
+Norrala	2400
+Norrala socken	2401
+Norrbo	2402
+Norrbo socken	2403
+Norrbotten	2404
+Norrby	2405
+Norrby socken	2406
+Norrbyås socken	2407
+Norrbärke	2408
+Norrbärke socken	2409
+Norrfjärden	2410
+Norrfjärden socken	2411
+Norrköping socken	2412
+Norrköpings Borg	2413
+Norrköpings Hedvig	2414
+Norrköpings Kommun	2415
+Norrköpings Matteus	2416
+Norrköpings S:t Johannes	2417
+Norrköpings S:t Olai	2418
+Norrköpings Östra Eneby	2419
+Norrlanda	2420
+Norrlanda socken	2421
+Norrstrand	2422
+Norrsunda	2423
+Norrsunda socken	2424
+Norrtälje Kommun	2425
+Norrtälje socken	2426
+Norrtälje-Malsta	2427
+Norrvidinge socken	2428
+Norsjö	2429
+Norsjö Kommun	2430
+Norsjö socken	2431
+Norum	2432
+Norum socken	2433
+Nosaby	2434
+Nosaby socken	2435
+Nottebäck	2436
+Nottebäck socken	2437
+Ny	2438
+Ny socken	2439
+Ny-Huggenäs	2440
+Nybro Municipality	2441
+Nybro socken	2442
+Nybro-S:t Sigfrid	2443
+Nydala	2444
+Nydala socken	2445
+Nye socken	2446
+Nye-Näshult och Stenberga	2447
+Nyed socken	2448
+Nyhem socken	2449
+Nykil	2450
+Nykil socken	2451
+Nykvarns Kommun	2452
+Nykyrka socken	2453
+Nyköping socken	2454
+Nyköpings Alla Helgona	2455
+Nyköpings Kommun	2456
+Nyköpings S:t Nicolai	2457
+Nylöse	2458
+Nymö socken	2459
+Nynäshamn	2460
+Nynäshamn socken	2461
+Nynäshamns kommun	2462
+Nyskoga socken	2463
+Nysund socken	2464
+Nysätra	2465
+Nysätra socken	2466
+Nämdö socken	2467
+När socken	2468
+När-Lau	2469
+Närtuna	2470
+Närtuna socken	2471
+Näs	2472
+Näs socken	2473
+Näsby	2474
+Näsby socken	2475
+Näset	2476
+Näshult socken	2477
+Näshulta	2478
+Näshulta socken	2479
+Näsinge socken	2480
+Näskott	2481
+Näskott socken	2482
+Nässja socken	2483
+Nässjö	2484
+Nässjö Kommun	2485
+Nässjö socken	2486
+Näsum	2487
+Näsum socken	2488
+Nätra	2489
+Nätra socken	2490
+Nättraby	2491
+Nättraby socken	2492
+Nävelsjö	2493
+Nävelsjö socken	2494
+Nävertorp-Östra Vingåker	2495
+Nävlinge socken	2496
+Nårunga	2497
+Nårunga socken	2498
+Nås	2499
+Nås socken	2500
+Nöbbele	2501
+Nöbbele socken	2502
+Nödinge	2503
+Nödinge socken	2504
+Nössemark	2505
+Nössemark socken	2506
+Nösslinge socken	2507
+Nöttja socken	2508
+Ockelbo	2509
+Ockelbo Municipality	2510
+Ockelbo socken	2511
+Od	2512
+Od socken	2513
+Odarslöv socken	2514
+Odensala socken	2515
+Odensjö	2516
+Odensjö socken	2517
+Odensvi	2518
+Odensvi socken	2519
+Odensåker socken	2520
+Oderljunga socken	2521
+Offerdal	2522
+Offerdal socken	2523
+Okome	2524
+Okome socken	2525
+Olofströms Kommun	2526
+Onsala	2527
+Onsala socken	2528
+Onslunda socken	2529
+Oppeby	2530
+Oppeby socken	2531
+Oppmanna	2532
+Oppmanna socken	2533
+Ore	2534
+Ore socken	2535
+Orkesta socken	2536
+Orlunda socken	2537
+Ormesberga socken	2538
+Ornunga socken	2539
+Ornö socken	2540
+Orsa	2541
+Orsa Kommun	2542
+Orsa socken	2543
+Orust	2544
+Osby Municipality	2545
+Osby socken	2546
+Osby-Visseltofta	2547
+Oscar	2548
+Oskar	2549
+Oskar socken	2550
+Oskarshamn	2551
+Oskarshamn socken	2552
+Oskarshamns Kommun	2553
+Oskarström	2554
+Othem socken	2555
+Othem-Boge	2556
+Ottarp socken	2557
+Otterstad socken	2558
+Ottravad socken	2559
+Ova	2560
+Ova socken	2561
+Ovansjö	2562
+Ovansjö socken	2563
+Ovanåker	2564
+Ovanåker socken	2565
+Ovanåkers Kommun	2566
+Oviken	2567
+Oviken socken	2568
+Oxelösund	2569
+Oxelösund socken	2570
+Oxelösunds Kommun	2571
+Oxie	2572
+Oxie socken	2573
+Pajala	2574
+Pajala Kommun	2575
+Pajala socken	2576
+Partille	2577
+Partille Municipality	2578
+Partille socken	2579
+Pelarne	2580
+Pelarne socken	2581
+Persnäs socken	2582
+Perstorp	2583
+Perstorp Municipality	2584
+Perstorp socken	2585
+Piteå Kommun	2586
+Piteå landsförs.	2587
+Piteå socken	2588
+Piteå stad socken	2589
+Piteå stadsförs.	2590
+Pjätteryd	2591
+Pjätteryd socken	2592
+Rackeby socken	2593
+Ragunda	2594
+Ragunda Kommun	2595
+Ragunda socken	2596
+Ramdala	2597
+Ramdala socken	2598
+Ramkvilla	2599
+Ramkvilla socken	2600
+Ramnäs	2601
+Ramnäs socken	2602
+Ramsberg	2603
+Ramsberg socken	2604
+Ramsele socken	2605
+Ramsele-Edsele	2606
+Ramsjö socken	2607
+Ramsta	2608
+Ramsta socken	2609
+Ramsåsa socken	2610
+Ramundeboda	2611
+Ransberg	2612
+Ransberg socken	2613
+Ransäter	2614
+Ransäter socken	2615
+Rappestad socken	2616
+Rasbo	2617
+Rasbo socken	2618
+Rasbokil	2619
+Rasbokil socken	2620
+Raus	2621
+Ravlunda socken	2622
+Rebbelberga	2623
+Rebbelberga socken	2624
+Redslared socken	2625
+Redväg	2626
+Reftele	2627
+Reftele socken	2628
+Regna	2629
+Regna socken	2630
+Remmarlöv socken	2631
+Remmene	2632
+Remmene socken	2633
+Rengsjö	2634
+Rengsjö socken	2635
+Resele	2636
+Resele socken	2637
+Reslöv socken	2638
+Reslöv-Östra Karaby	2639
+Resmo socken	2640
+Resmo-Vickleby	2641
+Resteröd	2642
+Resteröd socken	2643
+Revesjö socken	2644
+Revinge socken	2645
+Revsund	2646
+Revsund socken	2647
+Riala	2648
+Riala socken	2649
+Rimbo	2650
+Rimbo socken	2651
+Ringamåla	2652
+Ringamåla socken	2653
+Ringarum	2654
+Ringarum socken	2655
+Ringsjö-del	2656
+Rinkaby socken	2657
+Rinna	2658
+Rinna socken	2659
+Ripsa socken	2660
+Riseberga	2661
+Riseberga socken	2662
+Risekatslösa socken	2663
+Risinge	2664
+Risinge socken	2665
+Roasjö socken	2666
+Robertsfors Kommun	2667
+Rogberga socken	2668
+Rogberga-Öggestorp	2669
+Rogslösa socken	2670
+Rogsta	2671
+Rogsta socken	2672
+Rolfstorp socken	2673
+Roma	2674
+Roma socken	2675
+Romelanda	2676
+Romelanda socken	2677
+Romfartuna socken	2678
+Rommele socken	2679
+Rone socken	2680
+Ronneby	2681
+Ronneby Municipality	2682
+Ronneby socken	2683
+Roslags-Bro	2684
+Roslags-Bro socken	2685
+Roslags-Kulla socken	2686
+Rudskoga	2687
+Rudskoga socken	2688
+Rumskulla	2689
+Rumskulla socken	2690
+Runsten socken	2691
+Runtuna socken	2692
+Rute	2693
+Rute socken	2694
+Rya	2695
+Rya socken	2696
+Ryd	2697
+Ryd socken	2698
+Ryda	2699
+Ryda socken	2700
+Rydaholm	2701
+Rydaholm socken	2702
+Ryssby	2703
+Ryssby socken	2704
+Rystad socken	2705
+Rytterne	2706
+Rytterne socken	2707
+Rämmen	2708
+Rämmen socken	2709
+Räng socken	2710
+Rännelanda	2711
+Rännelanda socken	2712
+Ränneslöv socken	2713
+Ränneslöv-Ysby	2714
+Räpplinge socken	2715
+Räpplinge-Högsrum	2716
+Rätan	2717
+Rätan socken	2718
+Rättvik	2719
+Rättvik socken	2720
+Rättviks Kommun	2721
+Rävinge socken	2722
+Råby-Rekarne socken	2723
+Råby-Rönö socken	2724
+Råda	2725
+Råda socken	2726
+Rådene socken	2727
+Rådmansö	2728
+Rådmansö socken	2729
+Råggärd	2730
+Råggärd socken	2731
+Råneå	2732
+Rångedala	2733
+Rångedala socken	2734
+Rö socken	2735
+Rödbo	2736
+Rödbo socken	2737
+Röddinge	2738
+Röddinge socken	2739
+Rödeby	2740
+Rödeby socken	2741
+Rödene socken	2742
+Rödön	2743
+Rödön socken	2744
+Rök socken	2745
+Röke	2746
+Röke socken	2747
+Rölanda	2748
+Rölanda socken	2749
+Rönnäng	2750
+Rönnäng socken	2751
+Rönö	2752
+Rönö socken	2753
+Röra	2754
+Röra socken	2755
+Rörum	2756
+Rörum socken	2757
+Röstånga socken	2758
+S:t Anna	2759
+S:t Göran	2760
+S:t Hans	2761
+S:t Johannes	2762
+S:t Matteus	2763
+S:t Mikael	2764
+S:t Nikolai	2765
+S:t Olof	2766
+S:t Peder	2767
+S:t Peters Kloster	2768
+S:t Staffan	2769
+S:ta Birgitta	2770
+Sal socken	2771
+Sala	2772
+Sala Municipality	2773
+Sala socken	2774
+Sala stad socken	2775
+Saleby socken	2776
+Salem	2777
+Salem Municipality	2778
+Salem socken	2779
+Saltsjöbaden	2780
+Sanda	2781
+Sanda socken	2782
+Sandarne	2783
+Sandby socken	2784
+Sandhem socken	2785
+Sandhem-Utvängstorp	2786
+Sandhult	2787
+Sandhult socken	2788
+Sandseryd socken	2789
+Sandvik socken	2790
+Sandviken	2791
+Sandviken Municipality	2792
+Sandviken socken	2793
+Sankt Anna socken	2794
+Sankt Ibb socken	2795
+Sankt Olof socken	2796
+Sankt Peder socken	2797
+Sankt Per socken	2798
+Sankt Sigfrid socken	2799
+Sanne socken	2800
+Saxtorp socken	2801
+Saxtorp-Annelöv	2802
+Segersta socken	2803
+Segerstad socken	2804
+Seglora	2805
+Seglora socken	2806
+Selånger	2807
+Selånger socken	2808
+Sevalla socken	2809
+Sexdrega socken	2810
+Sexdrega-del	2811
+Sibbarp socken	2812
+Sibbarp-Dagsås	2813
+Sidensjö	2814
+Sidensjö socken	2815
+Siene socken	2816
+Sigtuna	2817
+Sigtuna Municipality	2818
+Sigtuna socken	2819
+Sil socken	2820
+Silbodal	2821
+Silbodal socken	2822
+Siljansnäs	2823
+Siljansnäs socken	2824
+Sillerud	2825
+Sillerud socken	2826
+Sillhövda	2827
+Sillhövda socken	2828
+Silte	2829
+Silte socken	2830
+Silvberg	2831
+Silvberg socken	2832
+Silvåkra socken	2833
+Simlinge socken	2834
+Simonstorp	2835
+Simonstorp socken	2836
+Simris socken	2837
+Simrishamn	2838
+Simrishamn Municipality	2839
+Simrishamn socken	2840
+Simtuna socken	2841
+Singö socken	2842
+Sireköpinge socken	2843
+Sjogerstad socken	2844
+Sjogerstad-Rådene	2845
+Sjonhem socken	2846
+Själevad	2847
+Själevad socken	2848
+Sjöbo	2849
+Sjöbo Kommun	2850
+Sjögestad socken	2851
+Sjörup socken	2852
+Sjösås	2853
+Sjösås socken	2854
+Sjötofta	2855
+Sjötofta socken	2856
+Skabersjö socken	2857
+Skaftö	2858
+Skaftö socken	2859
+Skagershult	2860
+Skagershult socken	2861
+Skallmeja socken	2862
+Skallsjö	2863
+Skallsjö socken	2864
+Skalunda socken	2865
+Skanör m. Falsterbo socken	2866
+Skanör-Falsterbo	2867
+Skara Municipality	2868
+Skara domkyrkoförs.	2869
+Skara socken	2870
+Skarhult socken	2871
+Skarpnäck	2872
+Skarstad socken	2873
+Skatelöv	2874
+Skatelöv socken	2875
+Skeby socken	2876
+Skeda	2877
+Skeda socken	2878
+Skede	2879
+Skede socken	2880
+Skederid socken	2881
+Skedevi	2882
+Skedevi socken	2883
+Skee socken	2884
+Skee-Tjärnö	2885
+Skeglinge socken	2886
+Skegrie socken	2887
+Skellefteå Kommun	2888
+Skellefteå S:t Olov	2889
+Skellefteå S:t Örjan	2890
+Skellefteå landsförs.	2891
+Skellefteå socken	2892
+Skellefteå stad socken	2893
+Skephult	2894
+Skephult socken	2895
+Skepparslöv socken	2896
+Skepperstad	2897
+Skepperstad socken	2898
+Skepplanda	2899
+Skepplanda socken	2900
+Skeppsås	2901
+Skeppsås socken	2902
+Skepptuna	2903
+Skepptuna socken	2904
+Skerike-Gideonsberg	2905
+Skillingmark	2906
+Skillingmark socken	2907
+Skinnskatteberg Municipality	2908
+Skinnskatteberg med Hed och Gunnilbo	2909
+Skinnskatteberg socken	2910
+Skirö	2911
+Skirö socken	2912
+Skivarp	2913
+Skivarp socken	2914
+Skog	2915
+Skog socken	2916
+Skogs-Tibble socken	2917
+Skogsbygden socken	2918
+Skogslyckan	2919
+Skokloster Castle	2920
+Skokloster socken	2921
+Skorped	2922
+Skorped socken	2923
+Skrea	2924
+Skrea socken	2925
+Skredsvik	2926
+Skredsvik socken	2927
+Skultuna socken	2928
+Skummeslöv	2929
+Skummeslöv socken	2930
+Skurup	2931
+Skurup Municipality	2932
+Skurup socken	2933
+Skuttunge	2934
+Skuttunge socken	2935
+Skäfthammar	2936
+Skäfthammar socken	2937
+Skällinge socken	2938
+Skällvik socken	2939
+Skälvum	2940
+Skälvum socken	2941
+Skänninge socken	2942
+Skänninge-Allhelgona	2943
+Skärholmen	2944
+Skärkind	2945
+Skärkind socken	2946
+Skärstad	2947
+Skärstad socken	2948
+Skärv	2949
+Skärv socken	2950
+Skå socken	2951
+Skållerud	2952
+Skållerud socken	2953
+Skåne	2954
+Skånela socken	2955
+Skånes-Fagerhult	2956
+Skånes-Fagerhult socken	2957
+Skånings-Åsaka socken	2958
+Skårby socken	2959
+Sköldinge	2960
+Sköldinge socken	2961
+Sköllersta	2962
+Sköllersta socken	2963
+Skölvene	2964
+Skölvene socken	2965
+Skön	2966
+Skön socken	2967
+Skönberga socken	2968
+Skönsmon	2969
+Skörstorp	2970
+Skörstorp socken	2971
+Skövde	2972
+Skövde Kommun	2973
+Skövde socken	2974
+Slaka	2975
+Slaka socken	2976
+Slimminge socken	2977
+Slottsstaden	2978
+Slädene socken	2979
+Släp	2980
+Släp socken	2981
+Slätthög	2982
+Slätthög socken	2983
+Slättåkra socken	2984
+Slättåkra-Kvibille	2985
+Slöinge	2986
+Slöinge socken	2987
+Slöta	2988
+Slöta socken	2989
+Smedby socken	2990
+Smedjebacken Municipality	2991
+Smedstorp	2992
+Smedstorp socken	2993
+Smula socken	2994
+Smögen	2995
+Snavlunda	2996
+Snavlunda socken	2997
+Snårestad socken	2998
+Snöstorp	2999
+Snöstorp socken	3000
+Sofia	3001
+Solberga	3002
+Solberga socken	3003
+Sollefteå	3004
+Sollefteå Kommun	3005
+Sollefteå socken	3006
+Sollentuna	3007
+Sollentuna Municipality	3008
+Sollentuna socken	3009
+Sollerön	3010
+Sollerön socken	3011
+Solna	3012
+Solna Municipality	3013
+Solna socken	3014
+Sorsele	3015
+Sorsele Municipality	3016
+Sorsele socken	3017
+Sorunda	3018
+Sorunda socken	3019
+Sotenäs Kommun	3020
+Spannarp	3021
+Spannarp socken	3022
+Sparlösa socken	3023
+Sparrsätra socken	3024
+Sparrsätra-Bred	3025
+Spekeröd	3026
+Spekeröd socken	3027
+Spelvik socken	3028
+Spjutstorp socken	3029
+Sproge	3030
+Sproge socken	3031
+Spånga	3032
+Staffanstorp Municipality	3033
+Stafsinge	3034
+Stafsinge socken	3035
+Stala	3036
+Stala socken	3037
+Stallarholmen	3038
+Stamnared	3039
+Stamnared socken	3040
+Starby socken	3041
+Starrkärr socken	3042
+Starrkärr-Kilanda	3043
+Stavby	3044
+Stavby socken	3045
+Stavnäs socken	3046
+Stavnäs-Högerud	3047
+Stehag socken	3048
+Stenberga socken	3049
+Stenbrohult	3050
+Stenbrohult socken	3051
+Steneby	3052
+Steneby socken	3053
+Stenestad socken	3054
+Stengårdshult	3055
+Stengårdshult socken	3056
+Steninge	3057
+Steninge socken	3058
+Stenkumla	3059
+Stenkumla socken	3060
+Stenkvista socken	3061
+Stenkvista-Ärla	3062
+Stenkyrka	3063
+Stenkyrka socken	3064
+Stensele	3065
+Stensele socken	3066
+Stensjön	3067
+Stenstorp	3068
+Stenstorp socken	3069
+Stenum socken	3070
+Stenungsund Municipality	3071
+Stenåsa socken	3072
+Stiby	3073
+Stiby socken	3074
+Stigsjö	3075
+Stigsjö socken	3076
+Stigtomta socken	3077
+Stigtomta-Vrena	3078
+Stjärnorp	3079
+Stjärnorp socken	3080
+Stoby	3081
+Stoby socken	3082
+Stockaryd	3083
+Stockaryd socken	3084
+Stockholm	3085
+Stockholm Municipality	3086
+Stockholms domkyrkoförs.	3087
+Stora Hammar socken	3088
+Stora Harrie socken	3089
+Stora Herrestad socken	3090
+Stora Kil	3091
+Stora Kil socken	3092
+Stora Kopparberg	3093
+Stora Kopparberg socken	3094
+Stora Köpinge	3095
+Stora Köpinge socken	3096
+Stora Lundby	3097
+Stora Lundby socken	3098
+Stora Malm socken	3099
+Stora Mellby socken	3100
+Stora Mellösa	3101
+Stora Mellösa socken	3102
+Stora Råby	3103
+Stora Råby socken	3104
+Stora Skedvi	3105
+Stora Skedvi socken	3106
+Stora Slågarp socken	3107
+Stora Tuna	3108
+Stora Tuna socken	3109
+Stora Åby socken	3110
+Storfors	3111
+Storfors Municipality	3112
+Storsjö	3113
+Storsjö socken	3114
+Storuman Municipality	3115
+Strängnäs Kommun	3116
+Strängnäs domkyrkoförs. med Aspö	3117
+Strängnäs socken	3118
+Strängsered socken	3119
+Strå socken	3120
+Stråvalla	3121
+Stråvalla socken	3122
+Strö socken	3123
+Ström	3124
+Ström socken	3125
+Strömstad	3126
+Strömstad socken	3127
+Strömstads Kommun	3128
+Strömsunds kommun	3129
+Strövelstorp	3130
+Strövelstorp socken	3131
+Stugun	3132
+Stugun socken	3133
+Sturkö	3134
+Sturkö socken	3135
+Styra socken	3136
+Styrnäs	3137
+Styrnäs socken	3138
+Styrstad	3139
+Styrstad socken	3140
+Styrsö	3141
+Styrsö socken	3142
+Stävie socken	3143
+Stånga socken	3144
+Stånga-Burs	3145
+Stångby socken	3146
+Stöde	3147
+Stöde socken	3148
+Sund socken	3149
+Sund-Svinhult	3150
+Sundals-Ryr	3151
+Sundals-Ryr socken	3152
+Sundborn	3153
+Sundborn socken	3154
+Sundby socken	3155
+Sundbyberg	3156
+Sundbyberg Municipality	3157
+Sundbyberg socken	3158
+Sundre socken	3159
+Sundsjö	3160
+Sundsjö socken	3161
+Sundsvall	3162
+Sundsvalls Gustav Adolf	3163
+Sundsvalls Kommun	3164
+Sunne	3165
+Sunne Municipality	3166
+Sunne socken	3167
+Sunnemo	3168
+Sunnemo socken	3169
+Sunnersberg	3170
+Sunnersberg socken	3171
+Suntak socken	3172
+Sura	3173
+Sura socken	3174
+Surahammar Municipality	3175
+Surteby-Kattunga	3176
+Surteby-Kattunga socken	3177
+Svalöv socken	3178
+Svalövs Kommun	3179
+Svalövsbygden	3180
+Svanshals socken	3181
+Svanskog	3182
+Svanskog socken	3183
+Svarteborg	3184
+Svarteborg socken	3185
+Svartnäs socken	3186
+Svartrå socken	3187
+Svarttorp socken	3188
+Svedala	3189
+Svedala Municipality	3190
+Svedala socken	3191
+Svedvi socken	3192
+Sveg socken	3193
+Svegsbygden	3194
+Svenarum	3195
+Svenarum socken	3196
+Sveneby socken	3197
+Svenljunga Municipality	3198
+Svenljunga socken	3199
+Svenljungabygden	3200
+Svenneby	3201
+Svenneby socken	3202
+Svennevad socken	3203
+Svensköp socken	3204
+Svenstorp socken	3205
+Sventorp socken	3206
+Sventorp-Forsby	3207
+Svinhult socken	3208
+Svinnegarn socken	3209
+Svärdsjö	3210
+Svärdsjö socken	3211
+Svärta socken	3212
+Svärtinge	3213
+Sweden	3214
+Sya	3215
+Sya socken	3216
+Sydöland	3217
+Synnerby socken	3218
+Säbrå	3219
+Säbrå socken	3220
+Säby	3221
+Säby socken	3222
+Säffle	3223
+Säffle Kommun	3224
+Säfsnäs	3225
+Säfsnäs socken	3226
+Sällstorp socken	3227
+Särestad	3228
+Särestad socken	3229
+Särna	3230
+Särna socken	3231
+Särslöv socken	3232
+Säter	3233
+Säter Municipality	3234
+Säter socken	3235
+Sätila	3236
+Sätila socken	3237
+Sättersta socken	3238
+Sättna	3239
+Sättna socken	3240
+Sätuna socken	3241
+Sävar socken	3242
+Sävar-Holmön	3243
+Sävare	3244
+Sävare socken	3245
+Sävast	3246
+Säve	3247
+Säve socken	3248
+Sävedalen	3249
+Sävsjö	3250
+Sävsjö Kommun	3251
+Sävsjö socken	3252
+Sånga socken	3253
+Söderala	3254
+Söderala socken	3255
+Söderby-Karl socken	3256
+Söderbärke	3257
+Söderbärke socken	3258
+Söderfors socken	3259
+Söderhamn	3260
+Söderhamn socken	3261
+Söderköping	3262
+Söderköping socken	3263
+Söderköpings Kommun	3264
+Södermanland	3265
+Södertälje Kommun	3266
+Södertälje socken	3267
+Södertälje-Tveta	3268
+Södervidinge socken	3269
+Söderåkra	3270
+Söderåkra socken	3271
+Södra Björke	3272
+Södra Björke socken	3273
+Södra Finnskoga	3274
+Södra Finnskoga socken	3275
+Södra Fågelås socken	3276
+Södra Hestra	3277
+Södra Hestra socken	3278
+Södra Härene socken	3279
+Södra Kedum socken	3280
+Södra Kyrketorp socken	3281
+Södra Ljunga	3282
+Södra Ljunga socken	3283
+Södra Lundby socken	3284
+Södra Mellby socken	3285
+Södra Möckleby socken	3286
+Södra Ny socken	3287
+Södra Råda socken	3288
+Södra Rörum socken	3289
+Södra Sandby	3290
+Södra Sandby socken	3291
+Södra Sandsjö	3292
+Södra Sandsjö socken	3293
+Södra Solberga socken	3294
+Södra Säm socken	3295
+Södra Unnaryd	3296
+Södra Unnaryd socken	3297
+Södra Vi socken	3298
+Södra Vi-Djursdala	3299
+Södra Ving	3300
+Södra Ving socken	3301
+Södra Vram socken	3302
+Södra Vånga socken	3303
+Södra Åby socken	3304
+Södra Åkarp socken	3305
+Södra Åsarp	3306
+Södra Åsarp socken	3307
+Södra Åsum socken	3308
+Södra Åsunda	3309
+Sölvesborg	3310
+Sölvesborg Municipality	3311
+Sölvesborg socken	3312
+Söndrum socken	3313
+Söndrum-Vapnö	3314
+Söne socken	3315
+Söraby socken	3316
+Söraby-Tolg och Tjureda	3317
+Sörby socken	3318
+Sörbygden	3319
+Sövde socken	3320
+Sövestad socken	3321
+Sövestadsbygden	3322
+Tannåker	3323
+Tannåker socken	3324
+Tanum	3325
+Tanum Municipality	3326
+Tanum socken	3327
+Tarsled socken	3328
+Tavelsjö	3329
+Taxinge socken	3330
+Teckomatorp	3331
+Teda socken	3332
+Teg	3333
+Tegelsmora	3334
+Tegelsmora socken	3335
+Tegnaby socken	3336
+Tegneby	3337
+Tegneby socken	3338
+Teleborg	3339
+Tengene	3340
+Tengene socken	3341
+Tensta	3342
+Tensta socken	3343
+Tiarp	3344
+Tiarp socken	3345
+Tibro	3346
+Tibro Municipality	3347
+Tibro socken	3348
+Tidaholm	3349
+Tidaholm Municipality	3350
+Tidaholm socken	3351
+Tidavad socken	3352
+Tidersrum	3353
+Tidersrum socken	3354
+Tierp Municipality	3355
+Tierp socken	3356
+Tierp-Söderfors	3357
+Tillberga	3358
+Tillberga socken	3359
+Tillinge	3360
+Tillinge socken	3361
+Timmele	3362
+Timmele socken	3363
+Timmersdala socken	3364
+Timrå	3365
+Timrå Kommun	3366
+Timrå socken	3367
+Tingsryd Municipality	3368
+Tingstad	3369
+Tingstad socken	3370
+Tingstäde socken	3371
+Tingsås	3372
+Tingsås socken	3373
+Tirup socken	3374
+Tisselskog	3375
+Tisselskog socken	3376
+Tived socken	3377
+Tjureda socken	3378
+Tjurkö socken	3379
+Tjällmo	3380
+Tjällmo socken	3381
+Tjärby socken	3382
+Tjärnö socken	3383
+Tjärstad	3384
+Tjärstad socken	3385
+Tjörnarp socken	3386
+Tjörns Kommun	3387
+Toarp	3388
+Toarp socken	3389
+Tofta socken	3390
+Tofteryd	3391
+Tofteryd socken	3392
+Tolfta	3393
+Tolfta socken	3394
+Tolg socken	3395
+Tolånga	3396
+Tolånga socken	3397
+Tomelilla Municipality	3398
+Tomelillabygden	3399
+Torbjörntorp	3400
+Torbjörntorp socken	3401
+Torekov	3402
+Torekov socken	3403
+Torestorp	3404
+Torestorp socken	3405
+Toresund socken	3406
+Torhamn	3407
+Torhamn socken	3408
+Torn	3409
+Torp	3410
+Torp socken	3411
+Torpa	3412
+Torpa socken	3413
+Torrlösa socken	3414
+Torrskog	3415
+Torrskog socken	3416
+Torsby	3417
+Torsby Kommun	3418
+Torsby socken	3419
+Torshälla	3420
+Torshälla socken	3421
+Torskinge	3422
+Torskinge socken	3423
+Torslanda	3424
+Torslanda socken	3425
+Torslunda	3426
+Torslunda socken	3427
+Torstuna socken	3428
+Torsvi socken	3429
+Torsåker	3430
+Torsåker socken	3431
+Torsång	3432
+Torsång socken	3433
+Torsås	3434
+Torsås Kommun	3435
+Torsås socken	3436
+Torsö socken	3437
+Tortuna socken	3438
+Torup	3439
+Torup socken	3440
+Torö socken	3441
+Tossene	3442
+Tossene socken	3443
+Tostared	3444
+Tostared socken	3445
+Tosterup socken	3446
+Tottarp socken	3447
+Tranemo	3448
+Tranemo Municipality	3449
+Tranemo socken	3450
+Trankil	3451
+Trankil socken	3452
+Transtrand socken	3453
+Tranum socken	3454
+Tranås Kommun	3455
+Tranås socken	3456
+Traryd	3457
+Traryd socken	3458
+Trehörna socken	3459
+Trehörningsjö	3460
+Trehörningsjö socken	3461
+Trelleborg	3462
+Trelleborg Municipality	3463
+Trelleborg socken	3464
+Trolle-Ljungby socken	3465
+Trollenäs socken	3466
+Trollhättan	3467
+Trollhättan Municipality	3468
+Trollhättan socken	3469
+Trosa Municipality	3470
+Trosa stad socken	3471
+Trosa stadsförs.	3472
+Trosa-Vagnhärad	3473
+Trosa-Vagnhärad socken	3474
+Tryde socken	3475
+Tryserum	3476
+Tryserum socken	3477
+Träkumla	3478
+Träkumla socken	3479
+Träne socken	3480
+Träne-Djurröd	3481
+Träslöv	3482
+Träslöv socken	3483
+Trässberg socken	3484
+Trästena socken	3485
+Trävattna socken	3486
+Trångsund	3487
+Tråvad socken	3488
+Trökörna	3489
+Trökörna socken	3490
+Trönninge socken	3491
+Trönö	3492
+Trönö socken	3493
+Tullstorp socken	3494
+Tumberg socken	3495
+Tumbo socken	3496
+Tun socken	3497
+Tuna	3498
+Tuna socken	3499
+Tunaberg	3500
+Tunaberg socken	3501
+Tunge	3502
+Tunge socken	3503
+Turinge socken	3504
+Turinge-Taxinge	3505
+Tutaryd	3506
+Tutaryd socken	3507
+Tuve	3508
+Tuve socken	3509
+Tveta	3510
+Tveta socken	3511
+Tving	3512
+Tving socken	3513
+Tvärred socken	3514
+Två systrar	3515
+Tvååker	3516
+Tvååker socken	3517
+Tydje socken	3518
+Tygelsjö socken	3519
+Tygelsjö-Västra Klagstorp	3520
+Tynderö	3521
+Tynderö socken	3522
+Tynnered	3523
+Tyresö	3524
+Tyresö Kommun	3525
+Tyresö socken	3526
+Tysslinge	3527
+Tysslinge socken	3528
+Tystberga socken	3529
+Tystbergabygden	3530
+Täby	3531
+Täby Kommun	3532
+Täby socken	3533
+Tämta	3534
+Tämta socken	3535
+Täng socken	3536
+Tännäs socken	3537
+Tännäs-Ljusnedal	3538
+Tärby	3539
+Tärby socken	3540
+Tärendö socken	3541
+Tärna	3542
+Tärna socken	3543
+Tävelsås	3544
+Tävelsås socken	3545
+Tåby socken	3546
+Tådene socken	3547
+Tångeråsa socken	3548
+Tånnö	3549
+Tånnö socken	3550
+Tåsjö	3551
+Tåsjö socken	3552
+Tåssjö socken	3553
+Tåstarp socken	3554
+Töcksmark	3555
+Töcksmark socken	3556
+Töftedal	3557
+Töftedal socken	3558
+Töllsjö	3559
+Töllsjö socken	3560
+Tölö	3561
+Tölö socken	3562
+Tönnersjö socken	3563
+Töre	3564
+Töre socken	3565
+Töreboda	3566
+Töreboda Kommun	3567
+Töreboda socken	3568
+Törnevalla socken	3569
+Törnsfall	3570
+Törnsfall socken	3571
+Törringe socken	3572
+Tösse med Tydje	3573
+Tösse socken	3574
+Ucklum	3575
+Ucklum socken	3576
+Uddevalla	3577
+Uddevalla Municipality	3578
+Uddevalla socken	3579
+Ugglum socken	3580
+Ukna	3581
+Ukna socken	3582
+Ullared	3583
+Ullared socken	3584
+Ullasjö socken	3585
+Ullene socken	3586
+Ullerud	3587
+Ullervad	3588
+Ullervad socken	3589
+Ullstorp socken	3590
+Ullånger	3591
+Ullånger socken	3592
+Ulricehamn	3593
+Ulricehamn Municipality	3594
+Ulricehamn socken	3595
+Ulrika	3596
+Ulrika socken	3597
+Umeå	3598
+Umeå Kommun	3599
+Umeå Maria	3600
+Umeå landsförs.	3601
+Umeå stad socken	3602
+Umeå stadsförs.	3603
+Undenäs	3604
+Undenäs socken	3605
+Undersvik socken	3606
+Undersåker	3607
+Undersåker socken	3608
+Ununge	3609
+Ununge socken	3610
+Upphärad	3611
+Upphärad socken	3612
+Upplands Väsby Municipality	3613
+Upplands-Bro Kommun	3614
+Uppsala	3615
+Uppsala Municipality	3616
+Uppsala domkyrkoförs.	3617
+Uppsala-Näs	3618
+Uppsala-Näs socken	3619
+Uppvidinge Kommun	3620
+Uppåkra	3621
+Uppåkra socken	3622
+Urshult	3623
+Urshult socken	3624
+Uråsa	3625
+Uråsa socken	3626
+Utby socken	3627
+Utvängstorp socken	3628
+Utö socken	3629
+Uvered socken	3630
+Vad socken	3631
+Vada socken	3632
+Vadensjö socken	3633
+Vadsbro	3634
+Vadsbro socken	3635
+Vadstena	3636
+Vadstena Municipality	3637
+Vadstena socken	3638
+Vaggeryd Municipality	3639
+Vaksala	3640
+Vaksala socken	3641
+Valbo	3642
+Valbo socken	3643
+Valbo-Ryr socken	3644
+Valdemarsvik	3645
+Valdemarsvik socken	3646
+Valdemarsviks Kommun	3647
+Valdshult	3648
+Valdshult socken	3649
+Valinge	3650
+Valinge socken	3651
+Vall socken	3652
+Vall-Hogrän och Atlingbo	3653
+Valla	3654
+Valla socken	3655
+Vallby socken	3656
+Vallda	3657
+Vallda socken	3658
+Valleberga socken	3659
+Vallentuna	3660
+Vallentuna Municipality	3661
+Vallentuna socken	3662
+Vallerstad	3663
+Vallerstad socken	3664
+Vallkärra socken	3665
+Vallstena	3666
+Vallstena socken	3667
+Valsta	3668
+Valstad	3669
+Valstad socken	3670
+Valtorp socken	3671
+Valö socken	3672
+Vamlingbo socken	3673
+Vankiva	3674
+Vankiva socken	3675
+Vansbro Kommun	3676
+Vanstad	3677
+Vanstad socken	3678
+Vansö socken	3679
+Vantör	3680
+Vapnö socken	3681
+Vara	3682
+Vara Municipality	3683
+Vara socken	3684
+Varberg	3685
+Varberg socken	3686
+Varbergs Kommun	3687
+Varnhem	3688
+Varnhem socken	3689
+Varnum socken	3690
+Varola	3691
+Varola socken	3692
+Vartofta-Åsaka socken	3693
+Varv	3694
+Varv socken	3695
+Vassunda	3696
+Vassunda socken	3697
+Vaxholm	3698
+Vaxholm Municipality	3699
+Vaxholm socken	3700
+Veberöd	3701
+Veberöd socken	3702
+Veckholm	3703
+Veckholm socken	3704
+Vedby socken	3705
+Veddige	3706
+Veddige socken	3707
+Vederslöv socken	3708
+Vederslöv-Dänningelanda	3709
+Vedum	3710
+Veinge socken	3711
+Veinge-Tjärby	3712
+Velinga	3713
+Velinga socken	3714
+Vellinge Municipality	3715
+Vellinge socken	3716
+Vellinge-Månstorp	3717
+Vemdalen	3718
+Vemdalen socken	3719
+Vena	3720
+Vena socken	3721
+Vendel	3722
+Vendel socken	3723
+Venjan	3724
+Ventlinge socken	3725
+Verum	3726
+Verum socken	3727
+Vesene	3728
+Vesene socken	3729
+Vessige	3730
+Vessige socken	3731
+Veta	3732
+Veta socken	3733
+Vetlanda	3734
+Vetlanda Municipality	3735
+Vetlanda socken	3736
+Viby	3737
+Viby socken	3738
+Vibyggerå	3739
+Vibyggerå socken	3740
+Vickleby socken	3741
+Vidbo socken	3742
+Vika	3743
+Vika socken	3744
+Viken	3745
+Viken socken	3746
+Viker	3747
+Viker socken	3748
+Vikingstad	3749
+Vikingstad socken	3750
+Viklau socken	3751
+Viksjö	3752
+Viksjö socken	3753
+Viksta	3754
+Viksta socken	3755
+Vilhelmina	3756
+Vilhelmina Kommun	3757
+Vilhelmina socken	3758
+Villberga socken	3759
+Villberga-Hacksta-Löt	3760
+Villie	3761
+Villie socken	3762
+Villstad	3763
+Villstad socken	3764
+Vilske-Kleva	3765
+Vilske-Kleva socken	3766
+Vimmerby	3767
+Vimmerby Municipality	3768
+Vimmerby socken	3769
+Vinberg	3770
+Vinberg socken	3771
+Vindeln	3772
+Vindelns Kommun	3773
+Vingåkers Kommun	3774
+Vinköl socken	3775
+Vinslöv	3776
+Vinslöv socken	3777
+Vintrosa socken	3778
+Vireda socken	3779
+Virestad	3780
+Virestad socken	3781
+Virke socken	3782
+Virserum	3783
+Virserum socken	3784
+Visby domkyrkoförs.	3785
+Visby socken	3786
+Visingsö	3787
+Visingsö socken	3788
+Vislanda	3789
+Vislanda socken	3790
+Visnum	3791
+Visnum socken	3792
+Visnums-Kil	3793
+Visnums-Kil socken	3794
+Vissefjärda	3795
+Vissefjärda socken	3796
+Visseltofta socken	3797
+Vist	3798
+Vist socken	3799
+Vistorp socken	3800
+Vitaby socken	3801
+Vitsand	3802
+Vitsand socken	3803
+Vittangi	3804
+Vittaryd	3805
+Vittaryd socken	3806
+Vittinge	3807
+Vittinge socken	3808
+Vittsjö	3809
+Vittsjö socken	3810
+Vittskövle	3811
+Vittskövle socken	3812
+Vollsjö socken	3813
+Vomb socken	3814
+Voxna socken	3815
+Voxtorp	3816
+Voxtorp socken	3817
+Vrena socken	3818
+Vreta kloster	3819
+Vreta kloster socken	3820
+Vreten	3821
+Vrigstad socken	3822
+Vrigstad-Hylletofta	3823
+Vrinnevi	3824
+Vrå	3825
+Vrå socken	3826
+Vä socken	3827
+Vä-Skepparslöv	3828
+Väckelsång	3829
+Väckelsång socken	3830
+Väddö	3831
+Väddö socken	3832
+Väderstad	3833
+Väderstad socken	3834
+Väla socken	3835
+Välinge socken	3836
+Välinge-Kattarp	3837
+Vällingby	3838
+Välluv socken	3839
+Välluv-Frillestad	3840
+Väne-Ryr	3841
+Väne-Ryr socken	3842
+Väne-Åsaka socken	3843
+Vänersborg	3844
+Vänersborg socken	3845
+Vänersborgs Kommun	3846
+Vänersnäs	3847
+Vänersnäs socken	3848
+Vänga	3849
+Vänga socken	3850
+Vänge	3851
+Vänge socken	3852
+Vänjan socken	3853
+Vännäs	3854
+Vännäs Kommun	3855
+Vännäs socken	3856
+Värby	3857
+Väring	3858
+Väring socken	3859
+Värmdö	3860
+Värmdö Kommun	3861
+Värmdö socken	3862
+Värmland	3863
+Värmskog	3864
+Värmskog socken	3865
+Värna socken	3866
+Värnamo	3867
+Värnamo Kommun	3868
+Värnamo socken	3869
+Värsås	3870
+Värsås socken	3871
+Värö	3872
+Värö socken	3873
+Väsby	3874
+Väsby socken	3875
+Väse socken	3876
+Väse-Fågelvik	3877
+Väskinde	3878
+Väskinde socken	3879
+Västanfors-Västervåla	3880
+Västerbitterna socken	3881
+Västerbotten	3882
+Västerfärnebo socken	3883
+Västerfärnebo-Fläckebo	3884
+Västergarn	3885
+Västergarn socken	3886
+Västerhaninge socken	3887
+Västerhaninge-Muskö	3888
+Västerhejde	3889
+Västerhejde socken	3890
+Västerlanda	3891
+Västerlanda socken	3892
+Västerled	3893
+Västerljung	3894
+Västerljung socken	3895
+Västerlösa socken	3896
+Västerlövsta	3897
+Västerlövsta socken	3898
+Västermo socken	3899
+Västernorrland	3900
+Västerplana socken	3901
+Västerstad	3902
+Västerstad socken	3903
+Västerstrand	3904
+Västertälje	3905
+Västervik	3906
+Västervik socken	3907
+Västerviks Kommun	3908
+Västervåla socken	3909
+Västeråker	3910
+Västeråker socken	3911
+Västerås Badelunda	3912
+Västerås Lundby	3913
+Västerås Municipality	3914
+Västerås domkyrkoförs.	3915
+Västerås socken	3916
+Västerås-Barkarö	3917
+Västerås-Barkarö socken	3918
+Västland	3919
+Västland socken	3920
+Västmanland	3921
+Västra Alstad socken	3922
+Västra Broby socken	3923
+Västra Ed	3924
+Västra Ed socken	3925
+Västra Eneby	3926
+Västra Eneby socken	3927
+Västra Frölunda	3928
+Västra Fågelvik	3929
+Västra Fågelvik socken	3930
+Västra Gerum socken	3931
+Västra Götaland	3932
+Västra Harg	3933
+Västra Harg socken	3934
+Västra Hoby socken	3935
+Västra Husby	3936
+Västra Husby socken	3937
+Västra Ingelstad socken	3938
+Västra Karaby	3939
+Västra Karaby socken	3940
+Västra Karup	3941
+Västra Karup socken	3942
+Västra Klagstorp socken	3943
+Västra Kärrstorp socken	3944
+Västra Ny	3945
+Västra Ny socken	3946
+Västra Nöbbelöv socken	3947
+Västra Rekarne	3948
+Västra Ryd	3949
+Västra Ryd socken	3950
+Västra Skedvi	3951
+Västra Skedvi socken	3952
+Västra Skrävlinge	3953
+Västra Stenby socken	3954
+Västra Storsjöbygden	3955
+Västra Strö socken	3956
+Västra Sönnarslöv socken	3957
+Västra Tollstad socken	3958
+Västra Tommarp socken	3959
+Västra Torsås	3960
+Västra Torsås socken	3961
+Västra Torup	3962
+Västra Torup socken	3963
+Västra Tunhem	3964
+Västra Tunhem socken	3965
+Västra Vemmenhög socken	3966
+Västra Vemmerlöv socken	3967
+Västra Vikbolandet	3968
+Västra Vingåker	3969
+Västra Vingåker socken	3970
+Västra Vram socken	3971
+Västra och Östra Vram	3972
+Västra Ämtervik	3973
+Västra Ämtervik socken	3974
+Västrum socken	3975
+Väte	3976
+Väte socken	3977
+Vättak socken	3978
+Vättlösa socken	3979
+Vätö	3980
+Vätö socken	3981
+Väversunda socken	3982
+Växjö Kommun	3983
+Växjö Maria	3984
+Växjö domkyrkoförs.	3985
+Växjö socken	3986
+Våmb	3987
+Våmb socken	3988
+Våmhus	3989
+Våmhus socken	3990
+Vånga	3991
+Vånga socken	3992
+Vårdinge	3993
+Vårdinge socken	3994
+Vårdnäs	3995
+Vårdnäs socken	3996
+Vårdsberg socken	3997
+Vårfruberga-Härad	3998
+Vårfrukyrka socken	3999
+Vårgårda Kommun	4000
+Vårkumla socken	4001
+Vårvik	4002
+Vårvik socken	4003
+Våthult	4004
+Våthult socken	4005
+Våxtorp socken	4006
+Ydre Kommun	4007
+Yllestad	4008
+Yllestad socken	4009
+Ysane socken	4010
+Ysby socken	4011
+Ystad	4012
+Ystad Municipality	4013
+Ystad socken	4014
+Ytterby	4015
+Ytterby socken	4016
+Ytterenhörna socken	4017
+Yttergran	4018
+Yttergran socken	4019
+Ytterhogdal socken	4020
+Ytterhogdal-Överhogdal och Ängersjö	4021
+Ytterjärna	4022
+Ytterjärna socken	4023
+Ytterlännäs	4024
+Ytterlännäs socken	4025
+Ytterselö socken	4026
+Yxnerum socken	4027
+Älekulla	4028
+Älekulla socken	4029
+Älgarås socken	4030
+Älghult	4031
+Älghult socken	4032
+Älgå	4033
+Älgå socken	4034
+Älmeboda	4035
+Älmeboda socken	4036
+Älmhult	4037
+Älmhults Kommun	4038
+Älvdalen	4039
+Älvdalen Municipality	4040
+Älvdalen socken	4041
+Älvestad socken	4042
+Älvkarleby Kommun	4043
+Älvkarleby socken	4044
+Älvkarleby-Skutskär	4045
+Älvros socken	4046
+Älvsbacka socken	4047
+Älvsborg	4048
+Älvsby	4049
+Älvsby socken	4050
+Älvsbyns Kommun	4051
+Älvsered	4052
+Älvsered socken	4053
+Älvsåker	4054
+Älvsåker socken	4055
+Ängelholm	4056
+Ängelholm socken	4057
+Ängelholms Kommun	4058
+Ängersjö socken	4059
+Ängsö socken	4060
+Äppelbo	4061
+Äppelbo socken	4062
+Ärentuna	4063
+Ärentuna socken	4064
+Ärla socken	4065
+Ärtemark	4066
+Ärtemark socken	4067
+Äspered	4068
+Äspered socken	4069
+Äsphult	4070
+Äsphult socken	4071
+Äspinge socken	4072
+Äspö socken	4073
+Å socken	4074
+Åby	4075
+Åby socken	4076
+Ådals-Liden	4077
+Ådals-Liden socken	4078
+Åhus	4079
+Åhus socken	4080
+Åker	4081
+Åker socken	4082
+Åker-Länna	4083
+Åkerbo	4084
+Åkerby	4085
+Åkerby socken	4086
+Ål	4087
+Ål socken	4088
+Åland socken	4089
+Ålem	4090
+Ålem socken	4091
+Ålidhem	4092
+Åmål	4093
+Åmål socken	4094
+Åmåls Kommun	4095
+Ånge Municipality	4096
+Ånimskog	4097
+Ånimskog socken	4098
+Årdala	4099
+Årdala socken	4100
+Åre	4101
+Åre Municipality	4102
+Åre socken	4103
+Årjäng Municipality	4104
+Årstad	4105
+Årstad socken	4106
+Årsunda	4107
+Årsunda socken	4108
+Åryd	4109
+Åryd socken	4110
+Ås	4111
+Ås socken	4112
+Åsaka-Björke	4113
+Åsarne	4114
+Åsarne socken	4115
+Åsarp	4116
+Åsbo	4117
+Åsbo socken	4118
+Åsbräcka socken	4119
+Åseda	4120
+Åseda socken	4121
+Åsele	4122
+Åsele Kommun	4123
+Åsele socken	4124
+Åsenhöga	4125
+Åsenhöga socken	4126
+Åsle	4127
+Åsle socken	4128
+Åstorps Kommun	4129
+Åsunden	4130
+Åtvid	4131
+Åtvid socken	4132
+Åtvidabergs Kommun	4133
+Öckerö	4134
+Öckerö Kommun	4135
+Öckerö socken	4136
+Ödeborg	4137
+Ödeborg socken	4138
+Ödeby socken	4139
+Ödenäs	4140
+Ödenäs socken	4141
+Ödeshög	4142
+Ödeshög socken	4143
+Ödeshögs Kommun	4144
+Ödestugu	4145
+Ödestugu socken	4146
+Ödskölt	4147
+Ödskölt socken	4148
+Ödsmål	4149
+Ödsmål socken	4150
+Öggestorp socken	4151
+Öglunda socken	4152
+Öja	4153
+Öja socken	4154
+Öjaby	4155
+Öjaby socken	4156
+Ökna	4157
+Ökna socken	4158
+Öljehult socken	4159
+Ölme	4160
+Ölme socken	4161
+Ölmevalla	4162
+Ölmevalla socken	4163
+Ölmstad	4164
+Ölmstad socken	4165
+Ölserud	4166
+Ölserud socken	4167
+Ölsremma	4168
+Ölsremma socken	4169
+Önnarp socken	4170
+Önnestad socken	4171
+Önsta	4172
+Önum socken	4173
+Ör	4174
+Ör socken	4175
+Ör-Ormesberga	4176
+Öra	4177
+Öra socken	4178
+Örberga socken	4179
+Örby socken	4180
+Örby-Skene	4181
+Örebro	4182
+Örebro Kommun	4183
+Örebro Nikolai	4184
+Örebro Olaus Petri	4185
+Öregrund socken	4186
+Öregrund-Gräsö	4187
+Öreryd	4188
+Öreryd socken	4189
+Örgryte	4190
+Örja socken	4191
+Örkelljunga	4192
+Örkelljunga Kommun	4193
+Örkelljunga socken	4194
+Örkened	4195
+Örkened socken	4196
+Örnsköldsvik	4197
+Örnsköldsvik socken	4198
+Örnsköldsviks Kommun	4199
+Örnäset	4200
+Örsjö	4201
+Örsjö socken	4202
+Örslösa	4203
+Örslösa socken	4204
+Örsås socken	4205
+Örtofta socken	4206
+Örtomta socken	4207
+Örträsk socken	4208
+Ösmo socken	4209
+Ösmo-Torö	4210
+Össeby	4211
+Össeby-Garn socken	4212
+Össjö socken	4213
+Östad	4214
+Östad socken	4215
+Österbitterna socken	4216
+Österfärnebo	4217
+Österfärnebo socken	4218
+Östergarn	4219
+Östergarn socken	4220
+Östergötland	4221
+Österhaninge	4222
+Österhaninge socken	4223
+Österlövsta socken	4224
+Österplana socken	4225
+Österslöv socken	4226
+Östersund	4227
+Östersund municipality	4228
+Östersund socken	4229
+Östertälje	4230
+Östertälje socken	4231
+Österunda socken	4232
+Östervallskog	4233
+Östervallskog socken	4234
+Östervåla	4235
+Östervåla socken	4236
+Österåker	4237
+Österåker socken	4238
+Österåker-Östra Ryd	4239
+Österåkers Kommun	4240
+Österåkers socken	4241
+Östhammar Municipality	4242
+Östhammar socken	4243
+Östmark	4244
+Östmark socken	4245
+Östra Broby	4246
+Östra Broby socken	4247
+Östra Ed	4248
+Östra Ed socken	4249
+Östra Frölunda socken	4250
+Östra Fågelvik socken	4251
+Östra Gerum socken	4252
+Östra Grevie socken	4253
+Östra Göinge Kommun	4254
+Östra Harg socken	4255
+Östra Herrestad socken	4256
+Östra Hoby socken	4257
+Östra Husby	4258
+Östra Husby socken	4259
+Östra Ingelstad socken	4260
+Östra Karaby socken	4261
+Östra Karup	4262
+Östra Karup socken	4263
+Östra Klagstorp socken	4264
+Östra Kärrstorp	4265
+Östra Kärrstorp socken	4266
+Östra Ljungby	4267
+Östra Ljungby socken	4268
+Östra Ny	4269
+Östra Ny socken	4270
+Östra Nöbbelöv socken	4271
+Östra Onsjö	4272
+Östra Ryd	4273
+Östra Ryd socken	4274
+Östra Ryds socken	4275
+Östra Sallerup socken	4276
+Östra Skrukeby socken	4277
+Östra Stenby socken	4278
+Östra Strö socken	4279
+Östra Sönnarslöv socken	4280
+Östra Tollstad	4281
+Östra Tollstad socken	4282
+Östra Tommarp socken	4283
+Östra Torn	4284
+Östra Torp socken	4285
+Östra Torsås	4286
+Östra Torsås socken	4287
+Östra Tunhem socken	4288
+Östra Vemmenhög socken	4289
+Östra Vemmerlöv socken	4290
+Östra Vingåker socken	4291
+Östra Vram socken	4292
+Östra Ämtervik	4293
+Östra Ämtervik socken	4294
+Östraby socken	4295
+Östuna	4296
+Östuna socken	4297
+Öttum socken	4298
+Öved socken	4299
+Överenhörna socken	4300
+Övergran	4301
+Övergran socken	4302
+Överhogdal socken	4303
+Överjärna	4304
+Överjärna socken	4305
+Överkalix	4306
+Överkalix Kommun	4307
+Överkalix socken	4308
+Överluleå	4309
+Överluleå socken	4310
+Överlännäs	4311
+Överlännäs socken	4312
+Överselö socken	4313
+Övertorneå	4314
+Övertorneå Kommun	4315
+Övertorneå socken	4316
+Överum	4317
+Överum socken	4318
+Övraby	4319
+Övraby socken	4320
+Övre Ullerud socken	4321
+Öxabäck	4322
+Öxabäck socken	4323
+Öxnevalla	4324
+Öxnevalla socken	4325

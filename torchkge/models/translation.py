@@ -12,7 +12,7 @@ from torch.nn.functional import normalize
 from ..models.interfaces import TranslationModel
 from ..utils import init_embedding
 
-from tqdm.autonotebook import tqdm
+# from tqdm.autonotebook import tqdm
 
 
 class TransEModel(TranslationModel):
@@ -121,6 +121,24 @@ class TransEModel(TranslationModel):
         candidates = candidates.expand(b_size, self.n_ent, self.emb_dim)
 
         return h_emb, t_emb, candidates, r_emb
+
+    def rp_prep_cands(self, h_idx, t_idx, r_idx):
+        """Link prediction evaluation helper function. Get entities embeddings
+        and relations embeddings. The output will be fed to the
+        `lp_scoring_function` method. See torchkge.models.interfaces.Models for
+        more details on the API.
+
+        """
+        b_size = h_idx.shape[0]
+
+        h_emb = self.ent_emb(h_idx)
+        t_emb = self.ent_emb(t_idx)
+        # r_emb = self.rel_emb(r_idx)
+
+        candidates = self.rel_emb.weight.data.view(1, self.n_rel, self.emb_dim)
+        candidates = candidates.expand(b_size, self.n_rel, self.emb_dim)
+
+        return h_emb, t_emb, candidates
 
 
 class TransHModel(TranslationModel):
@@ -254,8 +272,7 @@ class TransHModel(TranslationModel):
         if self.evaluated_projections:
             return
 
-        for i in tqdm(range(self.n_ent), unit='entities',
-                      desc='Projecting entities'):
+        for i in range(self.n_ent):
 
             norm_vect = self.norm_vect.weight.data.view(self.n_rel,
                                                         self.emb_dim)
@@ -423,8 +440,7 @@ class TransRModel(TranslationModel):
         if self.evaluated_projections:
             return
 
-        for i in tqdm(range(self.n_ent), unit='entities',
-                      desc='Projecting entities'):
+        for i in range(self.n_ent):
             projection_matrices = self.proj_mat.weight.data
             projection_matrices = projection_matrices.view(self.n_rel,
                                                            self.rel_emb_dim,
@@ -444,6 +460,26 @@ class TransRModel(TranslationModel):
             del proj_ent
 
         self.evaluated_projections = True
+
+    def rp_prep_cands(self, h_idx, t_idx, r_idx):
+        """Link prediction evaluation helper function. Get entities embeddings
+        and relations embeddings. The output will be fed to the
+        `lp_scoring_function` method. See torchkge.models.interfaces.Models for
+        more details on the API.
+
+        """
+
+        if not self.evaluated_projections:
+            self.lp_evaluate_projections()
+
+        b_size = h_idx.shape[0]
+        proj_h = self.projected_entities[r_idx, h_idx]
+        proj_t = self.projected_entities[r_idx, t_idx]
+        candidates = self.rel_emb.weight.data.view(1, self.n_rel, self.rel_emb_dim)
+        candidates = candidates.expand(b_size, self.n_rel, self.rel_emb_dim)
+
+        return proj_h, proj_t, candidates
+
 
 
 class TransDModel(TranslationModel):
@@ -619,8 +655,7 @@ class TransDModel(TranslationModel):
         if self.evaluated_projections:
             return
 
-        for i in tqdm(range(self.n_ent), unit='entities',  # TODO change this
-                      desc='Projecting entities'):
+        for i in range(self.n_ent):
 
             rel_proj_vects = self.rel_proj_vect.weight.data
             ent = self.ent_emb.weight[i]
@@ -634,6 +669,26 @@ class TransDModel(TranslationModel):
             del proj_e
 
         self.evaluated_projections = True
+
+    def rp_prep_cands(self, h_idx, t_idx, r_idx):
+        """Link prediction evaluation helper function. Get entities embeddings
+        and relations embeddings. The output will be fed to the
+        `lp_scoring_function` method. See torchkge.models.interfaces.Models for
+        more details on the API.
+
+        """
+
+        if not self.evaluated_projections:
+            self.lp_evaluate_projections()
+
+        b_size = h_idx.shape[0]
+        proj_h = self.projected_entities[r_idx, h_idx]
+        proj_t = self.projected_entities[r_idx, t_idx]
+        candidates = self.rel_emb.weight.data.view(1, self.n_rel, self.rel_emb_dim)
+        candidates = candidates.expand(b_size, self.n_rel, self.rel_emb_dim)
+
+        return proj_h, proj_t, candidates
+
 
 
 class TorusEModel(TranslationModel):
@@ -854,362 +909,418 @@ class TransE_GDRModel(TranslationModel):
 
         return h_emb, t_emb, candidates, r_emb
 
-    class TransR_GDRModel(TranslationModel):
-        """Implementation of TransR model detailed in 2015 paper by Lin et al..
-        This class inherits from the
-        :class:`torchkge.models.interfaces.TranslationModel` interface. It then
-        has its attributes as well.
+    def rp_prep_cands(self, h_idx, t_idx, r_idx):
+        """Link prediction evaluation helper function. Get entities embeddings
+        and relations embeddings. The output will be fed to the
+        `lp_scoring_function` method. See torchkge.models.interfaces.Models for
+        more details on the API.
 
-        References
-        ----------
-        * Yankai Lin, Zhiyuan Liu, Maosong Sun, Yang Liu, and Xuan Zhu.
-          `Learning Entity and Relation Embeddings for Knowledge Graph Completion.
-          <https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9571/9523>`_
-          In Twenty-Ninth AAAI Conference on Artificial Intelligence, February 2015
-
-        Parameters
-        ----------
-        ent_emb_dim: int
-            Dimension of the embedding of entities.
-        rel_emb_dim: int
-            Dimension of the embedding of relations.
-        n_ent: int
-            Number of entities in the current data set.
-        n_rel: int
-            Number of relations in the current data set.
-
-        Attributes
-        ----------
-        ent_emb_dim: int
-            Dimension nof the embedding of entities.
-        rel_emb_dim: int
-            Dimension of the embedding of relations.
-        ent_emb: `torch.nn.Embedding`, shape: (n_ent, ent_emb_dim)
-            Embeddings of the entities, initialized with Xavier uniform
-            distribution and then normalized.
-        rel_emb: `torch.nn.Embedding`, shape: (n_rel, rel_emb_dim)
-            Embeddings of the relations, initialized with Xavier uniform
-            distribution and then normalized.
-        proj_mat: `torch.nn.Embedding`, shape: (n_rel, rel_emb_dim x ent_emb_dim)
-            Relation-specific projection matrices. See paper for more details.
-        projected_entities: `torch.nn.Parameter`, \
-            shape: (n_rel, n_ent, rel_emb_dim)
-            Contains the projection of each entity in each relation-specific
-            sub-space.
-        evaluated_projections: bool
-            Indicates whether `projected_entities` has been computed. This should
-            be set to true every time a backward pass is done in train mode.
         """
+        b_size = h_idx.shape[0]
 
-        def __init__(self, ent_emb_dim, rel_emb_dim, n_entities, n_relations):
+        h_emb = self.ent_emb(h_idx)
+        t_emb = self.ent_emb(t_idx)
+        # r_emb = self.rel_emb(r_idx)
 
-            super().__init__(n_entities, n_relations, 'L2')
-            self.ent_emb_dim = ent_emb_dim
-            self.rel_emb_dim = rel_emb_dim
+        candidates = self.rel_emb.weight.data.view(1, self.n_rel, self.emb_dim)
+        candidates = candidates.expand(b_size, self.n_rel, self.emb_dim)
 
-            self.ent_emb = init_embedding(self.n_ent, self.ent_emb_dim)
-            self.rel_emb = init_embedding(self.n_rel, self.rel_emb_dim)
-            self.proj_mat = init_embedding(self.n_rel,
-                                           self.rel_emb_dim * self.ent_emb_dim)
+        return h_emb, t_emb, candidates
 
-            self.normalize_parameters()
+class TransR_GDRModel(TranslationModel):
+    """Implementation of TransR model detailed in 2015 paper by Lin et al..
+    This class inherits from the
+    :class:`torchkge.models.interfaces.TranslationModel` interface. It then
+    has its attributes as well.
 
-            self.evaluated_projections = False
-            self.projected_entities = Parameter(empty(size=(self.n_rel, self.n_ent,
-                                                            self.rel_emb_dim)),
-                                                requires_grad=False)  # 映射矩阵
+    References
+    ----------
+    * Yankai Lin, Zhiyuan Liu, Maosong Sun, Yang Liu, and Xuan Zhu.
+      `Learning Entity and Relation Embeddings for Knowledge Graph Completion.
+      <https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9571/9523>`_
+      In Twenty-Ninth AAAI Conference on Artificial Intelligence, February 2015
 
-        def scoring_function(self, h_idx, t_idx, r_idx):
-            """Compute the scoring function for the triplets given as argument:
-            :math:`||p_r(h) + r - p_r(t)||_2^2`. See referenced paper for
-            more details on the score. See torchkge.models.interfaces.Models for
-            more details on the API.
+    Parameters
+    ----------
+    ent_emb_dim: int
+        Dimension of the embedding of entities.
+    rel_emb_dim: int
+        Dimension of the embedding of relations.
+    n_ent: int
+        Number of entities in the current data set.
+    n_rel: int
+        Number of relations in the current data set.
 
-            """
-            self.evaluated_projections = False
+    Attributes
+    ----------
+    ent_emb_dim: int
+        Dimension nof the embedding of entities.
+    rel_emb_dim: int
+        Dimension of the embedding of relations.
+    ent_emb: `torch.nn.Embedding`, shape: (n_ent, ent_emb_dim)
+        Embeddings of the entities, initialized with Xavier uniform
+        distribution and then normalized.
+    rel_emb: `torch.nn.Embedding`, shape: (n_rel, rel_emb_dim)
+        Embeddings of the relations, initialized with Xavier uniform
+        distribution and then normalized.
+    proj_mat: `torch.nn.Embedding`, shape: (n_rel, rel_emb_dim x ent_emb_dim)
+        Relation-specific projection matrices. See paper for more details.
+    projected_entities: `torch.nn.Parameter`, \
+        shape: (n_rel, n_ent, rel_emb_dim)
+        Contains the projection of each entity in each relation-specific
+        sub-space.
+    evaluated_projections: bool
+        Indicates whether `projected_entities` has been computed. This should
+        be set to true every time a backward pass is done in train mode.
+    """
 
-            b_size = h_idx.shape[0]
-            h = normalize(self.ent_emb(h_idx), p=2, dim=1)
-            t = normalize(self.ent_emb(t_idx), p=2, dim=1)
-            r = self.rel_emb(r_idx)
-            proj_mat = self.proj_mat(r_idx).view(b_size,
-                                                 self.rel_emb_dim,
-                                                 self.ent_emb_dim)
-            return - self.dissimilarity(self.project(h, proj_mat) + r,
-                                        self.project(t, proj_mat))
+    def __init__(self, ent_emb_dim, rel_emb_dim, n_entities, n_relations):
 
-        def project(self, ent, proj_mat):
-            proj_e = matmul(proj_mat, ent.view(-1, self.ent_emb_dim, 1))
-            return proj_e.view(-1, self.rel_emb_dim)
+        super().__init__(n_entities, n_relations, 'L2')
+        self.ent_emb_dim = ent_emb_dim
+        self.rel_emb_dim = rel_emb_dim
 
-        def normalize_parameters(self):
-            """Normalize the entity and relation embeddings, as explained in
-            original paper. This methods should be called at the end of each
-            training epoch and at the end of training as well.
+        self.ent_emb = init_embedding(self.n_ent, self.ent_emb_dim)
+        self.rel_emb = init_embedding(self.n_rel, self.rel_emb_dim)
+        self.proj_mat = init_embedding(self.n_rel,
+                                       self.rel_emb_dim * self.ent_emb_dim)
 
-            """
-            self.ent_emb.weight.data = normalize(self.ent_emb.weight.data,
-                                                 p=2, dim=1)
-            self.rel_emb.weight.data = normalize(self.rel_emb.weight.data,
-                                                 p=2, dim=1)
+        self.normalize_parameters()
 
-        def get_embeddings(self):
-            """Return the embeddings of entities and relations along with their
-            projection matrices.
+        self.evaluated_projections = False
+        self.projected_entities = Parameter(empty(size=(self.n_rel, self.n_ent,
+                                                        self.rel_emb_dim)),
+                                            requires_grad=False)  # 映射矩阵
 
-            Returns
-            -------
-            ent_emb: torch.Tensor, shape: (n_ent, ent_emb_dim), dtype: torch.float
-                Embeddings of entities.
-            rel_emb: torch.Tensor, shape: (n_rel, rel_emb_dim), dtype: torch.float
-                Embeddings of relations.
-            proj_mat: torch.Tensor, shape: (n_rel, rel_emb_dim, ent_emb_dim),
-            dtype: torch.float
-                Relation-specific projection matrices.
-            """
-            self.normalize_parameters()
-            return self.ent_emb.weight.data, self.rel_emb.weight.data, \
-                   self.proj_mat.weight.data.view(-1,
-                                                  self.rel_emb_dim,
-                                                  self.ent_emb_dim)
+    def scoring_function(self, h_idx, t_idx, r_idx):
+        """Compute the scoring function for the triplets given as argument:
+        :math:`||p_r(h) + r - p_r(t)||_2^2`. See referenced paper for
+        more details on the score. See torchkge.models.interfaces.Models for
+        more details on the API.
 
-        def lp_prep_cands(self, h_idx, t_idx, r_idx):
-            """Link prediction evaluation helper function. Get entities embeddings
-            and relations embeddings. The output will be fed to the
-            `lp_scoring_function` method. See torchkge.models.interfaces.Models for
-            more details on the API.
+        """
+        self.evaluated_projections = False
 
-            """
+        b_size = h_idx.shape[0]
+        h = normalize(self.ent_emb(h_idx), p=2, dim=1)
+        t = normalize(self.ent_emb(t_idx), p=2, dim=1)
+        r = self.rel_emb(r_idx)
+        proj_mat = self.proj_mat(r_idx).view(b_size,
+                                             self.rel_emb_dim,
+                                             self.ent_emb_dim)
+        return - self.dissimilarity(self.project(h, proj_mat) + r,
+                                    self.project(t, proj_mat))
 
-            if not self.evaluated_projections:
-                self.lp_evaluate_projections()
+    def project(self, ent, proj_mat):
+        proj_e = matmul(proj_mat, ent.view(-1, self.ent_emb_dim, 1))
+        return proj_e.view(-1, self.rel_emb_dim)
 
-            r = self.rel_emb(r_idx)  # shape = (b_size, rel_emb_dim)
-            proj_h = self.projected_entities[r_idx, h_idx]
-            proj_t = self.projected_entities[r_idx, t_idx]
-            proj_candidates = self.projected_entities[r_idx]
+    def normalize_parameters(self):
+        """Normalize the entity and relation embeddings, as explained in
+        original paper. This methods should be called at the end of each
+        training epoch and at the end of training as well.
 
-            return proj_h, proj_t, proj_candidates, r
+        """
+        self.ent_emb.weight.data = normalize(self.ent_emb.weight.data,
+                                             p=2, dim=1)
+        self.rel_emb.weight.data = normalize(self.rel_emb.weight.data,
+                                             p=2, dim=1)
 
-        def lp_evaluate_projections(self):
-            """Link prediction evaluation helper function. Project all entities
-            according to each relation. Calling this method at the beginning of
-            link prediction makes the process faster by computing projections only
-            once.
+    def get_embeddings(self):
+        """Return the embeddings of entities and relations along with their
+        projection matrices.
 
-            """
-            if self.evaluated_projections:
-                return
+        Returns
+        -------
+        ent_emb: torch.Tensor, shape: (n_ent, ent_emb_dim), dtype: torch.float
+            Embeddings of entities.
+        rel_emb: torch.Tensor, shape: (n_rel, rel_emb_dim), dtype: torch.float
+            Embeddings of relations.
+        proj_mat: torch.Tensor, shape: (n_rel, rel_emb_dim, ent_emb_dim),
+        dtype: torch.float
+            Relation-specific projection matrices.
+        """
+        self.normalize_parameters()
+        return self.ent_emb.weight.data, self.rel_emb.weight.data, \
+               self.proj_mat.weight.data.view(-1,
+                                              self.rel_emb_dim,
+                                              self.ent_emb_dim)
 
-            for i in tqdm(range(self.n_ent), unit='entities',
-                          desc='Projecting entities'):
-                projection_matrices = self.proj_mat.weight.data
-                projection_matrices = projection_matrices.view(self.n_rel,
-                                                               self.rel_emb_dim,
-                                                               self.ent_emb_dim)
-
-                mask = tensor([i], device=projection_matrices.device).long()
-
-                if projection_matrices.is_cuda:
-                    empty_cache()
-
-                ent = self.ent_emb(mask)
-                proj_ent = matmul(projection_matrices, ent.view(self.ent_emb_dim))
-                proj_ent = proj_ent.view(self.n_rel, self.rel_emb_dim, 1)
-                self.projected_entities[:, i, :] = proj_ent.view(self.n_rel,
-                                                                 self.rel_emb_dim)
-
-                del proj_ent
-
-            self.evaluated_projections = True
-
-    class TransD_GDRModel(TranslationModel):
-        """Implementation of TransD model detailed in 2015 paper by Ji et al..
-        This class inherits from the
-        :class:`torchkge.models.interfaces.TranslationModel` interface. It then
-        has its attributes as well.
-
-        References
-        ----------
-        * Guoliang Ji, Shizhu He, Liheng Xu, Kang Liu, and Jun Zhao.
-          `Knowledge Graph Embedding via Dynamic Mapping Matrix.
-          <https://aclweb.org/anthology/papers/P/P15/P15-1067/>`_
-          In Proceedings of the 53rd Annual Meeting of the Association for
-          Computational Linguistics and the 7th International Joint Conference on
-          Natural Language Processing (Volume 1: Long Papers) pages 687–696,
-          Beijing, China, July 2015. Association for Computational Linguistics.
-
-        Parameters
-        ----------
-        ent_emb_dim: int
-            Dimension of the embedding of entities.
-        rel_emb_dim: int
-            Dimension of the embedding of relations.
-        n_ent: int
-            Number of entities in the current data set.
-        n_rel: int
-            Number of relations in the current data set.
-
-        Attributes
-        ----------
-        ent_emb_dim: int
-            Dimension of the embedding of entities.
-        rel_emb_dim: int
-            Dimension of the embedding of relations.
-        ent_emb: `torch.nn.Embedding`, shape: (n_ent, ent_emb_dim)
-            Embeddings of the entities, initialized with Xavier uniform
-            distribution and then normalized.
-        rel_emb: `torch.nn.Embedding`, shape: (n_rel, rel_emb_dim)
-            Embeddings of the relations, initialized with Xavier uniform
-            distribution and then normalized.
-        ent_proj_vect: `torch.nn.Embedding`, shape: (n_ent, ent_emb_dim)
-            Entity-specific vector used to build projection matrices. See paper for
-            more details. Initialized with Xavier uniform distribution and then
-            normalized.
-        rel_proj_vect: `torch..nn.Embedding`, shape: (n_rel, rel_emb_dim)
-            Relation-specific vector used to build projection matrices. See paper
-            for more details. Initialized with Xavier uniform distribution and then
-            normalized.
-        projected_entities: `torch.nn.Parameter`, \
-            shape: (n_rel, n_ent, rel_emb_dim)
-            Contains the projection of each entity in each relation-specific
-            sub-space.
-        evaluated_projections: bool
-            Indicates whether `projected_entities` has been computed. This should
-            be set to true every time a backward pass is done in train mode.
+    def lp_prep_cands(self, h_idx, t_idx, r_idx):
+        """Link prediction evaluation helper function. Get entities embeddings
+        and relations embeddings. The output will be fed to the
+        `lp_scoring_function` method. See torchkge.models.interfaces.Models for
+        more details on the API.
 
         """
 
-        def __init__(self, ent_emb_dim, rel_emb_dim, n_entities, n_relations):
+        if not self.evaluated_projections:
+            self.lp_evaluate_projections()
 
-            super().__init__(n_entities, n_relations, 'L2')
+        r = self.rel_emb(r_idx)  # shape = (b_size, rel_emb_dim)
+        proj_h = self.projected_entities[r_idx, h_idx]
+        proj_t = self.projected_entities[r_idx, t_idx]
+        proj_candidates = self.projected_entities[r_idx]
 
-            self.ent_emb_dim = ent_emb_dim
-            self.rel_emb_dim = rel_emb_dim
+        return proj_h, proj_t, proj_candidates, r
 
-            self.ent_emb = init_embedding(self.n_ent, self.ent_emb_dim)
-            self.rel_emb = init_embedding(self.n_rel, self.rel_emb_dim)
-            self.ent_proj_vect = init_embedding(self.n_ent, self.ent_emb_dim)
-            self.rel_proj_vect = init_embedding(self.n_rel, self.rel_emb_dim)
+    def lp_evaluate_projections(self):
+        """Link prediction evaluation helper function. Project all entities
+        according to each relation. Calling this method at the beginning of
+        link prediction makes the process faster by computing projections only
+        once.
 
-            self.normalize_parameters()
+        """
+        if self.evaluated_projections:
+            return
 
-            self.evaluated_projections = False
-            self.projected_entities = Parameter(empty(size=(self.n_rel,
-                                                            self.n_ent,
-                                                            self.rel_emb_dim)),
-                                                requires_grad=False)
+        for i in range(self.n_ent):
+            projection_matrices = self.proj_mat.weight.data
+            projection_matrices = projection_matrices.view(self.n_rel,
+                                                           self.rel_emb_dim,
+                                                           self.ent_emb_dim)
 
-        def scoring_function(self, h_idx, t_idx, r_idx):
-            """Compute the scoring function for the triplets given as argument:
-            :math:`||p_r(h) + r - p_r(t)||_2^2`. See referenced paper for
-            more details on the score. See torchkge.models.interfaces.Models for
-            more details on the API.
+            mask = tensor([i], device=projection_matrices.device).long()
 
-            """
-            self.evaluated_projections = False
-            h = normalize(self.ent_emb(h_idx), p=2, dim=1)
-            t = normalize(self.ent_emb(t_idx), p=2, dim=1)
-            r = normalize(self.rel_emb(r_idx), p=2, dim=1)
+            if projection_matrices.is_cuda:
+                empty_cache()
 
-            h_proj_v = normalize(self.ent_proj_vect(h_idx), p=2, dim=1)
-            t_proj_v = normalize(self.ent_proj_vect(t_idx), p=2, dim=1)
-            r_proj_v = normalize(self.rel_proj_vect(r_idx), p=2, dim=1)
+            ent = self.ent_emb(mask)
+            proj_ent = matmul(projection_matrices, ent.view(self.ent_emb_dim))
+            proj_ent = proj_ent.view(self.n_rel, self.rel_emb_dim, 1)
+            self.projected_entities[:, i, :] = proj_ent.view(self.n_rel,
+                                                             self.rel_emb_dim)
 
-            proj_h = self.project(h, h_proj_v, r_proj_v)
-            proj_t = self.project(t, t_proj_v, r_proj_v)
-            return - self.dissimilarity(proj_h + r, proj_t)
+            del proj_ent
 
-        def project(self, ent, e_proj_vect, r_proj_vect):
-            """We note that :math:`p_r(e)_i = e^p^Te \\times r^p_i + e_i` which is
-            more efficient to compute than the matrix formulation in the original
-            paper.
+        self.evaluated_projections = True
 
-            """
-            b_size = ent.shape[0]
+    def rp_prep_cands(self, h_idx, t_idx, r_idx):
+        """Link prediction evaluation helper function. Get entities embeddings
+        and relations embeddings. The output will be fed to the
+        `lp_scoring_function` method. See torchkge.models.interfaces.Models for
+        more details on the API.
 
-            scalar_product = (ent * e_proj_vect).sum(dim=1)
-            proj_e = (r_proj_vect * scalar_product.view(b_size, 1))
-            return proj_e + ent[:, :self.rel_emb_dim]
+        """
 
-        def normalize_parameters(self):
-            """Normalize the entity embeddings and relations normal vectors, as
-            explained in original paper. This methods should be called at the end
-            of each training epoch and at the end of training as well.
+        if not self.evaluated_projections:
+            self.lp_evaluate_projections()
 
-            """
-            self.ent_emb.weight.data = normalize(
-                self.ent_emb.weight.data, p=2, dim=1)
-            self.rel_emb.weight.data = normalize(
-                self.rel_emb.weight.data, p=2, dim=1)
-            self.ent_proj_vect.weight.data = normalize(
-                self.ent_proj_vect.weight.data, p=2, dim=1)
-            self.rel_proj_vect.weight.data = normalize(
-                self.rel_proj_vect.weight.data, p=2, dim=1)
+        b_size = h_idx.shape[0]
+        proj_h = self.projected_entities[r_idx, h_idx]
+        proj_t = self.projected_entities[r_idx, t_idx]
+        candidates = self.rel_emb.weight.data.view(1, self.n_rel, self.rel_emb_dim)
+        candidates = candidates.expand(b_size, self.n_rel, self.rel_emb_dim)
 
-        def get_embeddings(self):
-            """Return the embeddings of entities and relations along with their
-            projection vectors.
+        return proj_h, proj_t, candidates
 
-            Returns
-            -------
-            ent_emb: torch.Tensor, shape: (n_ent, ent_emb_dim), dtype: torch.float
-                Embeddings of entities.
-            rel_emb: torch.Tensor, shape: (n_rel, rel_emb_dim), dtype: torch.float
-                Embeddings of relations.
-            ent_proj_vect: torch.Tensor, shape: (n_ent, ent_emb_dim),
-            dtype: torch.float
-                Entity projection vectors.
-            rel_proj_vect: torch.Tensor, shape: (n_ent, rel_emb_dim),
-            dtype: torch.float
-                Relation projection vectors.
+class TransD_GDRModel(TranslationModel):
+    """Implementation of TransD model detailed in 2015 paper by Ji et al..
+    This class inherits from the
+    :class:`torchkge.models.interfaces.TranslationModel` interface. It then
+    has its attributes as well.
 
-            """
-            self.normalize_parameters()
-            return self.ent_emb.weight.data, self.rel_emb.weight.data, \
-                   self.ent_proj_vect.weight.data, self.rel_proj_vect.weight.data
+    References
+    ----------
+    * Guoliang Ji, Shizhu He, Liheng Xu, Kang Liu, and Jun Zhao.
+      `Knowledge Graph Embedding via Dynamic Mapping Matrix.
+      <https://aclweb.org/anthology/papers/P/P15/P15-1067/>`_
+      In Proceedings of the 53rd Annual Meeting of the Association for
+      Computational Linguistics and the 7th International Joint Conference on
+      Natural Language Processing (Volume 1: Long Papers) pages 687–696,
+      Beijing, China, July 2015. Association for Computational Linguistics.
 
-        def lp_prep_cands(self, h_idx, t_idx, r_idx):
-            """Link prediction evaluation helper function. Get entities embeddings
-            and relations embeddings. The output will be fed to the
-            `lp_scoring_function` method. See torchkge.models.interfaces.Models for
-            more details on the API.
+    Parameters
+    ----------
+    ent_emb_dim: int
+        Dimension of the embedding of entities.
+    rel_emb_dim: int
+        Dimension of the embedding of relations.
+    n_ent: int
+        Number of entities in the current data set.
+    n_rel: int
+        Number of relations in the current data set.
 
-            """
-            if not self.evaluated_projections:
-                self.lp_evaluate_projections()
+    Attributes
+    ----------
+    ent_emb_dim: int
+        Dimension of the embedding of entities.
+    rel_emb_dim: int
+        Dimension of the embedding of relations.
+    ent_emb: `torch.nn.Embedding`, shape: (n_ent, ent_emb_dim)
+        Embeddings of the entities, initialized with Xavier uniform
+        distribution and then normalized.
+    rel_emb: `torch.nn.Embedding`, shape: (n_rel, rel_emb_dim)
+        Embeddings of the relations, initialized with Xavier uniform
+        distribution and then normalized.
+    ent_proj_vect: `torch.nn.Embedding`, shape: (n_ent, ent_emb_dim)
+        Entity-specific vector used to build projection matrices. See paper for
+        more details. Initialized with Xavier uniform distribution and then
+        normalized.
+    rel_proj_vect: `torch..nn.Embedding`, shape: (n_rel, rel_emb_dim)
+        Relation-specific vector used to build projection matrices. See paper
+        for more details. Initialized with Xavier uniform distribution and then
+        normalized.
+    projected_entities: `torch.nn.Parameter`, \
+        shape: (n_rel, n_ent, rel_emb_dim)
+        Contains the projection of each entity in each relation-specific
+        sub-space.
+    evaluated_projections: bool
+        Indicates whether `projected_entities` has been computed. This should
+        be set to true every time a backward pass is done in train mode.
 
-            r = self.rel_emb(r_idx)
-            proj_h = self.projected_entities[r_idx, h_idx]
-            proj_t = self.projected_entities[r_idx, t_idx]
-            proj_candidates = self.projected_entities[r_idx]
+    """
 
-            return proj_h, proj_t, proj_candidates, r
+    def __init__(self, ent_emb_dim, rel_emb_dim, n_entities, n_relations):
 
-        def lp_evaluate_projections(self):
-            """Link prediction evaluation helper function. Project all entities
-            according to each relation. Calling this method at the beginning of
-            link prediction makes the process faster by computing projections only
-            once.
+        super().__init__(n_entities, n_relations, 'L2')
 
-            """
-            if self.evaluated_projections:
-                return
+        self.ent_emb_dim = ent_emb_dim
+        self.rel_emb_dim = rel_emb_dim
 
-            for i in tqdm(range(self.n_ent), unit='entities',  # TODO change this
-                          desc='Projecting entities'):
-                rel_proj_vects = self.rel_proj_vect.weight.data
-                ent = self.ent_emb.weight[i]
-                ent_proj_vect = self.ent_proj_vect.weight[i]
+        self.ent_emb = init_embedding(self.n_ent, self.ent_emb_dim)
+        self.rel_emb = init_embedding(self.n_rel, self.rel_emb_dim)
+        self.ent_proj_vect = init_embedding(self.n_ent, self.ent_emb_dim)
+        self.rel_proj_vect = init_embedding(self.n_rel, self.rel_emb_dim)
 
-                sc_prod = (ent_proj_vect * ent).sum(dim=0)
-                proj_e = sc_prod * rel_proj_vects + ent[:self.rel_emb_dim].view(1, -1)
+        self.normalize_parameters()
 
-                self.projected_entities[:, i, :] = proj_e
+        self.evaluated_projections = False
+        self.projected_entities = Parameter(empty(size=(self.n_rel,
+                                                        self.n_ent,
+                                                        self.rel_emb_dim)),
+                                            requires_grad=False)
 
-                del proj_e
+    def scoring_function(self, h_idx, t_idx, r_idx):
+        """Compute the scoring function for the triplets given as argument:
+        :math:`||p_r(h) + r - p_r(t)||_2^2`. See referenced paper for
+        more details on the score. See torchkge.models.interfaces.Models for
+        more details on the API.
 
-            self.evaluated_projections = True
+        """
+        self.evaluated_projections = False
+        h = normalize(self.ent_emb(h_idx), p=2, dim=1)
+        t = normalize(self.ent_emb(t_idx), p=2, dim=1)
+        r = normalize(self.rel_emb(r_idx), p=2, dim=1)
+
+        h_proj_v = normalize(self.ent_proj_vect(h_idx), p=2, dim=1)
+        t_proj_v = normalize(self.ent_proj_vect(t_idx), p=2, dim=1)
+        r_proj_v = normalize(self.rel_proj_vect(r_idx), p=2, dim=1)
+
+        proj_h = self.project(h, h_proj_v, r_proj_v)
+        proj_t = self.project(t, t_proj_v, r_proj_v)
+        return - self.dissimilarity(proj_h + r, proj_t)
+
+    def project(self, ent, e_proj_vect, r_proj_vect):
+        """We note that :math:`p_r(e)_i = e^p^Te \\times r^p_i + e_i` which is
+        more efficient to compute than the matrix formulation in the original
+        paper.
+
+        """
+        b_size = ent.shape[0]
+
+        scalar_product = (ent * e_proj_vect).sum(dim=1)
+        proj_e = (r_proj_vect * scalar_product.view(b_size, 1))
+        return proj_e + ent[:, :self.rel_emb_dim]
+
+    def normalize_parameters(self):
+        """Normalize the entity embeddings and relations normal vectors, as
+        explained in original paper. This methods should be called at the end
+        of each training epoch and at the end of training as well.
+
+        """
+        self.ent_emb.weight.data = normalize(
+            self.ent_emb.weight.data, p=2, dim=1)
+        self.rel_emb.weight.data = normalize(
+            self.rel_emb.weight.data, p=2, dim=1)
+        self.ent_proj_vect.weight.data = normalize(
+            self.ent_proj_vect.weight.data, p=2, dim=1)
+        self.rel_proj_vect.weight.data = normalize(
+            self.rel_proj_vect.weight.data, p=2, dim=1)
+
+    def get_embeddings(self):
+        """Return the embeddings of entities and relations along with their
+        projection vectors.
+
+        Returns
+        -------
+        ent_emb: torch.Tensor, shape: (n_ent, ent_emb_dim), dtype: torch.float
+            Embeddings of entities.
+        rel_emb: torch.Tensor, shape: (n_rel, rel_emb_dim), dtype: torch.float
+            Embeddings of relations.
+        ent_proj_vect: torch.Tensor, shape: (n_ent, ent_emb_dim),
+        dtype: torch.float
+            Entity projection vectors.
+        rel_proj_vect: torch.Tensor, shape: (n_ent, rel_emb_dim),
+        dtype: torch.float
+            Relation projection vectors.
+
+        """
+        self.normalize_parameters()
+        return self.ent_emb.weight.data, self.rel_emb.weight.data, \
+               self.ent_proj_vect.weight.data, self.rel_proj_vect.weight.data
+
+    def lp_prep_cands(self, h_idx, t_idx, r_idx):
+        """Link prediction evaluation helper function. Get entities embeddings
+        and relations embeddings. The output will be fed to the
+        `lp_scoring_function` method. See torchkge.models.interfaces.Models for
+        more details on the API.
+
+        """
+        if not self.evaluated_projections:
+            self.lp_evaluate_projections()
+
+        r = self.rel_emb(r_idx)
+        proj_h = self.projected_entities[r_idx, h_idx]
+        proj_t = self.projected_entities[r_idx, t_idx]
+        proj_candidates = self.projected_entities[r_idx]
+
+        return proj_h, proj_t, proj_candidates, r
+
+    def lp_evaluate_projections(self):
+        """Link prediction evaluation helper function. Project all entities
+        according to each relation. Calling this method at the beginning of
+        link prediction makes the process faster by computing projections only
+        once.
+
+        """
+        if self.evaluated_projections:
+            return
+
+        for i in range(self.n_ent):
+            rel_proj_vects = self.rel_proj_vect.weight.data
+            ent = self.ent_emb.weight[i]
+            ent_proj_vect = self.ent_proj_vect.weight[i]
+
+            sc_prod = (ent_proj_vect * ent).sum(dim=0)
+            proj_e = sc_prod * rel_proj_vects + ent[:self.rel_emb_dim].view(1, -1)
+
+            self.projected_entities[:, i, :] = proj_e
+
+            del proj_e
+
+        self.evaluated_projections = True
+
+
+    def rp_prep_cands(self, h_idx, t_idx, r_idx):
+        """Link prediction evaluation helper function. Get entities embeddings
+        and relations embeddings. The output will be fed to the
+        `lp_scoring_function` method. See torchkge.models.interfaces.Models for
+        more details on the API.
+
+        """
+
+        if not self.evaluated_projections:
+            self.lp_evaluate_projections()
+
+        b_size = h_idx.shape[0]
+        proj_h = self.projected_entities[r_idx, h_idx]
+        proj_t = self.projected_entities[r_idx, t_idx]
+        candidates = self.rel_emb.weight.data.view(1, self.n_rel, self.rel_emb_dim)
+        candidates = candidates.expand(b_size, self.n_rel, self.rel_emb_dim)
+
+        return proj_h, proj_t, candidates
+
 
 
 

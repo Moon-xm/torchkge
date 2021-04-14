@@ -1,0 +1,2977 @@
+Dalarna	ispartof0	Sweden
+Västernorrland	ispartof0	Sweden
+Västmanland	ispartof0	Sweden
+Övertorneå Kommun	ispartof1	Norrbotten
+Överkalix Kommun	ispartof1	Norrbotten
+Haparanda Municipality	ispartof1	Norrbotten
+Kungsör Municipality	ispartof0	Sweden
+Kungsbacka Kommun	ispartof1	Halland
+Kungälvs Kommun	ispartof0	Sweden
+Kristinehamns Kommun	ispartof0	Sweden
+Kristianstad Municipality	ispartof1	Skåne
+Köping Municipality	ispartof0	Sweden
+Klippan Municipality	ispartof0	Sweden
+Karlskoga Kommun	ispartof0	Sweden
+Karlshamn Municipality	ispartof1	Blekinge
+Kalmar Municipality	ispartof1	Kalmar
+Gnosjö Kommun	ispartof0	Sweden
+Gävle Municipality	ispartof0	Sweden
+Lund Municipality	ispartof0	Sweden
+Ludvika Kommun	ispartof0	Sweden
+Lomma Municipality	ispartof0	Sweden
+Lindesberg Municipality	ispartof1	Örebro
+Lidingö Municipality	ispartof0	Sweden
+Sorsele Municipality	ispartof1	Västerbotten
+Sorsele Municipality	ispartof0	Sweden
+Östra Göinge Kommun	ispartof1	Skåne
+Nyköpings Kommun	ispartof0	Sweden
+Nybro Municipality	ispartof0	Sweden
+Norrtälje Kommun	ispartof0	Sweden
+Norbergs Kommun	ispartof1	Västmanland
+Nässjö Kommun	ispartof1	Jönköping
+Hylte Kommun	ispartof0	Sweden
+Hörby Kommun	ispartof0	Sweden
+Höörs Kommun	ispartof0	Sweden
+Hedemora Municipality	ispartof1	Dalarna
+Härryda Kommun	ispartof0	Sweden
+Sävsjö Kommun	ispartof0	Sweden
+Falköpings Kommun	ispartof1	Västra Götaland
+Fagersta Municipality	ispartof0	Sweden
+Borås	ispartof0	Sweden
+Alvesta Municipality	ispartof0	Sweden
+Älvdalen Municipality	ispartof1	Dalarna
+Tomelilla Municipality	ispartof1	Skåne
+Tomelilla Municipality	ispartof0	Sweden
+Tjörns Kommun	ispartof1	Västra Götaland
+Tierp Municipality	ispartof1	Uppsala
+Tibro Municipality	ispartof0	Sweden
+Växjö Kommun	ispartof1	Kronoberg
+Västerviks Kommun	ispartof1	Kalmar
+Västerviks Kommun	ispartof0	Sweden
+Vara Municipality	ispartof1	Västra Götaland
+Vansbro Kommun	ispartof1	Dalarna
+Vansbro Kommun	ispartof0	Sweden
+Vadstena Municipality	ispartof1	Östergötland
+Uddevalla Municipality	ispartof1	Västra Götaland
+Tyresö Kommun	ispartof0	Sweden
+Bollebygds Kommun	ispartof0	Sweden
+Lekebergs Kommun	ispartof1	Örebro
+Kils Kommun	ispartof0	Sweden
+Mörbylånga Kommun	ispartof1	Kalmar
+Staffanstorp Municipality	ispartof1	Skåne
+Hultsfred Municipality	ispartof0	Sweden
+Dals-Ed Kommun	ispartof0	Sweden
+Tranemo Municipality	ispartof0	Sweden
+Tingsryd Municipality	ispartof1	Kronoberg
+Tingsryd Municipality	ispartof0	Sweden
+Täby Kommun	ispartof0	Sweden
+Sundbyberg Municipality	ispartof0	Sweden
+Gällivare kommun	ispartof1	Norrbotten
+Tidaholm Municipality	ispartof0	Sweden
+Tidaholm Municipality	ispartof0	Sweden
+Falköpings Kommun	ispartof0	Sweden
+Enköping Municipality	ispartof1	Uppsala
+Tomelilla Municipality	ispartof1	Skåne
+Båstads Kommun	ispartof0	Sweden
+Malmö Municipality	ispartof1	Skåne
+Lund Municipality	ispartof0	Sweden
+Linköpings Kommun	ispartof0	Sweden
+Norrköpings Kommun	ispartof0	Sweden
+Landskrona Municipality	ispartof1	Skåne
+Simrishamn Municipality	ispartof1	Skåne
+Simrishamn Municipality	ispartof0	Sweden
+Ängelholms Kommun	ispartof1	Skåne
+Sotenäs Kommun	ispartof0	Sweden
+Munkedal Municipality	ispartof1	Västra Götaland
+Essunga Kommun	ispartof1	Västra Götaland
+Essunga Kommun	ispartof1	Västra Götaland
+Lilla Edets Kommun	ispartof1	Västra Götaland
+Lilla Edets Kommun	ispartof0	Sweden
+Gothenburg Municipality	ispartof1	Västra Götaland
+Gothenburg Municipality	ispartof1	Västra Götaland
+Bräcke Kommun	ispartof1	Jämtland
+Karlskrona Municipality	ispartof0	Sweden
+Sölvesborg Municipality	ispartof0	Sweden
+Hofors Municipality	ispartof1	Gävleborg
+Ovanåkers Kommun	ispartof0	Sweden
+Nordanstig Municipality	ispartof1	Gävleborg
+Ljusdals Kommun	ispartof1	Gävleborg
+Gävle Municipality	ispartof1	Gävleborg
+Sandviken Municipality	ispartof0	Sweden
+Söderhamn	ispartof1	Gävleborg
+Linköpings Kommun	ispartof0	Sweden
+Gotland Municipality	ispartof1	Gotland
+Gotland Municipality	ispartof0	Sweden
+Gotland Municipality	ispartof0	Sweden
+Gotland Municipality	ispartof1	Gotland
+Gotland Municipality	ispartof1	Gotland
+Gotland Municipality	ispartof0	Sweden
+Gotland Municipality	ispartof1	Gotland
+Varbergs Kommun	ispartof0	Sweden
+Ragunda Kommun	ispartof0	Sweden
+Krokoms Kommun	ispartof0	Sweden
+Strömsunds kommun	ispartof0	Sweden
+Härjedalens kommun	ispartof0	Sweden
+Östersund municipality	ispartof0	Sweden
+Östersund municipality	ispartof0	Sweden
+Östersund municipality	ispartof0	Sweden
+Gnosjö Kommun	ispartof1	Jönköping
+Gislaved Municipality	ispartof1	Jönköping
+Jönköpings Kommun	ispartof1	Jönköping
+Jönköpings Kommun	ispartof0	Sweden
+Jönköpings Kommun	ispartof0	Sweden
+Nässjö Kommun	ispartof0	Sweden
+Nässjö Kommun	ispartof1	Jönköping
+Värnamo Kommun	ispartof1	Jönköping
+Värnamo Kommun	ispartof0	Sweden
+Sävsjö Kommun	ispartof1	Jönköping
+Vetlanda Municipality	ispartof0	Sweden
+Vetlanda Municipality	ispartof0	Sweden
+Tranås Kommun	ispartof1	Jönköping
+Torsås Kommun	ispartof1	Kalmar
+Mörbylånga Kommun	ispartof0	Sweden
+Hultsfred Municipality	ispartof0	Sweden
+Kalmar Municipality	ispartof0	Sweden
+Västerviks Kommun	ispartof1	Kalmar
+Vimmerby Municipality	ispartof1	Kalmar
+Vansbro Kommun	ispartof0	Sweden
+Leksand Municipality	ispartof0	Sweden
+Rättviks Kommun	ispartof0	Sweden
+Rättviks Kommun	ispartof0	Sweden
+Älvdalen Municipality	ispartof0	Sweden
+Smedjebacken Municipality	ispartof1	Dalarna
+Mora Kommun	ispartof1	Dalarna
+Mora Kommun	ispartof1	Dalarna
+Mora Kommun	ispartof0	Sweden
+Falun Municipality	ispartof1	Dalarna
+Falun Municipality	ispartof1	Dalarna
+Falun Municipality	ispartof1	Dalarna
+Falun Municipality	ispartof1	Dalarna
+Säter Municipality	ispartof0	Sweden
+Hedemora Municipality	ispartof1	Dalarna
+Hedemora Municipality	ispartof0	Sweden
+Uppvidinge Kommun	ispartof0	Sweden
+Tingsryd Municipality	ispartof1	Kronoberg
+Växjö Kommun	ispartof1	Kronoberg
+Växjö Kommun	ispartof1	Kronoberg
+Ljungby Municipality	ispartof1	Kronoberg
+Ljungby Municipality	ispartof1	Kronoberg
+Arjeplogs Kommun	ispartof0	Sweden
+Jokkmokks Kommun	ispartof0	Sweden
+Bodens Kommun	ispartof0	Sweden
+Haparanda Municipality	ispartof1	Norrbotten
+Laxå Kommun	ispartof0	Sweden
+Hallsberg Municipality	ispartof1	Örebro
+Örebro Kommun	ispartof0	Sweden
+Örebro Kommun	ispartof0	Sweden
+Åtvidabergs Kommun	ispartof0	Sweden
+Åtvidabergs Kommun	ispartof1	Östergötland
+Finspångs Kommun	ispartof1	Östergötland
+Finspångs Kommun	ispartof0	Sweden
+Norrköpings Kommun	ispartof0	Sweden
+Söderköpings Kommun	ispartof1	Östergötland
+Söderköpings Kommun	ispartof0	Sweden
+Motala Municipality	ispartof1	Östergötland
+Motala Municipality	ispartof1	Östergötland
+Mjölby Kommun	ispartof0	Sweden
+Flens Kommun	ispartof1	Södermanland
+Uppsala Municipality	ispartof0	Sweden
+Uppsala Municipality	ispartof0	Sweden
+Uppsala Municipality	ispartof1	Uppsala
+Uppsala Municipality	ispartof0	Sweden
+Enköping Municipality	ispartof0	Sweden
+Enköping Municipality	ispartof1	Uppsala
+Enköping Municipality	ispartof1	Uppsala
+Munkfors Municipality	ispartof0	Sweden
+Grums Municipality	ispartof1	Värmland
+Årjäng Municipality	ispartof1	Värmland
+Årjäng Municipality	ispartof0	Sweden
+Årjäng Municipality	ispartof1	Värmland
+Sunne Municipality	ispartof0	Sweden
+Hagfors Municipality	ispartof1	Värmland
+Hagfors Municipality	ispartof0	Sweden
+Hagfors Municipality	ispartof1	Värmland
+Arvika Municipality	ispartof1	Värmland
+Säffle Kommun	ispartof1	Värmland
+Säffle Kommun	ispartof0	Sweden
+Säffle Kommun	ispartof0	Sweden
+Nordmalings Kommun	ispartof1	Västerbotten
+Vilhelmina Kommun	ispartof1	Västerbotten
+Skellefteå Kommun	ispartof1	Västerbotten
+Skellefteå Kommun	ispartof0	Sweden
+Ånge Municipality	ispartof0	Sweden
+Härnösands Kommun	ispartof1	Västernorrland
+Kramfors Kommun	ispartof1	Västernorrland
+Sollefteå Kommun	ispartof0	Sweden
+Örnsköldsviks Kommun	ispartof1	Västernorrland
+Örnsköldsviks Kommun	ispartof0	Sweden
+Örnsköldsviks Kommun	ispartof0	Sweden
+Västerås Municipality	ispartof0	Sweden
+Köping Municipality	ispartof1	Västmanland
+Upplands Väsby Municipality	ispartof0	Sweden
+Värmdö Kommun	ispartof0	Sweden
+Ekerö Kommun	ispartof0	Sweden
+Täby Kommun	ispartof1	Stockholm
+Stockholm Municipality	ispartof0	Sweden
+Södertälje Kommun	ispartof0	Sweden
+Södertälje Kommun	ispartof1	Stockholm
+Södertälje Kommun	ispartof0	Sweden
+Norrtälje Kommun	ispartof1	Stockholm
+Norrtälje Kommun	ispartof1	Stockholm
+Norrtälje Kommun	ispartof0	Sweden
+Norrtälje Kommun	ispartof1	Stockholm
+Norrtälje Kommun	ispartof0	Sweden
+Östra Göinge Kommun	ispartof0	Sweden
+Östra Göinge Kommun	ispartof1	Skåne
+Lomma Municipality	ispartof0	Sweden
+Hörby Kommun	ispartof1	Skåne
+Malmö Municipality	ispartof1	Skåne
+Kristianstad Municipality	ispartof1	Skåne
+Hässleholms Kommun	ispartof0	Sweden
+Härryda Kommun	ispartof0	Sweden
+Partille Municipality	ispartof1	Västra Götaland
+Stenungsund Municipality	ispartof1	Västra Götaland
+Orust	ispartof1	Västra Götaland
+Lerum	ispartof1	Västra Götaland
+Tranemo Municipality	ispartof1	Västra Götaland
+Bengtsfors Kommun	ispartof0	Sweden
+Mellerud Municipality	ispartof1	Västra Götaland
+Marks Kommun	ispartof1	Västra Götaland
+Marks Kommun	ispartof1	Västra Götaland
+Herrljunga Kommun	ispartof1	Västra Götaland
+Herrljunga Kommun	ispartof1	Västra Götaland
+Herrljunga Kommun	ispartof0	Sweden
+Herrljunga Kommun	ispartof1	Västra Götaland
+Herrljunga Kommun	ispartof1	Västra Götaland
+Vara Municipality	ispartof0	Sweden
+Tibro Municipality	ispartof0	Sweden
+Töreboda Kommun	ispartof1	Västra Götaland
+Gothenburg Municipality	ispartof0	Sweden
+Gothenburg Municipality	ispartof0	Sweden
+Kungälvs Kommun	ispartof1	Västra Götaland
+Uddevalla Municipality	ispartof1	Västra Götaland
+Borås	ispartof0	Sweden
+Skövde Kommun	ispartof1	Västra Götaland
+Hjo Municipality	ispartof1	Västra Götaland
+Hjo Municipality	ispartof1	Västra Götaland
+Falköpings Kommun	ispartof1	Västra Götaland
+Falköpings Kommun	ispartof0	Sweden
+Norrköpings Kommun	ispartof0	Sweden
+Tierp Municipality	ispartof1	Uppsala
+Uppsala Municipality	ispartof1	Uppsala
+Munkedal Municipality	ispartof0	Sweden
+Tanum Municipality	ispartof1	Västra Götaland
+Vilhelmina Kommun	ispartof1	Västerbotten
+Storuman Municipality	ispartof0	Sweden
+Arjeplogs Kommun	ispartof0	Sweden
+Arvidsjaurs Kommun	ispartof1	Norrbotten
+Arvidsjaurs Kommun	ispartof0	Sweden
+Halmstad Municipality	ispartof0	Sweden
+Norrköpings Kommun	ispartof0	Sweden
+Jönköpings Kommun	ispartof1	Jönköping
+Gotland Municipality	ispartof0	Sweden
+Nässjö Kommun	ispartof0	Sweden
+Örebro Kommun	ispartof0	Sweden
+Kristianstad Municipality	ispartof0	Sweden
+Lindesberg Municipality	ispartof1	Örebro
+Falkenbergs Kommun	ispartof0	Sweden
+Hällefors	ispartof0	Sweden
+Ängelholms Kommun	ispartof1	Skåne
+Järfälla Municipality	ispartof1	Stockholm
+Härjedalens kommun	ispartof1	Jämtland
+Aneby Municipality	ispartof0	Sweden
+Jönköpings Kommun	ispartof0	Sweden
+Vetlanda Municipality	ispartof0	Sweden
+Mörbylånga Kommun	ispartof0	Sweden
+Kalmar Municipality	ispartof0	Sweden
+Vimmerby Municipality	ispartof1	Kalmar
+Stockholm Municipality	ispartof1	Stockholm
+Kungsbacka Kommun	ispartof1	Halland
+Habo Municipality	ispartof1	Jönköping
+Boxholm Municipality	ispartof0	Sweden
+Stockholm Municipality	ispartof0	Sweden
+Stockholm Municipality	ispartof0	Sweden
+Södertälje Kommun	ispartof1	Stockholm
+Södertälje Kommun	ispartof0	Sweden
+Sölvesborg Municipality	ispartof1	Blekinge
+Gislaved Municipality	ispartof1	Jönköping
+Vaggeryd Municipality	ispartof1	Jönköping
+Jönköpings Kommun	ispartof1	Jönköping
+Jönköpings Kommun	ispartof1	Jönköping
+Östhammar Municipality	ispartof1	Uppsala
+Växjö Kommun	ispartof1	Kronoberg
+Växjö Kommun	ispartof0	Sweden
+Hallsberg Municipality	ispartof1	Örebro
+Örebro Kommun	ispartof0	Sweden
+Nora Municipality	ispartof0	Sweden
+Nyköpings Kommun	ispartof1	Södermanland
+Nyköpings Kommun	ispartof1	Södermanland
+Filipstad Municipality	ispartof1	Värmland
+Karlstad Municipality	ispartof1	Värmland
+Karlstad Municipality	ispartof0	Sweden
+Arvika Municipality	ispartof0	Sweden
+Skellefteå Kommun	ispartof1	Västerbotten
+Vetlanda Municipality	ispartof1	Jönköping
+Sollefteå Kommun	ispartof0	Sweden
+Gagnef Municipality	ispartof0	Sweden
+Karlskrona Municipality	ispartof1	Blekinge
+Uppsala Municipality	ispartof1	Uppsala
+Norrköpings Kommun	ispartof1	Östergötland
+Norrköpings Kommun	ispartof0	Sweden
+Hudiksvalls Kommun	ispartof1	Gävleborg
+Kalmar Municipality	ispartof0	Sweden
+Oskarshamns Kommun	ispartof0	Sweden
+Västerviks Kommun	ispartof1	Kalmar
+Västerviks Kommun	ispartof0	Sweden
+Västerviks Kommun	ispartof0	Sweden
+Norbergs Kommun	ispartof1	Västmanland
+Sala Municipality	ispartof0	Sweden
+Köping Municipality	ispartof1	Västmanland
+Falköpings Kommun	ispartof1	Västra Götaland
+Falköpings Kommun	ispartof0	Sweden
+Falköpings Kommun	ispartof1	Västra Götaland
+Gotland Municipality	ispartof0	Sweden
+Stockholm Municipality	ispartof1	Stockholm
+Stockholm Municipality	ispartof0	Sweden
+Västerås Municipality	ispartof0	Sweden
+Vallentuna Municipality	ispartof0	Sweden
+Österåkers Kommun	ispartof1	Stockholm
+Ekerö Kommun	ispartof0	Sweden
+Haninge Municipality	ispartof1	Stockholm
+Borås	ispartof0	Sweden
+Stockholm Municipality	ispartof0	Sweden
+Skövde Kommun	ispartof1	Västra Götaland
+Gothenburg Municipality	ispartof0	Sweden
+Gothenburg Municipality	ispartof1	Västra Götaland
+Gothenburg Municipality	ispartof0	Sweden
+Salem Municipality	ispartof1	Stockholm
+Salem Municipality	ispartof0	Sweden
+Vänersborgs Kommun	ispartof1	Västra Götaland
+Vänersborgs Kommun	ispartof0	Sweden
+Trollhättan Municipality	ispartof0	Sweden
+Borås	ispartof1	Västra Götaland
+Borås	ispartof0	Sweden
+Åmåls Kommun	ispartof0	Sweden
+Åmåls Kommun	ispartof0	Sweden
+Mariestads Kommun	ispartof1	Västra Götaland
+Eskilstuna Kommun	ispartof1	Södermanland
+Nacka Municipality	ispartof1	Stockholm
+Älvkarleby Kommun	ispartof0	Sweden
+Hedemora Municipality	ispartof0	Sweden
+Lessebo Municipality	ispartof1	Kronoberg
+Lessebo Municipality	ispartof1	Kronoberg
+Älmhults Kommun	ispartof0	Sweden
+Sundbyberg Municipality	ispartof0	Sweden
+Bjuvs Kommun	ispartof0	Sweden
+Sotenäs Kommun	ispartof1	Västra Götaland
+Gällivare kommun	ispartof0	Sweden
+Malmö Municipality	ispartof0	Sweden
+Sjöbo Kommun	ispartof1	Skåne
+Helsingborg Municipality	ispartof1	Skåne
+Växjö Kommun	ispartof1	Kronoberg
+Växjö Kommun	ispartof0	Sweden
+Skurup Municipality	ispartof1	Skåne
+Bromölla Municipality	ispartof0	Sweden
+Bromölla Municipality	ispartof1	Skåne
+Klippan Municipality	ispartof0	Sweden
+Klippan Municipality	ispartof1	Skåne
+Lund Municipality	ispartof0	Sweden
+Helsingborg Municipality	ispartof0	Sweden
+Ystad Municipality	ispartof0	Sweden
+Tjörns Kommun	ispartof1	Västra Götaland
+Gothenburg Municipality	ispartof0	Sweden
+Lidköpings Kommun	ispartof0	Sweden
+Skara Municipality	ispartof0	Sweden
+Tranemo Municipality	ispartof0	Sweden
+Tranemo Municipality	ispartof1	Västra Götaland
+Tranemo Municipality	ispartof0	Sweden
+Mellerud Municipality	ispartof1	Västra Götaland
+Mellerud Municipality	ispartof0	Sweden
+Lilla Edets Kommun	ispartof1	Västra Götaland
+Marks Kommun	ispartof0	Sweden
+Herrljunga Kommun	ispartof1	Västra Götaland
+Töreboda Kommun	ispartof0	Sweden
+Staffanstorp Municipality	ispartof1	Skåne
+Vellinge Municipality	ispartof1	Skåne
+Vellinge Municipality	ispartof0	Sweden
+Kävlinge Kommun	ispartof1	Skåne
+Lomma Municipality	ispartof1	Skåne
+Eslövs Kommun	ispartof0	Sweden
+Kristianstad Municipality	ispartof0	Sweden
+Kristianstad Municipality	ispartof1	Skåne
+Karlskrona Municipality	ispartof0	Sweden
+Sölvesborg Municipality	ispartof0	Sweden
+Skövde Kommun	ispartof1	Västra Götaland
+Härryda Kommun	ispartof0	Sweden
+Norrtälje Kommun	ispartof0	Sweden
+Haninge Municipality	ispartof1	Stockholm
+Marks Kommun	ispartof0	Sweden
+Gothenburg Municipality	ispartof1	Västra Götaland
+Åmåls Kommun	ispartof1	Västra Götaland
+Gotland Municipality	ispartof1	Gotland
+Sigtuna Municipality	ispartof1	Stockholm
+Linköpings Kommun	ispartof0	Sweden
+Mora Kommun	ispartof1	Dalarna
+Lidköpings Kommun	ispartof0	Sweden
+Vårgårda Kommun	ispartof1	Västra Götaland
+Gotland Municipality	ispartof1	Gotland
+Västerviks Kommun	ispartof1	Kalmar
+Mörbylånga Kommun	ispartof0	Sweden
+Gotland Municipality	ispartof0	Sweden
+Karlskrona Municipality	ispartof1	Blekinge
+Gotland Municipality	ispartof1	Gotland
+Gotland Municipality	ispartof1	Gotland
+Forshaga Municipality	ispartof1	Värmland
+Norrtälje Kommun	ispartof0	Sweden
+Kalmar Municipality	ispartof0	Sweden
+Kristianstad Municipality	ispartof1	Skåne
+Valdemarsviks Kommun	ispartof1	Östergötland
+Enköping Municipality	ispartof0	Sweden
+Karlstad Municipality	ispartof0	Sweden
+Gothenburg Municipality	ispartof0	Sweden
+Malå Kommun	ispartof0	Sweden
+Marks Kommun	ispartof1	Västra Götaland
+Hudiksvalls Kommun	ispartof1	Gävleborg
+Flens Kommun	ispartof0	Sweden
+Norrtälje Kommun	ispartof1	Stockholm
+Vara Municipality	ispartof1	Västra Götaland
+Sigtuna Municipality	ispartof1	Stockholm
+Hörby Kommun	ispartof1	Skåne
+Lycksele kommun	ispartof1	Västerbotten
+Nordmalings Kommun	ispartof0	Sweden
+Bjurholms Kommun	ispartof1	Västerbotten
+Vännäs Kommun	ispartof1	Västerbotten
+Skellefteå Kommun	ispartof1	Västerbotten
+Övertorneå Kommun	ispartof1	Norrbotten
+Överkalix Kommun	ispartof1	Norrbotten
+Enköping Municipality	ispartof1	Uppsala
+Enköping Municipality	ispartof0	Sweden
+Nyköpings Kommun	ispartof0	Sweden
+Uppsala Municipality	ispartof1	Uppsala
+Nyköpings Kommun	ispartof0	Sweden
+Flens Kommun	ispartof0	Sweden
+Nyköpings Kommun	ispartof0	Sweden
+Flens Kommun	ispartof1	Södermanland
+Nyköpings Kommun	ispartof1	Södermanland
+Jönköpings Kommun	ispartof0	Sweden
+Trosa Municipality	ispartof1	Södermanland
+Trosa Municipality	ispartof0	Sweden
+Sjöbo Kommun	ispartof0	Sweden
+Vingåkers Kommun	ispartof1	Södermanland
+Vingåkers Kommun	ispartof0	Sweden
+Kristianstad Municipality	ispartof1	Skåne
+Ydre Kommun	ispartof0	Sweden
+Åtvidabergs Kommun	ispartof1	Östergötland
+Linköpings Kommun	ispartof0	Sweden
+Mjölby Kommun	ispartof1	Östergötland
+Vetlanda Municipality	ispartof1	Jönköping
+Värnamo Kommun	ispartof0	Sweden
+Jönköpings Kommun	ispartof0	Sweden
+Vetlanda Municipality	ispartof1	Jönköping
+Jönköpings Kommun	ispartof0	Sweden
+Gislaved Municipality	ispartof1	Jönköping
+Gnosjö Kommun	ispartof1	Jönköping
+Växjö Kommun	ispartof0	Sweden
+Norrköpings Kommun	ispartof0	Sweden
+Motala Municipality	ispartof0	Sweden
+Linköpings Kommun	ispartof0	Sweden
+Västerviks Kommun	ispartof1	Kalmar
+Västerviks Kommun	ispartof0	Sweden
+Torsås Kommun	ispartof1	Kalmar
+Mjölby Kommun	ispartof0	Sweden
+Mjölby Kommun	ispartof0	Sweden
+Linköpings Kommun	ispartof0	Sweden
+Söderköpings Kommun	ispartof0	Sweden
+Mjölby Kommun	ispartof0	Sweden
+Växjö Kommun	ispartof0	Sweden
+Vetlanda Municipality	ispartof0	Sweden
+Aneby Municipality	ispartof1	Jönköping
+Jönköpings Kommun	ispartof1	Jönköping
+Ljungby Municipality	ispartof1	Kronoberg
+Växjö Kommun	ispartof0	Sweden
+Alvesta Municipality	ispartof1	Kronoberg
+Ljungby Municipality	ispartof0	Sweden
+Tingsryd Municipality	ispartof1	Kronoberg
+Ljungby Municipality	ispartof0	Sweden
+Uppvidinge Kommun	ispartof1	Kronoberg
+Växjö Kommun	ispartof1	Kronoberg
+Högsby Kommun	ispartof0	Sweden
+Högsby Kommun	ispartof1	Kalmar
+Nybro Municipality	ispartof0	Sweden
+Hultsfred Municipality	ispartof1	Kalmar
+Oskarshamns Kommun	ispartof1	Kalmar
+Vimmerby Municipality	ispartof1	Kalmar
+Borgholm Municipality	ispartof0	Sweden
+Gotland Municipality	ispartof0	Sweden
+Karlshamn Municipality	ispartof1	Blekinge
+Sölvesborg Municipality	ispartof1	Blekinge
+Kristianstad Municipality	ispartof0	Sweden
+Värmdö Kommun	ispartof0	Sweden
+Bromölla Municipality	ispartof1	Skåne
+Hässleholms Kommun	ispartof0	Sweden
+Simrishamn Municipality	ispartof1	Skåne
+Hässleholms Kommun	ispartof0	Sweden
+Hässleholms Kommun	ispartof1	Skåne
+Ängelholms Kommun	ispartof0	Sweden
+Hässleholms Kommun	ispartof0	Sweden
+Sollefteå Kommun	ispartof1	Västernorrland
+Ängelholms Kommun	ispartof1	Skåne
+Simrishamn Municipality	ispartof0	Sweden
+Kristianstad Municipality	ispartof0	Sweden
+Svedala Municipality	ispartof1	Skåne
+Svedala Municipality	ispartof0	Sweden
+Kungälvs Kommun	ispartof0	Sweden
+Tjörns Kommun	ispartof1	Västra Götaland
+Tjörns Kommun	ispartof0	Sweden
+Mölndal Municipality	ispartof0	Sweden
+Falkenbergs Kommun	ispartof0	Sweden
+Landskrona Municipality	ispartof0	Sweden
+Höörs Kommun	ispartof0	Sweden
+Lund Municipality	ispartof0	Sweden
+Skurup Municipality	ispartof0	Sweden
+Eslövs Kommun	ispartof0	Sweden
+Ystad Municipality	ispartof0	Sweden
+Bjuvs Kommun	ispartof1	Skåne
+Svedala Municipality	ispartof0	Sweden
+Hörby Kommun	ispartof1	Skåne
+Varbergs Kommun	ispartof0	Sweden
+Varbergs Kommun	ispartof1	Halland
+Tranemo Municipality	ispartof1	Västra Götaland
+Ulricehamn Municipality	ispartof0	Sweden
+Norbergs Kommun	ispartof1	Västmanland
+Köping Municipality	ispartof0	Sweden
+Kungälvs Kommun	ispartof0	Sweden
+Sala Municipality	ispartof1	Västmanland
+Arboga Kommun	ispartof1	Västmanland
+Uddevalla Municipality	ispartof1	Västra Götaland
+Herrljunga Kommun	ispartof0	Sweden
+Kalmar Municipality	ispartof1	Kalmar
+Norrtälje Kommun	ispartof0	Sweden
+Tanum Municipality	ispartof1	Västra Götaland
+Stenungsund Municipality	ispartof1	Västra Götaland
+Uddevalla Municipality	ispartof1	Västra Götaland
+Mellerud Municipality	ispartof0	Sweden
+Ulricehamn Municipality	ispartof1	Västra Götaland
+Borås	ispartof0	Sweden
+Borås	ispartof1	Västra Götaland
+Borgholm Municipality	ispartof1	Kalmar
+Vårgårda Kommun	ispartof0	Sweden
+Dals-Ed Kommun	ispartof1	Västra Götaland
+Dals-Ed Kommun	ispartof0	Sweden
+Tranemo Municipality	ispartof1	Västra Götaland
+Färgelanda Kommun	ispartof1	Västra Götaland
+Ulricehamn Municipality	ispartof1	Västra Götaland
+Ulricehamn Municipality	ispartof1	Västra Götaland
+Vårgårda Kommun	ispartof0	Sweden
+Lerum	ispartof0	Sweden
+Borås	ispartof0	Sweden
+Lerum	ispartof0	Sweden
+Lerum	ispartof1	Västra Götaland
+Svenljunga Municipality	ispartof1	Västra Götaland
+Bengtsfors Kommun	ispartof0	Sweden
+Borlänge Kommun	ispartof0	Sweden
+Nordanstig Municipality	ispartof1	Gävleborg
+Falköpings Kommun	ispartof0	Sweden
+Härnösands Kommun	ispartof0	Sweden
+Mariestads Kommun	ispartof0	Sweden
+Lidköpings Kommun	ispartof0	Sweden
+Skövde Kommun	ispartof1	Västra Götaland
+Skövde Kommun	ispartof1	Västra Götaland
+Skövde Kommun	ispartof0	Sweden
+Götene Kommun	ispartof1	Västra Götaland
+Hjo Municipality	ispartof0	Sweden
+Tidaholm Municipality	ispartof0	Sweden
+Gullspångs Kommun	ispartof1	Västra Götaland
+Mariestads Kommun	ispartof0	Sweden
+Falköpings Kommun	ispartof0	Sweden
+Hjo Municipality	ispartof1	Västra Götaland
+Timrå Kommun	ispartof1	Västernorrland
+Falköpings Kommun	ispartof0	Sweden
+Karlsborg Municipality	ispartof0	Sweden
+Götene Kommun	ispartof1	Västra Götaland
+Vara Municipality	ispartof1	Västra Götaland
+Åre Municipality	ispartof1	Jämtland
+Karlsborg Municipality	ispartof1	Västra Götaland
+Skara Municipality	ispartof1	Västra Götaland
+Skövde Kommun	ispartof1	Västra Götaland
+Skövde Kommun	ispartof0	Sweden
+Tidaholm Municipality	ispartof1	Västra Götaland
+Tidaholm Municipality	ispartof0	Sweden
+Tidaholm Municipality	ispartof1	Västra Götaland
+Mariestads Kommun	ispartof0	Sweden
+Mariestads Kommun	ispartof1	Västra Götaland
+Lidköpings Kommun	ispartof0	Sweden
+Torsby Kommun	ispartof0	Sweden
+Sunne Municipality	ispartof0	Sweden
+Torsby Kommun	ispartof1	Värmland
+Torsby Kommun	ispartof0	Sweden
+Karlstad Municipality	ispartof1	Värmland
+Kils Kommun	ispartof1	Värmland
+Kils Kommun	ispartof0	Sweden
+Eda Municipality	ispartof0	Sweden
+Säffle Kommun	ispartof0	Sweden
+Kils Kommun	ispartof0	Sweden
+Hagfors Municipality	ispartof1	Värmland
+Örebro Kommun	ispartof1	Örebro
+Askersund Municipality	ispartof0	Sweden
+Örebro Kommun	ispartof0	Sweden
+Lekebergs Kommun	ispartof1	Örebro
+Askersund Municipality	ispartof0	Sweden
+Askersund Municipality	ispartof1	Örebro
+Örebro Kommun	ispartof1	Örebro
+Ljusnarsberg Municipality	ispartof1	Örebro
+Askersund Municipality	ispartof0	Sweden
+Hallsberg Municipality	ispartof1	Örebro
+Åre Municipality	ispartof1	Jämtland
+Härjedalens kommun	ispartof0	Sweden
+Heby Municipality	ispartof0	Sweden
+Hallstahammar Municipality	ispartof1	Västmanland
+Heby Municipality	ispartof1	Uppsala
+Heby Municipality	ispartof0	Sweden
+Falun Municipality	ispartof1	Dalarna
+Malung-Sälen Municipality	ispartof1	Dalarna
+Vansbro Kommun	ispartof0	Sweden
+Smedjebacken Municipality	ispartof0	Sweden
+Orsa Kommun	ispartof0	Sweden
+Hudiksvalls Kommun	ispartof1	Gävleborg
+Nordanstig Municipality	ispartof0	Sweden
+Hudiksvalls Kommun	ispartof1	Gävleborg
+Hudiksvalls Kommun	ispartof1	Gävleborg
+Hudiksvalls Kommun	ispartof0	Sweden
+Sandviken Municipality	ispartof0	Sweden
+Ljusdals Kommun	ispartof1	Gävleborg
+Söderhamn	ispartof0	Sweden
+Sundsvalls Kommun	ispartof0	Sweden
+Ånge Municipality	ispartof0	Sweden
+Sundsvalls Kommun	ispartof0	Sweden
+Sundsvalls Kommun	ispartof1	Västernorrland
+Kramfors Kommun	ispartof1	Västernorrland
+Örnsköldsviks Kommun	ispartof0	Sweden
+Krokoms Kommun	ispartof1	Jämtland
+Ale Kommun	ispartof0	Sweden
+Östersund municipality	ispartof0	Sweden
+Krokoms Kommun	ispartof1	Jämtland
+Östersund municipality	ispartof1	Jämtland
+Ragunda Kommun	ispartof0	Sweden
+Krokoms Kommun	ispartof1	Jämtland
+Bräcke Kommun	ispartof1	Jämtland
+Laholm Municipality	ispartof1	Halland
+Mörbylånga Kommun	ispartof0	Sweden
+Nyköpings Kommun	ispartof1	Södermanland
+Nyköpings Kommun	ispartof1	Södermanland
+Nyköpings Kommun	ispartof0	Sweden
+Ljungby Municipality	ispartof0	Sweden
+Mörbylånga Kommun	ispartof1	Kalmar
+Trelleborg Municipality	ispartof1	Skåne
+Kävlinge Kommun	ispartof0	Sweden
+Ystad Municipality	ispartof1	Skåne
+Falköpings Kommun	ispartof1	Västra Götaland
+Hässleholms Kommun	ispartof0	Sweden
+Helsingborg Municipality	ispartof1	Skåne
+Helsingborg Municipality	ispartof0	Sweden
+Haninge Municipality	ispartof0	Sweden
+Bromölla Municipality	ispartof0	Sweden
+Kristianstad Municipality	ispartof0	Sweden
+Simrishamn Municipality	ispartof1	Skåne
+Ystad Municipality	ispartof1	Skåne
+Hörby Kommun	ispartof1	Skåne
+Sjöbo Kommun	ispartof0	Sweden
+Varbergs Kommun	ispartof1	Halland
+Karlskrona Municipality	ispartof1	Blekinge
+Herrljunga Kommun	ispartof1	Västra Götaland
+Gotland Municipality	ispartof1	Gotland
+Sollefteå Kommun	ispartof1	Västernorrland
+Piteå Kommun	ispartof0	Sweden
+Södertälje Kommun	ispartof0	Sweden
+Kävlinge Kommun	ispartof1	Skåne
+Kävlinge Kommun	ispartof0	Sweden
+Motala Municipality	ispartof0	Sweden
+Borgholm Municipality	ispartof1	Kalmar
+Borgholm Municipality	ispartof0	Sweden
+Kalmar Municipality	ispartof0	Sweden
+Mörbylånga Kommun	ispartof1	Kalmar
+Västerviks Kommun	ispartof1	Kalmar
+Gotland Municipality	ispartof1	Gotland
+Gotland Municipality	ispartof0	Sweden
+Tomelilla Municipality	ispartof0	Sweden
+Ystad Municipality	ispartof0	Sweden
+Munkedal Municipality	ispartof0	Sweden
+Orust	ispartof0	Sweden
+Svalövs Kommun	ispartof0	Sweden
+Värnamo Kommun	ispartof0	Sweden
+Jönköpings Kommun	ispartof0	Sweden
+Hylte Kommun	ispartof0	Sweden
+Staffanstorp Municipality	ispartof0	Sweden
+Skurup Municipality	ispartof0	Sweden
+Norrtälje Kommun	ispartof1	Stockholm
+Herrljunga Kommun	ispartof0	Sweden
+Lilla Edets Kommun	ispartof1	Västra Götaland
+Håbo Municipality	ispartof0	Sweden
+Nyköpings Kommun	ispartof1	Södermanland
+Nyköpings Kommun	ispartof0	Sweden
+Ovanåkers Kommun	ispartof1	Gävleborg
+Åre Municipality	ispartof1	Jämtland
+Nässjö Kommun	ispartof0	Sweden
+Vetlanda Municipality	ispartof1	Jönköping
+Uppsala Municipality	ispartof1	Uppsala
+Uppsala Municipality	ispartof0	Sweden
+Uppsala Municipality	ispartof1	Uppsala
+Uppsala Municipality	ispartof1	Uppsala
+Älvkarleby Kommun	ispartof1	Uppsala
+Katrineholms Kommun	ispartof1	Södermanland
+Strängnäs Kommun	ispartof0	Sweden
+Trosa Municipality	ispartof1	Södermanland
+Nyköpings Kommun	ispartof0	Sweden
+Olofströms Kommun	ispartof0	Sweden
+Söderköpings Kommun	ispartof1	Östergötland
+Ljungby Municipality	ispartof0	Sweden
+Gotland Municipality	ispartof1	Gotland
+Gotland Municipality	ispartof0	Sweden
+Landskrona Municipality	ispartof0	Sweden
+Uddevalla Municipality	ispartof1	Västra Götaland
+Ängelholms Kommun	ispartof1	Skåne
+Köping Municipality	ispartof0	Sweden
+Tomelilla Municipality	ispartof1	Skåne
+Staffanstorp Municipality	ispartof1	Skåne
+Ulricehamn Municipality	ispartof1	Västra Götaland
+Skara Municipality	ispartof0	Sweden
+Lilla Edets Kommun	ispartof0	Sweden
+Jönköpings Kommun	ispartof0	Sweden
+Sollefteå Kommun	ispartof0	Sweden
+Mjölby Kommun	ispartof1	Östergötland
+Eslövs Kommun	ispartof0	Sweden
+Oskarshamns Kommun	ispartof0	Sweden
+Falköpings Kommun	ispartof0	Sweden
+Sollefteå Kommun	ispartof1	Västernorrland
+Sollefteå Kommun	ispartof0	Sweden
+Örebro Kommun	ispartof0	Sweden
+Örkelljunga Kommun	ispartof0	Sweden
+Nykvarns Kommun	ispartof1	Stockholm
+Tierp Municipality	ispartof1	Uppsala
+Falkenbergs Kommun	ispartof1	Halland
+Mjölby Kommun	ispartof0	Sweden
+Simrishamn Municipality	ispartof0	Sweden
+Osby Municipality	ispartof0	Sweden
+Kristianstad Municipality	ispartof1	Skåne
+Valdemarsviks Kommun	ispartof0	Sweden
+Karlsborg Municipality	ispartof1	Västra Götaland
+Ängelholms Kommun	ispartof1	Skåne
+Borgholm Municipality	ispartof1	Kalmar
+Älvdalen Municipality	ispartof1	Dalarna
+Gotland Municipality	ispartof1	Gotland
+Åstorps Kommun	ispartof0	Sweden
+Södertälje Kommun	ispartof0	Sweden
+Malmö Municipality	ispartof0	Sweden
+Halmstad Municipality	ispartof0	Sweden
+Kungsbacka Kommun	ispartof1	Halland
+Kungsbacka Kommun	ispartof0	Sweden
+Örebro Kommun	ispartof0	Sweden
+Tranemo Municipality	ispartof1	Västra Götaland
+Tidaholm Municipality	ispartof0	Sweden
+Sollefteå Kommun	ispartof1	Västernorrland
+Norrköpings Kommun	ispartof0	Sweden
+Vetlanda Municipality	ispartof1	Jönköping
+Orust	ispartof0	Sweden
+Karlskrona Municipality	ispartof0	Sweden
+Växjö Kommun	ispartof0	Sweden
+Laholm Municipality	ispartof0	Sweden
+Vallentuna Municipality	ispartof1	Stockholm
+Gävle Municipality	ispartof1	Gävleborg
+Nordanstig Municipality	ispartof1	Gävleborg
+Bollnäs Kommun	ispartof0	Sweden
+Kramfors Kommun	ispartof1	Västernorrland
+Örkelljunga Kommun	ispartof0	Sweden
+Uppsala Municipality	ispartof0	Sweden
+Kungsbacka Kommun	ispartof0	Sweden
+Järfälla Municipality	ispartof0	Sweden
+Norrtälje Kommun	ispartof1	Stockholm
+Västerås Municipality	ispartof0	Sweden
+Falköpings Kommun	ispartof0	Sweden
+Sollefteå Kommun	ispartof1	Västernorrland
+Sollefteå Kommun	ispartof0	Sweden
+Mörbylånga Kommun	ispartof0	Sweden
+Arvika Municipality	ispartof1	Värmland
+Torsby Kommun	ispartof1	Värmland
+Eskilstuna Kommun	ispartof1	Södermanland
+Linköpings Kommun	ispartof1	Östergötland
+Linköpings Kommun	ispartof0	Sweden
+Mörbylånga Kommun	ispartof1	Kalmar
+Borgholm Municipality	ispartof0	Sweden
+Gotland Municipality	ispartof1	Gotland
+Gotland Municipality	ispartof1	Gotland
+Gotland Municipality	ispartof1	Gotland
+Borlänge Kommun	ispartof1	Dalarna
+Trelleborg Municipality	ispartof1	Skåne
+Gotland Municipality	ispartof0	Sweden
+Kramfors Kommun	ispartof0	Sweden
+Österåkers Kommun	ispartof1	Stockholm
+Norrtälje Kommun	ispartof0	Sweden
+Enköping Municipality	ispartof0	Sweden
+Uddevalla Municipality	ispartof0	Sweden
+Norrtälje Kommun	ispartof1	Stockholm
+Enköping Municipality	ispartof1	Uppsala
+Håbo Municipality	ispartof0	Sweden
+Växjö Kommun	ispartof0	Sweden
+Borgholm Municipality	ispartof0	Sweden
+Norrtälje Kommun	ispartof0	Sweden
+Tomelilla Municipality	ispartof1	Skåne
+Gnesta Municipality	ispartof0	Sweden
+Hässleholms Kommun	ispartof0	Sweden
+Trelleborg Municipality	ispartof1	Skåne
+Mariestads Kommun	ispartof1	Västra Götaland
+Landskrona Municipality	ispartof0	Sweden
+Lomma Municipality	ispartof1	Skåne
+Trelleborg Municipality	ispartof1	Skåne
+Trelleborg Municipality	ispartof0	Sweden
+Höganäs Kommun	ispartof0	Sweden
+Falköpings Kommun	ispartof1	Västra Götaland
+Falköpings Kommun	ispartof0	Sweden
+Lund Municipality	ispartof1	Skåne
+Vellinge Municipality	ispartof1	Skåne
+Sjöbo Kommun	ispartof0	Sweden
+Lund Municipality	ispartof0	Sweden
+Falkenbergs Kommun	ispartof1	Halland
+Västerås Municipality	ispartof0	Sweden
+Härryda Kommun	ispartof1	Västra Götaland
+Herrljunga Kommun	ispartof1	Västra Götaland
+Borås	ispartof0	Sweden
+Herrljunga Kommun	ispartof0	Sweden
+Svenljunga Municipality	ispartof0	Sweden
+Tidaholm Municipality	ispartof1	Västra Götaland
+Götene Kommun	ispartof1	Västra Götaland
+Grästorps Kommun	ispartof1	Västra Götaland
+Kramfors Kommun	ispartof1	Västernorrland
+Kramfors Kommun	ispartof0	Sweden
+Örebro Kommun	ispartof1	Örebro
+Lekebergs Kommun	ispartof1	Örebro
+Gotland Municipality	ispartof1	Gotland
+Eskilstuna Kommun	ispartof0	Sweden
+Värmdö Kommun	ispartof1	Stockholm
+Värnamo Kommun	ispartof0	Sweden
+Knivsta Kommun	ispartof1	Uppsala
+Växjö Kommun	ispartof1	Kronoberg
+Halmstad Municipality	ispartof0	Sweden
+Värnamo Kommun	ispartof1	Jönköping
+Alvesta Municipality	ispartof0	Sweden
+Norrköpings Kommun	ispartof1	Östergötland
+Hallsberg Municipality	ispartof0	Sweden
+Vadstena Municipality	ispartof0	Sweden
+Gotland Municipality	ispartof1	Gotland
+Karlshamn Municipality	ispartof1	Blekinge
+Trelleborg Municipality	ispartof1	Skåne
+Landskrona Municipality	ispartof1	Skåne
+Bromölla Municipality	ispartof1	Skåne
+Bjuvs Kommun	ispartof0	Sweden
+Tanum Municipality	ispartof0	Sweden
+Hässleholms Kommun	ispartof0	Sweden
+Varbergs Kommun	ispartof0	Sweden
+Härnösands Kommun	ispartof0	Sweden
+Mariestads Kommun	ispartof0	Sweden
+Borås	ispartof0	Sweden
+Lidköpings Kommun	ispartof1	Västra Götaland
+Lidköpings Kommun	ispartof0	Sweden
+Ystad Municipality	ispartof0	Sweden
+Värmdö Kommun	ispartof0	Sweden
+Vara Municipality	ispartof1	Västra Götaland
+Österåkers Kommun	ispartof0	Sweden
+Varv	ispartof2	Tidaholm Municipality
+Gudhem	ispartof2	Falköpings Kommun
+Kinneved	ispartof1	Västra Götaland
+Tiarp	ispartof2	Falköpings Kommun
+Torbjörntorp	ispartof0	Sweden
+Villberga-Hacksta-Löt	ispartof2	Enköping Municipality
+Tomelillabygden	ispartof2	Tomelilla Municipality
+Osby-Visseltofta	ispartof1	Skåne
+Björnekulla-Västra Broby	ispartof1	Skåne
+Tygelsjö-Västra Klagstorp	ispartof1	Skåne
+Husie och Södra Sallerup	ispartof1	Skåne
+Husie och Södra Sallerup	ispartof0	Sweden
+Möllevången-Sofielund	ispartof1	Skåne
+Malmö S:t Johannes	ispartof2	Malmö Municipality
+Malmö S:t Pauli	ispartof2	Malmö Municipality
+Helgeand	ispartof1	Skåne
+S:t Hans	ispartof0	Sweden
+S:t Peters Kloster	ispartof1	Skåne
+Lunds domkyrkoförs.	ispartof1	Skåne
+Lunds domkyrkoförs.	ispartof0	Sweden
+Linköpings Ryd	ispartof1	Östergötland
+Norrköpings Borg	ispartof1	Östergötland
+Landskrona-del	ispartof0	Sweden
+Asmundtorp-Tofta	ispartof0	Sweden
+Farhult-Jonstorp	ispartof1	Skåne
+Lekåsa-Barne Åsaka	ispartof0	Sweden
+S:t Peder	ispartof2	Lilla Edets Kommun
+Sexdrega-del	ispartof1	Västra Götaland
+Göteborgs Masthugg	ispartof2	Gothenburg Municipality
+Lerdal	ispartof2	Färgelanda Kommun
+Lerum	ispartof2	Lerum
+Veinge-Tjärby	ispartof1	Halland
+Bräcke-Nyhem	ispartof1	Jämtland
+Hällesjö-Håsjö	ispartof2	Bräcke Kommun
+Föllinge-Hotagen och Laxsjö	ispartof0	Sweden
+Sillhövda	ispartof0	Sweden
+Sturkö	ispartof2	Karlskrona Municipality
+Bräkne-Hoby	ispartof1	Blekinge
+Listerby	ispartof2	Ronneby Municipality
+Ockelbo	ispartof2	Ockelbo Municipality
+Hofors	ispartof2	Hofors Municipality
+Torsåker	ispartof0	Sweden
+Hassela	ispartof1	Gävleborg
+Färila	ispartof1	Gävleborg
+Järvsö	ispartof2	Ljusdals Kommun
+Järvsö	ispartof1	Gävleborg
+Hamrånge	ispartof2	Gävle Municipality
+Hedesunda	ispartof1	Gävleborg
+Skog	ispartof0	Sweden
+Söderala	ispartof1	Gävleborg
+Trönö	ispartof2	Söderhamn
+Trönö	ispartof1	Gävleborg
+Barlingbo	ispartof2	Gotland Municipality
+Bunge	ispartof1	Gotland
+Eke	ispartof1	Gotland
+Eke	ispartof0	Sweden
+Follingbo	ispartof2	Gotland Municipality
+Fröjel	ispartof1	Gotland
+Gothem	ispartof1	Gotland
+Grötlingbo	ispartof0	Sweden
+Hablingbo	ispartof1	Gotland
+Hejde	ispartof2	Gotland Municipality
+Hejdeby	ispartof2	Gotland Municipality
+Hellvi	ispartof1	Gotland
+Klinte	ispartof0	Sweden
+Lärbro	ispartof1	Gotland
+Roma	ispartof0	Sweden
+Sproge	ispartof1	Gotland
+Västergarn	ispartof1	Gotland
+Västerhejde	ispartof0	Sweden
+Källsjö	ispartof1	Halland
+Ljungby	ispartof1	Halland
+Okome	ispartof0	Sweden
+Torpa	ispartof2	Varbergs Kommun
+Valinge	ispartof1	Halland
+Hanhals	ispartof2	Kungsbacka Kommun
+Kungsbacka	ispartof0	Sweden
+Landa	ispartof2	Kungsbacka Kommun
+Ås	ispartof1	Jämtland
+Aspås	ispartof1	Jämtland
+Ström	ispartof1	Jämtland
+Berg	ispartof0	Sweden
+Klövsjö	ispartof1	Jämtland
+Rätan	ispartof0	Sweden
+Frösö	ispartof1	Jämtland
+Lit	ispartof1	Jämtland
+Lit	ispartof0	Sweden
+Lockne	ispartof2	Östersund municipality
+Marieby	ispartof1	Jämtland
+Marieby	ispartof0	Sweden
+Gnosjö	ispartof0	Sweden
+Hagshult	ispartof1	Jönköping
+Huskvarna	ispartof1	Jönköping
+Fryele	ispartof1	Jönköping
+Kärda	ispartof2	Värnamo Kommun
+Tånnö	ispartof1	Jönköping
+Hjärtlanda	ispartof1	Jönköping
+Bäckseda	ispartof0	Sweden
+Näsby	ispartof2	Vetlanda Municipality
+Skede	ispartof0	Sweden
+Hässleby	ispartof1	Jönköping
+Hässleby	ispartof0	Sweden
+Höreda	ispartof2	Eksjö Kommun
+Mellby	ispartof0	Sweden
+Säby	ispartof2	Tranås Kommun
+Högsby	ispartof2	Högsby Kommun
+Högsby	ispartof0	Sweden
+Söderåkra	ispartof1	Kalmar
+Torsås	ispartof0	Sweden
+Torslunda	ispartof2	Mörbylånga Kommun
+Torslunda	ispartof0	Sweden
+Vissefjärda	ispartof0	Sweden
+Åby	ispartof1	Kalmar
+Karlslunda	ispartof2	Kalmar Municipality
+Karlslunda	ispartof1	Kalmar
+Bäckebo	ispartof0	Sweden
+Lofta	ispartof2	Västerviks Kommun
+Pelarne	ispartof2	Vimmerby Municipality
+Böda	ispartof0	Sweden
+Ål	ispartof2	Leksand Municipality
+Boda	ispartof1	Dalarna
+Boda	ispartof0	Sweden
+Idre	ispartof0	Sweden
+Särna	ispartof2	Älvdalen Municipality
+Särna	ispartof1	Dalarna
+Söderbärke	ispartof1	Dalarna
+Söderbärke	ispartof0	Sweden
+Mora	ispartof2	Mora Kommun
+Venjan	ispartof1	Dalarna
+Venjan	ispartof0	Sweden
+Bjursås	ispartof0	Sweden
+Gustafs	ispartof2	Säter Municipality
+Garpenberg	ispartof2	Hedemora Municipality
+Garpenberg	ispartof1	Dalarna
+Avesta	ispartof2	Avesta Municipality
+Säfsnäs	ispartof1	Dalarna
+Ekeberga	ispartof2	Lessebo Municipality
+Lessebo	ispartof2	Lessebo Municipality
+Mistelås	ispartof1	Kronoberg
+Mistelås	ispartof0	Sweden
+Härlunda	ispartof2	Älmhults Kommun
+Gårdsby	ispartof0	Sweden
+Nöbbele	ispartof1	Kronoberg
+Öjaby	ispartof0	Sweden
+Berga	ispartof2	Ljungby Municipality
+Berga	ispartof1	Kronoberg
+Bolmsö	ispartof2	Ljungby Municipality
+Odensjö	ispartof0	Sweden
+Vrå	ispartof1	Kronoberg
+Vrå	ispartof0	Sweden
+Älvsby	ispartof2	Älvsbyns Kommun
+Nederluleå	ispartof2	Luleå kommun
+Nederluleå	ispartof1	Norrbotten
+Nederluleå	ispartof0	Sweden
+Norrfjärden	ispartof0	Sweden
+Jukkasjärvi	ispartof1	Norrbotten
+Sköllersta	ispartof2	Hallsberg Municipality
+Viby	ispartof2	Hallsberg Municipality
+Mosjö	ispartof2	Örebro Kommun
+Karlskoga	ispartof1	Örebro
+Fellingsbro	ispartof2	Lindesberg Municipality
+Kisa	ispartof2	Kinda Municipality
+Kisa	ispartof1	Östergötland
+Oppeby	ispartof0	Sweden
+Skedevi	ispartof1	Östergötland
+Kaga	ispartof2	Linköpings Kommun
+Kärna	ispartof1	Östergötland
+Landeryd	ispartof0	Sweden
+Slaka	ispartof0	Sweden
+Vårdnäs	ispartof0	Sweden
+Vreta kloster	ispartof1	Östergötland
+Motala	ispartof1	Östergötland
+Tjällmo	ispartof0	Sweden
+Bjälbo	ispartof2	Mjölby Kommun
+Mjölby	ispartof1	Östergötland
+Normlösa	ispartof2	Mjölby Kommun
+Normlösa	ispartof0	Sweden
+Bettna	ispartof1	Södermanland
+Forssa	ispartof0	Sweden
+Lerbo	ispartof1	Södermanland
+Östervåla	ispartof2	Heby Municipality
+Tolfta	ispartof2	Tierp Municipality
+Bälinge	ispartof2	Uppsala Municipality
+Gottsunda	ispartof2	Uppsala Municipality
+Rasbo	ispartof2	Uppsala Municipality
+Tensta	ispartof0	Sweden
+Viksta	ispartof1	Uppsala
+Giresta	ispartof1	Uppsala
+Giresta	ispartof0	Sweden
+Husby-Sjutolft	ispartof0	Sweden
+Långtora	ispartof1	Uppsala
+Litslena	ispartof1	Uppsala
+Veckholm	ispartof0	Sweden
+Skillingmark	ispartof2	Eda Municipality
+Fryksände	ispartof2	Torsby Kommun
+Fryksände	ispartof0	Sweden
+Lekvattnet	ispartof1	Värmland
+Munkfors	ispartof0	Sweden
+Ransäter	ispartof1	Värmland
+Ransäter	ispartof0	Sweden
+Blomskog	ispartof0	Sweden
+Sillerud	ispartof2	Årjäng Municipality
+Sillerud	ispartof1	Värmland
+Sillerud	ispartof0	Sweden
+Älgå	ispartof0	Sweden
+Millesvik	ispartof0	Sweden
+Säffle	ispartof2	Säffle Kommun
+Tveta	ispartof1	Värmland
+Vindeln	ispartof2	Vindelns Kommun
+Sorsele	ispartof2	Sorsele Municipality
+Sorsele	ispartof1	Västerbotten
+Vilhelmina	ispartof0	Sweden
+Åsele	ispartof2	Åsele Kommun
+Åsele	ispartof0	Sweden
+Fredrika	ispartof1	Västerbotten
+Lövånger	ispartof0	Sweden
+Borgsjö	ispartof2	Ånge Municipality
+Hässjö	ispartof0	Sweden
+Ljustorp	ispartof2	Timrå Kommun
+Hemsö	ispartof2	Härnösands Kommun
+Hemsö	ispartof1	Västernorrland
+Holm	ispartof0	Sweden
+Indal	ispartof2	Sundsvalls Kommun
+Dal	ispartof2	Kramfors Kommun
+Gudmundrå	ispartof0	Sweden
+Graninge	ispartof1	Västernorrland
+Arnäs	ispartof0	Sweden
+Örnsköldsvik	ispartof1	Västernorrland
+Själevad	ispartof1	Västernorrland
+Själevad	ispartof0	Sweden
+Sura	ispartof2	Surahammar Municipality
+Norrby	ispartof1	Västmanland
+Fresta	ispartof1	Stockholm
+Vallentuna	ispartof1	Stockholm
+Värmdö	ispartof2	Värmdö Kommun
+Ekerö	ispartof2	Ekerö Kommun
+Sollentuna	ispartof1	Stockholm
+Bromma	ispartof2	Stockholm Municipality
+Nacka	ispartof0	Sweden
+Solna	ispartof0	Sweden
+Fasterna	ispartof1	Stockholm
+Frötuna	ispartof2	Norrtälje Kommun
+Ununge	ispartof2	Norrtälje Kommun
+Glimåkra	ispartof2	Östra Göinge Kommun
+Östra Broby	ispartof1	Skåne
+Lomma	ispartof2	Lomma Municipality
+Hörby	ispartof0	Sweden
+Riseberga	ispartof1	Skåne
+Fosie	ispartof1	Skåne
+Fleninge	ispartof1	Skåne
+Stora Köpinge	ispartof1	Skåne
+Hästveda	ispartof1	Skåne
+Norra Mellby	ispartof0	Sweden
+Råda	ispartof2	Härryda Kommun
+Partille	ispartof0	Sweden
+Ucklum	ispartof1	Västra Götaland
+Myckleby	ispartof0	Sweden
+Tossene	ispartof0	Sweden
+Foss	ispartof2	Munkedal Municipality
+Bottna	ispartof2	Tanum Municipality
+Svenneby	ispartof0	Sweden
+Nössemark	ispartof2	Dals-Ed Kommun
+Rölanda	ispartof1	Västra Götaland
+Töftedal	ispartof2	Dals-Ed Kommun
+Skallsjö	ispartof2	Lerum
+Nårunga	ispartof1	Västra Götaland
+Undenäs	ispartof0	Sweden
+Amnehärad	ispartof1	Västra Götaland
+Bäcke	ispartof0	Sweden
+Steneby	ispartof1	Västra Götaland
+Vårvik	ispartof0	Sweden
+Tunge	ispartof0	Sweden
+Västerlanda	ispartof1	Västra Götaland
+Kinna	ispartof2	Marks Kommun
+Öxnevalla	ispartof1	Västra Götaland
+Sätila	ispartof0	Sweden
+Eriksberg	ispartof1	Västra Götaland
+Fölene	ispartof0	Sweden
+Husaby	ispartof1	Västra Götaland
+Husaby	ispartof0	Sweden
+Björlanda	ispartof0	Sweden
+Rödbo	ispartof2	Gothenburg Municipality
+Tuve	ispartof2	Gothenburg Municipality
+Solberga	ispartof0	Sweden
+Ytterby	ispartof2	Kungälvs Kommun
+Grinneröd	ispartof2	Uddevalla Municipality
+Grinneröd	ispartof0	Sweden
+Frändefors	ispartof1	Västra Götaland
+Tämta	ispartof0	Sweden
+Toarp	ispartof2	Borås
+Södra Ving	ispartof0	Sweden
+Lugnås	ispartof2	Mariestads Kommun
+Örslösa	ispartof0	Sweden
+Sävare	ispartof0	Sweden
+Norra Kyrketorp	ispartof2	Skövde Kommun
+Hjo	ispartof2	Hjo Municipality
+Härja	ispartof2	Tidaholm Municipality
+Härja	ispartof1	Västra Götaland
+Borgunda	ispartof0	Sweden
+Börstig	ispartof2	Falköpings Kommun
+Dala	ispartof2	Falköpings Kommun
+Dala	ispartof1	Västra Götaland
+Floby	ispartof0	Sweden
+Valdemarsvik	ispartof2	Valdemarsviks Kommun
+Styrstad	ispartof2	Norrköpings Kommun
+Oxelösund	ispartof2	Oxelösunds Kommun
+Skokloster Castle	ispartof2	Håbo Municipality
+Vendel	ispartof1	Uppsala
+Håbol	ispartof1	Västra Götaland
+Håtuna	ispartof1	Stockholm
+Stensele	ispartof0	Sweden
+Arjeplog	ispartof0	Sweden
+Getinge-Rävinge	ispartof0	Sweden
+Eldsbergabygden	ispartof1	Halland
+Svärtinge	ispartof1	Östergötland
+Havdhem	ispartof2	Gotland Municipality
+Askersund	ispartof0	Sweden
+Klockrike	ispartof0	Sweden
+Vadstena	ispartof2	Vadstena Municipality
+Väderstad	ispartof0	Sweden
+Forshaga	ispartof0	Sweden
+Holmsund	ispartof1	Västerbotten
+Morup	ispartof0	Sweden
+Ullared	ispartof0	Sweden
+Agunnaryd	ispartof2	Ljungby Municipality
+Agunnaryd	ispartof1	Kronoberg
+Annerstad	ispartof2	Ljungby Municipality
+Hallsberg	ispartof1	Örebro
+Grythyttan	ispartof0	Sweden
+Viker	ispartof2	Nora Municipality
+Gillberga	ispartof0	Sweden
+Rörum	ispartof0	Sweden
+Ängelholm	ispartof1	Skåne
+Ängelholm	ispartof0	Sweden
+Vilske-Kleva	ispartof1	Västra Götaland
+Kallhäll	ispartof1	Stockholm
+Mullsjö	ispartof2	Mullsjö Municipality
+Västra Storsjöbygden	ispartof0	Sweden
+Svegsbygden	ispartof2	Härjedalens kommun
+Norra Mo	ispartof0	Sweden
+Rogberga-Öggestorp	ispartof1	Jönköping
+Jönköpings Kristina-Ljungarum	ispartof0	Sweden
+Jönköpings Sofia	ispartof2	Jönköpings Kommun
+Nye-Näshult och Stenberga	ispartof1	Jönköping
+Ingatorp-Bellö	ispartof1	Jönköping
+Norra Möckleby-Sandby och Gårdby	ispartof1	Kalmar
+Sydöland	ispartof2	Mörbylånga Kommun
+Två systrar	ispartof1	Kalmar
+Förlösa-Kläckeberga	ispartof2	Kalmar Municipality
+Kalmar domkyrkoförs.	ispartof1	Kalmar
+Oscar	ispartof1	Stockholm
+Älvsåker	ispartof1	Halland
+Älvsåker	ispartof0	Sweden
+Östersund	ispartof1	Jämtland
+Frinnaryd	ispartof0	Sweden
+Brandstorp	ispartof0	Sweden
+Gärdserum	ispartof0	Sweden
+Gärdslösa-Långlöt och Runsten	ispartof2	Borgholm Municipality
+Lima-Transtrand	ispartof0	Sweden
+Hosjö	ispartof2	Falun Municipality
+Enskede-Årsta	ispartof2	Stockholm Municipality
+Enskede-Årsta	ispartof0	Sweden
+Häverö-Singö	ispartof2	Norrtälje Kommun
+Valsta	ispartof0	Sweden
+Ösmo-Torö	ispartof2	Nynäshamns kommun
+Torhamn	ispartof0	Sweden
+Tving	ispartof0	Sweden
+Karlshamn	ispartof2	Karlshamn Municipality
+Karlshamn	ispartof1	Blekinge
+Kållerstad	ispartof2	Gislaved Municipality
+Byarum	ispartof2	Vaggeryd Municipality
+Barnarp	ispartof1	Jönköping
+Järstorp	ispartof0	Sweden
+Härkeberga	ispartof1	Uppsala
+Hökhuvud	ispartof2	Östhammar Municipality
+Södra Finnskoga	ispartof2	Torsby Kommun
+Växjö domkyrkoförs.	ispartof0	Sweden
+Hemmesjö med Tegnaby	ispartof1	Kronoberg
+Vederslöv-Dänningelanda	ispartof0	Sweden
+Söraby-Tolg och Tjureda	ispartof1	Kronoberg
+Ör-Ormesberga	ispartof1	Kronoberg
+Luleå domkyrkoförs.	ispartof1	Norrbotten
+Nedertorneå-Haparanda	ispartof2	Haparanda Municipality
+Finnerödja-Tived	ispartof2	Laxå Kommun
+Finnerödja-Tived	ispartof0	Sweden
+Bo-Svennevad	ispartof2	Hallsberg Municipality
+Linköpings Johannelund	ispartof1	Östergötland
+Linköpings Johannelund	ispartof0	Sweden
+Tystbergabygden	ispartof2	Nyköpings Kommun
+Kinnared	ispartof1	Halland
+Långaryd	ispartof0	Sweden
+Enslöv	ispartof1	Halland
+Slöinge	ispartof1	Halland
+Månsarp	ispartof1	Jönköping
+Bredaryd	ispartof1	Jönköping
+Skepperstad	ispartof0	Sweden
+Stockaryd	ispartof1	Jönköping
+Gåsborn	ispartof1	Värmland
+Rämmen	ispartof0	Sweden
+Ekshärad	ispartof2	Hagfors Municipality
+Ekshärad	ispartof0	Sweden
+Löderup	ispartof2	Ystad Municipality
+Trelleborg	ispartof2	Trelleborg Municipality
+Ålidhem	ispartof1	Västerbotten
+Öregrund-Gräsö	ispartof2	Östhammar Municipality
+Karlstads domkyrkoförs.	ispartof1	Värmland
+Hagfors-Gustav Adolf	ispartof1	Värmland
+Skellefteå S:t Olov	ispartof1	Västerbotten
+Karlstorp	ispartof1	Jönköping
+Lannaskede	ispartof1	Jönköping
+Hult	ispartof0	Sweden
+Fagerhult	ispartof1	Kalmar
+Ålem	ispartof1	Kalmar
+Halltorp	ispartof0	Sweden
+Jörn-Boliden	ispartof0	Sweden
+Skellefteå S:t Örjan	ispartof2	Skellefteå Kommun
+Härnösands domkyrkoförs.	ispartof1	Västernorrland
+Skinnskatteberg med Hed och Gunnilbo	ispartof1	Västmanland
+Hallstahammar-Berg	ispartof2	Hallstahammar Municipality
+Västerås Badelunda	ispartof0	Sweden
+Västerås Lundby	ispartof1	Västmanland
+Norrköpings Matteus	ispartof1	Östergötland
+Hudiksvall-Idenor	ispartof0	Sweden
+Oskarshamn	ispartof2	Oskarshamns Kommun
+Hallingeberg	ispartof0	Sweden
+Ådals-Liden	ispartof1	Västernorrland
+Gustavsberg	ispartof2	Värmdö Kommun
+Länghem	ispartof0	Sweden
+Herrestad	ispartof1	Västra Götaland
+Gökhem	ispartof2	Falköpings Kommun
+När-Lau	ispartof1	Gotland
+När-Lau	ispartof0	Sweden
+Vall-Hogrän och Atlingbo	ispartof1	Gotland
+Kista	ispartof1	Stockholm
+Vällingby	ispartof2	Stockholm Municipality
+Önsta	ispartof0	Sweden
+Össeby	ispartof0	Sweden
+Färingsö	ispartof2	Ekerö Kommun
+Adelsö-Munsö	ispartof0	Sweden
+S:t Mikael	ispartof0	Sweden
+Brämaregården	ispartof1	Västra Götaland
+Skee-Tjärnö	ispartof0	Sweden
+Lextorp	ispartof1	Västra Götaland
+Borås Gustav Adolf	ispartof0	Sweden
+Gustav Vasa	ispartof1	Stockholm
+Katarina	ispartof0	Sweden
+Nylöse	ispartof1	Västra Götaland
+Domkyrkoförs. i Göteborg	ispartof2	Gothenburg Municipality
+Fristad-Gingri	ispartof0	Sweden
+Skredsvik	ispartof1	Västra Götaland
+Väne-Ryr	ispartof2	Vänersborgs Kommun
+Trollhättan	ispartof0	Sweden
+Sandhult	ispartof2	Borås
+Sandhult	ispartof1	Västra Götaland
+Hällstad	ispartof2	Ulricehamn Municipality
+Ånimskog	ispartof1	Västra Götaland
+Ånimskog	ispartof0	Sweden
+Lyrestad	ispartof0	Sweden
+Ullervad	ispartof1	Västra Götaland
+Lidköping	ispartof1	Västra Götaland
+Åsunden	ispartof0	Sweden
+Norrköpings S:t Johannes	ispartof2	Norrköpings Kommun
+Dunker-Lilla Malma	ispartof0	Sweden
+Stenkvista-Ärla	ispartof1	Södermanland
+Västra Rekarne	ispartof2	Eskilstuna Kommun
+Kafjärden	ispartof2	Eskilstuna Kommun
+Vårfruberga-Härad	ispartof1	Södermanland
+Trosa stadsförs.	ispartof2	Trosa Municipality
+Torsång	ispartof0	Sweden
+Lenhovda	ispartof0	Sweden
+Hovmantorp	ispartof1	Kronoberg
+Hovmantorp	ispartof0	Sweden
+Almundsryd	ispartof2	Tingsryd Municipality
+Lekaryd	ispartof1	Kronoberg
+Stenbrohult	ispartof2	Älmhults Kommun
+Sundbyberg	ispartof0	Sweden
+Vaxholm	ispartof0	Sweden
+Lohärad	ispartof2	Norrtälje Kommun
+Nynäshamn	ispartof2	Nynäshamns kommun
+Emmislöv	ispartof1	Skåne
+Älmhult	ispartof0	Sweden
+Filborna	ispartof2	Helsingborg Municipality
+Kirseberg	ispartof1	Skåne
+Hinneryd	ispartof2	Markaryd Municipality
+Sjösås	ispartof1	Kronoberg
+Blentarp	ispartof0	Sweden
+Vanstad	ispartof2	Sjöbo Kommun
+Gualöv	ispartof1	Skåne
+Västra Karup	ispartof0	Sweden
+Kropp	ispartof0	Sweden
+Matteröd	ispartof1	Skåne
+Landvetter	ispartof1	Västra Götaland
+Rönnäng	ispartof1	Västra Götaland
+Älvsborg	ispartof2	Gothenburg Municipality
+Högsbo	ispartof1	Västra Götaland
+Tynnered	ispartof1	Västra Götaland
+Vreten	ispartof2	Skövde Kommun
+Ambjörnarp	ispartof0	Sweden
+Hulared	ispartof2	Tranemo Municipality
+Hulared	ispartof1	Västra Götaland
+Bolstad	ispartof2	Mellerud Municipality
+Bolstad	ispartof1	Västra Götaland
+Dalskog	ispartof1	Västra Götaland
+Erikstad	ispartof1	Västra Götaland
+Horred	ispartof1	Västra Götaland
+Torestorp	ispartof0	Sweden
+Södra Björke	ispartof1	Västra Götaland
+Kvänum	ispartof0	Sweden
+Tibro	ispartof2	Tibro Municipality
+Askim	ispartof1	Västra Götaland
+Svalövsbygden	ispartof0	Sweden
+Höllviken	ispartof1	Skåne
+Knislinge-Gryt	ispartof1	Skåne
+Husby-Långhundra	ispartof2	Knivsta Kommun
+Lagga	ispartof0	Sweden
+Löberöd	ispartof2	Eslövs Kommun
+Sövestadsbygden	ispartof2	Ystad Municipality
+Araslöv	ispartof0	Sweden
+Gammalstorp-Ysane	ispartof0	Sweden
+Gävle Heliga Trefaldighet	ispartof0	Sweden
+Gävle Maria	ispartof2	Gävle Municipality
+Vrigstad-Hylletofta	ispartof2	Sävsjö Kommun
+Vrigstad-Hylletofta	ispartof0	Sweden
+Räpplinge-Högsrum	ispartof0	Sweden
+Uppsala domkyrkoförs.	ispartof1	Uppsala
+Uppsala domkyrkoförs.	ispartof0	Sweden
+Skövde	ispartof2	Skövde Kommun
+Baltak	ispartof0	Sweden
+Härryda	ispartof1	Västra Götaland
+Edebo	ispartof1	Stockholm
+Främmestad-Bäreberg	ispartof1	Västra Götaland
+Stråvalla	ispartof2	Varbergs Kommun
+Angered	ispartof2	Gothenburg Municipality
+Istorp	ispartof0	Sweden
+Torrskog	ispartof2	Bengtsfors Kommun
+Färgelanda	ispartof2	Färgelanda Kommun
+Ardala	ispartof2	Skara Municipality
+Västerhaninge-Muskö	ispartof1	Stockholm
+Norrsunda	ispartof1	Stockholm
+Landskrona-del	ispartof1	Skåne
+Åryd	ispartof1	Blekinge
+Årdala	ispartof1	Södermanland
+Gärdslösa-Långlöt och Runsten	ispartof0	Sweden
+Ljunits	ispartof2	Ystad Municipality
+Bjuv	ispartof1	Skåne
+Bunkeflo	ispartof2	Malmö Municipality
+Kungsåra	ispartof2	Västerås Municipality
+Verum	ispartof1	Skåne
+Verum	ispartof0	Sweden
+Osby-Visseltofta	ispartof1	Skåne
+Hol	ispartof2	Vårgårda Kommun
+Köpingsvik	ispartof1	Kalmar
+Gärdslösa-Långlöt och Runsten	ispartof0	Sweden
+Sydöland	ispartof1	Kalmar
+Vall-Hogrän och Atlingbo	ispartof2	Gotland Municipality
+Björke	ispartof1	Gotland
+Fröjel	ispartof1	Gotland
+Garde	ispartof2	Gotland Municipality
+Garde	ispartof1	Gotland
+Hejdeby	ispartof1	Gotland
+Stenkyrka	ispartof2	Gotland Municipality
+Holm	ispartof1	Västernorrland
+Holm	ispartof0	Sweden
+Dalby	ispartof0	Sweden
+Norra Råda	ispartof1	Värmland
+Ny	ispartof1	Värmland
+Rämmen	ispartof1	Värmland
+Fägre	ispartof2	Töreboda Kommun
+Nedertorneå-Haparanda	ispartof2	Haparanda Municipality
+Älvsby	ispartof2	Älvsbyns Kommun
+Överluleå	ispartof1	Norrbotten
+Tuna	ispartof0	Sweden
+Mörlunda-Tveta	ispartof2	Hultsfred Municipality
+Delsbo	ispartof0	Sweden
+Arbrå-Undersvik	ispartof1	Gävleborg
+Årsunda	ispartof0	Sweden
+Tannåker	ispartof1	Kronoberg
+Ukna	ispartof1	Kalmar
+Lyrestad	ispartof2	Mariestads Kommun
+Vara	ispartof2	Vara Municipality
+Vara	ispartof0	Sweden
+Domkyrkoförs. i Göteborg	ispartof0	Sweden
+Vinslöv	ispartof1	Skåne
+Villie	ispartof0	Sweden
+Hörby	ispartof1	Skåne
+Nora-Skog	ispartof2	Kramfors Kommun
+Nora-Skog	ispartof1	Västernorrland
+Nora-Skog	ispartof0	Sweden
+Bettna	ispartof0	Sweden
+Bäckaskog	ispartof0	Sweden
+Övertorneå	ispartof1	Norrbotten
+Övertorneå	ispartof0	Sweden
+Alster-Nyedsbygden	ispartof2	Karlstad Municipality
+Ödenäs	ispartof0	Sweden
+Fryksände	ispartof1	Värmland
+Asklanda	ispartof0	Sweden
+Kungsör	ispartof1	Västmanland
+Södra Åsarp	ispartof1	Västra Götaland
+Häverö-Singö	ispartof2	Norrtälje Kommun
+Häverö-Singö	ispartof1	Stockholm
+Estuna och Söderby-Karl	ispartof0	Sweden
+Högstena	ispartof1	Västra Götaland
+Örslösa	ispartof2	Lidköpings Kommun
+Kvänum	ispartof2	Vara Municipality
+Stenstorp	ispartof0	Sweden
+Sigtuna	ispartof2	Sigtuna Municipality
+Rasbokil	ispartof1	Uppsala
+Eslöv	ispartof1	Skåne
+Himledalen	ispartof2	Varbergs Kommun
+Himledalen	ispartof0	Sweden
+Sövestadsbygden	ispartof1	Skåne
+Sunnersberg	ispartof1	Västra Götaland
+Harplinge	ispartof1	Halland
+Ösmo-Torö	ispartof0	Sweden
+Sturkö	ispartof0	Sweden
+Dalarö-Ornö-Utö	ispartof1	Stockholm
+Lycksele	ispartof0	Sweden
+Norsjö	ispartof0	Sweden
+Burträsk	ispartof0	Sweden
+Bureå	ispartof0	Sweden
+Sävar-Holmön	ispartof1	Västerbotten
+Skellefteå S:t Olov	ispartof2	Skellefteå Kommun
+Skellefteå S:t Olov	ispartof0	Sweden
+Hökhuvud	ispartof2	Östhammar Municipality
+Hökhuvud	ispartof0	Sweden
+Brösarp-Tranås	ispartof1	Skåne
+Sölvesborg	ispartof1	Blekinge
+Rödeby	ispartof2	Karlskrona Municipality
+Åkerby	ispartof0	Sweden
+Hållnäs-Österlövsta	ispartof1	Uppsala
+Fjärdhundra	ispartof1	Uppsala
+Bettna	ispartof2	Flens Kommun
+Dunker-Lilla Malma	ispartof1	Södermanland
+Eskilstuna Kloster	ispartof0	Sweden
+Katrineholm-Stora Malm	ispartof2	Katrineholms Kommun
+Katrineholm-Stora Malm	ispartof1	Södermanland
+Västra Rekarne	ispartof1	Södermanland
+Kiladalen	ispartof0	Sweden
+Visingsö	ispartof0	Sweden
+Mellösa	ispartof1	Södermanland
+Katrineholm-Stora Malm	ispartof2	Katrineholms Kommun
+Hällby förs. med Tumbo och Råby-Rekarne	ispartof1	Södermanland
+Svalövsbygden	ispartof1	Skåne
+Skänninge-Allhelgona	ispartof0	Sweden
+Stenkvista-Ärla	ispartof0	Sweden
+Österåker	ispartof0	Sweden
+Tynderö	ispartof1	Västernorrland
+Brunnby	ispartof2	Höganäs Kommun
+Sävsjö	ispartof0	Sweden
+Torskinge	ispartof1	Jönköping
+Valdshult	ispartof1	Jönköping
+Vetlanda	ispartof2	Vetlanda Municipality
+Almundsryd	ispartof2	Tingsryd Municipality
+Dädesjö	ispartof2	Växjö Kommun
+Borensberg	ispartof2	Motala Municipality
+Ledberg	ispartof2	Linköpings Kommun
+Ledberg	ispartof1	Östergötland
+Lysekil	ispartof0	Sweden
+Ringarum	ispartof0	Sweden
+Ödeshög	ispartof0	Sweden
+Skeda	ispartof2	Linköpings Kommun
+Vikingstad	ispartof1	Östergötland
+Åkerbo	ispartof1	Östergötland
+Åkerbo	ispartof0	Sweden
+Väderstad	ispartof2	Mjölby Kommun
+Vikingstad	ispartof2	Linköpings Kommun
+Västra Vikbolandet	ispartof0	Sweden
+Norra Solberga-Flisby	ispartof0	Sweden
+Gnosjö	ispartof1	Jönköping
+Hultsjö	ispartof2	Sävsjö Kommun
+Eksjö	ispartof2	Eksjö Kommun
+Fröderyd	ispartof0	Sweden
+Gryteryd	ispartof2	Gislaved Municipality
+Hjälmseryd	ispartof0	Sweden
+Hakarp	ispartof1	Jönköping
+Vrigstad-Hylletofta	ispartof2	Sävsjö Kommun
+Järstorp	ispartof1	Jönköping
+Jälluntofta	ispartof2	Hylte Kommun
+Skede	ispartof0	Sweden
+Ekeberga	ispartof1	Kronoberg
+Sjösås	ispartof0	Sweden
+Söderåkra	ispartof2	Torsås Kommun
+Traryd	ispartof1	Kronoberg
+Tävelsås	ispartof2	Växjö Kommun
+Östra Torsås	ispartof1	Kronoberg
+Södra Vi-Djursdala	ispartof0	Sweden
+Frödinge	ispartof1	Kalmar
+Frödinge	ispartof0	Sweden
+Fliseryd	ispartof2	Mönsterås Kommun
+Hälleberga	ispartof0	Sweden
+Räpplinge-Högsrum	ispartof0	Sweden
+Järeda	ispartof2	Hultsfred Municipality
+Kråksmåla	ispartof1	Kalmar
+Locknevi	ispartof1	Kalmar
+Målilla med Gårdveda	ispartof0	Sweden
+Eskelhem-Tofta	ispartof2	Gotland Municipality
+Mortorp	ispartof2	Kalmar Municipality
+Virserum	ispartof0	Sweden
+Vissefjärda	ispartof2	Emmaboda Municipality
+Oskar	ispartof0	Sweden
+Akebäck	ispartof2	Gotland Municipality
+Hejde	ispartof2	Gotland Municipality
+Asarum	ispartof0	Sweden
+Lyckå	ispartof2	Karlskrona Municipality
+Bräkne-Hoby	ispartof2	Ronneby Municipality
+Bräkne-Hoby	ispartof1	Blekinge
+Ronneby	ispartof0	Sweden
+Hällaryd	ispartof2	Karlshamn Municipality
+Jämjö	ispartof2	Karlskrona Municipality
+Kristianopel	ispartof2	Karlskrona Municipality
+Djurö-Möja och Nämdö	ispartof1	Stockholm
+Västerfärnebo-Fläckebo	ispartof2	Sala Municipality
+Skanör-Falsterbo	ispartof1	Skåne
+Kviinge	ispartof1	Skåne
+Stoby	ispartof0	Sweden
+Kivik	ispartof0	Sweden
+Örkelljunga	ispartof0	Sweden
+Araslöv	ispartof0	Sweden
+Everödsbygden	ispartof2	Kristianstad Municipality
+Värby	ispartof2	Svedala Municipality
+Järna	ispartof2	Vansbro Kommun
+Järna	ispartof0	Sweden
+Kareby	ispartof0	Sweden
+Klädesholmen	ispartof0	Sweden
+Lindome	ispartof1	Västra Götaland
+Naverstad-Mo	ispartof2	Tanum Municipality
+Lunds domkyrkoförs.	ispartof2	Lund Municipality
+Lunds domkyrkoförs.	ispartof1	Skåne
+Genarp	ispartof2	Lund Municipality
+Malmö S:t Petri	ispartof2	Malmö Municipality
+Malmö S:t Petri	ispartof1	Skåne
+Södra Sandby	ispartof0	Sweden
+Saxtorp-Annelöv	ispartof2	Landskrona Municipality
+Kungsbacka	ispartof2	Kungsbacka Kommun
+Höganäs	ispartof1	Skåne
+Skurup	ispartof0	Sweden
+Villie	ispartof1	Skåne
+Stora Köpinge	ispartof0	Sweden
+Hörby	ispartof2	Hörby Kommun
+Hörby	ispartof1	Skåne
+Fränninge-Vollsjö	ispartof1	Skåne
+Källstorp	ispartof0	Sweden
+Vessige	ispartof1	Halland
+Vessige	ispartof0	Sweden
+Enslöv	ispartof0	Sweden
+Veddige	ispartof1	Halland
+Veddige	ispartof0	Sweden
+Hasslöv-Våxtorp	ispartof1	Halland
+Okome	ispartof2	Falkenbergs Kommun
+Träslöv	ispartof0	Sweden
+Ödsmål	ispartof0	Sweden
+Dalskog	ispartof0	Sweden
+Vinberg	ispartof2	Falkenbergs Kommun
+Kungsör	ispartof0	Sweden
+Romelanda	ispartof1	Västra Götaland
+Arbogabygden	ispartof2	Arboga Kommun
+Röra	ispartof0	Sweden
+Skee-Tjärnö	ispartof2	Strömstads Kommun
+Källunga	ispartof0	Sweden
+Örnäset	ispartof1	Norrbotten
+Multrå och Sånga	ispartof1	Västernorrland
+Multrå och Sånga	ispartof0	Sweden
+Skaftö	ispartof1	Västra Götaland
+Foss	ispartof0	Sweden
+Ytterby	ispartof2	Kungälvs Kommun
+Algutstorp	ispartof2	Vårgårda Kommun
+Berghem	ispartof2	Marks Kommun
+Kindaholm	ispartof2	Svenljunga Municipality
+Föra-Alböke-Löt	ispartof2	Borgholm Municipality
+Lena	ispartof2	Vårgårda Kommun
+Gestad	ispartof2	Vänersborgs Kommun
+Gestad	ispartof0	Sweden
+Gesäter	ispartof2	Dals-Ed Kommun
+Gesäter	ispartof1	Västra Götaland
+Fristad-Gingri	ispartof1	Västra Götaland
+Mossebo	ispartof1	Västra Götaland
+Åsunden	ispartof2	Ulricehamn Municipality
+Lerdal	ispartof2	Färgelanda Kommun
+Länghem	ispartof1	Västra Götaland
+Månstad	ispartof0	Sweden
+Nittorp	ispartof0	Sweden
+Rångedala	ispartof0	Sweden
+Sexdrega-del	ispartof2	Svenljunga Municipality
+Hol	ispartof1	Västra Götaland
+Barkeryd	ispartof0	Sweden
+Starrkärr-Kilanda	ispartof0	Sweden
+Skållerud	ispartof1	Västra Götaland
+Skållerud	ispartof0	Sweden
+Steneby	ispartof1	Västra Götaland
+Hudene	ispartof1	Västra Götaland
+Bjärke-del	ispartof0	Sweden
+Algutstorp	ispartof0	Sweden
+Trollhättan	ispartof1	Västra Götaland
+Väne-Ryr	ispartof0	Sweden
+Åsaka-Björke	ispartof1	Västra Götaland
+Upphärad	ispartof2	Trollhättan Municipality
+Västra Tunhem	ispartof2	Vänersborgs Kommun
+Ödeborg	ispartof1	Västra Götaland
+Stora Tuna	ispartof2	Borlänge Kommun
+Mora	ispartof0	Sweden
+Grycksbo	ispartof1	Dalarna
+Grycksbo	ispartof0	Sweden
+Örby-Skene	ispartof1	Västra Götaland
+Borrby-Östra Hoby	ispartof2	Simrishamn Municipality
+Grangärde	ispartof0	Sweden
+Brandstorp	ispartof2	Habo Municipality
+Älvdalen	ispartof2	Älvdalen Municipality
+Dimbo-Ottravad	ispartof1	Västra Götaland
+Kvänum	ispartof1	Västra Götaland
+Essunga	ispartof1	Västra Götaland
+Essunga	ispartof2	Essunga Kommun
+Hjo	ispartof2	Hjo Municipality
+Gustav Adolf	ispartof2	Habo Municipality
+Hova-Älgarås-del	ispartof0	Sweden
+Hornborga	ispartof2	Falköpings Kommun
+Hjo	ispartof2	Hjo Municipality
+Hjo	ispartof0	Sweden
+Husaby	ispartof2	Götene Kommun
+Karleby	ispartof1	Västra Götaland
+Larv	ispartof2	Vara Municipality
+Vedum	ispartof2	Vara Municipality
+Väring	ispartof0	Sweden
+Mölltorp	ispartof2	Karlsborg Municipality
+Ryda	ispartof1	Västra Götaland
+Sävare	ispartof1	Västra Götaland
+Mullsjö	ispartof2	Mullsjö Municipality
+Ova	ispartof2	Götene Kommun
+Ova	ispartof0	Sweden
+Stenstorp	ispartof0	Sweden
+Varv	ispartof2	Tidaholm Municipality
+Ardala	ispartof1	Västra Götaland
+Väring	ispartof2	Skövde Kommun
+Ardala	ispartof1	Västra Götaland
+Sventorp-Forsby	ispartof1	Västra Götaland
+Ryda	ispartof0	Sweden
+Sävare	ispartof2	Lidköpings Kommun
+Ullervad	ispartof1	Västra Götaland
+Ullervad	ispartof0	Sweden
+Mullsjö	ispartof2	Mullsjö Municipality
+Undenäs	ispartof1	Västra Götaland
+Örslösa	ispartof2	Lidköpings Kommun
+Hova-Älgarås-del	ispartof1	Västra Götaland
+Kinnekulle	ispartof0	Sweden
+Blomskog	ispartof1	Värmland
+Blomskog	ispartof0	Sweden
+Boda	ispartof1	Värmland
+Lekvattnet	ispartof1	Värmland
+Långserud	ispartof0	Sweden
+Karlstads domkyrkoförs.	ispartof2	Karlstad Municipality
+Karlstads domkyrkoförs.	ispartof1	Värmland
+Arvika östra	ispartof2	Arvika Municipality
+Arvika östra	ispartof1	Värmland
+Dalby	ispartof0	Sweden
+Grums	ispartof2	Grums Municipality
+Gunnarskog	ispartof1	Värmland
+Stora Kil	ispartof2	Kils Kommun
+Väse-Fågelvik	ispartof1	Värmland
+Glanshammar	ispartof0	Sweden
+Väse-Fågelvik	ispartof2	Karlstad Municipality
+Askersund	ispartof2	Askersund Municipality
+Hällefors-Hjulsjö	ispartof2	Hällefors
+Knista	ispartof2	Lekebergs Kommun
+Knista	ispartof0	Sweden
+Glanshammar	ispartof2	Örebro Kommun
+Lerbäck	ispartof0	Sweden
+Knista	ispartof0	Sweden
+Degerfors-Nysund	ispartof0	Sweden
+Stora Mellösa	ispartof2	Örebro Kommun
+Harbo	ispartof0	Sweden
+Ytterhogdal-Överhogdal och Ängersjö	ispartof2	Härjedalens kommun
+Hallstahammar-Berg	ispartof1	Västmanland
+Enviken	ispartof2	Falun Municipality
+Gagnef	ispartof2	Gagnef Municipality
+Orsa	ispartof1	Dalarna
+Forsa-Hög	ispartof0	Sweden
+Hille	ispartof1	Gävleborg
+Järvsö	ispartof2	Ljusdals Kommun
+Norrala	ispartof0	Sweden
+Enånger-Njutånger	ispartof0	Sweden
+Ovanåker	ispartof1	Gävleborg
+Hofors	ispartof0	Sweden
+Söderala	ispartof0	Sweden
+Österfärnebo	ispartof2	Sandviken Municipality
+Björna	ispartof2	Örnsköldsviks Kommun
+Björna	ispartof1	Västernorrland
+Norrahammar	ispartof2	Jönköpings Kommun
+Ytterhogdal-Överhogdal och Ängersjö	ispartof1	Jämtland
+Haverö	ispartof0	Sweden
+Ramsele-Edsele	ispartof1	Västernorrland
+Säbrå	ispartof1	Västernorrland
+Ullånger	ispartof2	Kramfors Kommun
+Ullånger	ispartof1	Västernorrland
+Bodsjö	ispartof0	Sweden
+Hackås	ispartof2	Bergs Kommun
+Hammerdal	ispartof1	Jämtland
+Lit	ispartof2	Östersund municipality
+Lockne	ispartof2	Östersund municipality
+Lockne	ispartof1	Jämtland
+Oviken	ispartof0	Sweden
+Revsund	ispartof1	Jämtland
+Rödön	ispartof2	Krokoms Kommun
+Rätan	ispartof0	Sweden
+Stugun	ispartof2	Ragunda Kommun
+Svegsbygden	ispartof2	Härjedalens kommun
+Åsarne	ispartof1	Jämtland
+Norrtälje-Malsta	ispartof2	Norrtälje Kommun
+Arbogabygden	ispartof0	Sweden
+Husby-Skederid och Rö	ispartof1	Stockholm
+Sollentuna	ispartof1	Stockholm
+Österåker-Östra Ryd	ispartof2	Österåkers Kommun
+Fjärdhundra	ispartof2	Enköping Municipality
+Idefjorden	ispartof2	Strömstads Kommun
+Fjärdhundra	ispartof2	Enköping Municipality
+Villberga-Hacksta-Löt	ispartof1	Uppsala
+Stenkyrka	ispartof1	Gotland
+Hulterstad-Stenåsa	ispartof0	Sweden
+Väskinde	ispartof1	Gotland
+Dalhem	ispartof0	Sweden
+Bunge	ispartof2	Gotland Municipality
+Bunge	ispartof1	Gotland
+Vänge	ispartof2	Gotland Municipality
+Vänge	ispartof1	Gotland
+Karlskrona stadsförs.	ispartof2	Karlskrona Municipality
+Löderup	ispartof1	Skåne
+Gudhem	ispartof0	Sweden
+Kropp	ispartof0	Sweden
+Österhaninge	ispartof1	Stockholm
+Rönnäng	ispartof1	Västra Götaland
+Partille	ispartof1	Västra Götaland
+Tuve	ispartof0	Sweden
+Borgstena	ispartof2	Borås
+Borgstena	ispartof1	Västra Götaland
+Tegelsmora	ispartof0	Sweden
+Vellinge-Månstorp	ispartof1	Skåne
+Fleninge	ispartof0	Sweden
+Teckomatorp	ispartof1	Skåne
+Resmo-Vickleby	ispartof0	Sweden
+Höör	ispartof0	Sweden
+Kågeröd-Röstånga	ispartof1	Skåne
+Degeberga	ispartof1	Skåne
+Stora Råby	ispartof1	Skåne
+Torn	ispartof0	Sweden
+Väskinde	ispartof0	Sweden
+Löderup	ispartof2	Ystad Municipality
+Källstorp	ispartof1	Skåne
+Källstorp	ispartof0	Sweden
+Landskrona-del	ispartof0	Sweden
+Borgunda	ispartof0	Sweden
+Källstorp	ispartof2	Trelleborg Municipality
+Värö	ispartof2	Varbergs Kommun
+Hasslö	ispartof0	Sweden
+Örnsköldsvik	ispartof0	Sweden
+Åsunden	ispartof2	Ulricehamn Municipality
+Svalövsbygden	ispartof2	Svalövs Kommun
+Ullervad	ispartof2	Mariestads Kommun
+Värmskog	ispartof2	Grums Municipality
+Himmeta-Bro	ispartof0	Sweden
+Storsjö	ispartof1	Jämtland
+Kalmar	ispartof0	Sweden
+Sävare	ispartof2	Lidköpings Kommun
+Hammarö	ispartof1	Värmland
+Veinge-Tjärby	ispartof2	Laholm Municipality
+Häglinge	ispartof0	Sweden
+Västerås-Barkarö	ispartof1	Västmanland
+Floby	ispartof2	Falköpings Kommun
+Kävlinge	ispartof2	Kävlinge Kommun
+Föra-Alböke-Löt	ispartof2	Borgholm Municipality
+Föra-Alböke-Löt	ispartof1	Kalmar
+Hoburg	ispartof0	Sweden
+Garde	ispartof0	Sweden
+Förslöv-Grevie	ispartof2	Båstads Kommun
+Förslöv-Grevie	ispartof0	Sweden
+Tännäs-Ljusnedal	ispartof0	Sweden
+Löderup	ispartof2	Ystad Municipality
+Anderslöv	ispartof2	Trelleborg Municipality
+Adelsö-Munsö	ispartof2	Ekerö Kommun
+Ödeshög	ispartof0	Sweden
+Månsarp	ispartof1	Jönköping
+Månsarp	ispartof0	Sweden
+Lannaskede	ispartof0	Sweden
+Lekeryd	ispartof1	Jönköping
+Malmbäck	ispartof2	Nässjö Kommun
+Malmbäck	ispartof0	Sweden
+Nye-Näshult och Stenberga	ispartof1	Jönköping
+Bro	ispartof1	Stockholm
+Vellinge-Månstorp	ispartof2	Vellinge Municipality
+Vellinge-Månstorp	ispartof1	Skåne
+Sexdrega-del	ispartof2	Svenljunga Municipality
+Od	ispartof1	Västra Götaland
+Nynäshamn	ispartof0	Sweden
+Hällstad	ispartof0	Sweden
+Nosaby	ispartof1	Skåne
+Södra Ving	ispartof2	Ulricehamn Municipality
+Stigtomta-Vrena	ispartof2	Nyköpings Kommun
+Kinneved	ispartof1	Västra Götaland
+Gällersta-Norrbyås	ispartof2	Örebro Kommun
+Mörkö	ispartof2	Södertälje Kommun
+Sunnersberg	ispartof2	Lidköpings Kommun
+Sunnersberg	ispartof0	Sweden
+Gudmundrå	ispartof2	Kramfors Kommun
+Kristvalla	ispartof2	Nybro Municipality
+Färgaryd	ispartof1	Halland
+Sorunda	ispartof1	Stockholm
+Överjärna	ispartof2	Södertälje Kommun
+Giresta	ispartof0	Sweden
+Norra Hagunda	ispartof0	Sweden
+Kulla	ispartof2	Enköping Municipality
+Barnarp	ispartof0	Sweden
+Norra Mo	ispartof1	Jönköping
+Söderköping	ispartof0	Sweden
+Trosa stadsförs.	ispartof0	Sweden
+Tunaberg	ispartof1	Södermanland
+Kyrkhult	ispartof2	Olofströms Kommun
+Kyrkhult	ispartof1	Blekinge
+Söderbärke	ispartof0	Sweden
+Lofta	ispartof0	Sweden
+Gerum	ispartof2	Gotland Municipality
+Väskinde	ispartof2	Gotland Municipality
+Sproge	ispartof2	Gotland Municipality
+Västerhejde	ispartof1	Gotland
+Saxtorp-Annelöv	ispartof0	Sweden
+Forshälla	ispartof0	Sweden
+Båstad	ispartof2	Båstads Kommun
+Smedstorp	ispartof2	Tomelilla Municipality
+Smedstorp	ispartof1	Skåne
+S:t Staffan	ispartof0	Sweden
+Åmål	ispartof1	Västra Götaland
+Åmål	ispartof0	Sweden
+Löddebygden	ispartof2	Kävlinge Kommun
+Lycke	ispartof0	Sweden
+Rödbo	ispartof0	Sweden
+Skee-Tjärnö	ispartof0	Sweden
+Ardala	ispartof2	Skara Municipality
+Ardala	ispartof0	Sweden
+Norra Kyrketorp	ispartof0	Sweden
+Lidingö	ispartof2	Lidingö Municipality
+Lidingö	ispartof1	Stockholm
+Sunnersberg	ispartof2	Lidköpings Kommun
+S:t Peder	ispartof0	Sweden
+Falköping	ispartof1	Västra Götaland
+Floby	ispartof1	Västra Götaland
+Stjärnorp	ispartof1	Östergötland
+Norra Nöbbelöv	ispartof0	Sweden
+Östra Tollstad	ispartof1	Östergötland
+Sandviken	ispartof1	Gävleborg
+Sandviken	ispartof0	Sweden
+Nacka	ispartof2	Nacka Municipality
+Nacka	ispartof1	Stockholm
+Kivik	ispartof2	Simrishamn Municipality
+Riseberga	ispartof2	Klippan Municipality
+Rya	ispartof2	Örkelljunga Kommun
+Tomelillabygden	ispartof1	Skåne
+Gottröra	ispartof2	Norrtälje Kommun
+Össeby	ispartof0	Sweden
+Tillinge	ispartof2	Enköping Municipality
+Söderköping	ispartof0	Sweden
+Töreboda	ispartof2	Töreboda Kommun
+Brevik	ispartof2	Karlsborg Municipality
+Brevik	ispartof1	Västra Götaland
+Stoby	ispartof1	Skåne
+Stoby	ispartof0	Sweden
+Kävlinge	ispartof2	Kävlinge Kommun
+Nybro-S:t Sigfrid	ispartof1	Kalmar
+Nybro-S:t Sigfrid	ispartof0	Sweden
+Höör	ispartof2	Höörs Kommun
+Vallstena	ispartof2	Gotland Municipality
+Björnekulla-Västra Broby	ispartof0	Sweden
+Järnskog	ispartof2	Eda Municipality
+Araslöv	ispartof2	Kristianstad Municipality
+Välluv-Frillestad	ispartof2	Helsingborg Municipality
+Källstorp	ispartof1	Skåne
+Kävlinge	ispartof0	Sweden
+Träkumla	ispartof2	Gotland Municipality
+Eslöv	ispartof2	Eslövs Kommun
+Ölmevalla	ispartof0	Sweden
+Fridhem-del	ispartof2	Grästorps Kommun
+Kungälv	ispartof2	Kungälvs Kommun
+Kungälv	ispartof1	Västra Götaland
+Grude	ispartof2	Herrljunga Kommun
+Grude	ispartof1	Västra Götaland
+Tysslinge	ispartof1	Örebro
+Hällstad	ispartof2	Ulricehamn Municipality
+Hällstad	ispartof0	Sweden
+Gökhem	ispartof0	Sweden
+Dingtuna-Lillhärad	ispartof0	Sweden
+Flo	ispartof2	Grästorps Kommun
+Särestad	ispartof2	Grästorps Kommun
+Västerljung	ispartof2	Trosa Municipality
+Aneby	ispartof2	Aneby Municipality
+Aneby	ispartof1	Jönköping
+Graninge	ispartof0	Sweden
+Botilsäter	ispartof2	Säffle Kommun
+Sturkö	ispartof1	Blekinge
+Aneboda	ispartof2	Växjö Kommun
+Sjösås	ispartof0	Sweden
+Dals-Ed	ispartof0	Sweden
+Veddige	ispartof1	Halland
+Ödeshög	ispartof1	Östergötland
+Hosjö	ispartof2	Falun Municipality
+Ullervad	ispartof2	Mariestads Kommun
+Örslösa	ispartof2	Lidköpings Kommun
+Lönneberga	ispartof2	Hultsfred Municipality
+Alingsås	ispartof2	Alingsås Kommun
+Alingsås	ispartof0	Sweden
+Glanshammar	ispartof0	Sweden
+Harmånger-Jättendal	ispartof0	Sweden
+Mjällby	ispartof2	Sölvesborg Municipality
+Bjärtrå	ispartof1	Västernorrland
+Njurunda	ispartof0	Sweden
+Nordingrå	ispartof2	Kramfors Kommun
+Nordingrå	ispartof1	Västernorrland
+Borgvattnet	ispartof1	Jämtland
+Gåxsjö	ispartof1	Jämtland
+Grödinge	ispartof2	Botkyrka Kommun
+Brastad	ispartof0	Sweden
+Enköping	ispartof0	Sweden
+Hamrånge	ispartof2	Gävle Municipality
+Slöta	ispartof0	Sweden
+Funbo	ispartof1	Uppsala
+Sydöland	ispartof2	Mörbylånga Kommun
+Stavnäs-Högerud	ispartof1	Värmland
+Stenkvista-Ärla	ispartof2	Eskilstuna Kommun
+Slaka	ispartof2	Linköpings Kommun
+Åkerbo	ispartof2	Linköpings Kommun
+Hulterstad-Stenåsa	ispartof0	Sweden
+Högby-Källa-Persnäs	ispartof1	Kalmar
+Väskinde	ispartof2	Gotland Municipality
+Lima-Transtrand	ispartof2	Malung-Sälen Municipality
+Stånga-Burs	ispartof1	Gotland
+Junsele	ispartof2	Sollefteå Kommun
+Hammarlöv	ispartof0	Sweden
+Ronneby	ispartof1	Blekinge
+Vellinge-Månstorp	ispartof0	Sweden
+Hjärnarp-Tåstarp	ispartof2	Ängelholms Kommun
+Dalköpinge	ispartof0	Sweden
+Västra Karaby	ispartof1	Skåne
+Fredrika	ispartof1	Västerbotten
+Boglösa	ispartof1	Uppsala
+Veckholm	ispartof0	Sweden
+Fittja	ispartof0	Sweden
+Hycklinge	ispartof2	Kinda Municipality
+Hycklinge	ispartof1	Östergötland
+Mörbylånga-Kastlösa	ispartof1	Kalmar
+Mörbylånga-Kastlösa	ispartof0	Sweden
+Siljansnäs	ispartof2	Leksand Municipality
+Alva-Hemse och Rone	ispartof1	Gotland
+Väddö	ispartof1	Stockholm
+Vittsjö	ispartof1	Skåne
+Garde	ispartof1	Gotland
+Fägre	ispartof1	Västra Götaland
+Fägre	ispartof0	Sweden
+Bjärred	ispartof2	Lomma Municipality
+Anderstorp	ispartof1	Jönköping
+Kållerstad	ispartof1	Jönköping
+Rogberga-Öggestorp	ispartof2	Jönköpings Kommun
+Västra Rekarne	ispartof2	Eskilstuna Kommun
+Farhult-Jonstorp	ispartof1	Skåne
+Lackalänga-Stävie	ispartof2	Kävlinge Kommun
+Torn	ispartof2	Lund Municipality
+Bjuv	ispartof2	Bjuvs Kommun
+Fjärestad	ispartof1	Skåne
+Torn	ispartof0	Sweden
+Skredsvik	ispartof1	Västra Götaland
+Landvetter	ispartof2	Härryda Kommun
+Landvetter	ispartof1	Västra Götaland
+Alboga	ispartof0	Sweden
+Fritsla	ispartof2	Marks Kommun
+Ambjörnarp	ispartof0	Sweden
+Södra Björke	ispartof2	Herrljunga Kommun
+Hyssna	ispartof1	Västra Götaland
+Vänga	ispartof2	Borås
+Svenljungabygden	ispartof0	Sweden
+Dal	ispartof0	Sweden
+Forshaga	ispartof1	Värmland
+Axberg	ispartof2	Örebro Kommun
+Kristinehamn	ispartof2	Kristinehamns Kommun
+Kristinehamn	ispartof0	Sweden
+Norrbo	ispartof1	Västmanland
+Norrbo	ispartof0	Sweden
+Tysslinge	ispartof1	Örebro
+Tillberga	ispartof2	Västerås Municipality
+Avesta	ispartof1	Dalarna
+Marieby	ispartof1	Jämtland
+Hörnefors	ispartof2	Umeå Kommun
+Hörnefors	ispartof0	Sweden
+Lövånger	ispartof2	Skellefteå Kommun
+Lövånger	ispartof0	Sweden
+Fresta	ispartof0	Sweden
+Riala	ispartof1	Stockholm
+Ununge	ispartof0	Sweden
+Knivsta	ispartof2	Knivsta Kommun
+Ramsta	ispartof0	Sweden
+Västra Rekarne	ispartof1	Södermanland
+Kinnared	ispartof2	Hylte Kommun
+Askeryd	ispartof1	Jönköping
+Askeryd	ispartof0	Sweden
+Ödestugu	ispartof1	Jönköping
+Ökna	ispartof2	Vetlanda Municipality
+Alvesta	ispartof0	Sweden
+Västra Vikbolandet	ispartof2	Norrköpings Kommun
+Sköllersta	ispartof0	Sweden
+Landeryd	ispartof0	Sweden
+Malexander	ispartof0	Sweden
+Åkerbo	ispartof2	Linköpings Kommun
+Jonsberg	ispartof1	Östergötland
+Levide	ispartof1	Gotland
+Gunnarsnäs	ispartof2	Mellerud Municipality
+Alva-Hemse och Rone	ispartof1	Gotland
+Östra Karup	ispartof2	Båstads Kommun
+Östra Karup	ispartof1	Skåne
+Hammenhög	ispartof1	Skåne
+Vellinge-Månstorp	ispartof0	Sweden
+Söderhamn	ispartof0	Sweden
+Alnö	ispartof0	Sweden
+Stora Köpinge	ispartof1	Skåne
+Bjuv	ispartof2	Bjuvs Kommun
+Skivarp	ispartof1	Skåne
+Onsala	ispartof1	Halland
+Sanda	ispartof0	Sweden
+Vänge	ispartof1	Gotland
+Skepplanda	ispartof0	Sweden
+Herrljunga	ispartof1	Västra Götaland
+Spannarp	ispartof1	Halland
+Lugnås	ispartof2	Mariestads Kommun
+Asklanda	ispartof0	Sweden
+Hol	ispartof0	Sweden
+Lekåsa-Barne Åsaka	ispartof2	Essunga Kommun
+Vinslöv	ispartof2	Hässleholms Kommun
+Vinslöv	ispartof0	Sweden
+Storfors	ispartof1	Värmland
+Nordmark	ispartof1	Värmland
+Vallentuna	ispartof0	Sweden
+Hedemora	ispartof1	Dalarna
+Algutsrum	ispartof2	Mörbylånga Kommun
+Uppåkra	ispartof1	Skåne
+Jukkasjärvi socken	ispartof1	Norrbotten
+Arvidsjaur socken	ispartof2	Arvidsjaurs Kommun
+Arvidsjaur socken	ispartof1	Norrbotten
+Härryda socken	ispartof2	Härryda Kommun
+Härryda socken	ispartof0	Sweden
+Estuna socken	ispartof1	Stockholm
+Kullings-Skövde socken	ispartof3	Algutstorp
+Ånimskog socken	ispartof2	Åmåls Kommun
+Ånimskog socken	ispartof0	Sweden
+Bjärka socken	ispartof2	Skara Municipality
+Skånela socken	ispartof1	Stockholm
+Årdala socken	ispartof0	Sweden
+Hallingeberg socken	ispartof0	Sweden
+Kaga socken	ispartof3	Kaga
+Regna socken	ispartof3	Regna
+Billinge socken	ispartof2	Eslövs Kommun
+Balkåkra socken	ispartof1	Skåne
+Bjuv socken	ispartof0	Sweden
+Bunkeflo socken	ispartof2	Malmö Municipality
+Bosarp socken	ispartof1	Skåne
+Bosarp socken	ispartof0	Sweden
+Vänjan socken	ispartof0	Sweden
+Jörlanda socken	ispartof1	Västra Götaland
+Källeryd socken	ispartof1	Jönköping
+Tranum socken	ispartof2	Lidköpings Kommun
+Ugglum socken	ispartof3	Gudhem
+Bunge socken	ispartof0	Sweden
+Runsten socken	ispartof0	Sweden
+Ås socken	ispartof3	Sydöland
+Ås socken	ispartof2	Mörbylånga Kommun
+Ås socken	ispartof1	Kalmar
+Lösen socken	ispartof2	Karlskrona Municipality
+Lösen socken	ispartof1	Blekinge
+Ramdala socken	ispartof3	Ramdala
+Martebo socken	ispartof3	Stenkyrka
+Nedre Ullerud socken	ispartof1	Värmland
+Norra Råda socken	ispartof1	Värmland
+Nyed socken	ispartof3	Alster-Nyedsbygden
+Ny socken	ispartof2	Arvika Municipality
+Ransäter socken	ispartof3	Munkfors
+Odensala socken	ispartof0	Sweden
+Haga socken	ispartof2	Sigtuna Municipality
+Pajala socken	ispartof1	Norrbotten
+Töre socken	ispartof3	Töre
+Töre socken	ispartof2	Kalix Kommun
+Sankt Sigfrid socken	ispartof2	Nybro Municipality
+Sankt Sigfrid socken	ispartof1	Kalmar
+Åby socken	ispartof1	Kalmar
+Delsbo socken	ispartof1	Gävleborg
+Delsbo socken	ispartof0	Sweden
+Nämdö socken	ispartof3	Djurö-Möja och Nämdö
+Nämdö socken	ispartof2	Värmdö Kommun
+Nämdö socken	ispartof0	Sweden
+Mellan-Grevie socken	ispartof0	Sweden
+Eling socken	ispartof1	Västra Götaland
+Härkeberga socken	ispartof2	Enköping Municipality
+Härkeberga socken	ispartof0	Sweden
+Segerstad socken	ispartof0	Sweden
+Hällum socken	ispartof3	Vara
+Hällum socken	ispartof0	Sweden
+Långasjö socken	ispartof2	Emmaboda Municipality
+Lid socken	ispartof1	Södermanland
+Medelplana socken	ispartof1	Västra Götaland
+Nevishög socken	ispartof3	S:t Staffan
+Blacksta socken	ispartof1	Södermanland
+Färlöv socken	ispartof3	Araslöv
+Kiaby socken	ispartof2	Kristianstad Municipality
+Hietaniemi socken	ispartof2	Övertorneå Kommun
+Alster socken	ispartof2	Karlstad Municipality
+Fryksände socken	ispartof1	Värmland
+Lommeland socken	ispartof0	Sweden
+Ornunga socken	ispartof0	Sweden
+Strängsered socken	ispartof3	Hössna
+Tumberg socken	ispartof2	Vårgårda Kommun
+Krogsered socken	ispartof2	Falkenbergs Kommun
+Södra Åsarp socken	ispartof3	Södra Åsarp
+Södra Åsarp socken	ispartof1	Västra Götaland
+Hotagen socken	ispartof2	Krokoms Kommun
+Angarn socken	ispartof0	Sweden
+Singö socken	ispartof1	Stockholm
+Söderby-Karl socken	ispartof0	Sweden
+Halna socken	ispartof1	Västra Götaland
+Högstena socken	ispartof2	Falköpings Kommun
+Kinne-Kleva socken	ispartof1	Västra Götaland
+Norra Vånga socken	ispartof2	Vara Municipality
+Norra Vånga socken	ispartof1	Västra Götaland
+Norra Vånga socken	ispartof0	Sweden
+Sankt Per socken	ispartof3	Sigtuna
+Sankt Per socken	ispartof1	Stockholm
+Önnarp socken	ispartof1	Skåne
+Trönninge socken	ispartof1	Halland
+Hedeskoga socken	ispartof3	Sövestadsbygden
+Tjurkö socken	ispartof1	Blekinge
+Tjurkö socken	ispartof0	Sweden
+Nyköping socken	ispartof3	Nyköpings S:t Nicolai
+Bureå socken	ispartof3	Bureå
+Tärna socken	ispartof0	Sweden
+Örträsk socken	ispartof3	Lycksele
+Tärendö socken	ispartof2	Pajala Kommun
+Överkalix socken	ispartof3	Överkalix
+Danmark socken	ispartof3	Danmark
+Börstil socken	ispartof0	Sweden
+Gryta socken	ispartof3	Gryta
+Hökhuvud socken	ispartof1	Uppsala
+Litslena socken	ispartof3	Litslena
+Rödeby socken	ispartof3	Rödeby
+Rödeby socken	ispartof0	Sweden
+Torhamn socken	ispartof3	Torhamn
+Vårfrukyrka socken	ispartof0	Sweden
+Bettna socken	ispartof1	Södermanland
+Eskilstuna socken	ispartof3	Eskilstuna Kloster
+Floda socken	ispartof2	Katrineholms Kommun
+Husby-Rekarne socken	ispartof0	Sweden
+Runtuna socken	ispartof1	Södermanland
+Stora Malm socken	ispartof1	Södermanland
+Tumbo socken	ispartof0	Sweden
+Åker socken	ispartof2	Strängnäs Kommun
+Västra Vemmenhög socken	ispartof3	Skivarp
+Öja socken	ispartof3	Västra Rekarne
+Allhelgona socken	ispartof0	Sweden
+Vårvik socken	ispartof3	Vårvik
+Björsäter socken	ispartof0	Sweden
+Slädene socken	ispartof3	Levene
+Slädene socken	ispartof1	Västra Götaland
+Nässja socken	ispartof2	Vadstena Municipality
+Furingstad socken	ispartof3	Västra Vikbolandet
+Brunnby socken	ispartof1	Skåne
+Grebo socken	ispartof2	Åtvidabergs Kommun
+Kävsjö socken	ispartof3	Kävsjö
+Kävsjö socken	ispartof0	Sweden
+Norra Hestra socken	ispartof0	Sweden
+Hogstad socken	ispartof1	Östergötland
+Hogstad socken	ispartof0	Sweden
+Sävsjö socken	ispartof3	Sävsjö
+Sävsjö socken	ispartof2	Sävsjö Kommun
+Tofteryd socken	ispartof3	Tofteryd
+Tofteryd socken	ispartof2	Vaggeryd Municipality
+Torskinge socken	ispartof1	Jönköping
+Södra Hestra socken	ispartof3	Södra Hestra
+Valdshult socken	ispartof3	Valdshult
+Svenstorp socken	ispartof2	Skurup Municipality
+Dädesjö socken	ispartof1	Kronoberg
+Klockrike socken	ispartof0	Sweden
+Kristberg socken	ispartof2	Motala Municipality
+Söraby socken	ispartof2	Växjö Kommun
+Motala socken	ispartof0	Sweden
+Normlösa socken	ispartof1	Östergötland
+Nykil socken	ispartof2	Linköpings Kommun
+Norrköping socken	ispartof0	Sweden
+Rystad socken	ispartof3	Åkerbo
+Gamleby socken	ispartof1	Kalmar
+Förlösa socken	ispartof3	Förlösa-Kläckeberga
+Tjällmo socken	ispartof2	Motala Municipality
+Törnevalla socken	ispartof2	Linköpings Kommun
+Vallerstad socken	ispartof2	Mjölby Kommun
+Vallerstad socken	ispartof1	Östergötland
+Vallerstad socken	ispartof0	Sweden
+Veta socken	ispartof1	Östergötland
+Vist socken	ispartof1	Östergötland
+Västra Stenby socken	ispartof2	Motala Municipality
+Ödeshög socken	ispartof3	Ödeshög
+Örtomta socken	ispartof3	Åkerbo
+Mistelås socken	ispartof2	Alvesta Municipality
+Lidhult socken	ispartof1	Kronoberg
+Markaryd socken	ispartof2	Markaryd Municipality
+Lenhovda socken	ispartof2	Uppvidinge Kommun
+Lenhovda socken	ispartof0	Sweden
+Östra Stenby socken	ispartof0	Sweden
+Båraryd socken	ispartof3	Gislaved
+Flisby socken	ispartof2	Nässjö Kommun
+Eksjö socken	ispartof3	Eksjö
+Forsheda socken	ispartof0	Sweden
+Fröderyd socken	ispartof2	Vetlanda Municipality
+Gryteryd socken	ispartof0	Sweden
+Hakarp socken	ispartof3	Hakarp
+Gränna socken	ispartof1	Jönköping
+Hylletofta socken	ispartof3	Vrigstad-Hylletofta
+Järstorp socken	ispartof2	Jönköpings Kommun
+Korsberga socken	ispartof2	Vetlanda Municipality
+Jälluntofta socken	ispartof2	Hylte Kommun
+Reftele socken	ispartof2	Gislaved Municipality
+Hornaryd socken	ispartof3	Sjösås
+Hinneryd socken	ispartof3	Hinneryd
+Hinneryd socken	ispartof0	Sweden
+Slätthög socken	ispartof2	Alvesta Municipality
+Stenbrohult socken	ispartof0	Sweden
+Traryd socken	ispartof2	Markaryd Municipality
+Västra Torsås socken	ispartof1	Kronoberg
+Vrå socken	ispartof2	Ljungby Municipality
+Åseda socken	ispartof1	Kronoberg
+Ör socken	ispartof1	Kronoberg
+Arby socken	ispartof0	Sweden
+Fagerhult socken	ispartof0	Sweden
+Fågelfors socken	ispartof2	Högsby Kommun
+Fågelfors socken	ispartof1	Kalmar
+Högsrum socken	ispartof1	Kalmar
+Långemåla socken	ispartof1	Kalmar
+Målilla socken	ispartof3	Målilla med Gårdveda
+Madesjö socken	ispartof0	Sweden
+Misterhult socken	ispartof3	Misterhult
+Misterhult socken	ispartof1	Kalmar
+Eskelhem socken	ispartof1	Gotland
+Mortorp socken	ispartof3	Mortorp
+Virserum socken	ispartof1	Kalmar
+Örsjö socken	ispartof3	Örsjö
+Odensvi socken	ispartof1	Kalmar
+Pelarne socken	ispartof0	Sweden
+Oskar socken	ispartof1	Kalmar
+Oskar socken	ispartof0	Sweden
+Räpplinge socken	ispartof2	Borgholm Municipality
+Hejde socken	ispartof0	Sweden
+Klinte socken	ispartof2	Gotland Municipality
+Väte socken	ispartof3	Väte
+Väte socken	ispartof1	Gotland
+Västeråker socken	ispartof2	Uppsala Municipality
+Augerum socken	ispartof0	Sweden
+Eringsboda socken	ispartof0	Sweden
+Jämjö socken	ispartof2	Karlskrona Municipality
+Jämshög socken	ispartof2	Olofströms Kommun
+Kristianopel socken	ispartof2	Karlskrona Municipality
+Brösarp socken	ispartof3	Brösarp-Tranås
+Brösarp socken	ispartof0	Sweden
+Farstorp socken	ispartof1	Skåne
+Gladsax socken	ispartof1	Skåne
+Näsum socken	ispartof1	Skåne
+Hästveda socken	ispartof1	Skåne
+Simris socken	ispartof2	Simrishamn Municipality
+Kvidinge socken	ispartof1	Skåne
+Kvidinge socken	ispartof0	Sweden
+Kristianstad socken	ispartof1	Skåne
+Köpinge socken	ispartof3	Köpinge
+Norra Sandby socken	ispartof0	Sweden
+Röke socken	ispartof2	Hässleholms Kommun
+Tåssjö socken	ispartof1	Skåne
+Ullstorp socken	ispartof0	Sweden
+Södra Mellby socken	ispartof1	Skåne
+Västra Ed socken	ispartof2	Västerviks Kommun
+Vankiva socken	ispartof3	Vankiva
+Västra Vram socken	ispartof2	Kristianstad Municipality
+Västra Vram socken	ispartof1	Skåne
+Västra Broby socken	ispartof2	Åstorps Kommun
+Västra Torup socken	ispartof2	Hässleholms Kommun
+Örkelljunga socken	ispartof2	Örkelljunga Kommun
+Äsphult socken	ispartof2	Kristianstad Municipality
+Östra Broby socken	ispartof0	Sweden
+Östra Vemmerlöv socken	ispartof3	Stiby
+Bosjökloster socken	ispartof0	Sweden
+Dagstorp socken	ispartof0	Sweden
+Burlöv socken	ispartof1	Skåne
+Börringe socken	ispartof3	Svedala
+Järna socken	ispartof3	Järna
+Järna socken	ispartof2	Vansbro Kommun
+Kareby socken	ispartof1	Västra Götaland
+Klädesholmen socken	ispartof3	Klädesholmen
+Klädesholmen socken	ispartof0	Sweden
+Ljung socken	ispartof1	Västra Götaland
+Ränneslöv socken	ispartof1	Halland
+Slöinge socken	ispartof0	Sweden
+Hyby socken	ispartof2	Svedala Municipality
+Kvistofta socken	ispartof1	Skåne
+Ilstorp socken	ispartof3	Sjöbo
+Ilstorp socken	ispartof1	Skåne
+Kågeröd socken	ispartof1	Skåne
+Långelanda socken	ispartof3	Långelanda
+Lyngby socken	ispartof3	Genarp
+Lövestad socken	ispartof1	Skåne
+Ottarp socken	ispartof0	Sweden
+Saxtorp socken	ispartof2	Landskrona Municipality
+Sankt Ibb socken	ispartof0	Sweden
+Stehag socken	ispartof0	Sweden
+Stora Köpinge socken	ispartof2	Ystad Municipality
+Södra Rörum socken	ispartof3	Hörby
+Sövde socken	ispartof0	Sweden
+Vollsjö socken	ispartof1	Skåne
+Vollsjö socken	ispartof0	Sweden
+Östra Sallerup socken	ispartof3	Västerstad
+Asige socken	ispartof0	Sweden
+Breared socken	ispartof3	Breared
+Enslöv socken	ispartof0	Sweden
+Gösslunda socken	ispartof3	Sunnersberg
+Gunnarp socken	ispartof3	Gunnarp
+Gunnarp socken	ispartof1	Halland
+Gunnarsjö socken	ispartof2	Varbergs Kommun
+Halmstad socken	ispartof2	Halmstad Municipality
+Hishult socken	ispartof2	Laholm Municipality
+Kvibille socken	ispartof0	Sweden
+Okome socken	ispartof2	Falkenbergs Kommun
+Okome socken	ispartof0	Sweden
+Lindberg socken	ispartof1	Halland
+Morup socken	ispartof1	Halland
+Sibbarp socken	ispartof2	Varbergs Kommun
+Övraby socken	ispartof2	Halmstad Municipality
+Askim socken	ispartof2	Gothenburg Municipality
+Askim socken	ispartof1	Västra Götaland
+Torup socken	ispartof1	Halland
+Vessige socken	ispartof2	Falkenbergs Kommun
+Veddige socken	ispartof2	Varbergs Kommun
+Veddige socken	ispartof0	Sweden
+Våxtorp socken	ispartof1	Halland
+Årstad socken	ispartof3	Årstad
+Årstad socken	ispartof1	Halland
+Älvsered socken	ispartof0	Sweden
+Håby socken	ispartof1	Västra Götaland
+Håby socken	ispartof0	Sweden
+Karbenning socken	ispartof3	Karbenning
+Kolbäck socken	ispartof0	Sweden
+Kumla socken	ispartof0	Sweden
+Norum socken	ispartof2	Stenungsund Municipality
+Naverstad socken	ispartof2	Tanum Municipality
+Romelanda socken	ispartof0	Sweden
+Skredsvik socken	ispartof2	Uddevalla Municipality
+Röra socken	ispartof2	Orust
+Stala socken	ispartof3	Stala
+Stenkyrka socken	ispartof2	Tjörns Kommun
+Sanne socken	ispartof3	Sörbygden
+Skee socken	ispartof3	Skee-Tjärnö
+Solberga socken	ispartof2	Kungälvs Kommun
+Landa socken	ispartof2	Kungsbacka Kommun
+Skepperstad socken	ispartof3	Skepperstad
+Förlanda socken	ispartof3	Förlanda
+Linsell socken	ispartof3	Svegsbygden
+Halltorp socken	ispartof0	Sweden
+Luleå	ispartof3	Örnäset
+Luleå	ispartof1	Norrbotten
+Sånga socken	ispartof3	Multrå och Sånga
+Skaftö socken	ispartof3	Skaftö
+Skaftö socken	ispartof0	Sweden
+Säve socken	ispartof3	Säve
+Tegneby socken	ispartof3	Tegneby
+Fors socken	ispartof3	Fors-Rommele
+Fors socken	ispartof0	Sweden
+Ucklum socken	ispartof0	Sweden
+Valbo-Ryr socken	ispartof2	Munkedal Municipality
+Valbo-Ryr socken	ispartof1	Västra Götaland
+Ytterby socken	ispartof2	Kungälvs Kommun
+Järbo socken	ispartof0	Sweden
+Bäcke socken	ispartof3	Bäcke
+Fullestad socken	ispartof0	Sweden
+Fröskog socken	ispartof3	Fröskog-Edsleskog
+Fröskog socken	ispartof0	Sweden
+Molla socken	ispartof2	Herrljunga Kommun
+Molla socken	ispartof0	Sweden
+Gullered socken	ispartof3	Hössna
+Gällstad socken	ispartof3	Åsunden
+Torestorp socken	ispartof2	Marks Kommun
+Torestorp socken	ispartof0	Sweden
+Lerdal socken	ispartof2	Färgelanda Kommun
+Marbäck socken	ispartof2	Ulricehamn Municipality
+Magra socken	ispartof3	Bjärke-del
+Ljushult socken	ispartof0	Sweden
+Månstad socken	ispartof0	Sweden
+Norra Björke socken	ispartof0	Sweden
+Rölanda socken	ispartof0	Sweden
+Sexdrega socken	ispartof3	Sexdrega-del
+Skephult socken	ispartof2	Marks Kommun
+Barkeryd socken	ispartof0	Sweden
+Smula socken	ispartof2	Falköpings Kommun
+Starrkärr socken	ispartof3	Starrkärr-Kilanda
+Skållerud socken	ispartof2	Mellerud Municipality
+Skölvene socken	ispartof3	Hudene
+Södra Härene socken	ispartof2	Vårgårda Kommun
+Södra Ving socken	ispartof0	Sweden
+Ullasjö socken	ispartof3	Svenljungabygden
+Ulricehamn socken	ispartof0	Sweden
+Åmål socken	ispartof3	Åmål
+Ödeborg socken	ispartof2	Färgelanda Kommun
+Ödskölt socken	ispartof0	Sweden
+Sollerön socken	ispartof3	Mora
+Sundborn socken	ispartof1	Dalarna
+Agnetorp socken	ispartof2	Tidaholm Municipality
+Baltak socken	ispartof2	Tidaholm Municipality
+Berga socken	ispartof3	Lyrestad
+Enånger socken	ispartof3	Enånger-Njutånger
+Enånger socken	ispartof1	Gävleborg
+Arbrå socken	ispartof0	Sweden
+Broddetorp socken	ispartof3	Hornborga
+Dimbo socken	ispartof2	Tidaholm Municipality
+Häggdånger socken	ispartof3	Häggdånger
+Friel socken	ispartof1	Västra Götaland
+Flo socken	ispartof3	Flo
+Fredsberg socken	ispartof2	Töreboda Kommun
+Forsby socken	ispartof0	Sweden
+Fridene socken	ispartof2	Hjo Municipality
+Främmestad socken	ispartof1	Västra Götaland
+Främmestad socken	ispartof0	Sweden
+Fåglum socken	ispartof2	Essunga Kommun
+Gustav Adolf socken	ispartof2	Habo Municipality
+Hjälstad socken	ispartof0	Sweden
+Holmestad socken	ispartof2	Götene Kommun
+Hova socken	ispartof2	Gullspångs Kommun
+Hjo socken	ispartof3	Hjo
+Istrum socken	ispartof2	Skara Municipality
+Myssjö socken	ispartof1	Jämtland
+Lyrestad socken	ispartof2	Mariestads Kommun
+Längjum socken	ispartof3	Larv
+Längjum socken	ispartof2	Vara Municipality
+Norra Härene socken	ispartof2	Lidköpings Kommun
+Råda socken	ispartof3	Kållands-Råda
+Skallmeja socken	ispartof3	Ardala
+Skärv socken	ispartof2	Skara Municipality
+Våmb socken	ispartof0	Sweden
+Vartofta-Åsaka socken	ispartof0	Sweden
+Vistorp socken	ispartof3	Yllestad
+Västra Gerum socken	ispartof2	Skara Municipality
+Vättak socken	ispartof2	Tidaholm Municipality
+Sätuna socken	ispartof0	Sweden
+Södra Lundby socken	ispartof1	Västra Götaland
+Utby socken	ispartof3	Ullervad
+Ullervad socken	ispartof1	Västra Götaland
+Ullervad socken	ispartof0	Sweden
+Undenäs socken	ispartof1	Västra Götaland
+Önum socken	ispartof2	Vara Municipality
+Örslösa socken	ispartof2	Lidköpings Kommun
+Örslösa socken	ispartof1	Västra Götaland
+Lysvik socken	ispartof3	Lysvik
+Kroppa socken	ispartof0	Sweden
+Arvika socken	ispartof3	Arvika östra
+Borgvik socken	ispartof2	Grums Municipality
+Dalby socken	ispartof2	Torsby Kommun
+Grava socken	ispartof2	Karlstad Municipality
+Frykerud socken	ispartof1	Värmland
+Gräsmark socken	ispartof0	Sweden
+Stora Kil socken	ispartof1	Värmland
+Svanskog socken	ispartof0	Sweden
+Västra Ämtervik socken	ispartof3	Västra Ämtervik
+Östervallskog socken	ispartof3	Östervallskog
+Östra Ämtervik socken	ispartof0	Sweden
+Glanshammar socken	ispartof0	Sweden
+Östmark socken	ispartof3	Östmark
+Finnerödja socken	ispartof2	Laxå Kommun
+Hidinge socken	ispartof1	Örebro
+Hidinge socken	ispartof0	Sweden
+Hjulsjö socken	ispartof3	Hällefors-Hjulsjö
+Hardemo socken	ispartof2	Kumla Municipality
+Hovsta socken	ispartof2	Örebro Kommun
+Hammar socken	ispartof1	Örebro
+Lerbäck socken	ispartof1	Örebro
+Lännäs socken	ispartof3	Lännäs
+Ramsberg socken	ispartof0	Sweden
+Stora Mellösa socken	ispartof1	Örebro
+Svennevad socken	ispartof1	Örebro
+Hed socken	ispartof1	Västmanland
+Ängersjö socken	ispartof3	Ytterhogdal-Överhogdal och Ängersjö
+Ängersjö socken	ispartof1	Jämtland
+Ängersjö socken	ispartof0	Sweden
+Huddunge socken	ispartof1	Uppsala
+Bjursås socken	ispartof3	Bjursås
+Garpenberg socken	ispartof1	Dalarna
+Idre socken	ispartof3	Idre
+Hille socken	ispartof2	Gävle Municipality
+Norrbo socken	ispartof0	Sweden
+Rengsjö socken	ispartof1	Gävleborg
+Ljusdal socken	ispartof3	Ljusdal-Ramsjö
+Torsåker socken	ispartof0	Sweden
+Söderala socken	ispartof0	Sweden
+Sandseryd socken	ispartof1	Jönköping
+Vibyggerå socken	ispartof3	Vibyggerå
+Vibyggerå socken	ispartof2	Kramfors Kommun
+Nätra socken	ispartof1	Västernorrland
+Själevad socken	ispartof0	Sweden
+Timrå socken	ispartof0	Sweden
+Sättna socken	ispartof0	Sweden
+Aspås socken	ispartof3	Aspås
+Brunflo socken	ispartof2	Östersund municipality
+Hammerdal socken	ispartof3	Hammerdal
+Häggenås socken	ispartof1	Jämtland
+Håsjö socken	ispartof1	Jämtland
+Lillhärdal socken	ispartof3	Svegsbygden
+Marby socken	ispartof0	Sweden
+Åsarne socken	ispartof2	Bergs Kommun
+Åsarne socken	ispartof1	Jämtland
+Hammarby socken	ispartof3	Hammarby
+Hammarby socken	ispartof1	Stockholm
+Hilleshög socken	ispartof1	Stockholm
+Hacksta socken	ispartof2	Enköping Municipality
+Biskopskulla socken	ispartof3	Biskopskulla
+Näsinge socken	ispartof2	Strömstads Kommun
+Yttergran socken	ispartof3	Yttergran
+Lummelunda socken	ispartof2	Gotland Municipality
+Kårsta socken	ispartof3	Össeby
+Kattnäs socken	ispartof0	Sweden
+Blåvik socken	ispartof0	Sweden
+Fornåsa socken	ispartof1	Östergötland
+Hägerstad socken	ispartof3	Tjärstad
+Västra Tollstad socken	ispartof3	Ödeshög
+Köinge socken	ispartof0	Sweden
+Loftahammar socken	ispartof3	Loftahammar
+Loftahammar socken	ispartof1	Kalmar
+Stenåsa socken	ispartof1	Kalmar
+Gammelgarn socken	ispartof1	Gotland
+Ausås socken	ispartof2	Ängelholms Kommun
+Millesvik socken	ispartof2	Säffle Kommun
+Österhaninge socken	ispartof3	Österhaninge
+Österhaninge socken	ispartof2	Haninge Municipality
+Österhaninge socken	ispartof1	Stockholm
+Nosaby socken	ispartof3	Nosaby
+Partille socken	ispartof3	Partille
+Tuve socken	ispartof3	Tuve
+Fuxerna socken	ispartof2	Lilla Edets Kommun
+Billeberga socken	ispartof3	Billeberga-Sireköpinge
+Eskilstorp socken	ispartof1	Skåne
+Fleninge socken	ispartof0	Sweden
+Vall socken	ispartof1	Gotland
+Källs-Nöbbelöv socken	ispartof2	Svalövs Kommun
+Källs-Nöbbelöv socken	ispartof0	Sweden
+Ysane socken	ispartof2	Sölvesborg Municipality
+Ysane socken	ispartof1	Blekinge
+Degeberga socken	ispartof2	Kristianstad Municipality
+Stångby socken	ispartof1	Skåne
+Tullstorp socken	ispartof0	Sweden
+Västerstad socken	ispartof3	Västerstad
+Värö socken	ispartof0	Sweden
+Bottna socken	ispartof3	Bottna
+Hasslö socken	ispartof3	Hasslö
+Hasslö socken	ispartof2	Karlskrona Municipality
+Grovare socken	ispartof0	Sweden
+Mjäldrunga socken	ispartof1	Västra Götaland
+Ringamåla socken	ispartof3	Ringamåla
+Odensåker socken	ispartof2	Mariestads Kommun
+Ottravad socken	ispartof0	Sweden
+Skön socken	ispartof1	Västernorrland
+Sollefteå socken	ispartof2	Sollefteå Kommun
+Klövsjö socken	ispartof3	Klövsjö
+Klövsjö socken	ispartof2	Bergs Kommun
+Klövsjö socken	ispartof1	Jämtland
+Skegrie socken	ispartof1	Skåne
+Ingarö socken	ispartof3	Ingarö
+Vårdinge socken	ispartof3	Vårdinge
+Tjärby socken	ispartof3	Veinge-Tjärby
+Tjärby socken	ispartof2	Laholm Municipality
+Tjärby socken	ispartof1	Halland
+Oppmanna socken	ispartof1	Skåne
+Mariestad socken	ispartof0	Sweden
+Östhammar socken	ispartof2	Östhammar Municipality
+Kullerstad socken	ispartof3	Kullerstad
+Skällvik socken	ispartof0	Sweden
+Rörum socken	ispartof1	Skåne
+Öjaby socken	ispartof1	Kronoberg
+Alböke socken	ispartof3	Föra-Alböke-Löt
+Bredsätra socken	ispartof2	Borgholm Municipality
+Lilla Beddinge socken	ispartof3	Källstorp
+Dalhem socken	ispartof3	Dalhem
+Höja socken	ispartof0	Sweden
+Tännäs socken	ispartof1	Jämtland
+Gullholmen socken	ispartof2	Orust
+Baldringe socken	ispartof3	Sövestadsbygden
+Gårdstånga socken	ispartof2	Eslövs Kommun
+Herrberga socken	ispartof3	Herrberga
+Lekeryd socken	ispartof3	Lekeryd
+Lekeryd socken	ispartof0	Sweden
+Linderås socken	ispartof2	Tranås Kommun
+Linderås socken	ispartof1	Jönköping
+Norra Solberga socken	ispartof0	Sweden
+Norra Unnaryd socken	ispartof1	Jönköping
+Nye socken	ispartof3	Nye-Näshult och Stenberga
+Nye socken	ispartof2	Vetlanda Municipality
+Gudhem socken	ispartof2	Falköpings Kommun
+Ängelholm socken	ispartof3	Ängelholm
+Ängelholm socken	ispartof0	Sweden
+Veberöd socken	ispartof2	Lund Municipality
+Västra Tommarp socken	ispartof0	Sweden
+Östra Torp socken	ispartof1	Skåne
+Roasjö socken	ispartof1	Västra Götaland
+Östra Vemmenhög socken	ispartof1	Skåne
+Östra Vemmenhög socken	ispartof0	Sweden
+Ljusterö socken	ispartof3	Ljusterö-Kulla
+Eriksberg socken	ispartof2	Herrljunga Kommun
+Ornö socken	ispartof2	Haninge Municipality
+Österslöv socken	ispartof3	Nosaby
+Sundals-Ryr socken	ispartof2	Vänersborgs Kommun
+Tvärred socken	ispartof3	Åsunden
+Tvärred socken	ispartof0	Sweden
+Härjevad socken	ispartof3	Sävare
+Tensta socken	ispartof2	Uppsala Municipality
+Tensta socken	ispartof1	Uppsala
+Norrbyås socken	ispartof3	Gällersta-Norrbyås
+Kärrbo socken	ispartof1	Västmanland
+Voxna socken	ispartof0	Sweden
+Kramfors socken	ispartof0	Sweden
+Kristvalla socken	ispartof1	Kalmar
+Järsnäs socken	ispartof3	Lekeryd
+Balingsta socken	ispartof3	Balingsta
+Balingsta socken	ispartof1	Uppsala
+Balingsta socken	ispartof0	Sweden
+Rytterne socken	ispartof2	Västerås Municipality
+Sparrsätra socken	ispartof1	Uppsala
+Gräsgård socken	ispartof0	Sweden
+Jäder socken	ispartof1	Södermanland
+Ronneby socken	ispartof0	Sweden
+Ulrika socken	ispartof0	Sweden
+Hemsö socken	ispartof1	Västernorrland
+Hellvi socken	ispartof0	Sweden
+Källunge socken	ispartof1	Gotland
+Västergarn socken	ispartof1	Gotland
+Håslöv socken	ispartof2	Vellinge Municipality
+Barkåkra socken	ispartof3	Barkåkra
+Barkåkra socken	ispartof0	Sweden
+Norra Skrävlinge socken	ispartof1	Skåne
+Stiby socken	ispartof3	Stiby
+Stiby socken	ispartof0	Sweden
+Tosterup socken	ispartof2	Tomelilla Municipality
+Barsebäck socken	ispartof0	Sweden
+Norra Säm socken	ispartof1	Västra Götaland
+Esarp socken	ispartof3	S:t Staffan
+Eslöv socken	ispartof2	Eslövs Kommun
+Eslöv socken	ispartof1	Skåne
+Eslöv socken	ispartof0	Sweden
+Håstad socken	ispartof1	Skåne
+Tydje socken	ispartof1	Västra Götaland
+Löddeköpinge socken	ispartof0	Sweden
+Lycke socken	ispartof0	Sweden
+Tjärnö socken	ispartof3	Skee-Tjärnö
+Tjärnö socken	ispartof0	Sweden
+Byske socken	ispartof0	Sweden
+Hulared socken	ispartof2	Tranemo Municipality
+Kungsåra socken	ispartof1	Västmanland
+Agunnaryd socken	ispartof1	Kronoberg
+Asa socken	ispartof0	Sweden
+Skeglinge socken	ispartof1	Skåne
+Sparlösa socken	ispartof3	Levene
+Frösö socken	ispartof2	Östersund municipality
+Frösö socken	ispartof0	Sweden
+Sillhövda socken	ispartof1	Blekinge
+Korpilombolo socken	ispartof2	Pajala Kommun
+Riseberga socken	ispartof2	Klippan Municipality
+Rya socken	ispartof0	Sweden
+Frösunda socken	ispartof1	Stockholm
+Turinge socken	ispartof3	Turinge-Taxinge
+Bred socken	ispartof3	Sparrsätra-Bred
+Bred socken	ispartof1	Uppsala
+Häggeby socken	ispartof3	Häggeby
+Appuna socken	ispartof1	Östergötland
+Sund socken	ispartof1	Östergötland
+Sund socken	ispartof0	Sweden
+Linderöd socken	ispartof1	Skåne
+Ore socken	ispartof1	Dalarna
+Älvestad socken	ispartof1	Östergötland
+Huskvarna socken	ispartof3	Huskvarna
+Strövelstorp socken	ispartof3	Strövelstorp
+Othem socken	ispartof0	Sweden
+Ivö socken	ispartof3	Bäckaskog
+Anga socken	ispartof3	Östergarn
+Anga socken	ispartof2	Gotland Municipality
+Varola socken	ispartof1	Västra Götaland
+Hässlunda socken	ispartof0	Sweden
+Igelösa socken	ispartof3	Torn
+Trollenäs socken	ispartof3	Östra Onsjö
+Trollenäs socken	ispartof0	Sweden
+Västra Ingelstad socken	ispartof2	Vellinge Municipality
+Träkumla socken	ispartof2	Gotland Municipality
+Västra Strö socken	ispartof3	Östra Onsjö
+Örtofta socken	ispartof1	Skåne
+Älvsbacka socken	ispartof2	Karlstad Municipality
+Gräve socken	ispartof1	Örebro
+Hällstad socken	ispartof0	Sweden
+Kvinnestad socken	ispartof0	Sweden
+Överselö socken	ispartof0	Sweden
+Ölsremma socken	ispartof1	Västra Götaland
+Tierp socken	ispartof0	Sweden
+Lillhärad socken	ispartof1	Västmanland
+Husby socken	ispartof1	Dalarna
+Skörstorp socken	ispartof3	Skörstorp
+Bredestad socken	ispartof1	Jönköping
+Bäckaby socken	ispartof3	Bäckaby
+Bäckaby socken	ispartof1	Jönköping
+Bäckseda socken	ispartof2	Vetlanda Municipality
+Käringön socken	ispartof0	Sweden
+Sturkö socken	ispartof0	Sweden
+Nässjö socken	ispartof3	Nässjö
+Aneboda socken	ispartof0	Sweden
+Sjösås socken	ispartof3	Sjösås
+Sjösås socken	ispartof2	Växjö Kommun
+Konga socken	ispartof3	Kågeröd-Röstånga
+Konga socken	ispartof0	Sweden
+Trehörna socken	ispartof2	Ödeshögs Kommun
+Tidavad socken	ispartof1	Västra Götaland
+Täby socken	ispartof0	Sweden
+Gävle socken	ispartof2	Gävle Municipality
+Segersta socken	ispartof3	Hanebo-Segersta
+Bjärtrå socken	ispartof0	Sweden
+Nordingrå socken	ispartof1	Västernorrland
+Trehörningsjö socken	ispartof3	Trehörningsjö
+Ytterlännäs socken	ispartof3	Ytterlännäs
+Gåxsjö socken	ispartof1	Jämtland
+Grödinge socken	ispartof2	Botkyrka Kommun
+Håtuna socken	ispartof3	Bro
+Vidbo socken	ispartof2	Sigtuna Municipality
+Hamrånge socken	ispartof2	Gävle Municipality
+Hamrånge socken	ispartof0	Sweden
+Helgum socken	ispartof3	Helgum
+Helgum socken	ispartof0	Sweden
+Enköpings-Näs socken	ispartof1	Uppsala
+Faringe socken	ispartof2	Uppsala Municipality
+Härad socken	ispartof2	Strängnäs Kommun
+Stenkvista socken	ispartof3	Stenkvista-Ärla
+Stenkvista socken	ispartof2	Eskilstuna Kommun
+Ekebyborna socken	ispartof2	Motala Municipality
+Väversunda socken	ispartof0	Sweden
+Östra Ed socken	ispartof3	Valdemarsvik
+Hulterstad socken	ispartof0	Sweden
+Lokrume socken	ispartof3	Väskinde
+Bodarp socken	ispartof1	Skåne
+Stånga socken	ispartof1	Gotland
+Junsele socken	ispartof0	Sweden
+Vellinge socken	ispartof0	Sweden
+Västra Alstad socken	ispartof2	Trelleborg Municipality
+Västra Alstad socken	ispartof0	Sweden
+Åhus socken	ispartof3	Åhus
+Frillestad socken	ispartof0	Sweden
+Västra Karaby socken	ispartof2	Kävlinge Kommun
+Röddinge socken	ispartof1	Skåne
+Ale-Skövde socken	ispartof0	Sweden
+Husby-Ärlinghundra socken	ispartof1	Stockholm
+Roslags-Kulla socken	ispartof2	Österåkers Kommun
+Norrtälje socken	ispartof3	Norrtälje-Malsta
+Stavby socken	ispartof0	Sweden
+Hjälsta socken	ispartof2	Enköping Municipality
+Spelvik socken	ispartof3	Rönö
+Spelvik socken	ispartof0	Sweden
+Lerdala socken	ispartof2	Skövde Kommun
+Lerdala socken	ispartof0	Sweden
+Stigtomta socken	ispartof1	Södermanland
+Vätö socken	ispartof3	Vätö
+Ljungsarp socken	ispartof3	Ljungsarp
+Vara socken	ispartof0	Sweden
+Övergran socken	ispartof1	Uppsala
+Rogslösa socken	ispartof0	Sweden
+Tingstad socken	ispartof1	Östergötland
+Härlöv socken	ispartof1	Kronoberg
+Etelhem socken	ispartof1	Gotland
+Uråsa socken	ispartof0	Sweden
+Mörbylånga socken	ispartof2	Mörbylånga Kommun
+Grangärde socken	ispartof1	Dalarna
+Säter socken	ispartof0	Sweden
+Ventlinge socken	ispartof3	Sydöland
+Alva socken	ispartof3	Alva-Hemse och Rone
+Sigtuna socken	ispartof1	Stockholm
+Karlshamn socken	ispartof3	Karlshamn
+Eljaröd socken	ispartof2	Tomelilla Municipality
+Söne socken	ispartof3	Örslösa
+Frustuna socken	ispartof0	Sweden
+Vittsjö socken	ispartof0	Sweden
+Bolum socken	ispartof3	Hornborga
+Västrum socken	ispartof3	Gladhammar-Västrum
+Eksta socken	ispartof2	Gotland Municipality
+Ek socken	ispartof2	Mariestads Kommun
+Bonderup socken	ispartof3	Dalby
+Bonderup socken	ispartof1	Skåne
+Bonderup socken	ispartof0	Sweden
+Flädie socken	ispartof3	Bjärred
+Näshulta socken	ispartof1	Södermanland
+Bjälbo socken	ispartof0	Sweden
+Gärdserum socken	ispartof2	Åtvidabergs Kommun
+Hammarlöv socken	ispartof3	Hammarlöv
+Östra Klagstorp socken	ispartof0	Sweden
+Hököpinge socken	ispartof2	Vellinge Municipality
+Hököpinge socken	ispartof0	Sweden
+Kyrkoköpinge socken	ispartof0	Sweden
+Lackalänga socken	ispartof2	Kävlinge Kommun
+Lomma socken	ispartof3	Lomma
+Lomma socken	ispartof2	Lomma Municipality
+Mörarp socken	ispartof1	Skåne
+Odarslöv socken	ispartof2	Lund Municipality
+Risekatslösa socken	ispartof0	Sweden
+Fjärestad socken	ispartof1	Skåne
+Södra Åsum socken	ispartof1	Skåne
+Västerplana socken	ispartof3	Kinnekulle
+Östra Kärrstorp socken	ispartof0	Sweden
+Alfshög socken	ispartof2	Falkenbergs Kommun
+Grimeton socken	ispartof1	Halland
+Grimeton socken	ispartof0	Sweden
+Landvetter socken	ispartof0	Sweden
+Hangvar socken	ispartof3	Hangvar-Hall
+Hangvar socken	ispartof1	Gotland
+Dannike socken	ispartof2	Borås
+Dannike socken	ispartof0	Sweden
+Lugnås socken	ispartof1	Västra Götaland
+Lugnås socken	ispartof0	Sweden
+Ambjörnarp socken	ispartof2	Tranemo Municipality
+Möne socken	ispartof2	Ulricehamn Municipality
+Södra Björke socken	ispartof2	Herrljunga Kommun
+Tunge socken	ispartof2	Lilla Edets Kommun
+Hyssna socken	ispartof1	Västra Götaland
+Vänga socken	ispartof2	Borås
+Flakeberg socken	ispartof1	Västra Götaland
+Hömb socken	ispartof3	Varv
+Malma socken	ispartof2	Essunga Kommun
+Torbjörntorp socken	ispartof3	Torbjörntorp
+Täng socken	ispartof3	Särestad
+Östra Gerum socken	ispartof0	Sweden
+Forshaga socken	ispartof0	Sweden
+Sjogerstad socken	ispartof1	Västra Götaland
+Kräcklinge socken	ispartof2	Lekebergs Kommun
+Kristinehamn socken	ispartof2	Kristinehamns Kommun
+Kristinehamn socken	ispartof0	Sweden
+Västra Ny socken	ispartof2	Motala Municipality
+Julita socken	ispartof0	Sweden
+Kjula socken	ispartof3	Kafjärden
+Ytterjärna socken	ispartof2	Södertälje Kommun
+Alsike socken	ispartof3	Alsike
+Ramsta socken	ispartof2	Uppsala Municipality
+Bärbo socken	ispartof3	Stigtomta-Vrena
+Tegnaby socken	ispartof0	Sweden
+Västermo socken	ispartof2	Eskilstuna Kommun
+Råby-Rekarne socken	ispartof3	Hällby förs. med Tumbo och Råby-Rekarne
+Bankeryd socken	ispartof3	Bankeryd
+Bredaryd socken	ispartof3	Bredaryd
+Bredaryd socken	ispartof0	Sweden
+Rydaholm socken	ispartof0	Sweden
+Ökna socken	ispartof3	Ökna
+Öreryd socken	ispartof0	Sweden
+Habo socken	ispartof3	Habo
+Habo socken	ispartof1	Jönköping
+Aringsås socken	ispartof0	Sweden
+Kvenneberga socken	ispartof2	Alvesta Municipality
+Skatelöv socken	ispartof2	Alvesta Municipality
+Sköllersta socken	ispartof3	Sköllersta
+Östra Harg socken	ispartof3	Åkerbo
+Östra Harg socken	ispartof2	Linköpings Kommun
+Sundre socken	ispartof2	Gotland Municipality
+Rone socken	ispartof0	Sweden
+Östra Ljungby socken	ispartof1	Skåne
+Simrishamn socken	ispartof2	Simrishamn Municipality
+Östra Herrestad socken	ispartof3	Hammenhög
+Östra Herrestad socken	ispartof2	Simrishamn Municipality
+Valbo socken	ispartof3	Valbo
+Valbo socken	ispartof1	Gävleborg
+Gässie socken	ispartof3	Vellinge-Månstorp
+Gässie socken	ispartof1	Skåne
+Reslöv socken	ispartof0	Sweden
+Norra Vram socken	ispartof1	Skåne
+Västra Nöbbelöv socken	ispartof0	Sweden
+Nymö socken	ispartof3	Fjälkinge-Nymö
+Sanda socken	ispartof3	Sanda
+Kville socken	ispartof0	Sweden
+Skepplanda socken	ispartof0	Sweden
+Rolfstorp socken	ispartof0	Sweden
+Härnösand socken	ispartof1	Västernorrland
+Härnösand socken	ispartof0	Sweden
+Lyse socken	ispartof0	Sweden
+Bjärshög socken	ispartof3	Värby
+Bjärshög socken	ispartof0	Sweden
+Horla socken	ispartof1	Västra Götaland
+Horla socken	ispartof0	Sweden
+Kållands-Åsaka socken	ispartof0	Sweden
+Kilanda socken	ispartof3	Starrkärr-Kilanda
+Holmedal socken	ispartof1	Värmland
+Köla socken	ispartof2	Eda Municipality
+Köla socken	ispartof0	Sweden
+Lungsund socken	ispartof0	Sweden
+Björskog socken	ispartof0	Sweden
+Acklinga socken	ispartof3	Acklinga
+Acklinga socken	ispartof0	Sweden
+Munktorp socken	ispartof3	Munktorp
+Danderyd socken	ispartof3	Danderyd
+Grästorp socken	ispartof2	Grästorps Kommun
+Häggesled socken	ispartof2	Lidköpings Kommun
+Kälvene socken	ispartof3	Yllestad
+Kälvene socken	ispartof0	Sweden
+Möja socken	ispartof1	Stockholm
+Levene socken	ispartof3	Levene
+Börstig socken	ispartof0	Sweden
+Flackarp socken	ispartof2	Staffanstorp Municipality
+Harlösa socken	ispartof0	Sweden
+Österåkers socken	ispartof3	Österåker-Östra Ryd
+Österåkers socken	ispartof2	Österåkers Kommun

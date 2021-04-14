@@ -64,7 +64,7 @@ class KnowledgeGraph(Dataset):
     """
 
     def __init__(self, df=None, kg=None, ent2ix=None, rel2ix=None,
-                 dict_of_heads=None, dict_of_tails=None, id2point=None, geo=None):
+                 dict_of_heads=None, dict_of_tails=None, dict_of_rel=None, id2point=None, geo=None):
 
         if df is None:
             if kg is None:
@@ -129,14 +129,16 @@ class KnowledgeGraph(Dataset):
             self.point = np.array([[self.entity2point[triplet[0]], self.entity2point[triplet[2]]] for triplet in df.values])
 
 
-        if dict_of_heads is None or dict_of_tails is None:
+        if dict_of_heads is None or dict_of_tails is None or dict_of_rel is None:
             self.dict_of_heads = defaultdict(set)
             self.dict_of_tails = defaultdict(set)
+            self.dict_of_rel = defaultdict(set)
             self.evaluate_dicts()
 
         else:
             self.dict_of_heads = dict_of_heads
             self.dict_of_tails = dict_of_tails
+            self.dict_of_rel = dict_of_rel
         try:
             self.sanity_check()
         except AssertionError:
@@ -164,6 +166,7 @@ class KnowledgeGraph(Dataset):
         point_data = pd.read_csv(geo, sep='\t', index_col=False, encoding='utf-8')
         point_data = point_data.applymap(lambda x: safe_strip(x))
         point_data['id'] = point_data['name'].map(lambda x: self.ent2ix[x])
+
         id_ls = list(point_data['id'])
         entity_ls = list(point_data['name'])
         long_ls = list(point_data['long'])
@@ -177,7 +180,8 @@ class KnowledgeGraph(Dataset):
 
     def sanity_check(self):
         assert (type(self.dict_of_heads) == defaultdict) & \
-               (type(self.dict_of_heads) == defaultdict)
+               (type(self.dict_of_tails) == defaultdict) &\
+               (type(self.dict_of_rel) == defaultdict)
         assert (type(self.ent2ix) == dict) & (type(self.rel2ix) == dict)
         assert (len(self.ent2ix) == self.n_ent) & \
                (len(self.rel2ix) == self.n_rel)
@@ -267,6 +271,7 @@ class KnowledgeGraph(Dataset):
                             ent2ix=self.ent2ix, rel2ix=self.rel2ix,
                             dict_of_heads=self.dict_of_heads,
                             dict_of_tails=self.dict_of_tails,
+                            dict_of_rel=self.dict_of_rel,
                             id2point=self.id2point, geo=geo),
                         KnowledgeGraph(
                             kg={'heads': self.head_idx[mask_val],
@@ -276,6 +281,7 @@ class KnowledgeGraph(Dataset):
                             ent2ix=self.ent2ix, rel2ix=self.rel2ix,
                             dict_of_heads=self.dict_of_heads,
                             dict_of_tails=self.dict_of_tails,
+                            dict_of_rel=self.dict_of_rel,
                             id2point=self.id2point, geo=geo),
                         KnowledgeGraph(
                             kg={'heads': self.head_idx[mask_te],
@@ -285,6 +291,7 @@ class KnowledgeGraph(Dataset):
                             ent2ix=self.ent2ix, rel2ix=self.rel2ix,
                             dict_of_heads=self.dict_of_heads,
                             dict_of_tails=self.dict_of_tails,
+                            dict_of_rel=self.dict_of_rel,
                             id2point=self.id2point, geo=geo))
             else:
                 return (KnowledgeGraph(
@@ -293,21 +300,24 @@ class KnowledgeGraph(Dataset):
                         'relations': self.relations[mask_tr]},
                     ent2ix=self.ent2ix, rel2ix=self.rel2ix,
                     dict_of_heads=self.dict_of_heads,
-                    dict_of_tails=self.dict_of_tails),
+                    dict_of_tails=self.dict_of_tails,
+                    dict_of_rel=self.dict_of_rel),
                         KnowledgeGraph(
                             kg={'heads': self.head_idx[mask_val],
                                 'tails': self.tail_idx[mask_val],
                                 'relations': self.relations[mask_val]},
                             ent2ix=self.ent2ix, rel2ix=self.rel2ix,
                             dict_of_heads=self.dict_of_heads,
-                            dict_of_tails=self.dict_of_tails),
+                            dict_of_tails=self.dict_of_tails,
+                            dict_of_rel=self.dict_of_rel),
                         KnowledgeGraph(
                             kg={'heads': self.head_idx[mask_te],
                                 'tails': self.tail_idx[mask_te],
                                 'relations': self.relations[mask_te]},
                             ent2ix=self.ent2ix, rel2ix=self.rel2ix,
                             dict_of_heads=self.dict_of_heads,
-                            dict_of_tails=self.dict_of_tails))
+                            dict_of_tails=self.dict_of_tails,
+                            dict_of_rel=self.dict_of_rel))
         else:
             # return training and testing graphs
 
@@ -325,14 +335,16 @@ class KnowledgeGraph(Dataset):
                             'relations': self.relations[mask_tr]},
                         ent2ix=self.ent2ix, rel2ix=self.rel2ix,
                         dict_of_heads=self.dict_of_heads,
-                        dict_of_tails=self.dict_of_tails),
+                        dict_of_tails=self.dict_of_tails,
+                        dict_of_rel=self.dict_of_rel),
                     KnowledgeGraph(
                         kg={'heads': self.head_idx[mask_te],
                             'tails': self.tail_idx[mask_te],
                             'relations': self.relations[mask_te]},
                         ent2ix=self.ent2ix, rel2ix=self.rel2ix,
                         dict_of_heads=self.dict_of_heads,
-                    dict_of_tails=self.dict_of_tails))
+                    dict_of_tails=self.dict_of_tails,
+                    dict_of_rel=self.dict_of_rel))
 
     def get_mask(self, share, validation=False):
         """Returns masks to split knowledge graph into train, test and
@@ -447,6 +459,8 @@ class KnowledgeGraph(Dataset):
                                 self.relations[i].item())].add(self.head_idx[i].item())
             self.dict_of_tails[(self.head_idx[i].item(),
                                 self.relations[i].item())].add(self.tail_idx[i].item())
+            self.dict_of_rel[(self.head_idx[i].item(),
+                                self.tail_idx[i].item())].add(self.relations[i].item())
 
 
 class SmallKG(Dataset):

@@ -1,0 +1,4 @@
+ispartof0	0
+ispartof1	1
+ispartof2	2
+ispartof3	3

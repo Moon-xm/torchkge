@@ -214,7 +214,7 @@ class Model(Module):
         b_size = r_idx.shape[0]
 
         if heads == 1:
-            scores = self.lp_scoring_function(e_emb, candidates, r)
+            scores = self.lp_scoring_function(e_emb, candidates, r)  # [b_size, ent_num]
         else:
             scores = self.lp_scoring_function(candidates, e_emb, r)
 
@@ -231,7 +231,7 @@ class Model(Module):
         rank_true_entities = get_rank(scores, true_idx)
         filtered_rank_true_entities = get_rank(filt_scores, true_idx)
 
-        return rank_true_entities, filtered_rank_true_entities
+        return rank_true_entities, filtered_rank_true_entities, scores, filt_scores
 
     def lp_helper(self, h_idx, t_idx, r_idx, kg):
         """Link prediction evaluation helper function. Compute the head and
@@ -268,15 +268,187 @@ class Model(Module):
         """
         h_emb, t_emb, candidates, r = self.lp_prep_cands(h_idx, t_idx, r_idx)
 
-        rank_true_tails, filt_rank_true_tails = self.lp_compute_ranks(
+        rank_true_tails, filt_rank_true_tails, h_scores, filt_h_scores = self.lp_compute_ranks(
             h_emb, candidates, r, h_idx, r_idx, t_idx, kg.dict_of_tails,
             heads=1)
-        rank_true_heads, filt_rank_true_heads = self.lp_compute_ranks(
+        rank_true_heads, filt_rank_true_heads, t_scores, filt_t_scores = self.lp_compute_ranks(
             t_emb, candidates, r, t_idx, r_idx, h_idx, kg.dict_of_heads,
             heads=-1)
 
         return (rank_true_tails, filt_rank_true_tails,
-                rank_true_heads, filt_rank_true_heads)
+                rank_true_heads, filt_rank_true_heads,
+                h_scores, filt_h_scores,
+                t_scores, filt_t_scores)
+
+
+    def rp_scoring_function(self, h, t, r):
+        """ Link prediction evaluation helper function. Compute the scores of
+        (h, r, c) or (c, r, t) for any candidate c. The arguments should
+        match the ones of `lp_prep_cands`.
+
+        Parameters
+        ----------
+        h: torch.Tensor, shape: (b_size, ent_emb_dim) or (b_size, n_ent,
+            ent_emb_dim), dtype: torch.float
+        t: torch.Tensor, shape: (b_size, ent_emb_dim) or (b_size, n_ent,
+            ent_emb_dim), dtype: torch.float
+        r: torch.Tensor, shape: (b_size, ent_emb_dim), dtype: torch.float
+
+        Returns
+        -------
+        scores: torch.Tensor, shape: (b_size, n_ent), dtype: torch.float
+            Scores of each candidate for each triple.
+        """
+        raise NotImplementedError
+
+    def rp_prep_cands(self, h_idx, t_idx, r_idx):
+        """Link prediction evaluation helper function. Get entities and
+        relations embeddings, along with entity candidates ready for (projected
+        if needed). The output will be fed to the `lp_scoring_function`
+        method of the model at hand.
+
+        Parameters
+        ----------
+        h_idx: torch.Tensor, shape: (b_size), dtype: torch.long
+            List of heads indices.
+        t_idx: torch.Tensor, shape: (b_size), dtype: torch.long
+            List of tails indices.
+        r_idx: torch.Tensor, shape: (b_size), dtype: torch.long
+            List of relations indices.
+
+        Returns
+        -------
+        h: torch.Tensor, shape: (b_size, rel_emb_dim), dtype: torch.float
+            Head vectors fed to `lp_scoring_function`. For translation
+            models it is the entities embeddings projected in relation space,
+            for example.
+        t: torch.Tensor, shape: (b_size, rel_emb_dim), dtype: torch.float
+            Tail vectors fed to `lp_scoring_function`. For translation
+            models it is the entities embeddings projected in relation space,
+            for example.
+        candidates: torch.Tensor, shape: (b_size, rel_emb_dim, n_ent),
+            dtype: torch.float
+            All entities embeddings prepared from batch evaluation. Axis 0 is
+            simply duplication.
+        r: torch.Tensor, shape: (b_size, rel_emb_dim), dtype: torch.float
+            Relations embeddings or matrices.
+
+        """
+        raise NotImplementedError
+
+    def rp_compute_ranks(self, h_emb, t_emb, candidates, h_idx, t_idx, true_idx,
+                         dictionary):
+        """Link prediction evaluation helper function. Compute the ranks and
+        the filtered ranks of true entities when doing link prediction. Note
+        that the best rank possible is 1.
+
+        Parameters
+        ----------
+        e_emb: torch.Tensor, shape: (b_size, rel_emb_dim), dtype: torch.float
+            Embeddings of current entities ready for
+            `lp_scoring_function`.
+        candidates: torch.Tensor, shape: (b_size, n_ent, emb_dim), dtype:
+            torch.float
+            Embeddings of all entities ready for
+            `lp_scoring_function`.
+        r: torch.Tensor, shape: (b_size, emb_dim, emb_dim) or (b_size,
+            emb_dim), dtype: torch.float
+            Embeddings or matrices of current relations ready for
+            `lp_scoring_function`.
+        e_idx: torch.Tensor, shape: (b_size), dtype: torch.long
+            List of entities indices.
+        r_idx: torch.Tensor, shape: (b_size), dtype: torch.long
+            List of relations indices.
+        true_idx: torch.Tensor, shape: (b_size), dtype: torch.long
+            List of the indices of the true entity for each sample.
+        dictionary: defaultdict
+            Dictionary of keys (int, int) and values list of ints giving all
+            possible entities for the (entity, relation) pair.
+        heads: integer
+            1 ou -1 (must be 1 if entities are heads and -1 if entities are
+            tails). The computed score is either :math:`f_r(e, candidate)` (if
+            `heads` is 1) or :math:`f_r(candidate, e)` (if `heads` is -1).
+
+
+        Returns
+        -------
+        rank_true_entities: torch.Tensor, shape: (b_size), dtype: torch.int
+            List of the ranks of true entities when all candidates are sorted
+            by decreasing order of scoring function.
+        filt_rank_true_entities: torch.Tensor, shape: (b_size), dtype:
+            torch.int
+            List of the ranks of true entities when only candidates which are
+            not known to lead to a true fact are sorted by decreasing order
+            of scoring function.
+
+        """
+        b_size = true_idx.shape[0]
+        # candidates [b_size, n_rel, rel_emb]
+        scores = self.rp_scoring_function(h_emb, t_emb, candidates)  # [b_size, rel_num]
+
+        filt_scores = scores.clone()
+        for i in range(b_size):
+            true_targets = get_true_targets(dictionary, h_idx, t_idx,
+                                            true_idx, i)
+            if true_targets is None:
+                continue
+            filt_scores[i][true_targets] = - float('Inf')
+
+        # from dissimilarities, extract the rank of the true entity.
+        rank_true_rel = get_rank(scores, true_idx)
+        filtered_rank_true_rel = get_rank(filt_scores, true_idx)
+
+        return rank_true_rel, filtered_rank_true_rel
+
+    def rp_helper(self, h_idx, t_idx, r_idx, kg):
+        """Link prediction evaluation helper function. Compute the head and
+        tail ranks and filtered ranks of the current batch.
+
+        Parameters
+        ----------
+        h_idx: torch.Tensor, shape: (b_size), dtype: torch.long
+            List of heads indices.
+        t_idx: torch.Tensor, shape: (b_size), dtype: torch.long
+            List of tails indices.
+        r_idx: torch.Tensor, shape: (b_size), dtype: torch.long
+            List of relations indices.
+        kg: torchkge.data_structures.KnowledgeGraph
+            Knowledge graph on which the model was trained. This is used to
+            access the `dict_of_heads` and `dict_of_tails` attributes in order
+            to compute the filtered metrics.
+
+        Returns
+        -------
+        rank_true_tails: torch.Tensor, shape: (b_size), dtype: torch.int
+            List of the ranks of true tails when all candidates are sorted
+            by decreasing order of scoring function.
+        filt_rank_true_tails: torch.Tensor, shape: (b_size), dtype: torch.int
+            List of the filtered ranks of true tails when candidates are
+            sorted by decreasing order of scoring function.
+        rank_true_heads: torch.Tensor, shape: (b_size), dtype: torch.int
+            List of the ranks of true heads when all candidates are sorted
+            by decreasing order of scoring function.
+        filt_rank_true_heads: torch.Tensor, shape: (b_size), dtype: torch.int
+            List of the filtered ranks of true heads when candidates are
+            sorted by decreasing order of scoring function.
+
+        """
+        h_emb, t_emb, candidates = self.rp_prep_cands(h_idx, t_idx, r_idx)
+
+        # rank_true_tails, filt_rank_true_tails = self.lp_compute_ranks(
+        #     h_emb, candidates, r, h_idx, r_idx, t_idx, kg.dict_of_tails,
+        #     heads=1)
+        # rank_true_heads, filt_rank_true_heads = self.lp_compute_ranks(
+        #     t_emb, candidates, r, t_idx, r_idx, h_idx, kg.dict_of_heads,
+        #     heads=-1)
+
+        rank_true_rel, filt_rank_true_rel = self.rp_compute_ranks(
+            h_emb, t_emb, candidates, h_idx, t_idx, r_idx, kg.dict_of_rel,
+        )
+
+        # return (rank_true_tails, filt_rank_true_tails,
+        #         rank_true_heads, filt_rank_true_heads)
+        return (rank_true_rel, filt_rank_true_rel)
 
 
 class TranslationModel(Model):
@@ -351,15 +523,43 @@ class TranslationModel(Model):
         """
         b_size = proj_h.shape[0]
 
-        if len(proj_h.shape) == 2 and len(proj_t.shape) == 3:
+        if len(proj_h.shape) == 2 and len(proj_t.shape) == 3:  # [b_size, rel_emb_dim] or [b_size, n_ent, emb_dim]
             # this is the tail completion case in link prediction
-            hr = (proj_h + r).view(b_size, 1, r.shape[1])
-            return - self.dissimilarity(hr, proj_t)
+            hr = (proj_h + r).view(b_size, 1, r.shape[1])  # [b_size, 1, ent_dim]
+            return - self.dissimilarity(hr, proj_t)  # h + r - t
         else:
             # this is the head completion case in link prediction
             r_ = r.view(b_size, 1, r.shape[1])
             t_ = proj_t.view(b_size, 1, r.shape[1])
             return - self.dissimilarity(proj_h + r_, t_)
+
+
+    def rp_prep_cands(self, h_idx, t_idx, r_idx):
+        """See torchkge.models.interfaces.Models.
+
+        """
+        raise NotImplementedError
+
+    def rp_scoring_function(self, proj_h, proj_t, r):  # r [b_size, n_rel, emb_dim]
+        """This overwrites the method declared in
+        torchkge.models.interfaces.Models. For translation models, the computed
+        score is the dissimilarity of between projected heads + relations and
+        projected tails. Projections are done in relation-specific subspaces.
+
+        """
+        b_size = proj_h.shape[0]
+        ht = (proj_h - proj_t).view(b_size, 1, r.shape[2])  # [b_size, 1, rel_dim]
+        return -self.dissimilarity(ht, -r)  # h-t -(-r)
+
+        # if len(proj_h.shape) == 2 and len(proj_t.shape) == 3:  # [b_size, rel_emb_dim]  [b_size, n_ent, emb_dim]
+        #     # this is the tail completion case in link prediction
+        #     hr = (proj_h + r).view(b_size, 1, r.shape[1])  # [b_size, 1, ent_dim]
+        #     return - self.dissimilarity(hr, proj_t)  # h + r - t
+        # else:
+        #     # this is the head completion case in link prediction
+        #     r_ = r.view(b_size, 1, r.shape[1])
+        #     t_ = proj_t.view(b_size, 1, r.shape[1])
+        #     return - self.dissimilarity(proj_h + r_, t_)
 
 
 class BilinearModel(Model):
