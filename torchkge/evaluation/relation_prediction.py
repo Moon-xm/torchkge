@@ -100,7 +100,7 @@ class RelationPredictionEvaluator(object):
 
         for i, batch in tqdm(enumerate(dataloader), total=len(dataloader),
                              unit='batch', disable=(not verbose),
-                             desc='Link prediction evaluation'):
+                             desc='Relation prediction evaluation'):
             h_idx, t_idx, r_idx = batch[0], batch[1], batch[2]
 
             # rk_true_t, f_rk_true_t, rk_true_h, f_rk_true_h = \
@@ -125,7 +125,7 @@ class RelationPredictionEvaluator(object):
             # self.filt_rank_true_heads = self.filt_rank_true_heads.cpu()
             # self.filt_rank_true_tails = self.filt_rank_true_tails.cpu()
             self.rank_true_rel = self.rank_true_rel.cpu()
-            self.filt_rank_true_rel = self.filter_rank_true_rel.cpu()
+            self.filt_rank_true_rel = self.filt_rank_true_rel.cpu()
 
     def mean_rank(self):
         """

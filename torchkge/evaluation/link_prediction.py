@@ -67,10 +67,10 @@ class LinkPredictionEvaluator(object):
                                           ).long()
         self.filt_rank_true_tails = empty(size=(knowledge_graph.n_facts,)
                                           ).long()
-        self.h_scores = empty(size=(knowledge_graph.n_facts, knowledge_graph.n_ent)).long()
-        self.filt_h_scores = empty(size=(knowledge_graph.n_facts, knowledge_graph.n_ent)).long()
-        self.t_scores = empty(size=(knowledge_graph.n_facts, knowledge_graph.n_ent)).long()
-        self.filt_t_scores = empty(size=(knowledge_graph.n_facts, knowledge_graph.n_ent)).long()
+        self.pred_h_idx = empty(size=(knowledge_graph.n_facts, 10)).long()
+        self.filt_pred_h_idx = empty(size=(knowledge_graph.n_facts, 10)).long()
+        self.pred_t_idx = empty(size=(knowledge_graph.n_facts, 10)).long()
+        self.filt_pred_t_idx = empty(size=(knowledge_graph.n_facts, 10)).long()
 
         self.evaluated = False
 
@@ -96,10 +96,10 @@ class LinkPredictionEvaluator(object):
             self.rank_true_tails = self.rank_true_tails.cuda()
             self.filt_rank_true_heads = self.filt_rank_true_heads.cuda()
             self.filt_rank_true_tails = self.filt_rank_true_tails.cuda()
-            self.h_scores = self.scores.cuda()
-            self.filt_h_scores = self.filt_scores.cuda()
-            self.t_scores = self.scores.cuda()
-            self.filt_t_scores = self.filt_scores.cuda()
+            self.pred_h_idx = self.pred_h_idx.cuda()
+            self.filt_pred_h_idx = self.filt_pred_h_idx.cuda()
+            self.pred_t_idx = self.pred_t_idx.cuda()
+            self.filt_pred_t_idx = self.filt_pred_t_idx.cuda()
             self.true_h = dataloader.h.cuda()
             self.true_t = dataloader.t.cuda()
             self.true_r = dataloader.r.cuda()
@@ -115,7 +115,7 @@ class LinkPredictionEvaluator(object):
                              desc='Link prediction evaluation'):
             h_idx, t_idx, r_idx = batch[0], batch[1], batch[2]
 
-            rk_true_t, f_rk_true_t, rk_true_h, f_rk_true_h, h_score, f_h_score, t_score, f_t_score = \
+            rk_true_t, f_rk_true_t, rk_true_h, f_rk_true_h, pred_t_idx, f_pred_t_idx, pred_h_idx, f_pred_h_idx = \
                 self.model.lp_helper(h_idx, t_idx, r_idx, self.kg)
 
             self.rank_true_heads[i * b_size: (i + 1) * b_size] = rk_true_h
@@ -125,14 +125,14 @@ class LinkPredictionEvaluator(object):
                                       (i + 1) * b_size] = f_rk_true_h
             self.filt_rank_true_tails[i * b_size:
                                       (i + 1) * b_size] = f_rk_true_t
-            self.h_scores[i * b_size:
-                                      (i + 1) * b_size] = h_score
-            self.filt_h_scores[i * b_size:
-                                      (i + 1) * b_size] = f_h_score
-            self.t_scores[i * b_size:
-                                      (i + 1) * b_size] = t_score
-            self.filt_t_scores[i * b_size:
-                                      (i + 1) * b_size] = f_t_score
+            self.pred_t_idx[i * b_size:
+                                      (i + 1) * b_size] = pred_t_idx
+            self.filt_pred_t_idx[i * b_size:
+                                      (i + 1) * b_size] = f_pred_t_idx
+            self.pred_h_idx[i * b_size:
+                                      (i + 1) * b_size] = pred_h_idx
+            self.filt_pred_h_idx[i * b_size:
+                                      (i + 1) * b_size] = f_pred_h_idx
 
         self.evaluated = True
 
@@ -141,6 +141,10 @@ class LinkPredictionEvaluator(object):
             self.rank_true_tails = self.rank_true_tails.cpu()
             self.filt_rank_true_heads = self.filt_rank_true_heads.cpu()
             self.filt_rank_true_tails = self.filt_rank_true_tails.cpu()
+            self.pred_h_idx = self.pred_h_idx.cpu()
+            self.pred_t_idx = self.pred_t_idx.cpu()
+            self.filt_pred_h_idx = self.filt_pred_h_idx.cpu()
+            self.filt_pred_t_idx = self.filt_pred_t_idx.cpu()
 
     def mean_rank(self):
         """
@@ -244,8 +248,8 @@ class LinkPredictionEvaluator(object):
 
         """
         # assert pred.size(0) == truth_idx.size(0)
-
-        _, pred = self.h_scores.topk(k=k, largest=True)  # [B, k]
+        pred = self.pred_h_idx[:, :k]
+        # _, pred = self.pred_h_idx.topk(k=k, largest=True)  # [B, k]
         pred_point = torch.empty(pred.shape[0], pred.shape[1], 2).to(self.device)  # [B, k, 2]
         pos_point = torch.empty(pred.shape[0], 2).to(self.device)  # [B, 2]
         for i in range(pred.shape[0]):
@@ -271,8 +275,8 @@ class LinkPredictionEvaluator(object):
 
         """
         # assert pred.size(0) == truth_idx.size(0)
-
-        _, pred = self.t_scores.topk(k=k, largest=True)  # [B, k]
+        pred = self.pred_t_idx[:,:k]
+        # _, pred = self.pred_t_idx.topk(k=k, largest=True)  # [B, k]
         pred_point = torch.empty(pred.shape[0], pred.shape[1], 2).to(self.device)  # [B, k, 2]
         pos_point = torch.empty(pred.shape[0], 2).to(self.device)  # [B, 2]
         for i in range(pred.shape[0]):
@@ -339,7 +343,7 @@ class LinkPredictionEvaluator(object):
             self.mean_rank()[0], self.mean_rank()[1]))
         if self.kg.geo is not None:
             for i in [1, 5, 10]:
-                print('MeanDis@{} : {.2f}'.format(i, self.mean_dis(i)))
+                print('MeanDis@{} : {:.2f}'.format(i, self.mean_dis(i)))
 
         # print('MRR : {} \t\t Filt. MRR : {}'.format(
         #     round(self.mrr()[0], n_digits), round(self.mrr()[1], n_digits)))

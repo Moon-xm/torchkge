@@ -230,8 +230,10 @@ class Model(Module):
         # from dissimilarities, extract the rank of the true entity.
         rank_true_entities = get_rank(scores, true_idx)
         filtered_rank_true_entities = get_rank(filt_scores, true_idx)
+        _, pred_idx = scores.topk(k=10, largest=True)
+        _, f_pred_idx = filt_scores.topk(k=10, largest=True)
 
-        return rank_true_entities, filtered_rank_true_entities, scores, filt_scores
+        return rank_true_entities, filtered_rank_true_entities, pred_idx, f_pred_idx
 
     def lp_helper(self, h_idx, t_idx, r_idx, kg):
         """Link prediction evaluation helper function. Compute the head and
@@ -268,17 +270,17 @@ class Model(Module):
         """
         h_emb, t_emb, candidates, r = self.lp_prep_cands(h_idx, t_idx, r_idx)
 
-        rank_true_tails, filt_rank_true_tails, h_scores, filt_h_scores = self.lp_compute_ranks(
+        rank_true_tails, filt_rank_true_tails, pred_t_idx, filt_pred_t_idx = self.lp_compute_ranks(
             h_emb, candidates, r, h_idx, r_idx, t_idx, kg.dict_of_tails,
             heads=1)
-        rank_true_heads, filt_rank_true_heads, t_scores, filt_t_scores = self.lp_compute_ranks(
+        rank_true_heads, filt_rank_true_heads, pred_h_idx, filt_pred_h_idx = self.lp_compute_ranks(
             t_emb, candidates, r, t_idx, r_idx, h_idx, kg.dict_of_heads,
             heads=-1)
 
         return (rank_true_tails, filt_rank_true_tails,
                 rank_true_heads, filt_rank_true_heads,
-                h_scores, filt_h_scores,
-                t_scores, filt_t_scores)
+                pred_t_idx, filt_pred_t_idx,
+                pred_h_idx, filt_pred_h_idx)
 
 
     def rp_scoring_function(self, h, t, r):

@@ -101,7 +101,7 @@ class KnowledgeGraph(Dataset):
             self.rel2ix = rel2ix
 
         if id2point is not None:
-            self.id2point =id2point
+            self.id2point = id2point
 
         self.n_ent = max(self.ent2ix.values()) + 1
         self.n_rel = max(self.rel2ix.values()) + 1

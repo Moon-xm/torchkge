@@ -16,10 +16,10 @@ import time
 def main():
     # Define some hyper-parameters for training
     global optimizer
-    benchmarks = 'Sweden'
+    benchmarks = 'GADM9'
     model_name = 'TransE'
     opt_method = 'Adam'   # "Adagrad" "Adadelta" "Adam" "SGD"
-    GDR = False  # 是否引入坐标信息
+    GDR = True  # 是否引入坐标信息
 
     emb_dim = 100  # TransE model
     ent_dim = emb_dim

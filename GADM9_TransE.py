@@ -19,7 +19,7 @@ def main():
     benchmarks = 'GADM9'
     model_name = 'TransE'
     opt_method = 'Adam'   # "Adagrad" "Adadelta" "Adam" "SGD"
-    GDR = False  # 是否引入坐标信息
+    GDR = True  # 是否引入坐标信息
 
     emb_dim = 100  # TransE model
     ent_dim = emb_dim
@@ -28,9 +28,9 @@ def main():
     margin = 1.5
 
     n_epochs = 20000
-    train_b_size = 512  # 训练时batch size
-    eval_b_size = 256  # 测评valid test 时batch size
-    validation_freq = 500  # 多少轮进行在验证集进行一次测试 同时保存最佳模型
+    train_b_size = 5120  # 训练时batch size
+    eval_b_size = 1280  # 测评valid test 时batch size
+    validation_freq = 300  # 多少轮进行在验证集进行一次测试 同时保存最佳模型
     require_improvement = validation_freq*5  # 验证集top_k超过多少epoch没下降，结束训练
     model_save_path = './checkpoint/' + benchmarks + '_' + model_name + '_' + opt_method + '.ckpt'  # 保存最佳hits k (ent)模型
     device = 'cuda:0' if cuda.is_available() else 'cpu'
@@ -99,6 +99,7 @@ def main():
         if epoch % validation_freq == 0:
             create_dir_not_exists('./checkpoint')
             model.eval()
+            # import pdb; pdb.set_trace()
             evaluator = LinkPredictionEvaluator(model, kg_val)
             evaluator.evaluate(b_size=eval_b_size, verbose=False)
             _, hit_at_k = evaluator.hit_at_k(10)  # val filter hit_k
@@ -122,10 +123,10 @@ def main():
     load_ckpt(model_save_path, model, optimizer)
     model.eval()
     lp_evaluator = LinkPredictionEvaluator(model, kg_test)
-    lp_evaluator.evaluate(eval_b_size, verbose=False)
+    lp_evaluator.evaluate(eval_b_size, verbose=True)
     lp_evaluator.print_results()
     rp_evaluator = RelationPredictionEvaluator(model, kg_test)
-    rp_evaluator.evaluate(eval_b_size, verbose=False)
+    rp_evaluator.evaluate(eval_b_size, verbose=True)
     rp_evaluator.print_results()
 
 if __name__ == "__main__":
