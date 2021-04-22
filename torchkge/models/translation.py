@@ -68,7 +68,7 @@ class TransEModel(TranslationModel):
         self.rel_emb.weight.data = normalize(self.rel_emb.weight.data,
                                              p=2, dim=1)
 
-    def scoring_function(self, h_idx, t_idx, r_idx):
+    def scoring_function(self, h_idx, t_idx, r_idx):  # forward
         """Compute the scoring function for the triplets given as argument:
         :math:`||h + r - t||_p^p` with p being the `dissimilarity type (either
         1 or 2)`. See referenced paper for more details

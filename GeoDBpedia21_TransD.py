@@ -3,7 +3,7 @@ from torch.optim import Adam
 
 from torchkge.sampling import BernoulliNegativeSampler
 from torchkge.utils import MarginLoss, DataLoader
-from torchkge.evaluation import LinkPredictionEvaluator
+from torchkge.evaluation import LinkPredictionEvaluator, RelationPredictionEvaluator
 from torchkge.utils.optim import optimizer
 from torchkge.utils.datasets import id2point
 
@@ -31,7 +31,7 @@ def main():
     n_epochs = 20000
     train_b_size = 5120  # 训练时batch size
     eval_b_size = 256  # 测评valid test 时batch size
-    validation_freq = 500  # 多少轮进行在验证集进行一次测试 同时保存最佳模型
+    validation_freq = 300  # 多少轮进行在验证集进行一次测试 同时保存最佳模型
     require_improvement = validation_freq*5  # 验证集top_k超过多少epoch没下降，结束训练
     model_save_path = './checkpoint/' + benchmarks + '_' + model_name + '_' + opt_method + '.ckpt'  # 保存最佳hits k (ent)模型
     device = 'cuda:0' if cuda.is_available() else 'cpu'
@@ -122,9 +122,12 @@ def main():
     # Testing the best checkpoint on test dataset
     load_ckpt(model_save_path, model, optimizer)
     model.eval()
-    evaluator = LinkPredictionEvaluator(model, kg_test)
-    evaluator.evaluate(eval_b_size, verbose=False)
-    evaluator.print_results()
-
+    lp_evaluator = LinkPredictionEvaluator(model, kg_test)
+    lp_evaluator.evaluate(eval_b_size, verbose=False)
+    lp_evaluator.print_results()
+    rp_evaluator = RelationPredictionEvaluator(model, kg_test)
+    rp_evaluator.evaluate(eval_b_size, verbose=False)
+    rp_evaluator.print_results()
+    
 if __name__ == "__main__":
     main()

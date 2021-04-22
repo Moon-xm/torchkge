@@ -3,7 +3,7 @@ from torch.optim import Adam
 
 from torchkge.sampling import BernoulliNegativeSampler
 from torchkge.utils import MarginLoss, DataLoader
-from torchkge.evaluation import LinkPredictionEvaluator
+from torchkge.evaluation import LinkPredictionEvaluator, RelationPredictionEvaluator
 from torchkge.utils.datasets import id2point
 from torchkge.utils.optim import optimizer
 
@@ -29,11 +29,15 @@ def main():
     lr = 0.001
     margin = 1
 
-    n_epochs = 2000
+    n_epochs = 20000
     train_b_size = 5120  # 训练时batch size
-    eval_b_size = 128  # 测评valid test 时batch size
-    validation_freq = 1  # 多少轮进行在验证集进行一次测试 同时保存最佳模型
-    require_improvement = validation_freq*5  # 验证集top_k超过多少epoch没下降，结束训练
+    eval_b_size = 32  # 测评valid test 时batch size
+    
+    save_time_freq = 8  # 多久进行一次测试并保存最佳模型
+    require_improvement = save_time_freq*5  # 多久topk不增大则
+    
+#     validation_freq = 50  # 多少轮进行在验证集进行一次测试 同时保存最佳模型
+#     require_improvement = validation_freq*5  # 验证集top_k超过多少epoch没下降，结束训练
     model_save_path = './checkpoint/' + benchmarks + '_' + model_name + '_' + opt_method + '.ckpt'  # 保存最佳hits k (ent)模型
     device = 'cuda:0' if cuda.is_available() else 'cpu'
 
@@ -77,8 +81,10 @@ def main():
     .format(lr, margin, emb_dim, n_epochs, device, train_b_size, opt_method))
 
     print('Training...')
-    last_improve = start_epoch  # 记录上次验证集loss下降的epoch数
+#     last_improve = start_epoch  # 记录上次验证集loss下降的epoch数
     start = time.time()
+    last_improve = start
+    save_time = start
     for epoch in range(start_epoch, n_epochs+1):
         running_loss = 0.0
         model.train()
@@ -96,8 +102,30 @@ def main():
 
             running_loss += loss.item()
         print('\rEpoch [{:>4}/{:>4}] | mean loss: {:>8.3f}, time: {}'.format(epoch, n_epochs, running_loss / len(dataloader), time_since(start)), end='', flush=True)
+#         # test
+#         if epoch % validation_freq == 0:
+#             create_dir_not_exists('./checkpoint')
+#             model.eval()
+#             evaluator = LinkPredictionEvaluator(model, kg_val)
+#             evaluator.evaluate(b_size=eval_b_size, verbose=False)
+#             _, hit_at_k = evaluator.hit_at_k(10)  # val filter hit_k
+#             if hit_at_k > best_score:
+#                 save_ckpt(model, optimizer, epoch, best_score, model_save_path)
+#                 best_score = hit_at_k
+#                 improve = '*'  # 在有提升的结果后面加上*标注
+#                 last_improve = epoch  # 验证集hit_k增大即认为有提升
+#             else:
+#                 improve = ''
+#             msg = '\nTrain loss: {:>8.3f}, Val Hit@10: {:>5.2%}, Time {} {}'
+#             print(msg.format(running_loss / len(dataloader), hit_at_k, time_since(start), improve))
+#         model.normalize_parameters()
+#         if epoch - last_improve > require_improvement:
+#             # 验证集top_k超过一定epoch没增加，结束训练
+#             print("\nNo optimization for a long time, auto-stopping...")
+#             break
+
         # test
-        if epoch % validation_freq == 0:
+        if (time.time() - save_time)/60 > save_time_freq:
             create_dir_not_exists('./checkpoint')
             model.eval()
             evaluator = LinkPredictionEvaluator(model, kg_val)
@@ -107,24 +135,29 @@ def main():
                 save_ckpt(model, optimizer, epoch, best_score, model_save_path)
                 best_score = hit_at_k
                 improve = '*'  # 在有提升的结果后面加上*标注
-                last_improve = epoch  # 验证集hit_k增大即认为有提升
+                last_improve = time.time()  # 验证集hit_k增大即认为有提升
             else:
                 improve = ''
-            msg = '\nTrain loss: {:>8.3f}, Val Hit@10: {:>5.2%}, Time {} {}'
-            print(msg.format(running_loss / len(dataloader), hit_at_k, time_since(start), improve))
+            save_time = time.time()
+            msg = ', Val Hit@10: {:>5.2%} {}'
+            print(msg.format(hit_at_k, improve))
         model.normalize_parameters()
-        if epoch - last_improve > require_improvement:
+        if (time.time() - last_improve)/60 > require_improvement:
             # 验证集top_k超过一定epoch没增加，结束训练
             print("\nNo optimization for a long time, auto-stopping...")
             break
+            
 
     print('\nTraining done, start evaluate on test data...')
     # Testing the best checkpoint on test dataset
     load_ckpt(model_save_path, model, optimizer)
     model.eval()
-    evaluator = LinkPredictionEvaluator(model, kg_test)
-    evaluator.evaluate(eval_b_size, verbose=False)
-    evaluator.print_results()
-
+    lp_evaluator = LinkPredictionEvaluator(model, kg_test)
+    lp_evaluator.evaluate(eval_b_size, verbose=False)
+    lp_evaluator.print_results()
+    rp_evaluator = RelationPredictionEvaluator(model, kg_test)
+    rp_evaluator.evaluate(eval_b_size, verbose=False)
+    rp_evaluator.print_results()
+    
 if __name__ == "__main__":
     main()

@@ -8,6 +8,8 @@ from torch import ones_like, zeros_like
 from torch.nn import Module, Sigmoid
 from torch.nn import MarginRankingLoss, SoftMarginLoss, BCELoss
 import torch
+import torch.nn as nn
+import torch.nn.functional as F
 
 
 class MarginLoss(Module):
@@ -17,9 +19,14 @@ class MarginLoss(Module):
     interface.
 
     """
-    def __init__(self, margin):
+    def __init__(self, margin, theta=0.001):
         super().__init__()
-        self.loss = MarginRankingLoss(margin=margin, reduction='sum')
+        # self.loss = MarginRankingLoss(margin=margin, reduction='sum')
+        self.margin = nn.Parameter(torch.Tensor([margin]))
+        self.margin.requires_grad = False
+        self.theta = theta
+        self.theta = nn.Parameter(torch.Tensor([theta]))
+        self.theta.requires_grad = False
 
     def forward(self, positive_triplets, negative_triplets, point=None, n_point=None):
         """
@@ -43,10 +50,11 @@ class MarginLoss(Module):
         """
         if (point is not None) and (n_point is not None):
             w_geo = self.calc_w(point, n_point)  # [batch_size]
-            negative_triplets = w_geo*negative_triplets
+            negative_triplets = w_geo*negative_triplets  # w_geo < 1 乘完后neg变大了 因为neg是负数
 
-        return self.loss(positive_triplets, negative_triplets,
-                         target=ones_like(positive_triplets))
+        return self.calc_loss(positive_triplets, negative_triplets)
+        # return self.loss(positive_triplets, negative_triplets,
+        #                  target=ones_like(positive_triplets))
 
     def calc_w(self, pos_points, neg_points):
         """
@@ -56,8 +64,9 @@ class MarginLoss(Module):
         """
         dis_pos = self._calc_distance(pos_points)
         dis_neg = self._calc_distance(neg_points)  # [batch_size]
-        log = torch.log10((dis_pos+1)/(dis_neg+1))
-        w_geo = 1/(torch.abs(log)+1)
+        log = torch.log10((dis_pos+self.theta)/(dis_neg+self.theta))
+        w_geo = 1/(torch.abs(log)+1)   # 与正例相差越远 w越小
+        # w_geo = torch.abs(log) + 1
         return w_geo
 
     def _calc_distance(self, points):
@@ -68,6 +77,9 @@ class MarginLoss(Module):
         head, tail = points[:,0,:], points[:,1,:]  # [batch_size, 2]
         distance = torch.norm(head-tail, p=2, dim=1)  # 2 范数
         return distance
+
+    def calc_loss(self,p_score, n_score):
+        return torch.sum(F.relu(-p_score+n_score+self.margin))
 
 class LogisticLoss(Module):
     """Logistic loss as it was defined in `TransE paper
@@ -135,3 +147,5 @@ class BinaryCrossEntropyLoss(Module):
                          ones_like(positive_triplets)) + \
             self.loss(self.sig(negative_triplets),
                       zeros_like(negative_triplets))
+
+
